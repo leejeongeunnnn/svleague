@@ -1,7 +1,7 @@
 /* 일본 SV리그 남자부 정적 대시보드 — data/*.json 을 읽어 9개 탭을 렌더링 */
 
 const DATA = {};
-const FILES = ["meta", "teams", "schedule", "standings", "players", "news", "events", "last_season", "profiles", "tickets", "names_kr"];
+const FILES = ["meta", "teams", "schedule", "standings", "players", "news", "events", "last_season", "profiles", "tickets", "names_kr", "places_kr"];
 const VBTV_URL = "https://tv.volleyballworld.com/";          // 일본 밖 중계 (유료)
 const JSPORTS_URL = "https://jod.jsports.co.jp/volleyball";    // 일본 안 중계 (유료)
 const OFFICIAL_URL = "https://www.svleague.jp/match/sv/men/";
@@ -410,7 +410,9 @@ const NATION_KR = { "日本": "일본", "アメリカ": "미국", "アメリカ�
   "デンマーク": "덴마크", "ノルウェー": "노르웨이", "チェコ": "체코", "スロベニア": "슬로베니아", "イスラエル": "이스라엘", "スペイン": "스페인", "ベルギー": "벨기에",
   "セルビア": "세르비아", "ウクライナ": "우크라이나", "オランダ": "네덜란드", "タイ": "태국", "インドネシア": "인도네시아", "ベトナム": "베트남", "オーストラリア": "호주",
   "カザフスタン": "카자흐스탄", "ブルガリア": "불가리아", "トルコ": "튀르키예", "エジプト": "이집트", "アルジェリア": "알제리", "ナイジェリア": "나이지리아", "スロバキア": "슬로바키아" };
-const nationKr = (n) => NATION_KR[n] || n || "";
+const nationKr = (n) => NATION_KR[n] || ((DATA.places_kr || {}).places || {})[n] || n || "";
+const placeKr = (n) => ((DATA.places_kr || {}).places || {})[n] || n || "";
+const schoolKr = (s) => String(s || "").split("→").map(x => ((DATA.places_kr || {}).schools || {})[x.trim()] || x.trim()).join(" → ");
 const isForeign = (p) => p.nation && p.nation !== "日本";
 const fmtN = (v, d = 0) => v == null || v === "" ? "-" : Number(v).toFixed(d);
 const seasonShort = (x) => { const m = /^(\d{2})(\d{2})-(\d{2})/.exec(x || ""); return m ? `${m[2]}-${m[3]}` : (x || ""); };
@@ -428,8 +430,8 @@ function profileCard(team, p) {
     ${st.length ? `<div class="pf-stat">${st.map(esc).join(" · ")}</div>` : ""}`;
   if (open) {
     html += `<div class="pf-row"><span>🏷️</span><span>${esc(p.name)}${p.roman ? " · " + esc(p.roman) : ""}</span></div>
-      ${p.nation ? `<div class="pf-row"><span>🌏</span><span>${esc(nationKr(p.nation))}${p.hometown ? " · " + esc(p.hometown) : ""}</span></div>` : ""}
-      ${p.school ? `<div class="pf-row"><span>🎓</span><span>${esc(p.school)}</span></div>` : ""}
+      ${p.nation ? `<div class="pf-row"><span>🌏</span><span>${esc(nationKr(p.nation))}${p.hometown && placeKr(p.hometown) !== nationKr(p.nation) ? " · " + esc(placeKr(p.hometown)) : ""}</span></div>` : ""}
+      ${p.school ? `<div class="pf-row"><span>🎓</span><span>${esc(schoolKr(p.school))}</span></div>` : ""}
       ${p.birth ? `<div class="pf-row"><span>🎂</span><span>${esc(p.birth)}</span></div>` : ""}
       ${p.reach ? `<div class="pf-row"><span>⬆️</span><span>최고 도달점 ${esc(p.reach)}cm</span></div>` : ""}`;
     if (p.career && p.career.length) {
