@@ -526,6 +526,154 @@ def collect_news(limit=40):
     return save("news.json", {"items": items})
 
 
+
+# ---------------------------------------------------------------- 선수단 · 사진 (SV리그 공식 사이트)
+SV_SITE = "https://www.svleague.jp"
+SLUG_KR = {"suntory": "산토리", "osakab": "오사카B", "stingsaichi": "스팅스아이치", "wdnagoya": "WD나고야", "tokyogb": "도쿄GB",
+           "hiroshima": "히로시마", "sakai": "사카이", "trshizuoka": "도레이", "voreas": "보레아스", "matsumototd": "마쓰모토",
+           "hokkaidoys": "홋카이도YS", "fkagoshima": "가고시마"}
+POS_EN = {"setter": "S", "outside hitter": "OH", "opposite hitter": "OP", "opposite": "OP", "middle blocker": "MB", "libero": "L"}
+
+
+def _txt(x):
+    return re.sub(r"\s+", " ", html_mod.unescape(re.sub(r"<[^>]+>", " ", x or ""))).strip()
+
+
+def save_photo(url, code, max_w=260):
+    """사진을 data/photos/<번호>.webp 로 저장 (이미 있으면 그대로). 사이트 기준 경로를 돌려준다."""
+    rel = f"data/photos/{code}.webp"
+    path = os.path.join(ROOT, rel)
+    if os.path.exists(path) and os.path.getsize(path) > 500:
+        return rel
+    try:
+        r = requests.get(url, headers={**HEADERS, "Referer": SV_SITE + "/"}, timeout=20)
+        if r.status_code != 200 or len(r.content) < 500 or not r.headers.get("content-type", "").startswith("image"):
+            return None
+        from io import BytesIO
+        from PIL import Image
+        im = Image.open(BytesIO(r.content))
+        im = im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") else "RGB")
+        if im.width > max_w:
+            im = im.resize((max_w, round(im.height * max_w / im.width)), Image.LANCZOS)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        im.save(path, "WEBP", quality=80, method=4)
+        return rel
+    except Exception as e:  # noqa: BLE001
+        print("[WARN] photo", code, e)
+        return None
+
+
+def parse_roster(page):
+    """/team/<slug>/player/ → 선수·스태프 목록"""
+    players, staff = [], []
+    for li in re.findall(r"<li[^>]*>(.*?)</li>", page, re.S):
+        if 'class="photo"' not in li or 'class="field"' not in li:
+            continue
+        pid = re.search(r"player/detail/\?id=(\d+)", li)
+        img = re.search(r'<img src="([^"]+)"', li)
+        no = _txt((re.search(r"<b>(.*?)</b>", li, re.S) or [None, ""])[1])
+        name = _txt((re.search(r"<strong>(.*?)</strong>", li, re.S) or [None, ""])[1])
+        roman = _txt((re.search(r"<em>(.*?)</em>", li, re.S) or [None, ""])[1])
+        role = _txt((re.search(r"<p>(.*?)</p>", li, re.S) or [None, ""])[1])
+        if not name:
+            continue
+        row = {"name": name, "roman": roman, "img_src": img.group(1) if img else ""}
+        if pid:
+            row.update({"code": pid.group(1), "no": int(no) if no.isdigit() else None, "pos": POS_EN.get(role.lower(), role)})
+            players.append(row)
+        else:
+            row["role"] = role
+            staff.append(row)
+    return players, staff
+
+
+def parse_player(page):
+    """/player/detail/?id=… → 프로필 항목 + 시즌별 기록"""
+    info = {}
+    for k, v in re.findall(r"<li>\s*<span>(.*?)</span>\s*<em>(.*?)</em>\s*</li>", page, re.S):
+        info[_txt(k)] = _txt(v)
+    career = []
+    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", page, re.S):
+        ths = [_txt(x) for x in re.findall(r"<th[^>]*>(.*?)</th>", tr, re.S)]
+        tds = [_txt(x) for x in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
+        if len(ths) != 2 or len(tds) < 26 or not re.match(r"\d{4}-\d{2}", ths[0]):
+            continue
+        n = lambda v: None if v in ("", "-") else (float(v) if "." in v else int(v))  # noqa: E731
+        career.append({"season": ths[0], "team": ths[1], "g": n(tds[0]), "s": n(tds[1]), "atk": n(tds[5]),
+                       "blk": n(tds[12]), "ace": n(tds[14]), "srv": n(tds[17]), "rcv": n(tds[21]), "pts": n(tds[25])})
+    birth = info.get("生年月日", "").replace(".", "-")
+    age = None
+    try:
+        b = date.fromisoformat(birth)
+        t = now_kst().date()
+        age = t.year - b.year - ((t.month, t.day) < (b.month, b.day))
+    except Exception:  # noqa: BLE001
+        birth = birth or None
+    num = lambda v: int(re.sub(r"\D", "", v)) if re.search(r"\d", v or "") else None  # noqa: E731
+    return {"birth": birth, "age": age, "height": num(info.get("身長")), "reach": num(info.get("最高到達点")),
+            "nation": info.get("リーグ登録国籍") or None, "hometown": info.get("出身地") or None,
+            "school": info.get("出身校") or None, "career": career[:8]}
+
+
+def collect_profiles(force=False, max_age_h=20):
+    """12개 구단 선수단(사진·등번호·포지션·프로필·시즌 기록) → data/profiles.json (하루 한 번)"""
+    old = load("profiles.json", {}) or {}
+    if not force and old.get("updated_at") and not old.get("_manual"):
+        try:
+            age = now_kst() - datetime.strptime(old["updated_at"], "%Y-%m-%d %H:%M").replace(tzinfo=KST)
+            if age < timedelta(hours=max_age_h):
+                return False
+        except Exception:  # noqa: BLE001
+            pass
+    try:
+        lst = get_text(f"{SV_SITE}/team/sv/men/")
+        slugs = [s for s in dict.fromkeys(re.findall(r'href="/team/([a-z0-9_]+)/"', lst)) if s in SLUG_KR]
+    except Exception as e:  # noqa: BLE001
+        slugs, err = [], e
+    if not slugs:
+        slugs = list(SLUG_KR)
+    old_by = {(t, p.get("code")): p for t, ps in (old.get("teams") or {}).items() for p in ps if p.get("code")}
+    out, coaches, fails = {}, {}, []
+    for slug in slugs:
+        team = SLUG_KR[slug]
+        try:
+            players, staff = parse_roster(get_text(f"{SV_SITE}/team/{slug}/player/"))
+        except Exception as e:  # noqa: BLE001
+            fails.append(f"{team}: {e}")
+            continue
+        if not players:
+            fails.append(f"{team}: 선수 0명")
+            continue
+        hc = next((s for s in staff if "head coach" in s.get("role", "").lower() or s.get("role") in ("監督", "ヘッドコーチ")), None)
+        if hc:
+            coaches[team] = {"name": hc["name"], "roman": hc["roman"]}
+        lst2 = []
+        for p in players:
+            prev = old_by.get((team, p["code"])) or {}
+            try:
+                det = parse_player(get_text(f"{SV_SITE}/player/detail/?id={p['code']}", tries=2))
+                time.sleep(0.25)
+            except Exception as e:  # noqa: BLE001
+                print("[WARN] player", p["code"], e)
+                det = {k: prev.get(k) for k in ("birth", "age", "height", "reach", "nation", "hometown", "school", "career")}
+            img = save_photo(SV_SITE + p["img_src"], p["code"]) if p.get("img_src") and "sample" not in p["img_src"] else None
+            lst2.append({"code": p["code"], "no": p["no"], "name": p["name"], "roman": p["roman"], "pos": p["pos"],
+                         "img": img or prev.get("img"), **det})
+        lst2.sort(key=lambda x: (x["no"] is None, x["no"] or 0))
+        out[team] = lst2
+        print(f"[OK] {team} 선수 {len(lst2)}명")
+    if not out:
+        STATUS["profiles"] = "실패 — 기존 선수단 유지" + (f": {fails[0]}" if fails else "")
+        return False
+    for t, ps in (old.get("teams") or {}).items():   # 이번에 못 받은 팀은 예전 명단 유지
+        out.setdefault(t, ps)
+    names = (load("names_kr.json", {}) or {}).get("names", {})
+    unknown = sorted({p["name"] for ps in out.values() for p in ps if p["name"].replace(" ", "") not in names})
+    STATUS["profiles"] = f"성공 {sum(len(v) for v in out.values())}명 · 사진 {sum(1 for v in out.values() for p in v if p.get('img'))}장" \
+        + (f" · 실패 {len(fails)}" if fails else "") + (f" · 한글 이름 없음 {len(unknown)}명" if unknown else "")
+    return save("profiles.json", {"updated_at": now_kst().strftime("%Y-%m-%d %H:%M"), "source": "SV리그 공식 사이트 선수 명단",
+                                  "coaches": coaches, "no_korean_name": unknown, "teams": out})
+
 # ---------------------------------------------------------------- 실시간 (경기 중)
 def run_live():
     """오늘 경기만 받아 data/live.json 에 쓴다. 마지막 줄에 CONTINUE / STOP 출력."""
@@ -600,6 +748,7 @@ def main():
     ap.add_argument("--skip-news", action="store_true")
     ap.add_argument("--selftest", action="store_true", help="내장 샘플로 페이지 읽기 기능 점검")
     ap.add_argument("--parse", metavar="HTML파일", help="저장해 둔 페이지를 읽어 결과만 출력 (구조가 바뀌었을 때 확인용)")
+    ap.add_argument("--profiles", action="store_true", help="선수단·사진만 새로 받고 끝")
     args = ap.parse_args()
 
     if args.selftest:
@@ -611,6 +760,13 @@ def main():
         return
     if args.live:
         run_live()
+        return
+    if args.profiles:
+        collect_profiles(force=True)
+        meta = load("meta.json", {}) or {}
+        meta.setdefault("status", {})["profiles"] = STATUS.get("profiles", "")
+        save("meta.json", meta)
+        print(STATUS)
         return
 
     changed = bool(collect_schedule())

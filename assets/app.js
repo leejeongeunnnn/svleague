@@ -392,25 +392,59 @@ const POS_FULL = { S: "세터", OH: "아웃사이드 히터", OP: "아포짓", M
 let SQ_TEAM = null, SQ_OPEN = null;
 function statLines(team, name) {   // 개인 기록 스냅샷에서 이 선수의 순위 찾기
   const cats = (DATA.players || {}).categories || {};
+  const key = String(name || "").replace(/\s/g, "");
   return Object.entries(cats).map(([k, c]) => {
-    const r = (c.rows || []).find(x => x.team === team && x.name === name);
+    const r = (c.rows || []).find(x => x.team === team && String(x.name).replace(/\s/g, "") === key);
     return r ? `${k} ${r.rank}위 (${r[c.columns[k === "득점" ? 1 : 0]]})` : "";
   }).filter(Boolean);
 }
 function openProfile(team, name) {
-  SQ_TEAM = team; SQ_OPEN = name; showTab("squad"); renderSquad();
+  const key = String(name || "").replace(/\s/g, "");
+  const p = (((DATA.profiles || {}).teams || {})[team] || []).find(x => String(x.name).replace(/\s/g, "") === key);
+  SQ_TEAM = team; SQ_OPEN = p ? p.name : name; showTab("squad"); renderSquad();
   setTimeout(() => { const el = document.querySelector(`.pf-card[data-open="1"]`); if (el) el.scrollIntoView({ behavior: "smooth", block: "center" }); }, 60);
 }
+const NATION_KR = { "日本": "일본", "アメリカ": "미국", "アメリカ合衆国": "미국", "ブラジル": "브라질", "フランス": "프랑스", "ポーランド": "폴란드", "イタリア": "이탈리아",
+  "ドイツ": "독일", "カナダ": "캐나다", "キューバ": "쿠바", "イラン": "이란", "アルゼンチン": "아르헨티나", "チュニジア": "튀니지", "ルーマニア": "루마니아",
+  "ロシア": "러시아", "台湾": "대만", "チャイニーズタイペイ": "대만", "中国": "중국", "韓国": "한국", "フィリピン": "필리핀", "フィンランド": "핀란드", "エストニア": "에스토니아",
+  "デンマーク": "덴마크", "ノルウェー": "노르웨이", "チェコ": "체코", "スロベニア": "슬로베니아", "イスラエル": "이스라엘", "スペイン": "스페인", "ベルギー": "벨기에",
+  "セルビア": "세르비아", "ウクライナ": "우크라이나", "オランダ": "네덜란드", "タイ": "태국", "インドネシア": "인도네시아", "ベトナム": "베트남", "オーストラリア": "호주",
+  "カザフスタン": "카자흐스탄", "ブルガリア": "불가리아", "トルコ": "튀르키예", "エジプト": "이집트", "アルジェリア": "알제리", "ナイジェリア": "나이지리아", "スロバキア": "슬로바키아" };
+const nationKr = (n) => NATION_KR[n] || n || "";
+const isForeign = (p) => p.nation && p.nation !== "日本";
+const fmtN = (v, d = 0) => v == null || v === "" ? "-" : Number(v).toFixed(d);
+const seasonShort = (x) => { const m = /^(\d{2})(\d{2})-(\d{2})/.exec(x || ""); return m ? `${m[2]}-${m[3]}` : (x || ""); };
 function profileCard(team, p) {
   const open = SQ_OPEN === p.name;
   const st = statLines(team, p.name);
-  return `<div class="card pf-card" data-open="${open ? 1 : 0}" style="cursor:default;${open ? `border-color:${colorOf(team)}` : ""}">
+  const body = [p.age != null ? `${p.age}세` : "", p.height ? `${p.height}cm` : "", isForeign(p) ? nationKr(p.nation) : ""].filter(Boolean).join(" · ");
+  let html = `<div class="card pf-card ${open ? "open" : ""}" data-open="${open ? 1 : 0}" data-pn="${esc(p.name)}" role="button" tabindex="0">
     <div class="pf-head">
+      ${p.img ? `<img class="pf-img" src="${esc(p.img)}" alt="" loading="lazy" onerror="this.remove()">` : ""}
       <div class="pf-no" style="color:${colorOf(team)}">${p.no ?? "–"}</div>
-      <div class="pf-names"><div class="pf-name">${esc(kn(p.name))}</div><div class="pf-jp">${esc(POS_FULL[p.pos] || p.pos || "")} · ${esc(p.name)}</div></div>
+      <div class="pf-names"><div class="pf-name">${esc(kn(p.name))}</div><div class="pf-jp">${esc(POS_FULL[p.pos] || p.pos || "")}${body ? " · " + esc(body) : ""}</div></div>
+      <div class="pf-badges">${isForeign(p) ? '<span class="pf-ik">외국인</span>' : ""}</div>
     </div>
-    ${st.length ? `<div class="pf-stat">${st.map(esc).join(" · ")}</div>` : ""}
-  </div>`;
+    ${st.length ? `<div class="pf-stat">${st.map(esc).join(" · ")}</div>` : ""}`;
+  if (open) {
+    html += `<div class="pf-row"><span>🏷️</span><span>${esc(p.name)}${p.roman ? " · " + esc(p.roman) : ""}</span></div>
+      ${p.nation ? `<div class="pf-row"><span>🌏</span><span>${esc(nationKr(p.nation))}${p.hometown ? " · " + esc(p.hometown) : ""}</span></div>` : ""}
+      ${p.school ? `<div class="pf-row"><span>🎓</span><span>${esc(p.school)}</span></div>` : ""}
+      ${p.birth ? `<div class="pf-row"><span>🎂</span><span>${esc(p.birth)}</span></div>` : ""}
+      ${p.reach ? `<div class="pf-row"><span>⬆️</span><span>최고 도달점 ${esc(p.reach)}cm</span></div>` : ""}`;
+    if (p.career && p.career.length) {
+      html += `<div class="table-scroll" style="margin-top:6px"><table class="gm-tbl"><thead><tr><th class="l">시즌</th><th>경기</th><th>세트</th><th>득점</th><th>공격%</th><th>블로킹/S</th><th>서브에이스</th><th>리시브%</th></tr></thead><tbody>
+        ${p.career.map(c => `<tr><td class="l" style="white-space:nowrap">${esc(seasonShort(c.season))}${/V\.LEAGUE|Vリーグ/.test(c.season) && !/SV/.test(c.season) ? " V" : ""}</td><td>${fmtN(c.g)}</td><td>${fmtN(c.s)}</td><td>${fmtN(c.pts)}</td><td>${fmtN(c.atk, 1)}</td><td>${fmtN(c.blk, 2)}</td><td>${fmtN(c.ace)}</td><td>${fmtN(c.rcv, 1)}</td></tr>`).join("")}
+        </tbody></table></div><div class="hint" style="margin:4px 0 0">SV리그 공식 기록 · 공격% = 공격 성공률 · 리시브% = 서브리시브 성공률 · /S = 세트당</div>`;
+    }
+  } else html += `<div class="pf-more">눌러서 프로필 보기 ›</div>`;
+  return html + `</div>`;
+}
+function coachOf(team) {
+  const t = TEAM[team] || {};
+  if (t.coach) return t.coach;
+  const c = (((DATA.profiles || {}).coaches) || {})[team];
+  return c ? (kn(c.name) !== c.name ? kn(c.name) : c.name) : "";
 }
 function renderSquad() {
   const p = document.getElementById("panel-squad");
@@ -424,21 +458,26 @@ function renderSquad() {
     html += emptyBox("이 팀의 선수 명단이 아직 없어요.");
   } else {
     const t = TEAM[SQ_TEAM] || {};
-    const last = ((DATA.last_season || {}).standings || []).find(r => r.team === SQ_TEAM);
-    html += `<div class="pf-summary"><div><b>${lst.length}명</b><span>등록 선수</span></div><div><b>${esc(t.coach || "-")}</b><span>감독</span></div>
-      <div><b>${esc(t.founded || "-")}</b><span>창단</span></div><div><b>${esc(t.arena || "-")}</b><span>홈 경기장</span></div>
-      <div><b>${last ? last.rank + "위" : "신규 참가"}</b><span>지난 시즌 정규리그</span></div></div>
-      ${t.foreign ? `<div class="card"><b>🌏 외국인 선수</b><div class="hint" style="margin:6px 0 0">${esc(t.foreign)}</div></div>` : ""}`;
+    const ages = lst.filter(x => x.age != null).map(x => x.age), hs = lst.filter(x => x.height).map(x => x.height);
+    const avg = (a) => a.length ? (a.reduce((x, y) => x + y, 0) / a.length).toFixed(1) : "-";
+    html += `<div class="pf-summary"><div><b>${lst.length}명</b><span>등록 선수</span></div><div><b>${avg(ages)}${ages.length ? "세" : ""}</b><span>평균 나이</span></div>
+      <div><b>${avg(hs)}${hs.length ? "cm" : ""}</b><span>평균 키</span></div><div><b>${esc(coachOf(SQ_TEAM) || "-")}</b><span>감독</span></div>
+      <div><b>${lst.filter(isForeign).length || "-"}${lst.some(isForeign) ? "명" : ""}</b><span>외국인</span></div></div>
+      ${t.foreign && !lst.some(x => x.nation) ? `<div class="card"><b>🌏 외국인 선수</b><div class="hint" style="margin:6px 0 0">${esc(t.foreign)}</div></div>` : ""}`;
     POS_ORDER.concat([""]).forEach(pos => {
       const grp = lst.filter(x => pos ? x.pos === pos : !POS_ORDER.includes(x.pos));
       if (!grp.length) return;
       html += `<div class="sched-sub">${esc(POS_FULL[pos] || "기타")} <span class="hint" style="margin:0">${grp.length}명</span></div>
         <div class="pf-grid">${grp.map(x => profileCard(SQ_TEAM, x)).join("")}</div>`;
     });
-    html += `<p class="hint" style="margin-top:12px">출처: ${esc((DATA.profiles || {}).source || "")} · ${esc((DATA.profiles || {}).updated_at || "")} 기준 · 이름은 한글 표기, 작은 글씨는 일본어 등록명 · 등번호가 '–'인 선수는 번호를 확인하지 못한 선수 · 시즌 중 등록이 바뀔 수 있어요</p>`;
+    html += `<p class="hint" style="margin-top:12px">출처: ${esc((DATA.profiles || {}).source || "")} · ${esc((DATA.profiles || {}).updated_at || "")} 기준 · 사진 © SV.LEAGUE · 이름은 한글 표기 (카드를 누르면 일본어 등록명) · 하루 한 번 자동 갱신</p>`;
   }
   p.innerHTML = html;
   p.querySelectorAll("[data-sq]").forEach(b => b.onclick = () => { SQ_TEAM = b.dataset.sq; SQ_OPEN = null; renderSquad(); });
+  p.querySelectorAll(".pf-card").forEach(c => c.onclick = (e) => {
+    if (e.target.closest("a")) return;
+    SQ_OPEN = SQ_OPEN === c.dataset.pn ? null : c.dataset.pn; renderSquad();
+  });
 }
 
 /* ---------- 6. 경기장 ---------- */
@@ -480,7 +519,7 @@ function teamCard(t) {
     <div class="tc-jp">📍 ${esc(t.city)} · ${esc(t.arena)}${t.founded ? ` &nbsp;|&nbsp; 창단 ${esc(t.founded)}` : ""}</div>
     <div class="tc-jp">지난 시즌: ${esc(t.last)}</div>
     <div class="tc-intro">${esc(t.intro)}</div>
-    <div class="tc-foot">감독 <b>${esc(t.coach || "-")}</b>${t.titles && t.titles !== "-" ? ` · 🏆 ${esc(t.titles)}` : ""}</div>
+    <div class="tc-foot">감독 <b>${esc(coachOf(t.name) || "-")}</b>${t.titles && t.titles !== "-" ? ` · 🏆 ${esc(t.titles)}` : ""}</div>
     <div class="tc-foot">외국인 <b>${esc(t.foreign || "-")}</b></div>
     ${home && home.homepage ? `<div class="wbtns" style="margin-top:8px"><a class="wbtn" href="${esc(home.homepage)}" target="_blank" rel="noopener">🔗 구단 홈페이지</a><a class="wbtn ticket" href="${esc(home.url)}" target="_blank" rel="noopener">🎟️ 예매</a></div>` : ""}
   </div>`;

@@ -1,0 +1,39 @@
+name: SV리그 선수단·사진
+
+# 하루 한 번 SV리그 공식 사이트에서 12개 구단 선수 명단·사진·프로필을 받는다.
+on:
+  schedule:
+    - cron: "23 20 * * *"     # 한국시간 05:23
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: svleague-profiles
+  cancel-in-progress: false
+
+jobs:
+  profiles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: 선수단 수집
+        run: python collect.py --profiles
+      - name: 커밋 & 푸시
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/profiles.json data/photos data/meta.json || true
+          if git diff --staged --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "chore: 선수단·사진 갱신 ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          for i in 1 2 3; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            echo "푸시 충돌, 재시도 $i"; sleep 5
+          done
+          exit 1
