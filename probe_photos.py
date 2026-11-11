@@ -8,31 +8,17 @@ log = {}
 def get(u, name):
     r = requests.get(u, headers=H, timeout=25)
     open(f"{D}/{name}.html", "w", encoding="utf-8").write(r.text)
-    nf = "Not Found" in r.text[:20000] and "requested URL was not found" in r.text
-    log[name] = [u, r.status_code, r.url, len(r.text), "NOTFOUND" if nf else ""]
-    return r.text, r.url
-home, hu = get("https://www.svleague.jp/", "home")
-links = sorted(set(urljoin(hu, h) for h in re.findall(r'href="([^"#]+)"', home)))
-log["home_links"] = [l for l in links if re.search(r"team|player|club|member|roster", l, re.I)]
-cand = ["https://www.svleague.jp/team/", "https://www.svleague.jp/player/entrylist/sv/men/"]
-for i, l in enumerate(cand):
-    try:
-        t, u = get(l, f"lvl1_{i}")
-        sub = sorted(set(urljoin(u, h) for h in re.findall(r'href="([^"#]+)"', t)))
-        log[f"lvl1_{i}_links"] = [x for x in sub if re.search(r"team|player", x, re.I)][:80]
-        log[f"lvl1_{i}_imgs"] = re.findall(r"<img[^>]+>", t)[:120]
-    except Exception as e:
-        log[f"lvl1_{i}"] = str(e)
-# 선수 링크가 보이면 하나, 구단 상세 링크가 보이면 하나 받아 둠
-allsub = [x for k, v in log.items() if k.endswith("_links") for x in v]
-for key, pat in (("team_page", r"team/(detail/)?\d+|team/\w+/?$"), ("player_page", r"player/(detail/)?\d+")):
-    m = next((x for x in allsub if re.search(pat, x) and "women" not in x.lower()), None)
+    log[name] = [u, r.status_code, r.url, len(r.text)]
+    return r.text
+t = get("https://www.svleague.jp/team/sv/men/", "men")
+slugs = sorted(set(re.findall(r'href="/team/([a-z0-9_]+)/"', t)) - {"sv", "svg"})
+log["slugs"] = slugs
+for s in slugs[:2]:
+    p = get(f"https://www.svleague.jp/team/{s}/player/", f"player_{s}")
+    log[f"imgs_{s}"] = [x for x in re.findall(r"<img[^>]+>", p) if "partners" not in x and "banner" not in x][:40]
+    log[f"links_{s}"] = sorted(set(re.findall(r'href="([^"]*player[^"]*)"', p)))[:40]
+    m = next((x for x in log[f"links_{s}"] if re.search(r"\d", x)), None)
     if m:
-        try:
-            t, u = get(m, key)
-            log[key + "_links"] = sorted(set(urljoin(u, h) for h in re.findall(r'href="([^"#]+)"', t) if re.search(r"player", h)))[:60]
-            log[key + "_imgs"] = re.findall(r'<img[^>]+>', t)[:80]
-        except Exception as e:
-            log[key] = str(e)
+        q = get(urljoin("https://www.svleague.jp/", m), f"detail_{s}")
+        log[f"detail_imgs_{s}"] = [x for x in re.findall(r"<img[^>]+>", q) if "partners" not in x and "banner" not in x][:20]
 json.dump(log, open(f"{D}/log.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print(json.dumps({k: v for k, v in log.items() if not k.endswith("imgs")}, ensure_ascii=False, indent=1)[:3000])
