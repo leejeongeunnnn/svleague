@@ -14,12 +14,13 @@ def get(u, name):
 home, hu = get("https://www.svleague.jp/", "home")
 links = sorted(set(urljoin(hu, h) for h in re.findall(r'href="([^"#]+)"', home)))
 log["home_links"] = [l for l in links if re.search(r"team|player|club|member|roster", l, re.I)]
-cand = [l for l in log["home_links"] if "svleague.jp" in l and ("men" in l.lower()) and "women" not in l.lower()][:4]
+cand = ["https://www.svleague.jp/team/", "https://www.svleague.jp/player/entrylist/sv/men/"]
 for i, l in enumerate(cand):
     try:
         t, u = get(l, f"lvl1_{i}")
         sub = sorted(set(urljoin(u, h) for h in re.findall(r'href="([^"#]+)"', t)))
         log[f"lvl1_{i}_links"] = [x for x in sub if re.search(r"team|player", x, re.I)][:80]
+        log[f"lvl1_{i}_imgs"] = re.findall(r"<img[^>]+>", t)[:120]
     except Exception as e:
         log[f"lvl1_{i}"] = str(e)
 # 선수 링크가 보이면 하나, 구단 상세 링크가 보이면 하나 받아 둠
