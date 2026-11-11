@@ -494,7 +494,7 @@ def translate_ja_ko(text):
         return None
 
 
-TR_VERSION = 2   # 번역 규칙을 바꾸면 올려서 예전 번역을 버림
+TR_VERSION = 3   # 번역 규칙을 바꾸면 올려서 예전 번역을 버림
 _TERMS = {"ブルテオン": "블루테온", "サンバーズ": "선버즈", "ウルフドッグス": "울프독스", "グレートベアーズ": "그레이트베어스",
           "サンダーズ": "썬더스", "ブレイザーズ": "블레이저스", "アローズ": "애로우즈", "ヴォレアス": "보레아스", "トライデンツ": "트라이던츠",
           "イエロースターズ": "옐로스타즈", "フラーゴラッド": "프라골라드", "大同生命": "다이도생명", "SVリーグ": "SV리그", "SV.LEAGUE": "SV리그",
@@ -520,6 +520,11 @@ def pre_ko(t):
 def post_ko(t):
     for a, b in (("밸리", "배구"), ("발리", "배구"), ("대동 생명", "다이도생명"), ("다이도 생명", "다이도생명"), ("SV 리그", "SV리그"), (" 절", "절")):
         t = t.replace(a, b)
+    for kr in TEAMS:   # '오사카 B', '홋카이도 YS' → 사이트 표기
+        if re.search(r"[A-Z]$", kr):
+            t = re.sub(re.escape(kr[:-2] if kr.endswith(("YS", "GB")) else kr[:-1]) + r"\s+" + re.escape(kr[-2:] if kr.endswith(("YS", "GB")) else kr[-1:]), kr, t)
+    t = re.sub(r"(\d)\s+(연승|연패|월|일|경기|세트|년|위|승|패|절|명)", r"\1\2", t)
+    t = t.replace("B 리그", "B리그").replace("오사카 부", "오사카부")
     return re.sub(r"\s{2,}", " ", t).strip()
 
 
