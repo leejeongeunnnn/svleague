@@ -40,7 +40,7 @@
    "sa": 2
   },
   {
-   "gid": "20261018-tokyogb-hokkaidoys",
+   "gid": "sv37993",
    "date": "2026-10-18",
    "time": "14:05",
    "kind": "regular",
@@ -51,6 +51,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/37993/",
    "sets": [
     [
      25,
@@ -69,7 +70,7 @@
    "sa": 0
   },
   {
-   "gid": "20261024-suntory-voreas",
+   "gid": "sv37976",
    "date": "2026-10-24",
    "time": "13:05",
    "kind": "regular",
@@ -80,6 +81,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37976/",
    "sets": [
     [
      25,
@@ -102,7 +104,7 @@
    "sa": 1
   },
   {
-   "gid": "20261024-stings-toray",
+   "gid": "sv37972",
    "date": "2026-10-24",
    "time": "14:05",
    "kind": "regular",
@@ -113,6 +115,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37972/",
    "sets": [
     [
      22,
@@ -135,7 +138,7 @@
    "sa": 1
   },
   {
-   "gid": "20261024-hokkaidoys-osakab",
+   "gid": "sv37968",
    "date": "2026-10-24",
    "time": "14:05",
    "kind": "regular",
@@ -146,6 +149,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37968/",
    "sets": [
     [
      21,
@@ -164,7 +168,7 @@
    "sa": 3
   },
   {
-   "gid": "20261024-sakai-kagoshima",
+   "gid": "sv37978",
    "date": "2026-10-24",
    "time": "15:05",
    "kind": "regular",
@@ -175,6 +179,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37978/",
    "sets": [
     [
      25,
@@ -193,7 +198,7 @@
    "sa": 0
   },
   {
-   "gid": "20261024-wdnagoya-tokyogb",
+   "gid": "sv37974",
    "date": "2026-10-24",
    "time": "16:35",
    "kind": "regular",
@@ -204,6 +209,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37974/",
    "sets": [
     [
      25,
@@ -222,7 +228,7 @@
    "sa": 0
   },
   {
-   "gid": "20261024-matsumoto-hiroshima",
+   "gid": "sv37970",
    "date": "2026-10-24",
    "time": "17:05",
    "kind": "regular",
@@ -233,6 +239,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37970/",
    "sets": [
     [
      24,
@@ -259,7 +266,7 @@
    "sa": 2
   },
   {
-   "gid": "20261025-sakai-kagoshima",
+   "gid": "sv37979",
    "date": "2026-10-25",
    "time": "13:05",
    "kind": "regular",
@@ -270,6 +277,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37979/",
    "sets": [
     [
      25,
@@ -296,7 +304,7 @@
    "sa": 3
   },
   {
-   "gid": "20261025-suntory-voreas",
+   "gid": "sv37977",
    "date": "2026-10-25",
    "time": "13:05",
    "kind": "regular",
@@ -307,6 +315,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37977/",
    "sets": [
     [
      19,
@@ -333,7 +342,7 @@
    "sa": 3
   },
   {
-   "gid": "20261025-hokkaidoys-osakab",
+   "gid": "sv37969",
    "date": "2026-10-25",
    "time": "13:05",
    "kind": "regular",
@@ -344,6 +353,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37969/",
    "sets": [
     [
      25,
@@ -366,7 +376,7 @@
    "sa": 3
   },
   {
-   "gid": "20261025-matsumoto-hiroshima",
+   "gid": "sv37971",
    "date": "2026-10-25",
    "time": "13:35",
    "kind": "regular",
@@ -377,6 +387,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37971/",
    "sets": [
     [
      25,
@@ -403,7 +414,7 @@
    "sa": 2
   },
   {
-   "gid": "20261025-stings-toray",
+   "gid": "sv37973",
    "date": "2026-10-25",
    "time": "14:05",
    "kind": "regular",
@@ -414,6 +425,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37973/",
    "sets": [
     [
      25,
@@ -432,7 +444,7 @@
    "sa": 0
   },
   {
-   "gid": "20261025-wdnagoya-tokyogb",
+   "gid": "sv37975",
    "date": "2026-10-25",
    "time": "15:35",
    "kind": "regular",
@@ -443,6 +455,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 1,
+   "url": "https://www.svleague.jp/match/detail/37975/",
    "sets": [
     [
      25,
@@ -461,7 +474,7 @@
    "sa": 0
   },
   {
-   "gid": "20261031-osakab-wdnagoya",
+   "gid": "sv37984",
    "date": "2026-10-31",
    "time": "12:05",
    "kind": "regular",
@@ -472,6 +485,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37984/",
    "sets": [
     [
      25,
@@ -498,7 +512,7 @@
    "sa": 3
   },
   {
-   "gid": "20261031-voreas-stings",
+   "gid": "sv37980",
    "date": "2026-10-31",
    "time": "13:05",
    "kind": "regular",
@@ -509,6 +523,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37980/",
    "sets": [
     [
      23,
@@ -531,7 +546,7 @@
    "sa": 3
   },
   {
-   "gid": "20261031-suntory-sakai",
+   "gid": "sv37986",
    "date": "2026-10-31",
    "time": "13:05",
    "kind": "regular",
@@ -542,6 +557,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37986/",
    "sets": [
     [
      25,
@@ -564,7 +580,7 @@
    "sa": 3
   },
   {
-   "gid": "20261031-kagoshima-hokkaidoys",
+   "gid": "sv37990",
    "date": "2026-10-31",
    "time": "14:05",
    "kind": "regular",
@@ -575,6 +591,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37990/",
    "sets": [
     [
      22,
@@ -593,7 +610,7 @@
    "sa": 3
   },
   {
-   "gid": "20261031-toray-matsumoto",
+   "gid": "sv37982",
    "date": "2026-10-31",
    "time": "14:05",
    "kind": "regular",
@@ -604,6 +621,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37982/",
    "sets": [
     [
      19,
@@ -626,7 +644,7 @@
    "sa": 1
   },
   {
-   "gid": "20261031-hiroshima-tokyogb",
+   "gid": "sv37988",
    "date": "2026-10-31",
    "time": "14:05",
    "kind": "regular",
@@ -637,6 +655,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37988/",
    "sets": [
     [
      24,
@@ -659,7 +678,7 @@
    "sa": 3
   },
   {
-   "gid": "20261101-kagoshima-hokkaidoys",
+   "gid": "sv37991",
    "date": "2026-11-01",
    "time": "13:05",
    "kind": "regular",
@@ -670,6 +689,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37991/",
    "sets": [
     [
      26,
@@ -692,7 +712,7 @@
    "sa": 3
   },
   {
-   "gid": "20261101-voreas-stings",
+   "gid": "sv37981",
    "date": "2026-11-01",
    "time": "13:05",
    "kind": "regular",
@@ -703,6 +723,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37981/",
    "sets": [
     [
      25,
@@ -725,7 +746,7 @@
    "sa": 3
   },
   {
-   "gid": "20261101-suntory-sakai",
+   "gid": "sv37987",
    "date": "2026-11-01",
    "time": "13:05",
    "kind": "regular",
@@ -736,6 +757,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37987/",
    "sets": [
     [
      19,
@@ -758,7 +780,7 @@
    "sa": 3
   },
   {
-   "gid": "20261101-hiroshima-tokyogb",
+   "gid": "sv37989",
    "date": "2026-11-01",
    "time": "13:05",
    "kind": "regular",
@@ -769,6 +791,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37989/",
    "sets": [
     [
      20,
@@ -795,7 +818,7 @@
    "sa": 2
   },
   {
-   "gid": "20261101-toray-matsumoto",
+   "gid": "sv37983",
    "date": "2026-11-01",
    "time": "14:05",
    "kind": "regular",
@@ -806,6 +829,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37983/",
    "sets": [
     [
      25,
@@ -832,7 +856,7 @@
    "sa": 2
   },
   {
-   "gid": "20261101-osakab-wdnagoya",
+   "gid": "sv37985",
    "date": "2026-11-01",
    "time": "15:05",
    "kind": "regular",
@@ -843,6 +867,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 2,
+   "url": "https://www.svleague.jp/match/detail/37985/",
    "sets": [
     [
      20,
@@ -865,7 +890,7 @@
    "sa": 1
   },
   {
-   "gid": "20261106-voreas-kagoshima",
+   "gid": "sv37994",
    "date": "2026-11-06",
    "time": "18:35",
    "kind": "regular",
@@ -876,6 +901,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/37994/",
    "sets": [
     [
      25,
@@ -894,7 +920,7 @@
    "sa": 0
   },
   {
-   "gid": "20261107-voreas-kagoshima",
+   "gid": "sv37995",
    "date": "2026-11-07",
    "time": "13:35",
    "kind": "regular",
@@ -905,6 +931,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/37995/",
    "sets": [
     [
      20,
@@ -927,7 +954,7 @@
    "sa": 1
   },
   {
-   "gid": "20261107-toray-osakab",
+   "gid": "sv37998",
    "date": "2026-11-07",
    "time": "14:05",
    "kind": "regular",
@@ -938,6 +965,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/37998/",
    "sets": [
     [
      23,
@@ -956,7 +984,7 @@
    "sa": 3
   },
   {
-   "gid": "20261107-matsumoto-suntory",
+   "gid": "sv37996",
    "date": "2026-11-07",
    "time": "14:05",
    "kind": "regular",
@@ -967,6 +995,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/37996/",
    "sets": [
     [
      21,
@@ -993,7 +1022,7 @@
    "sa": 3
   },
   {
-   "gid": "20261107-wdnagoya-stings",
+   "gid": "sv38000",
    "date": "2026-11-07",
    "time": "14:35",
    "kind": "regular",
@@ -1004,6 +1033,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/38000/",
    "sets": [
     [
      25,
@@ -1022,7 +1052,7 @@
    "sa": 0
   },
   {
-   "gid": "20261107-sakai-hiroshima",
+   "gid": "sv38002",
    "date": "2026-11-07",
    "time": "15:05",
    "kind": "regular",
@@ -1033,6 +1063,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/38002/",
    "sets": [
     [
      14,
@@ -1055,7 +1086,7 @@
    "sa": 3
   },
   {
-   "gid": "20261108-sakai-hiroshima",
+   "gid": "sv38003",
    "date": "2026-11-08",
    "time": "13:05",
    "kind": "regular",
@@ -1066,6 +1097,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/38003/",
    "sets": [
     [
      22,
@@ -1088,7 +1120,7 @@
    "sa": 3
   },
   {
-   "gid": "20261108-wdnagoya-stings",
+   "gid": "sv38001",
    "date": "2026-11-08",
    "time": "13:35",
    "kind": "regular",
@@ -1099,6 +1131,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/38001/",
    "sets": [
     [
      26,
@@ -1121,7 +1154,7 @@
    "sa": 1
   },
   {
-   "gid": "20261108-toray-osakab",
+   "gid": "sv37999",
    "date": "2026-11-08",
    "time": "14:05",
    "kind": "regular",
@@ -1132,6 +1165,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/37999/",
    "sets": [
     [
      22,
@@ -1154,7 +1188,7 @@
    "sa": 3
   },
   {
-   "gid": "20261108-matsumoto-suntory",
+   "gid": "sv37997",
    "date": "2026-11-08",
    "time": "14:05",
    "kind": "regular",
@@ -1165,6 +1199,7 @@
    "state": "final",
    "status": "경기 종료",
    "round": 3,
+   "url": "https://www.svleague.jp/match/detail/37997/",
    "sets": [
     [
      19,
@@ -4532,7 +4567,7 @@
    "ticket": "https://ticket-v.jp/ticket/?id=38228"
   },
   {
-   "gid": "20270418-matsumoto-toray",
+   "gid": "sv38227",
    "date": "2027-04-18",
    "time": "13:05",
    "kind": "regular",
@@ -4542,10 +4577,12 @@
    "venue": "에어워터 아레나 마쓰모토",
    "state": "scheduled",
    "status": "",
-   "round": 22
+   "round": 22,
+   "url": "https://www.svleague.jp/match/detail/38227/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38227"
   },
   {
-   "gid": "20270418-voreas-tokyogb",
+   "gid": "sv38223",
    "date": "2027-04-18",
    "time": "13:05",
    "kind": "regular",
@@ -4555,10 +4592,12 @@
    "venue": "릭&수 아사히카와 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 22
+   "round": 22,
+   "url": "https://www.svleague.jp/match/detail/38223/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38223"
   },
   {
-   "gid": "20270418-hokkaidoys-sakai",
+   "gid": "sv38225",
    "date": "2027-04-18",
    "time": "13:05",
    "kind": "regular",
@@ -4568,10 +4607,12 @@
    "venue": "",
    "state": "scheduled",
    "status": "",
-   "round": 22
+   "round": 22,
+   "url": "https://www.svleague.jp/match/detail/38225/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38225"
   },
   {
-   "gid": "20270418-wdnagoya-suntory",
+   "gid": "sv38231",
    "date": "2027-04-18",
    "time": "13:35",
    "kind": "regular",
@@ -4581,10 +4622,12 @@
    "venue": "엔트리오",
    "state": "scheduled",
    "status": "",
-   "round": 22
+   "round": 22,
+   "url": "https://www.svleague.jp/match/detail/38231/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38231"
   },
   {
-   "gid": "20270418-stings-hiroshima",
+   "gid": "sv38229",
    "date": "2027-04-18",
    "time": "",
    "kind": "regular",
@@ -4594,7 +4637,9 @@
    "venue": "",
    "state": "scheduled",
    "status": "",
-   "round": 22
+   "round": 22,
+   "url": "https://www.svleague.jp/match/detail/38229/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38229"
   }
  ]
 }
