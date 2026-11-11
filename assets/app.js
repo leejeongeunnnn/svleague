@@ -541,7 +541,8 @@ let NEWS_MINE = false;
 function newsList(items) {
   return items.map(n => `<div class="card news-card">
     <div class="news-top">${n.lang === "ko" ? '<span class="news-cat" style="border:1px solid #64748b">한국어</span>' : ""}${(n.teams || []).map(t => `<span class="news-cat" style="border:1px solid ${colorOf(t)}">${esc(t)}</span>`).join("")}</div>
-    <div class="news-title"><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a></div>
+    <div class="news-title"><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title_kr || n.title)}</a></div>
+    ${n.title_kr ? `<div class="hint" style="margin:2px 0 6px">${esc(n.title)}</div>` : ""}
     <div class="news-meta"><span>${esc(n.source || "")}</span><span>${esc(n.time || "")}</span></div>
   </div>`).join("");
 }
@@ -552,7 +553,7 @@ function renderNews() {
   p.innerHTML = `<h2 class="section-title">📰 SV리그 기사</h2>
     ${MY_TEAM ? `<div class="stage-tabs"><button class="stage-chip ${!NEWS_MINE ? "active" : ""}" data-nm="0">전체</button><button class="stage-chip ${NEWS_MINE ? "active" : ""}" data-nm="1">⭐ ${esc(MY_TEAM)}</button></div>` : ""}
     ${items.length ? newsList(items) : emptyBox("아직 수집된 기사가 없어요. 자동 수집이 돌면 최근 SV리그 남자 기사가 모입니다.")}
-    <p class="hint">출처: Google 뉴스 검색 (제목·링크만 표시, 본문은 각 언론사에서) · 대부분 일본어 기사예요</p>`;
+    <p class="hint">출처: Google 뉴스 검색 (제목·링크만 표시, 본문은 각 언론사에서) · 일본어 기사 제목은 기계 번역이라 어색할 수 있어요 (작은 글씨가 원문) · 기사 본문은 일본어예요</p>`;
   p.querySelectorAll("[data-nm]").forEach(b => b.onclick = () => { NEWS_MINE = b.dataset.nm === "1"; renderNews(); });
 }
 

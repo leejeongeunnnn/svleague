@@ -474,9 +474,49 @@ def detect_teams(text):
 
 
 LEAGUE = re.compile(r"SVリーグ|SV\.LEAGUE|SV男子|SVリーグ男子|SV리그|일본\s*배구|일본\s*프로배구", re.I)
-NOISE = re.compile(r"チケット転売|占い|ハイキュー|춘계|고교|\bvs\.?\s.*公式サイト|試合詳細")  # 공식 사이트의 경기 페이지는 기사가 아님
+NOISE = re.compile(r"チケット転売|占い|ハイキュー|춘계|고교|\bvs\.?\s.*公式サイト|試合詳細|Official Website|公式サイト$|グロース|GROWTH|"
+                   r"\([A-Za-z0-9]{8,}\)\s*$")  # 공식 사이트 선수·경기 페이지, 2부 리그, 동영상 짜깁기 글 제외
 WOMEN = re.compile(r"女子|WOMEN|SV女子|여자부|여자배구|NEC川崎|久光|マーヴェラス|デンソー|PFU|埼玉上尾|ヴィクトリーナ|岡山シーガルズ|"
                    r"クインシーズ|アランマーレ|KUROBE|群馬グリーンウイングス|東レ滋賀|Astemo|アルテミス北海道|アリーザ")
+
+
+def translate_ja_ko(text):
+    """일본어 → 한국어 (Google 번역 공개 주소). 실패하면 None."""
+    try:
+        r = requests.get("https://translate.googleapis.com/translate_a/single",
+                         params={"client": "gtx", "sl": "ja", "tl": "ko", "dt": "t", "q": text},
+                         headers={"User-Agent": HEADERS["User-Agent"]}, timeout=10)
+        if r.status_code != 200:
+            return None
+        out = "".join(seg[0] for seg in (r.json() or [[]])[0] if seg and seg[0])
+        return out.strip() or None
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def translate_titles(items):
+    """기사 제목에 한국어 번역(title_kr)을 붙인다. 한 번 번역한 제목은 data/translate_cache.json 에 저장해 재사용."""
+    cache = load("translate_cache.json", {}) or {}
+    names = (load("names_kr.json", {}) or {}).get("names", {})
+    done = fail = 0
+    for it in items:
+        if it.get("lang") != "ja":
+            continue
+        t = it["title"]
+        if t not in cache:
+            kr = translate_ja_ko(t)
+            if not kr:
+                fail += 1
+                continue
+            cache[t] = kr
+            done += 1
+            time.sleep(0.3)
+        it["title_kr"] = cache[t]
+    keep = {i["title"] for i in items}
+    save("translate_cache.json", {k: v for k, v in cache.items() if k in keep})
+    if fail:
+        STATUS["translate"] = f"번역 실패 {fail}건 (원문으로 표시)"
+    print(f"[OK] 기사 번역 새로 {done}건, 실패 {fail}건")
 
 
 def collect_news(limit=40):
@@ -507,6 +547,8 @@ def collect_news(limit=40):
                 continue  # 여자부 기사 제외
             if not teams and not LEAGUE.search(title):
                 continue  # 구단 이름도 SV리그 언급도 없으면 다른 배구 기사
+            if lang == "ko" and not teams and "남자" not in title:
+                continue  # 한국어 기사는 대부분 여자부(한국 선수) 소식이라 남자부·구단 이름이 있을 때만
             seen.add(key)
             pub = it.findtext("pubDate") or ""
             try:
@@ -520,6 +562,7 @@ def collect_news(limit=40):
         STATUS["news"] = "실패 — 기존 기사 유지"
         return False
     items.sort(key=lambda x: -x["ts"])
+    translate_titles(items)
     now_ts = now_kst().timestamp()
     items = [i for i in items if not i["ts"] or i["ts"] >= now_ts - (8 if i["lang"] == "ko" else 3) * 86400][:limit]
     STATUS["news"] = f"성공 {len(items)}건"
