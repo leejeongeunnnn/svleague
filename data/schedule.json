@@ -1997,7 +1997,7 @@
    "ticket": "https://ticket-v.jp/ticket/?id=38062"
   },
   {
-   "gid": "20261220-matsumoto-sakai",
+   "gid": "sv38057",
    "date": "2026-12-20",
    "time": "13:05",
    "kind": "regular",
@@ -2007,10 +2007,12 @@
    "venue": "에어워터 아레나 마쓰모토",
    "state": "scheduled",
    "status": "",
-   "round": 8
+   "round": 8,
+   "url": "https://www.svleague.jp/match/detail/38057/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38057"
   },
   {
-   "gid": "20261220-voreas-hokkaidoys",
+   "gid": "sv38053",
    "date": "2026-12-20",
    "time": "13:05",
    "kind": "regular",
@@ -2020,10 +2022,12 @@
    "venue": "릭&수 아사히카와 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 8
+   "round": 8,
+   "url": "https://www.svleague.jp/match/detail/38053/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38053"
   },
   {
-   "gid": "20261220-kagoshima-toray",
+   "gid": "sv38063",
    "date": "2026-12-20",
    "time": "14:05",
    "kind": "regular",
@@ -2033,10 +2037,12 @@
    "venue": "F아레나 이치키쿠시키노",
    "state": "scheduled",
    "status": "",
-   "round": 8
+   "round": 8,
+   "url": "https://www.svleague.jp/match/detail/38063/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38063"
   },
   {
-   "gid": "20261220-tokyogb-suntory",
+   "gid": "sv38055",
    "date": "2026-12-20",
    "time": "14:05",
    "kind": "regular",
@@ -2046,10 +2052,12 @@
    "venue": "요요기 제2체육관",
    "state": "scheduled",
    "status": "",
-   "round": 8
+   "round": 8,
+   "url": "https://www.svleague.jp/match/detail/38055/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38055"
   },
   {
-   "gid": "20261220-stings-wdnagoya",
+   "gid": "sv38059",
    "date": "2026-12-20",
    "time": "14:05",
    "kind": "regular",
@@ -2059,10 +2067,12 @@
    "venue": "오카자키 중앙공원 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 8
+   "round": 8,
+   "url": "https://www.svleague.jp/match/detail/38059/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38059"
   },
   {
-   "gid": "20261220-osakab-hiroshima",
+   "gid": "sv38061",
    "date": "2026-12-20",
    "time": "18:05",
    "kind": "regular",
@@ -2072,10 +2082,12 @@
    "venue": "오키니 아레나 마이시마",
    "state": "scheduled",
    "status": "",
-   "round": 8
+   "round": 8,
+   "url": "https://www.svleague.jp/match/detail/38061/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38061"
   },
   {
-   "gid": "20261226-suntory-kagoshima",
+   "gid": "sv38072",
    "date": "2026-12-26",
    "time": "13:05",
    "kind": "regular",
@@ -2085,10 +2097,12 @@
    "venue": "오키니 아레나 마이시마",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38072/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38072"
   },
   {
-   "gid": "20261226-toray-hokkaidoys",
+   "gid": "sv38068",
    "date": "2026-12-26",
    "time": "14:05",
    "kind": "regular",
@@ -2098,10 +2112,12 @@
    "venue": "고료 아레나",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38068/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38068"
   },
   {
-   "gid": "20261226-tokyogb-osakab",
+   "gid": "sv38064",
    "date": "2026-12-26",
    "time": "14:05",
    "kind": "regular",
@@ -2111,10 +2127,12 @@
    "venue": "아리아케 콜로세움",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38064/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38064"
   },
   {
-   "gid": "20261226-matsumoto-voreas",
+   "gid": "sv38066",
    "date": "2026-12-26",
    "time": "14:05",
    "kind": "regular",
@@ -2124,10 +2142,12 @@
    "venue": "에어워터 아레나 마쓰모토",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38066/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38066"
   },
   {
-   "gid": "20261226-wdnagoya-hiroshima",
+   "gid": "sv38070",
    "date": "2026-12-26",
    "time": "14:35",
    "kind": "regular",
@@ -2137,10 +2157,12 @@
    "venue": "엔트리오",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38070/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38070"
   },
   {
-   "gid": "20261226-sakai-stings",
+   "gid": "sv38074",
    "date": "2026-12-26",
    "time": "15:05",
    "kind": "regular",
@@ -2150,10 +2172,12 @@
    "venue": "가나오카 공원 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38074/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38074"
   },
   {
-   "gid": "20261227-matsumoto-voreas",
+   "gid": "sv38067",
    "date": "2026-12-27",
    "time": "13:05",
    "kind": "regular",
@@ -2163,10 +2187,12 @@
    "venue": "에어워터 아레나 마쓰모토",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38067/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38067"
   },
   {
-   "gid": "20261227-sakai-stings",
+   "gid": "sv38075",
    "date": "2026-12-27",
    "time": "13:05",
    "kind": "regular",
@@ -2176,10 +2202,12 @@
    "venue": "가나오카 공원 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38075/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38075"
   },
   {
-   "gid": "20261227-suntory-kagoshima",
+   "gid": "sv38073",
    "date": "2026-12-27",
    "time": "13:05",
    "kind": "regular",
@@ -2189,10 +2217,12 @@
    "venue": "오키니 아레나 마이시마",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38073/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38073"
   },
   {
-   "gid": "20261227-wdnagoya-hiroshima",
+   "gid": "sv38071",
    "date": "2026-12-27",
    "time": "13:35",
    "kind": "regular",
@@ -2202,10 +2232,12 @@
    "venue": "엔트리오",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38071/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38071"
   },
   {
-   "gid": "20261227-toray-hokkaidoys",
+   "gid": "sv38069",
    "date": "2026-12-27",
    "time": "14:05",
    "kind": "regular",
@@ -2215,10 +2247,12 @@
    "venue": "고료 아레나",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38069/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38069"
   },
   {
-   "gid": "20261227-tokyogb-osakab",
+   "gid": "sv38065",
    "date": "2026-12-27",
    "time": "14:05",
    "kind": "regular",
@@ -2228,10 +2262,12 @@
    "venue": "아리아케 콜로세움",
    "state": "scheduled",
    "status": "",
-   "round": 9
+   "round": 9,
+   "url": "https://www.svleague.jp/match/detail/38065/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38065"
   },
   {
-   "gid": "20270102-kagoshima-tokyogb",
+   "gid": "sv38082",
    "date": "2027-01-02",
    "time": "15:05",
    "kind": "regular",
@@ -2241,10 +2277,12 @@
    "venue": "F아레나 이치키쿠시키노",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38082/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38082"
   },
   {
-   "gid": "20270102-toray-suntory",
+   "gid": "sv38076",
    "date": "2027-01-02",
    "time": "15:05",
    "kind": "regular",
@@ -2254,10 +2292,12 @@
    "venue": "기타사토 아레나 후지",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38076/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38076"
   },
   {
-   "gid": "20270102-sakai-voreas",
+   "gid": "sv38080",
    "date": "2027-01-02",
    "time": "15:05",
    "kind": "regular",
@@ -2267,10 +2307,12 @@
    "venue": "닛폰제철 사카이 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38080/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38080"
   },
   {
-   "gid": "20270102-osakab-hokkaidoys",
+   "gid": "sv38078",
    "date": "2027-01-02",
    "time": "17:05",
    "kind": "regular",
@@ -2280,10 +2322,12 @@
    "venue": "아스에 아레나 오사카",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38078/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38078"
   },
   {
-   "gid": "20270103-kagoshima-tokyogb",
+   "gid": "sv38083",
    "date": "2027-01-03",
    "time": "13:05",
    "kind": "regular",
@@ -2293,10 +2337,12 @@
    "venue": "F아레나 이치키쿠시키노",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38083/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38083"
   },
   {
-   "gid": "20270103-sakai-voreas",
+   "gid": "sv38081",
    "date": "2027-01-03",
    "time": "13:05",
    "kind": "regular",
@@ -2306,10 +2352,12 @@
    "venue": "닛폰제철 사카이 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38081/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38081"
   },
   {
-   "gid": "20270103-toray-suntory",
+   "gid": "sv38077",
    "date": "2027-01-03",
    "time": "14:05",
    "kind": "regular",
@@ -2319,10 +2367,12 @@
    "venue": "기타사토 아레나 후지",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38077/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38077"
   },
   {
-   "gid": "20270103-wdnagoya-matsumoto",
+   "gid": "sv38084",
    "date": "2027-01-03",
    "time": "14:35",
    "kind": "regular",
@@ -2332,10 +2382,12 @@
    "venue": "엔트리오",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38084/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38084"
   },
   {
-   "gid": "20270103-osakab-hokkaidoys",
+   "gid": "sv38079",
    "date": "2027-01-03",
    "time": "17:05",
    "kind": "regular",
@@ -2345,10 +2397,12 @@
    "venue": "아스에 아레나 오사카",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38079/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38079"
   },
   {
-   "gid": "20270104-wdnagoya-matsumoto",
+   "gid": "sv38085",
    "date": "2027-01-04",
    "time": "13:35",
    "kind": "regular",
@@ -2358,10 +2412,12 @@
    "venue": "엔트리오",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38085/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38085"
   },
   {
-   "gid": "20270106-hiroshima-stings",
+   "gid": "sv38086",
    "date": "2027-01-06",
    "time": "18:35",
    "kind": "regular",
@@ -2371,10 +2427,12 @@
    "venue": "히로시마 선플라자 홀",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38086/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38086"
   },
   {
-   "gid": "20270107-hiroshima-stings",
+   "gid": "sv38087",
    "date": "2027-01-07",
    "time": "18:35",
    "kind": "regular",
@@ -2384,10 +2442,12 @@
    "venue": "히로시마 선플라자 홀",
    "state": "scheduled",
    "status": "",
-   "round": 10
+   "round": 10,
+   "url": "https://www.svleague.jp/match/detail/38087/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38087"
   },
   {
-   "gid": "20270116-voreas-toray",
+   "gid": "sv38088",
    "date": "2027-01-16",
    "time": "13:05",
    "kind": "regular",
@@ -2397,10 +2457,12 @@
    "venue": "릭&수 아사히카와 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38088/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38088"
   },
   {
-   "gid": "20270116-suntory-osakab",
+   "gid": "sv38096",
    "date": "2027-01-16",
    "time": "13:05",
    "kind": "regular",
@@ -2410,10 +2472,12 @@
    "venue": "아스에 아레나 오사카",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38096/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38096"
   },
   {
-   "gid": "20270116-tokyogb-hiroshima",
+   "gid": "sv38092",
    "date": "2027-01-16",
    "time": "14:05",
    "kind": "regular",
@@ -2423,10 +2487,12 @@
    "venue": "아리아케 콜로세움",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38092/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38092"
   },
   {
-   "gid": "20270116-matsumoto-stings",
+   "gid": "sv38094",
    "date": "2027-01-16",
    "time": "14:05",
    "kind": "regular",
@@ -2436,10 +2502,12 @@
    "venue": "에어워터 아레나 마쓰모토",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38094/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38094"
   },
   {
-   "gid": "20270116-hokkaidoys-kagoshima",
+   "gid": "sv38090",
    "date": "2027-01-16",
    "time": "14:05",
    "kind": "regular",
@@ -2449,10 +2517,12 @@
    "venue": "기타가스 아레나 삿포로46",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38090/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38090"
   },
   {
-   "gid": "20270116-sakai-wdnagoya",
+   "gid": "sv38098",
    "date": "2027-01-16",
    "time": "15:05",
    "kind": "regular",
@@ -2462,10 +2532,12 @@
    "venue": "기타큐슈 종합체육관",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38098/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38098"
   },
   {
-   "gid": "20270117-matsumoto-stings",
+   "gid": "sv38095",
    "date": "2027-01-17",
    "time": "13:05",
    "kind": "regular",
@@ -2475,10 +2547,12 @@
    "venue": "에어워터 아레나 마쓰모토",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38095/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38095"
   },
   {
-   "gid": "20270117-voreas-toray",
+   "gid": "sv38089",
    "date": "2027-01-17",
    "time": "13:05",
    "kind": "regular",
@@ -2488,10 +2562,12 @@
    "venue": "릭&수 아사히카와 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38089/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38089"
   },
   {
-   "gid": "20270117-sakai-wdnagoya",
+   "gid": "sv38099",
    "date": "2027-01-17",
    "time": "13:05",
    "kind": "regular",
@@ -2501,10 +2577,12 @@
    "venue": "기타큐슈 종합체육관",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38099/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38099"
   },
   {
-   "gid": "20270117-suntory-osakab",
+   "gid": "sv38097",
    "date": "2027-01-17",
    "time": "13:05",
    "kind": "regular",
@@ -2514,10 +2592,12 @@
    "venue": "아스에 아레나 오사카",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38097/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38097"
   },
   {
-   "gid": "20270117-hokkaidoys-kagoshima",
+   "gid": "sv38091",
    "date": "2027-01-17",
    "time": "13:05",
    "kind": "regular",
@@ -2527,10 +2607,12 @@
    "venue": "기타가스 아레나 삿포로46",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38091/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38091"
   },
   {
-   "gid": "20270117-tokyogb-hiroshima",
+   "gid": "sv38093",
    "date": "2027-01-17",
    "time": "14:05",
    "kind": "regular",
@@ -2540,10 +2622,12 @@
    "venue": "아리아케 콜로세움",
    "state": "scheduled",
    "status": "",
-   "round": 11
+   "round": 11,
+   "url": "https://www.svleague.jp/match/detail/38093/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38093"
   },
   {
-   "gid": "20270123-suntory-matsumoto",
+   "gid": "sv38108",
    "date": "2027-01-23",
    "time": "13:05",
    "kind": "regular",
@@ -2553,10 +2637,12 @@
    "venue": "아스에 아레나 오사카",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38108/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38108"
   },
   {
-   "gid": "20270123-tokyogb-sakai",
+   "gid": "sv38102",
    "date": "2027-01-23",
    "time": "14:05",
    "kind": "regular",
@@ -2566,10 +2652,12 @@
    "venue": "요요기 제2체육관",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38102/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38102"
   },
   {
-   "gid": "20270123-stings-kagoshima",
+   "gid": "sv38104",
    "date": "2027-01-23",
    "time": "14:05",
    "kind": "regular",
@@ -2579,10 +2667,12 @@
    "venue": "오카자키 중앙공원 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38104/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38104"
   },
   {
-   "gid": "20270123-hokkaidoys-wdnagoya",
+   "gid": "sv38100",
    "date": "2027-01-23",
    "time": "14:05",
    "kind": "regular",
@@ -2592,10 +2682,12 @@
    "venue": "기타가스 아레나 삿포로46",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38100/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38100"
   },
   {
-   "gid": "20270123-hiroshima-toray",
+   "gid": "sv38110",
    "date": "2027-01-23",
    "time": "14:05",
    "kind": "regular",
@@ -2605,12 +2697,14 @@
    "venue": "히로시마 선플라자 홀",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38110/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38110"
   },
   {
-   "gid": "20270123-osakab-voreas",
+   "gid": "sv38106",
    "date": "2027-01-23",
-   "time": "",
+   "time": "18:05",
    "kind": "regular",
    "series": "",
    "home": "오사카B",
@@ -2618,10 +2712,12 @@
    "venue": "후아막 인도어 스타디움 (방콕)",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38106/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38106"
   },
   {
-   "gid": "20270124-suntory-matsumoto",
+   "gid": "sv38109",
    "date": "2027-01-24",
    "time": "13:05",
    "kind": "regular",
@@ -2631,10 +2727,12 @@
    "venue": "아스에 아레나 오사카",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38109/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38109"
   },
   {
-   "gid": "20270124-hokkaidoys-wdnagoya",
+   "gid": "sv38101",
    "date": "2027-01-24",
    "time": "13:05",
    "kind": "regular",
@@ -2644,10 +2742,12 @@
    "venue": "기타가스 아레나 삿포로46",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38101/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38101"
   },
   {
-   "gid": "20270124-tokyogb-sakai",
+   "gid": "sv38103",
    "date": "2027-01-24",
    "time": "14:05",
    "kind": "regular",
@@ -2657,10 +2757,12 @@
    "venue": "요요기 제2체육관",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38103/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38103"
   },
   {
-   "gid": "20270124-stings-kagoshima",
+   "gid": "sv38105",
    "date": "2027-01-24",
    "time": "14:05",
    "kind": "regular",
@@ -2670,10 +2772,12 @@
    "venue": "오카자키 중앙공원 체육관",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38105/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38105"
   },
   {
-   "gid": "20270124-hiroshima-toray",
+   "gid": "sv38111",
    "date": "2027-01-24",
    "time": "14:05",
    "kind": "regular",
@@ -2683,12 +2787,14 @@
    "venue": "히로시마 선플라자 홀",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38111/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38111"
   },
   {
-   "gid": "20270124-osakab-voreas",
+   "gid": "sv38107",
    "date": "2027-01-24",
-   "time": "",
+   "time": "18:05",
    "kind": "regular",
    "series": "",
    "home": "오사카B",
@@ -2696,7 +2802,9 @@
    "venue": "후아막 인도어 스타디움 (방콕)",
    "state": "scheduled",
    "status": "",
-   "round": 12
+   "round": 12,
+   "url": "https://www.svleague.jp/match/detail/38107/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38107"
   },
   {
    "gid": "20270206-toray-kagoshima",

@@ -10,7 +10,8 @@
    "teams": [
     "오사카B",
     "도레이"
-   ]
+   ],
+   "title_kr": "부르테온 vs 도레이 시즈오카는 2연승! 다음 싸움은 드디어 히라카타에서"
   },
   {
    "title": "東京GBが2月開催の沖縄と北海道へのアウェイ応援ツアーを開催！",
@@ -21,25 +22,8 @@
    "ts": 1794376256.0,
    "teams": [
     "도쿄GB"
-   ]
-  },
-  {
-   "title": "Hayasaka Sonosuke(FUJITSU KAWASAKI RED SPIRITS)｜SV.LEAGUE Official Website",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ia0NmRGJnbXVRcm0xSDhEVC1POVFyX05JSXVNQjZhM3BHVjl0czZNdTNrSTFBYWdNeEhoQlczellTalRkTl9iTlZsZlBlc1B1UEpPSWNNLXJ1QlZmbXc?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 13:20",
-   "ts": 1794370817.0,
-   "teams": []
-  },
-  {
-   "title": "Yamada Koki(VOREAS HOKKAIDO)｜SV.LEAGUE Official Website",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DblRmTGJXdmlGcDBDb2RBZWpEV0o2aUZwUkNDbF9ta0JkcG1wOUFyZm1ZeGIzaWF1Tkppb3hhYzBnS05RSWVWeC1LX3pvdkMtZHQ4NllCTzJxRy1RM0E?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 06:41",
-   "ts": 1794346878.0,
-   "teams": []
+   ],
+   "title_kr": "도쿄 GB가 2월 개최의 오키나와와 홋카이도에의 어웨이 응원 투어를 개최!"
   },
   {
    "title": "ジェイテクトSTINGS愛知 vs. 北海道イエロースターズ(11/28) 男子 第6節【大同生命SVリーグ 2026-27】",
@@ -51,19 +35,8 @@
    "teams": [
     "스팅스아이치",
     "홋카이도YS"
-   ]
-  },
-  {
-   "title": "【2026/05/10 ハイライト】2025-26 大同生命SV.LEAGUE MEN CHAMPIONSHIP SemiFinals GAME2 サントリーvsWD名古屋 Amal Clooney (6JXrfQSx5p)",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hekV5U3VSX05jUjlJOW56bUdOVVJYMkpIek5FWWpCUzJDSlU3Z2ZpdUlhc0x5emJocTdYOG9yV1JiXzQ5WFVFWTRES01HLTF2WXBIMnNwX3FBWGtYNnFjWnlIbE5Za3ZQSFIyOQ?oc=5",
-   "source": "Unisba Media",
-   "lang": "ja",
-   "time": "11/10 20:19",
-   "ts": 1794309548.0,
-   "teams": [
-    "산토리",
-    "WD나고야"
-   ]
+   ],
+   "title_kr": "제이텍트 STINGS 아이치 vs. 홋카이도 옐로 스타즈(11/28) 남자 제6절【다이도 생명 SV리그 2026-27】"
   },
   {
    "title": "SVリーグのU15チャンピオンシップ決勝大会の組み合わせが決定！",
@@ -72,7 +45,8 @@
    "lang": "ja",
    "time": "11/10 17:40",
    "ts": 1794300000.0,
-   "teams": []
+   "teams": [],
+   "title_kr": "SV리그 U15 챔피언십 결승 대회 조합이 결정!"
   },
   {
    "title": "1/2、1/3 北海道イエロースターズ戦のチケット販売状況についてのお知らせ",
@@ -83,7 +57,8 @@
    "ts": 1794294281.0,
    "teams": [
     "홋카이도YS"
-   ]
+   ],
+   "title_kr": "1/2, 1/3 홋카이도 옐로 스타즈 전의 티켓 판매 상황에 관한 알림"
   },
   {
    "title": "(2026/11/10) ～大同生命SVリーグ情報番組～【まるっとバレーボール】",
@@ -92,7 +67,8 @@
    "lang": "ja",
    "time": "11/10 15:28",
    "ts": 1794292125.0,
-   "teams": []
+   "teams": [],
+   "title_kr": "(2026/11/10) ～대동 생명 SV리그 정보 프로그램～【마루토 배구】"
   },
   {
    "title": "＜バレーボール・SVリーグ男子＞一ノ瀬漣（熊本・鎮西高校3年、佐賀市立大和中出身） サントリーに入団",
@@ -103,7 +79,8 @@
    "ts": 1794289800.0,
    "teams": [
     "산토리"
-   ]
+   ],
+   "title_kr": "<배구·SV리그 남자> 이치노세 히로(구마모토·진니시 고등학교 3년, 사가 시립 야마토 나카 출신) 산토리에 입단"
   },
   {
    "title": "バレーボール2026-2027 大同生命 SVリーグ・男子ウルフドッグス名古屋×日本製鉄堺ブレイザーズ",
@@ -115,7 +92,8 @@
    "teams": [
     "WD나고야",
     "사카이"
-   ]
+   ],
+   "title_kr": "배구 2026-2027 다이도 생명 SV 리그 · 남자 늑대 독스 나고야 × 일본 제철 사카이 블레이저스"
   },
   {
    "title": "大阪ブルテオンがBリーグの神戸ストークスと同日開催！ 競技の垣根を越えたマスコットの登場も",
@@ -126,7 +104,8 @@
    "ts": 1794283828.0,
    "teams": [
     "오사카B"
-   ]
+   ],
+   "title_kr": "오사카 부르테온이 B리그의 고베 스토크스와 같은 날 개최! 경기의 울타리를 넘은 마스코트의 등장도"
   },
   {
    "title": "広島サンダーズが「ALL GREEN DAYキャンペーン」を開催！ 各日限定のプレゼントも（バレーボールキング）",
@@ -137,7 +116,8 @@
    "ts": 1794282604.0,
    "teams": [
     "히로시마"
-   ]
+   ],
+   "title_kr": "히로시마 썬더즈가 「ALL GREEN DAY 캠페인」을 개최! 각일 한정의 선물도(배구 킹)"
   },
   {
    "title": "大阪Ｂが大阪府と児童虐待防止の啓発活動！ デジタルサイネージにて広報啓発画像を掲出",
@@ -148,16 +128,8 @@
    "ts": 1794280011.0,
    "teams": [
     "오사카B"
-   ]
-  },
-  {
-   "title": "バレーボールSVリーグ・グロース男子 レーヴィス開幕4連敗",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLeXczd2lNYy1MZEgza1N5MkRDSW9LT0VuREVMRGdsYzdVN1k2eGVacDNZMF9YUVdDTG9nb1A4UkJvN0pCS1FwYVhTUzRxR3djU2VMbFNrTkxTRlU?oc=5",
-   "source": "下野新聞社",
-   "lang": "ja",
-   "time": "11/10 11:30",
-   "ts": 1794277800.0,
-   "teams": []
+   ],
+   "title_kr": "오사카 B가 오사카부와 아동 학대 방지의 계발 활동! 디지털 사이 니지에서 홍보 계발 이미지를 게시"
   },
   {
    "title": "【バレー】男子高校生で唯一のＳＶリーガー誕生 鎮西高３年の一ノ瀬漣がサントリーに入団「トップの環境で吸収」 次世代エースが“西田道”を歩む（スポーツ報知）",
@@ -168,18 +140,8 @@
    "ts": 1794276655.0,
    "teams": [
     "산토리"
-   ]
-  },
-  {
-   "title": "12/5（土）大阪ブルテオン・神戸ストークス同日開催試合にモフレム・ハーチモ・ガンバ大阪チアダンスチームが参加",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UOGNNc05GZ1hpemUtbncyRUZBamNlWFVEU1VveWEyVDBpRnM0bDZmZGhqdUJtbXhPdG1kV3lNbEF1TzVRM1lJOGdoaUp5a1pQOWJqMlUtcDR3MURl?oc=5",
-   "source": "ガンバ大阪オフィシャルサイト",
-   "lang": "ja",
-   "time": "11/10 10:07",
-   "ts": 1794272875.0,
-   "teams": [
-    "오사카B"
-   ]
+   ],
+   "title_kr": "【밸리】남자 고교생으로 유일한 SV리거 탄생 진서고 3년의 이치노세 히로시가 산토리에 입단 “톱의 환경에서 흡수” 차세대 에이스가 “니시다도”를 걷는다(스포츠 통지)"
   },
   {
    "title": "バレーSVリーグ男子のサントリー、18歳の「現役高校生」が入団 (2026年11月10日掲載)",
@@ -190,7 +152,8 @@
    "ts": 1794261600.0,
    "teams": [
     "산토리"
-   ]
+   ],
+   "title_kr": "밸리 SV리그 남자의 산토리, 18세의 「현역 고교생」이 입단 (2026년 11월 10일 게재)"
   },
   {
    "title": "一ノ瀬漣、春高までは鎮西高でのプレーに集中 大会終了後はSVリーグのコートに立つ可能性も／バレー（サンケイスポーツ）",
@@ -199,7 +162,8 @@
    "lang": "ja",
    "time": "11/10 06:00",
    "ts": 1794258000.0,
-   "teams": []
+   "teams": [],
+   "title_kr": "이치노세, 하루카까지는 진서고에서의 플레이에 집중 대회 종료 후는 SV리그의 코트에 설 가능성도"
   },
   {
    "title": "ＳＶリーグのサントリーに現役高校生入団、鎮西高・一ノ瀬漣「トップの環境の中で一日一日を大切に」",
@@ -210,16 +174,8 @@
    "ts": 1794254400.0,
    "teams": [
     "산토리"
-   ]
-  },
-  {
-   "title": "'2경기 연속 두 자릿수 득점' 이다현, 일본 배구서 연일 맹활약",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nazMxSW54Q2dXR2hpYTY4VTZxNy00anRfWkpxcGJfY1VTLVczQUczcFkyQVZLTklxc1RyeE53MTUtN0pIenVUb0JnTW9UM0NYTEFhRWktdG95VTlq?oc=5",
-   "source": "뉴스핌",
-   "lang": "ko",
-   "time": "11/09 20:54",
-   "ts": 1794225240.0,
-   "teams": []
+   ],
+   "title_kr": "SV리그의 산토리에 현역 고교생 입단, 진사이 타카·이치노세 ‘최고의 환경 속에서 하루하루를 소중히’"
   }
  ]
 }
