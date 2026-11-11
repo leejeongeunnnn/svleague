@@ -1,84 +1,6 @@
 {
  "items": [
   {
-   "title": "V四日市 vs Ｔ碧南｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MmhoZUNOVTFETkNrMVItcEp3aV92dmhzYlIzUXlNeUIyM1RMUmdqS1gtZHhQUW5LUVdPbEZaSl9ydFRDMjlPaHZTbEJ3ZE90eUx5R2QydnJTcnpXT0t3R21n?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 21:44",
-   "ts": 1794401094.0,
-   "teams": []
-  },
-  {
-   "title": "WD名古屋 vs 日鉄堺BZ｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kRFpfek9Gc0stNDFDUldEdGd6QUxjZlFDY2dBbERuVnpSanpwT1pOTjNQWXJUZmdqd1E4U19pZ3p2dzRuM3o0QjU2UFBld2pqcUVQanhhZ3FaUkFzUUNhLWdB?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 20:17",
-   "ts": 1794395833.0,
-   "teams": [
-    "WD나고야",
-    "사카이"
-   ]
-  },
-  {
-   "title": "富士通 vs 千葉ドット｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOUU9EeGd6TGl1TEhlMHFLcjVqenRwREh2TEJlVEd2VGs3eXpqTXZwNVcyal9NbXMwbVJlWGVxQTZuYmZoamEwTU1BTjdobzgxaER6R2EwTDNFWDNWaVIwcFlB?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 19:59",
-   "ts": 1794394788.0,
-   "teams": []
-  },
-  {
-   "title": "東京GB vs 松本TD｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OZ1M1aEprakpCYnlISUVGMGJuSTlYMGZMcDZSUGtpdjVDdk53eXJKby1xT25rYUZhOVlnT2ExRjU5UFVJYld6eFJZN09fbnF1WE9EdTdTeU1EaE1yVVBneUFn?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 19:54",
-   "ts": 1794394445.0,
-   "teams": [
-    "도쿄GB",
-    "마쓰모토"
-   ]
-  },
-  {
-   "title": "東レ静岡 vs ヴォレアス｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fSE5OY0tFNkpLbVlJVmpvWFJGd21KLTQ2c1BOQlpGUERPUGoydlBKTnZGOVI4SWIyRkJmN2ZYTkpRSENjcmpJRG5NdEpDMUZ0WG9UeXc0N2JHSS1uTjJrNmF3?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 19:22",
-   "ts": 1794392571.0,
-   "teams": [
-    "도레이",
-    "보레아스"
-   ]
-  },
-  {
-   "title": "大阪Ｂ vs 松本TD｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mSjdJWlowQnhWUWlQQzB4cDBETlAzOUs4SlFmT0xNQXBhWGFGbjVkUlJVTERubVR3bEVUalRybTJxUm91YWh1T3dPWElRREE4V0ZGUEpHVnFOWkRfOWJONDl3?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 17:35",
-   "ts": 1794386133.0,
-   "teams": [
-    "오사카B",
-    "마쓰모토"
-   ]
-  },
-  {
-   "title": "北海道YS vs 広島TH｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zVm45RUJxSUYyNUx2djN5cGFEVVBKTThfZkxGd2ZJYzVKajlQeWZLelRCOGl6SFViVG8zeDBUVW1ZQmVRWUxZMkhnSWRQbWdmRmJ6SEloQ0RLUUVYQnNfYnp3?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 17:33",
-   "ts": 1794386009.0,
-   "teams": [
-    "홋카이도YS",
-    "히로시마"
-   ]
-  },
-  {
    "title": "ブルテオンvs東レ静岡は2連勝！次戦はいよいよ枚方で",
    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43QkVQdmg3WlY3SWlrN1l2UmUzYzZES0RHZERvc2lVeHpoNEFmYjJlZlhEcl9ORjZhVmdoVlRBNmxrS2xzQVBUN0k3bWlDRHJxQlZleG1hM0M5dW8?oc=5",
    "source": "枚方つーしん",
@@ -109,51 +31,6 @@
    "time": "11/11 13:20",
    "ts": 1794370817.0,
    "teams": []
-  },
-  {
-   "title": "岐阜 vs カノア｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBRWGc4R2dWNzJ5Z0Y0bE50YW02N1dDRnQ3XzFKUUZ2WUctUEhiZkY2MHQ0T3RhVVhWVTRSaGk0dHIwQUhJbEZHb1hybXZwS090aUlaWU9Yd0Z3WVJPSWZ5ak1B?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 12:50",
-   "ts": 1794369056.0,
-   "teams": []
-  },
-  {
-   "title": "日鉄堺BZ vs 東レ静岡｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBocmJaYXdhZWQxSHBPR1pMWHZIZmxfS3c0b0MzU3U4cXZhSXZ0UHBsdW93REgzWFdabjlPQVJ6ZVBBakgwMXFpdkVOaHhMN2ZRT045Z0RKZ2Ffd00yTGlXa3NR?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 10:44",
-   "ts": 1794361447.0,
-   "teams": [
-    "사카이",
-    "도레이"
-   ]
-  },
-  {
-   "title": "F鹿児島 vs WD名古屋｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpcy1saThYcUZWamJ2RHpzVEZ4OXE2ck1VMEVXZmdKN2lLR0JnMDNNNXZPazV0eDBMRzRESzZ1N2pyOGdUNF9SOTZzU0p2cDNEMmNqMnozY09SZ2UtMVpiaGhn?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 09:43",
-   "ts": 1794357831.0,
-   "teams": [
-    "가고시마",
-    "WD나고야"
-   ]
-  },
-  {
-   "title": "STINGS愛知 vs 東京GB｜SV.LEAGUE 公式サイト",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTVmdhaEIxdzZpYUtPZTlIVUpTdWYtOUNZTkdiWExsT01kZUUwdGZyVk1Ma1I0MkFFYV8wQkp5YXpKT2g0dWpneXZVMlp4Vnd4RURzTzBCaldqSVVycHp5aWdR?oc=5",
-   "source": "svleague.jp",
-   "lang": "ja",
-   "time": "11/11 09:43",
-   "ts": 1794357782.0,
-   "teams": [
-    "스팅스아이치",
-    "도쿄GB"
-   ]
   },
   {
    "title": "Yamada Koki(VOREAS HOKKAIDO)｜SV.LEAGUE Official Website",

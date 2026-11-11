@@ -474,7 +474,7 @@ def detect_teams(text):
 
 
 LEAGUE = re.compile(r"SVリーグ|SV\.LEAGUE|SV男子|SVリーグ男子|SV리그|일본\s*배구|일본\s*프로배구", re.I)
-NOISE = re.compile(r"チケット転売|占い|ハイキュー|춘계|고교")
+NOISE = re.compile(r"チケット転売|占い|ハイキュー|춘계|고교|\bvs\.?\s.*公式サイト|試合詳細")  # 공식 사이트의 경기 페이지는 기사가 아님
 WOMEN = re.compile(r"女子|WOMEN|SV女子|여자부|여자배구|NEC川崎|久光|マーヴェラス|デンソー|PFU|埼玉上尾|ヴィクトリーナ|岡山シーガルズ|"
                    r"クインシーズ|アランマーレ|KUROBE|群馬グリーンウイングス|東レ滋賀|Astemo|アルテミス北海道|アリーザ")
 
