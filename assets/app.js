@@ -530,7 +530,7 @@ function renderTeams() {
   const ev = DATA.events || {};
   p.innerHTML = `<h2 class="section-title">📣 팀 소개 (${ts.length}개 구단)</h2>
     <div class="card"><b>${esc(ev.title || "")}</b><div class="hint" style="margin:6px 0 0;line-height:1.7">${esc((ev.regular || {}).format || "")}<br>${esc(ev.new_rules || "")}</div></div>
-    <p class="hint">2026년 11월 기준. 지난 시즌 성적순 (신규 참가 팀은 뒤). 감독이 '-'인 팀은 확인하지 못한 팀이에요.</p>
+    <p class="hint">2026년 11월 기준. 지난 시즌 성적순 (신규 참가 팀은 뒤).</p>
     <div class="team-grid">${ts.map(teamCard).join("")}</div>`;
 }
 
