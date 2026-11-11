@@ -1,0 +1,18 @@
+{
+ "updated_at": "2026-11-11",
+ "source": "티켓V (ticket-v.jp, SV리그 공식 예매 사이트) 구단별 페이지",
+ "teams": {
+  "오사카B": {"url": "https://ticket-v.jp/teams/?id=256", "homepage": "https://www.osaka-bluteon.com/"},
+  "산토리": {"url": "https://ticket-v.jp/teams/?id=252", "homepage": "http://www.suntory.co.jp/culture-sports/sunbirds/"},
+  "스팅스아이치": {"url": "https://ticket-v.jp/teams/?id=268", "homepage": "https://www.jtekt-stings.jp/"},
+  "WD나고야": {"url": "https://ticket-v.jp/teams/?id=258", "homepage": "https://www.wolfdogs.jp/"},
+  "히로시마": {"url": "https://ticket-v.jp/teams/?id=255", "homepage": "https://www.hiroshima-thunders.com/"},
+  "도쿄GB": {"url": "https://ticket-v.jp/teams/?id=495", "homepage": "https://tokyo-greatbears.com/"},
+  "사카이": {"url": "https://ticket-v.jp/teams/?id=251", "homepage": "https://www.blazers.gr.jp/web/"},
+  "도레이": {"url": "https://ticket-v.jp/teams/?id=257", "homepage": "https://www.toray-arrows.jp/men/index.html"},
+  "보레아스": {"url": "https://ticket-v.jp/teams/?id=479", "homepage": "https://voreas.co.jp/"},
+  "마쓰모토": {"url": "https://ticket-v.jp/teams/?id=461", "homepage": "https://sm-tridents.jp/"},
+  "홋카이도YS": {"url": "https://ticket-v.jp/teams/?id=483", "homepage": "https://hy-stars.jp/"},
+  "가고시마": {"url": "https://ticket-v.jp/teams/?id=499", "homepage": "https://fragoladkagoshima.jp/"}
+ }
+}

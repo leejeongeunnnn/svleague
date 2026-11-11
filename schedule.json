@@ -1,0 +1,4163 @@
+{
+ "source": "스포츠나비(Yahoo! JAPAN) · 2026-11-11 수동 정리",
+ "_seed": true,
+ "games": [
+  {
+   "gid": "sv37992",
+   "date": "2026-10-17",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "홋카이도YS",
+   "venue": "아리아케 콜로세움",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "url": "https://www.svleague.jp/match/detail/37992/",
+   "sets": [
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     22
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     15,
+     8
+    ]
+   ],
+   "sh": 3,
+   "sa": 2
+  },
+  {
+   "gid": "20261018-tokyogb-hokkaidoys",
+   "date": "2026-10-18",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "홋카이도YS",
+   "venue": "아리아케 콜로세움",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     21
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
+  },
+  {
+   "gid": "20261024-suntory-voreas",
+   "date": "2026-10-24",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "보레아스",
+   "venue": "아스에 아레나 오사카",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     25,
+     23
+    ],
+    [
+     17,
+     25
+    ],
+    [
+     26,
+     24
+    ],
+    [
+     25,
+     23
+    ]
+   ],
+   "sh": 3,
+   "sa": 1
+  },
+  {
+   "gid": "20261024-stings-toray",
+   "date": "2026-10-24",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "도레이",
+   "venue": "제이텍트 아레나 나라",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     27,
+     25
+    ]
+   ],
+   "sh": 3,
+   "sa": 1
+  },
+  {
+   "gid": "20261024-hokkaidoys-osakab",
+   "date": "2026-10-24",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "오사카B",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     21,
+     25
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     21,
+     25
+    ]
+   ],
+   "sh": 0,
+   "sa": 3
+  },
+  {
+   "gid": "20261024-sakai-kagoshima",
+   "date": "2026-10-24",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "가고시마",
+   "venue": "오하마 다이신 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     22
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
+  },
+  {
+   "gid": "20261024-wdnagoya-tokyogb",
+   "date": "2026-10-24",
+   "time": "16:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "도쿄GB",
+   "venue": "엔트리오",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     19
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
+  },
+  {
+   "gid": "20261024-matsumoto-hiroshima",
+   "date": "2026-10-24",
+   "time": "17:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "히로시마",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     24,
+     26
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     22
+    ],
+    [
+     15,
+     10
+    ]
+   ],
+   "sh": 3,
+   "sa": 2
+  },
+  {
+   "gid": "20261025-sakai-kagoshima",
+   "date": "2026-10-25",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "가고시마",
+   "venue": "오하마 다이신 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     25,
+     27
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     27
+    ],
+    [
+     18,
+     20
+    ]
+   ],
+   "sh": 2,
+   "sa": 3
+  },
+  {
+   "gid": "20261025-suntory-voreas",
+   "date": "2026-10-25",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "보레아스",
+   "venue": "아스에 아레나 오사카",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     19,
+     25
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     23,
+     25
+    ]
+   ],
+   "sh": 2,
+   "sa": 3
+  },
+  {
+   "gid": "20261025-hokkaidoys-osakab",
+   "date": "2026-10-25",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "오사카B",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     25,
+     20
+    ],
+    [
+     29,
+     31
+    ],
+    [
+     17,
+     25
+    ],
+    [
+     22,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261025-matsumoto-hiroshima",
+   "date": "2026-10-25",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "히로시마",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     21,
+     19
+    ]
+   ],
+   "sh": 3,
+   "sa": 2
+  },
+  {
+   "gid": "20261025-stings-toray",
+   "date": "2026-10-25",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "도레이",
+   "venue": "제이텍트 아레나 나라",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     14
+    ],
+    [
+     25,
+     18
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
+  },
+  {
+   "gid": "20261025-wdnagoya-tokyogb",
+   "date": "2026-10-25",
+   "time": "15:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "도쿄GB",
+   "venue": "엔트리오",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 1,
+   "sets": [
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     16
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
+  },
+  {
+   "gid": "20261031-osakab-wdnagoya",
+   "date": "2026-10-31",
+   "time": "12:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "WD나고야",
+   "venue": "아스에 아레나 오사카",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     8,
+     15
+    ]
+   ],
+   "sh": 2,
+   "sa": 3
+  },
+  {
+   "gid": "20261031-voreas-stings",
+   "date": "2026-10-31",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "스팅스아이치",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     23,
+     25
+    ],
+    [
+     25,
+     16
+    ],
+    [
+     24,
+     26
+    ],
+    [
+     12,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261031-suntory-sakai",
+   "date": "2026-10-31",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "사카이",
+   "venue": "오키니 아레나 마이시마",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     25,
+     27
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     23,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261031-kagoshima-hokkaidoys",
+   "date": "2026-10-31",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "홋카이도YS",
+   "venue": "유피테루 아레나 기리시마",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     22,
+     25
+    ],
+    [
+     14,
+     25
+    ],
+    [
+     19,
+     25
+    ]
+   ],
+   "sh": 0,
+   "sa": 3
+  },
+  {
+   "gid": "20261031-toray-matsumoto",
+   "date": "2026-10-31",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "마쓰모토",
+   "venue": "고노하나 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     19,
+     25
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     22
+    ]
+   ],
+   "sh": 3,
+   "sa": 1
+  },
+  {
+   "gid": "20261031-hiroshima-tokyogb",
+   "date": "2026-10-31",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "도쿄GB",
+   "venue": "히로시마 그린 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     24,
+     26
+    ],
+    [
+     27,
+     29
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     23,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261101-kagoshima-hokkaidoys",
+   "date": "2026-11-01",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "홋카이도YS",
+   "venue": "유피테루 아레나 기리시마",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     26,
+     28
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     20,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261101-voreas-stings",
+   "date": "2026-11-01",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "스팅스아이치",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     25,
+     20
+    ],
+    [
+     27,
+     29
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     21,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261101-suntory-sakai",
+   "date": "2026-11-01",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "사카이",
+   "venue": "오키니 아레나 마이시마",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     19,
+     25
+    ],
+    [
+     17,
+     25
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     23,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261101-hiroshima-tokyogb",
+   "date": "2026-11-01",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "도쿄GB",
+   "venue": "히로시마 그린 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     20,
+     25
+    ],
+    [
+     25,
+     13
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     26,
+     24
+    ],
+    [
+     15,
+     12
+    ]
+   ],
+   "sh": 3,
+   "sa": 2
+  },
+  {
+   "gid": "20261101-toray-matsumoto",
+   "date": "2026-11-01",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "마쓰모토",
+   "venue": "고노하나 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     25,
+     20
+    ],
+    [
+     17,
+     25
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     15,
+     10
+    ]
+   ],
+   "sh": 3,
+   "sa": 2
+  },
+  {
+   "gid": "20261101-osakab-wdnagoya",
+   "date": "2026-11-01",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "WD나고야",
+   "venue": "아스에 아레나 오사카",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 2,
+   "sets": [
+    [
+     20,
+     25
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     13
+    ],
+    [
+     25,
+     16
+    ]
+   ],
+   "sh": 3,
+   "sa": 1
+  },
+  {
+   "gid": "20261106-voreas-kagoshima",
+   "date": "2026-11-06",
+   "time": "18:35",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "가고시마",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     25,
+     23
+    ],
+    [
+     29,
+     27
+    ],
+    [
+     25,
+     18
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
+  },
+  {
+   "gid": "20261107-voreas-kagoshima",
+   "date": "2026-11-07",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "가고시마",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     20,
+     25
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     27,
+     25
+    ]
+   ],
+   "sh": 3,
+   "sa": 1
+  },
+  {
+   "gid": "20261107-toray-osakab",
+   "date": "2026-11-07",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "오사카B",
+   "venue": "고료 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     23,
+     25
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     19,
+     25
+    ]
+   ],
+   "sh": 0,
+   "sa": 3
+  },
+  {
+   "gid": "20261107-matsumoto-suntory",
+   "date": "2026-11-07",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "산토리",
+   "venue": "ANC 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     21,
+     25
+    ],
+    [
+     25,
+     15
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     25,
+     16
+    ],
+    [
+     10,
+     15
+    ]
+   ],
+   "sh": 2,
+   "sa": 3
+  },
+  {
+   "gid": "20261107-wdnagoya-stings",
+   "date": "2026-11-07",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "스팅스아이치",
+   "venue": "엔트리오",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     23
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
+  },
+  {
+   "gid": "20261107-sakai-hiroshima",
+   "date": "2026-11-07",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "히로시마",
+   "venue": "닛폰제철 사카이 체육관",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     14,
+     25
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     20,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261108-sakai-hiroshima",
+   "date": "2026-11-08",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "히로시마",
+   "venue": "닛폰제철 사카이 체육관",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     22,
+     25
+    ],
+    [
+     26,
+     28
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     23,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261108-wdnagoya-stings",
+   "date": "2026-11-08",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "스팅스아이치",
+   "venue": "엔트리오",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     26,
+     24
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     26,
+     24
+    ],
+    [
+     27,
+     25
+    ]
+   ],
+   "sh": 3,
+   "sa": 1
+  },
+  {
+   "gid": "20261108-toray-osakab",
+   "date": "2026-11-08",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "오사카B",
+   "venue": "고료 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     22,
+     25
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     21,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "20261108-matsumoto-suntory",
+   "date": "2026-11-08",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "산토리",
+   "venue": "ANC 아레나",
+   "state": "final",
+   "status": "경기 종료",
+   "round": 3,
+   "sets": [
+    [
+     19,
+     25
+    ],
+    [
+     27,
+     25
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     18,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
+  },
+  {
+   "gid": "sv38010",
+   "date": "2026-11-14",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "사카이",
+   "venue": "해피니스 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 4,
+   "url": "https://www.svleague.jp/match/detail/38010/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38010"
+  },
+  {
+   "gid": "sv38014",
+   "date": "2026-11-14",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "스팅스아이치",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 4,
+   "url": "https://www.svleague.jp/match/detail/38014/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38014"
+  },
+  {
+   "gid": "sv38008",
+   "date": "2026-11-14",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "보레아스",
+   "venue": "고노하나 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 4,
+   "url": "https://www.svleague.jp/match/detail/38008/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38008"
+  },
+  {
+   "gid": "sv38006",
+   "date": "2026-11-14",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "마쓰모토",
+   "venue": "요요기 제2체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 4,
+   "url": "https://www.svleague.jp/match/detail/38006/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38006"
+  },
+  {
+   "gid": "sv38012",
+   "date": "2026-11-14",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "가고시마",
+   "venue": "파나소닉 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 4,
+   "url": "https://www.svleague.jp/match/detail/38012/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38012"
+  },
+  {
+   "gid": "sv38004",
+   "date": "2026-11-14",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "히로시마",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 4,
+   "url": "https://www.svleague.jp/match/detail/38004/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38004"
+  },
+  {
+   "gid": "20261115-wdnagoya-sakai",
+   "date": "2026-11-15",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "사카이",
+   "venue": "해피니스 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 4
+  },
+  {
+   "gid": "20261115-suntory-stings",
+   "date": "2026-11-15",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "스팅스아이치",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 4
+  },
+  {
+   "gid": "20261115-hokkaidoys-hiroshima",
+   "date": "2026-11-15",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "히로시마",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 4
+  },
+  {
+   "gid": "20261115-toray-voreas",
+   "date": "2026-11-15",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "보레아스",
+   "venue": "고노하나 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 4
+  },
+  {
+   "gid": "20261115-tokyogb-matsumoto",
+   "date": "2026-11-15",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "마쓰모토",
+   "venue": "요요기 제2체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 4
+  },
+  {
+   "gid": "20261115-osakab-kagoshima",
+   "date": "2026-11-15",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "가고시마",
+   "venue": "파나소닉 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 4
+  },
+  {
+   "gid": "20261120-kagoshima-wdnagoya",
+   "date": "2026-11-20",
+   "time": "18:35",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "WD나고야",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261121-stings-tokyogb",
+   "date": "2026-11-21",
+   "time": "12:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "도쿄GB",
+   "venue": "CNA 아레나 아키타",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261121-osakab-matsumoto",
+   "date": "2026-11-21",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "마쓰모토",
+   "venue": "파나소닉 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261121-hokkaidoys-suntory",
+   "date": "2026-11-21",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "산토리",
+   "venue": "홋카이 키타에루",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261121-hiroshima-voreas",
+   "date": "2026-11-21",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "보레아스",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261121-kagoshima-wdnagoya",
+   "date": "2026-11-21",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "WD나고야",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261121-sakai-toray",
+   "date": "2026-11-21",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "도레이",
+   "venue": "닛폰제철 사카이 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261122-stings-tokyogb",
+   "date": "2026-11-22",
+   "time": "12:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "도쿄GB",
+   "venue": "CNA 아레나 아키타",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261122-sakai-toray",
+   "date": "2026-11-22",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "도레이",
+   "venue": "닛폰제철 사카이 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261122-hokkaidoys-suntory",
+   "date": "2026-11-22",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "산토리",
+   "venue": "홋카이 키타에루",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261122-osakab-matsumoto",
+   "date": "2026-11-22",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "마쓰모토",
+   "venue": "파나소닉 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261122-hiroshima-voreas",
+   "date": "2026-11-22",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "보레아스",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 5
+  },
+  {
+   "gid": "20261126-sakai-tokyogb",
+   "date": "2026-11-26",
+   "time": "18:35",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "도쿄GB",
+   "venue": "와카야마 빅웨일",
+   "state": "scheduled",
+   "status": ""
+  },
+  {
+   "gid": "20261127-sakai-tokyogb",
+   "date": "2026-11-27",
+   "time": "18:35",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "도쿄GB",
+   "venue": "와카야마 빅웨일",
+   "state": "scheduled",
+   "status": ""
+  },
+  {
+   "gid": "20261128-voreas-osakab",
+   "date": "2026-11-28",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "오사카B",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261128-suntory-wdnagoya",
+   "date": "2026-11-28",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "WD나고야",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261128-toray-hiroshima",
+   "date": "2026-11-28",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "히로시마",
+   "venue": "기타사토 아레나 후지",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261128-matsumoto-kagoshima",
+   "date": "2026-11-28",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "가고시마",
+   "venue": "ANC 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261128-stings-hokkaidoys",
+   "date": "2026-11-28",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "홋카이도YS",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261129-matsumoto-kagoshima",
+   "date": "2026-11-29",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "가고시마",
+   "venue": "ANC 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261129-voreas-osakab",
+   "date": "2026-11-29",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "오사카B",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261129-suntory-wdnagoya",
+   "date": "2026-11-29",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "WD나고야",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261129-toray-hiroshima",
+   "date": "2026-11-29",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "히로시마",
+   "venue": "기타사토 아레나 후지",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261129-stings-hokkaidoys",
+   "date": "2026-11-29",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "홋카이도YS",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 6
+  },
+  {
+   "gid": "20261205-kagoshima-sakai",
+   "date": "2026-12-05",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "사카이",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261205-tokyogb-voreas",
+   "date": "2026-12-05",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "보레아스",
+   "venue": "요요기 제1체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261205-hokkaidoys-matsumoto",
+   "date": "2026-12-05",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "마쓰모토",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261205-hiroshima-suntory",
+   "date": "2026-12-05",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "산토리",
+   "venue": "에프피코 아레나 후쿠야마",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261205-wdnagoya-toray",
+   "date": "2026-12-05",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "도레이",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261205-osakab-stings",
+   "date": "2026-12-05",
+   "time": "18:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "스팅스아이치",
+   "venue": "글리온 아레나 고베",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261206-kagoshima-sakai",
+   "date": "2026-12-06",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "사카이",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261206-hokkaidoys-matsumoto",
+   "date": "2026-12-06",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "마쓰모토",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261206-wdnagoya-toray",
+   "date": "2026-12-06",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "도레이",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261206-tokyogb-voreas",
+   "date": "2026-12-06",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "보레아스",
+   "venue": "요요기 제1체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261206-hiroshima-suntory",
+   "date": "2026-12-06",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "산토리",
+   "venue": "에프피코 아레나 후쿠야마",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261206-osakab-stings",
+   "date": "2026-12-06",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "스팅스아이치",
+   "venue": "글리온 아레나 고베",
+   "state": "scheduled",
+   "status": "",
+   "round": 7
+  },
+  {
+   "gid": "20261219-voreas-hokkaidoys",
+   "date": "2026-12-19",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "홋카이도YS",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261219-tokyogb-suntory",
+   "date": "2026-12-19",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "산토리",
+   "venue": "요요기 제2체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261219-matsumoto-sakai",
+   "date": "2026-12-19",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "사카이",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261219-stings-wdnagoya",
+   "date": "2026-12-19",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "WD나고야",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261219-osakab-hiroshima",
+   "date": "2026-12-19",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "히로시마",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261219-kagoshima-toray",
+   "date": "2026-12-19",
+   "time": "18:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "도레이",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261220-matsumoto-sakai",
+   "date": "2026-12-20",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "사카이",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261220-voreas-hokkaidoys",
+   "date": "2026-12-20",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "홋카이도YS",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261220-kagoshima-toray",
+   "date": "2026-12-20",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "도레이",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261220-tokyogb-suntory",
+   "date": "2026-12-20",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "산토리",
+   "venue": "요요기 제2체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261220-stings-wdnagoya",
+   "date": "2026-12-20",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "WD나고야",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261220-osakab-hiroshima",
+   "date": "2026-12-20",
+   "time": "18:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "히로시마",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 8
+  },
+  {
+   "gid": "20261226-suntory-kagoshima",
+   "date": "2026-12-26",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "가고시마",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261226-toray-hokkaidoys",
+   "date": "2026-12-26",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "홋카이도YS",
+   "venue": "고료 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261226-tokyogb-osakab",
+   "date": "2026-12-26",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "오사카B",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261226-matsumoto-voreas",
+   "date": "2026-12-26",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "보레아스",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261226-wdnagoya-hiroshima",
+   "date": "2026-12-26",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "히로시마",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261226-sakai-stings",
+   "date": "2026-12-26",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "스팅스아이치",
+   "venue": "가나오카 공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261227-matsumoto-voreas",
+   "date": "2026-12-27",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "보레아스",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261227-sakai-stings",
+   "date": "2026-12-27",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "스팅스아이치",
+   "venue": "가나오카 공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261227-suntory-kagoshima",
+   "date": "2026-12-27",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "가고시마",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261227-wdnagoya-hiroshima",
+   "date": "2026-12-27",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "히로시마",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261227-toray-hokkaidoys",
+   "date": "2026-12-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "홋카이도YS",
+   "venue": "고료 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20261227-tokyogb-osakab",
+   "date": "2026-12-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "오사카B",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 9
+  },
+  {
+   "gid": "20270102-kagoshima-tokyogb",
+   "date": "2027-01-02",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "도쿄GB",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270102-toray-suntory",
+   "date": "2027-01-02",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "산토리",
+   "venue": "기타사토 아레나 후지",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270102-sakai-voreas",
+   "date": "2027-01-02",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "보레아스",
+   "venue": "닛폰제철 사카이 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270102-osakab-hokkaidoys",
+   "date": "2027-01-02",
+   "time": "17:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "홋카이도YS",
+   "venue": "아스에 아레나 오사카",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270103-kagoshima-tokyogb",
+   "date": "2027-01-03",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "도쿄GB",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270103-sakai-voreas",
+   "date": "2027-01-03",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "보레아스",
+   "venue": "닛폰제철 사카이 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270103-toray-suntory",
+   "date": "2027-01-03",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "산토리",
+   "venue": "기타사토 아레나 후지",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270103-wdnagoya-matsumoto",
+   "date": "2027-01-03",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "마쓰모토",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270103-osakab-hokkaidoys",
+   "date": "2027-01-03",
+   "time": "17:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "홋카이도YS",
+   "venue": "아스에 아레나 오사카",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270104-wdnagoya-matsumoto",
+   "date": "2027-01-04",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "마쓰모토",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270106-hiroshima-stings",
+   "date": "2027-01-06",
+   "time": "18:35",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "스팅스아이치",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270107-hiroshima-stings",
+   "date": "2027-01-07",
+   "time": "18:35",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "스팅스아이치",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 10
+  },
+  {
+   "gid": "20270116-voreas-toray",
+   "date": "2027-01-16",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "도레이",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270116-suntory-osakab",
+   "date": "2027-01-16",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "오사카B",
+   "venue": "아스에 아레나 오사카",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270116-tokyogb-hiroshima",
+   "date": "2027-01-16",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "히로시마",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270116-matsumoto-stings",
+   "date": "2027-01-16",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "스팅스아이치",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270116-hokkaidoys-kagoshima",
+   "date": "2027-01-16",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "가고시마",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270116-sakai-wdnagoya",
+   "date": "2027-01-16",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "WD나고야",
+   "venue": "기타큐슈 종합체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270117-matsumoto-stings",
+   "date": "2027-01-17",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "스팅스아이치",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270117-voreas-toray",
+   "date": "2027-01-17",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "도레이",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270117-sakai-wdnagoya",
+   "date": "2027-01-17",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "WD나고야",
+   "venue": "기타큐슈 종합체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270117-suntory-osakab",
+   "date": "2027-01-17",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "오사카B",
+   "venue": "아스에 아레나 오사카",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270117-hokkaidoys-kagoshima",
+   "date": "2027-01-17",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "가고시마",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270117-tokyogb-hiroshima",
+   "date": "2027-01-17",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "히로시마",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 11
+  },
+  {
+   "gid": "20270123-suntory-matsumoto",
+   "date": "2027-01-23",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "마쓰모토",
+   "venue": "아스에 아레나 오사카",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270123-tokyogb-sakai",
+   "date": "2027-01-23",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "사카이",
+   "venue": "요요기 제2체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270123-stings-kagoshima",
+   "date": "2027-01-23",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "가고시마",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270123-hokkaidoys-wdnagoya",
+   "date": "2027-01-23",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "WD나고야",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270123-hiroshima-toray",
+   "date": "2027-01-23",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "도레이",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270123-osakab-voreas",
+   "date": "2027-01-23",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "보레아스",
+   "venue": "후아막 인도어 스타디움 (방콕)",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270124-suntory-matsumoto",
+   "date": "2027-01-24",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "마쓰모토",
+   "venue": "아스에 아레나 오사카",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270124-hokkaidoys-wdnagoya",
+   "date": "2027-01-24",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "WD나고야",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270124-tokyogb-sakai",
+   "date": "2027-01-24",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "사카이",
+   "venue": "요요기 제2체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270124-stings-kagoshima",
+   "date": "2027-01-24",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "가고시마",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270124-hiroshima-toray",
+   "date": "2027-01-24",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "도레이",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270124-osakab-voreas",
+   "date": "2027-01-24",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "보레아스",
+   "venue": "후아막 인도어 스타디움 (방콕)",
+   "state": "scheduled",
+   "status": "",
+   "round": 12
+  },
+  {
+   "gid": "20270206-toray-kagoshima",
+   "date": "2027-02-06",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "가고시마",
+   "venue": "고료 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270206-matsumoto-hokkaidoys",
+   "date": "2027-02-06",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "홋카이도YS",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270206-hiroshima-osakab",
+   "date": "2027-02-06",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "오사카B",
+   "venue": "에프피코 아레나 후쿠야마",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270206-wdnagoya-voreas",
+   "date": "2027-02-06",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "보레아스",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270206-tokyogb-stings",
+   "date": "2027-02-06",
+   "time": "16:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "스팅스아이치",
+   "venue": "도요타 아레나 도쿄",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270206-sakai-suntory",
+   "date": "2027-02-06",
+   "time": "16:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "산토리",
+   "venue": "오하마 다이신 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270207-tokyogb-stings",
+   "date": "2027-02-07",
+   "time": "12:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "스팅스아이치",
+   "venue": "도요타 아레나 도쿄",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270207-matsumoto-hokkaidoys",
+   "date": "2027-02-07",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "홋카이도YS",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270207-sakai-suntory",
+   "date": "2027-02-07",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "산토리",
+   "venue": "오하마 다이신 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270207-wdnagoya-voreas",
+   "date": "2027-02-07",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "보레아스",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270207-toray-kagoshima",
+   "date": "2027-02-07",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "가고시마",
+   "venue": "고료 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270207-hiroshima-osakab",
+   "date": "2027-02-07",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "오사카B",
+   "venue": "에프피코 아레나 후쿠야마",
+   "state": "scheduled",
+   "status": "",
+   "round": 13
+  },
+  {
+   "gid": "20270211-toray-wdnagoya",
+   "date": "2027-02-11",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "WD나고야",
+   "venue": "라라 아레나 도쿄베이",
+   "state": "scheduled",
+   "status": ""
+  },
+  {
+   "gid": "20270212-kagoshima-hiroshima",
+   "date": "2027-02-12",
+   "time": "18:35",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "히로시마",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270213-voreas-matsumoto",
+   "date": "2027-02-13",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "마쓰모토",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270213-stings-suntory",
+   "date": "2027-02-13",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "산토리",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270213-osakab-sakai",
+   "date": "2027-02-13",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "사카이",
+   "venue": "파나소닉 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270213-hokkaidoys-tokyogb",
+   "date": "2027-02-13",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "도쿄GB",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270213-kagoshima-hiroshima",
+   "date": "2027-02-13",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "히로시마",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270213-toray-wdnagoya",
+   "date": "2027-02-13",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "WD나고야",
+   "venue": "라라 아레나 도쿄베이",
+   "state": "scheduled",
+   "status": ""
+  },
+  {
+   "gid": "20270214-voreas-matsumoto",
+   "date": "2027-02-14",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "마쓰모토",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270214-hokkaidoys-tokyogb",
+   "date": "2027-02-14",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "도쿄GB",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270214-stings-suntory",
+   "date": "2027-02-14",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "산토리",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270214-osakab-sakai",
+   "date": "2027-02-14",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "사카이",
+   "venue": "파나소닉 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 14
+  },
+  {
+   "gid": "20270219-suntory-tokyogb",
+   "date": "2027-02-19",
+   "time": "19:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "도쿄GB",
+   "venue": "오키나와 산토리 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270220-osakab-toray",
+   "date": "2027-02-20",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "도레이",
+   "venue": "시마즈 아레나 교토",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270220-stings-voreas",
+   "date": "2027-02-20",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "보레아스",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270220-hiroshima-matsumoto",
+   "date": "2027-02-20",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "마쓰모토",
+   "venue": "히로시마 그린 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270220-wdnagoya-kagoshima",
+   "date": "2027-02-20",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "가고시마",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270220-sakai-hokkaidoys",
+   "date": "2027-02-20",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "홋카이도YS",
+   "venue": "오하마 다이신 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270220-suntory-tokyogb",
+   "date": "2027-02-20",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "도쿄GB",
+   "venue": "오키나와 산토리 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270221-sakai-hokkaidoys",
+   "date": "2027-02-21",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "홋카이도YS",
+   "venue": "오하마 다이신 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270221-osakab-toray",
+   "date": "2027-02-21",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "도레이",
+   "venue": "시마즈 아레나 교토",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270221-wdnagoya-kagoshima",
+   "date": "2027-02-21",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "가고시마",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270221-stings-voreas",
+   "date": "2027-02-21",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "보레아스",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270221-hiroshima-matsumoto",
+   "date": "2027-02-21",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "마쓰모토",
+   "venue": "히로시마 그린 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 15
+  },
+  {
+   "gid": "20270227-kagoshima-suntory",
+   "date": "2027-02-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "산토리",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270227-tokyogb-toray",
+   "date": "2027-02-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "도레이",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270227-matsumoto-wdnagoya",
+   "date": "2027-02-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "WD나고야",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270227-stings-osakab",
+   "date": "2027-02-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "오사카B",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270227-hokkaidoys-voreas",
+   "date": "2027-02-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "보레아스",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270227-hiroshima-sakai",
+   "date": "2027-02-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "사카이",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270228-kagoshima-suntory",
+   "date": "2027-02-28",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "산토리",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270228-matsumoto-wdnagoya",
+   "date": "2027-02-28",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "WD나고야",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270228-hokkaidoys-voreas",
+   "date": "2027-02-28",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "보레아스",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270228-tokyogb-toray",
+   "date": "2027-02-28",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "도레이",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270228-stings-osakab",
+   "date": "2027-02-28",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "오사카B",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270228-hiroshima-sakai",
+   "date": "2027-02-28",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "사카이",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 16
+  },
+  {
+   "gid": "20270313-kagoshima-stings",
+   "date": "2027-03-13",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "스팅스아이치",
+   "venue": "유피테루 아레나 기리시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270313-suntory-toray",
+   "date": "2027-03-13",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "도레이",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270313-wdnagoya-hokkaidoys",
+   "date": "2027-03-13",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "홋카이도YS",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270313-sakai-matsumoto",
+   "date": "2027-03-13",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "마쓰모토",
+   "venue": "오하마 다이신 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270313-osakab-tokyogb",
+   "date": "2027-03-13",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "도쿄GB",
+   "venue": "글리온 아레나 고베",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270313-voreas-hiroshima",
+   "date": "2027-03-13",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "히로시마",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270314-kagoshima-stings",
+   "date": "2027-03-14",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "스팅스아이치",
+   "venue": "유피테루 아레나 기리시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270314-sakai-matsumoto",
+   "date": "2027-03-14",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "마쓰모토",
+   "venue": "오하마 다이신 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270314-suntory-toray",
+   "date": "2027-03-14",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "도레이",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270314-wdnagoya-hokkaidoys",
+   "date": "2027-03-14",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "홋카이도YS",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270314-osakab-tokyogb",
+   "date": "2027-03-14",
+   "time": "18:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "도쿄GB",
+   "venue": "글리온 아레나 고베",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270314-voreas-hiroshima",
+   "date": "2027-03-14",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "히로시마",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 17
+  },
+  {
+   "gid": "20270319-tokyogb-kagoshima",
+   "date": "2027-03-19",
+   "time": "19:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "가고시마",
+   "venue": "도쿄 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270320-voreas-suntory",
+   "date": "2027-03-20",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "산토리",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270320-toray-sakai",
+   "date": "2027-03-20",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "사카이",
+   "venue": "고노하나 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270320-matsumoto-osakab",
+   "date": "2027-03-20",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "오사카B",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270320-hokkaidoys-stings",
+   "date": "2027-03-20",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "스팅스아이치",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270320-hiroshima-wdnagoya",
+   "date": "2027-03-20",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "WD나고야",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270320-tokyogb-kagoshima",
+   "date": "2027-03-20",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "가고시마",
+   "venue": "도쿄 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270321-matsumoto-osakab",
+   "date": "2027-03-21",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "오사카B",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270321-voreas-suntory",
+   "date": "2027-03-21",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "산토리",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270321-hokkaidoys-stings",
+   "date": "2027-03-21",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "스팅스아이치",
+   "venue": "기타가스 아레나 삿포로46",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270321-toray-sakai",
+   "date": "2027-03-21",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "사카이",
+   "venue": "고노하나 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270321-hiroshima-wdnagoya",
+   "date": "2027-03-21",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "WD나고야",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 18
+  },
+  {
+   "gid": "20270327-suntory-hiroshima",
+   "date": "2027-03-27",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "히로시마",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270327-kagoshima-voreas",
+   "date": "2027-03-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "보레아스",
+   "venue": "짓소 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270327-tokyogb-wdnagoya",
+   "date": "2027-03-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "WD나고야",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270327-stings-matsumoto",
+   "date": "2027-03-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "마쓰모토",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270327-hokkaidoys-toray",
+   "date": "2027-03-27",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "도레이",
+   "venue": "하코다테 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270327-sakai-osakab",
+   "date": "2027-03-27",
+   "time": "15:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "오사카B",
+   "venue": "오하마 다이신 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270328-kagoshima-voreas",
+   "date": "2027-03-28",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "보레아스",
+   "venue": "짓소 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270328-sakai-osakab",
+   "date": "2027-03-28",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "사카이",
+   "away": "오사카B",
+   "venue": "오하마 다이신 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270328-suntory-hiroshima",
+   "date": "2027-03-28",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "히로시마",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270328-hokkaidoys-toray",
+   "date": "2027-03-28",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "도레이",
+   "venue": "하코다테 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270328-tokyogb-wdnagoya",
+   "date": "2027-03-28",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도쿄GB",
+   "away": "WD나고야",
+   "venue": "아리아케 콜로세움",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270328-stings-matsumoto",
+   "date": "2027-03-28",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "마쓰모토",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 19
+  },
+  {
+   "gid": "20270403-voreas-sakai",
+   "date": "2027-04-03",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "사카이",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270403-suntory-hokkaidoys",
+   "date": "2027-04-03",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "홋카이도YS",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270403-toray-stings",
+   "date": "2027-04-03",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "스팅스아이치",
+   "venue": "고료 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270403-matsumoto-tokyogb",
+   "date": "2027-04-03",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "도쿄GB",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270403-hiroshima-kagoshima",
+   "date": "2027-04-03",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "가고시마",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270403-wdnagoya-osakab",
+   "date": "2027-04-03",
+   "time": "19:05",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "오사카B",
+   "venue": "IG 아레나 (나고야)",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270404-matsumoto-tokyogb",
+   "date": "2027-04-04",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "도쿄GB",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270404-voreas-sakai",
+   "date": "2027-04-04",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "사카이",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270404-suntory-hokkaidoys",
+   "date": "2027-04-04",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "홋카이도YS",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270404-toray-stings",
+   "date": "2027-04-04",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "스팅스아이치",
+   "venue": "고료 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270404-hiroshima-kagoshima",
+   "date": "2027-04-04",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "가고시마",
+   "venue": "히로시마 선플라자 홀",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270404-wdnagoya-osakab",
+   "date": "2027-04-04",
+   "time": "17:05",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "오사카B",
+   "venue": "IG 아레나 (나고야)",
+   "state": "scheduled",
+   "status": "",
+   "round": 20
+  },
+  {
+   "gid": "20270410-kagoshima-matsumoto",
+   "date": "2027-04-10",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "마쓰모토",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270410-voreas-wdnagoya",
+   "date": "2027-04-10",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "WD나고야",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270410-osakab-suntory",
+   "date": "2027-04-10",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "산토리",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270410-hiroshima-hokkaidoys",
+   "date": "2027-04-10",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "홋카이도YS",
+   "venue": "히로시마 그린 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270410-toray-tokyogb",
+   "date": "2027-04-10",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "도쿄GB",
+   "venue": "",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270410-stings-sakai",
+   "date": "2027-04-10",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "사카이",
+   "venue": "",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270411-kagoshima-matsumoto",
+   "date": "2027-04-11",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "마쓰모토",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270411-voreas-wdnagoya",
+   "date": "2027-04-11",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "WD나고야",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270411-hiroshima-hokkaidoys",
+   "date": "2027-04-11",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "히로시마",
+   "away": "홋카이도YS",
+   "venue": "히로시마 그린 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270411-osakab-suntory",
+   "date": "2027-04-11",
+   "time": "18:05",
+   "kind": "regular",
+   "series": "",
+   "home": "오사카B",
+   "away": "산토리",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270411-toray-tokyogb",
+   "date": "2027-04-11",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "도쿄GB",
+   "venue": "",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270411-stings-sakai",
+   "date": "2027-04-11",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "사카이",
+   "venue": "",
+   "state": "scheduled",
+   "status": "",
+   "round": 21
+  },
+  {
+   "gid": "20270416-kagoshima-osakab",
+   "date": "2027-04-16",
+   "time": "18:35",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "오사카B",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270417-voreas-tokyogb",
+   "date": "2027-04-17",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "도쿄GB",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270417-matsumoto-toray",
+   "date": "2027-04-17",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "도레이",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270417-hokkaidoys-sakai",
+   "date": "2027-04-17",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "사카이",
+   "venue": "",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270417-wdnagoya-suntory",
+   "date": "2027-04-17",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "산토리",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270417-kagoshima-osakab",
+   "date": "2027-04-17",
+   "time": "14:35",
+   "kind": "regular",
+   "series": "",
+   "home": "가고시마",
+   "away": "오사카B",
+   "venue": "F아레나 이치키쿠시키노",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270417-stings-hiroshima",
+   "date": "2027-04-17",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "히로시마",
+   "venue": "",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270418-matsumoto-toray",
+   "date": "2027-04-18",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "도레이",
+   "venue": "에어워터 아레나 마쓰모토",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270418-voreas-tokyogb",
+   "date": "2027-04-18",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "도쿄GB",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270418-hokkaidoys-sakai",
+   "date": "2027-04-18",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "홋카이도YS",
+   "away": "사카이",
+   "venue": "",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270418-wdnagoya-suntory",
+   "date": "2027-04-18",
+   "time": "13:35",
+   "kind": "regular",
+   "series": "",
+   "home": "WD나고야",
+   "away": "산토리",
+   "venue": "엔트리오",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  },
+  {
+   "gid": "20270418-stings-hiroshima",
+   "date": "2027-04-18",
+   "time": "",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "히로시마",
+   "venue": "",
+   "state": "scheduled",
+   "status": "",
+   "round": 22
+  }
+ ]
+}
