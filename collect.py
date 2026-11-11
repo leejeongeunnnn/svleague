@@ -409,7 +409,7 @@ def collect_schedule():
         gs = by_date.get(d, [])
         if today - timedelta(days=2) <= dd <= today + timedelta(days=1):
             near.append(d)
-        elif dd < today and (not gs or any(g["state"] not in ("final", "cancel") for g in gs)):
+        elif dd < today and (not gs or any(g["state"] not in ("final", "cancel") or not g["gid"].startswith("sv") for g in gs)):
             unfinished.append(d)
         elif dd > today and age_h(d) >= FUTURE_EVERY_H:
             future.append(d)
@@ -446,6 +446,12 @@ def collect_schedule():
         STATUS["schedule"] = "실패 — 기존 일정 유지: " + (errors[0][:160] if errors else "읽은 경기 없음")
         print("[ERROR]", STATUS["schedule"], errors)
         return False
+    try:
+        n = save_finished_relays(merged)
+        have = sum(1 for g in merged if os.path.exists(os.path.join(DATA, "games", f"{g['gid']}.json")))
+        STATUS["relay"] = f"문자중계 {have}/{final}경기 저장" + (f" (이번에 {n}경기)" if n else "")
+    except Exception as e:  # noqa: BLE001
+        print("[WARN] 문자중계 저장 실패:", e)
     STATUS["schedule"] = (f"성공 {len(merged)}경기 (종료 {final}) · 이번에 확인한 날짜 {len(report)}개"
                           + (f" · 일부 실패 {len(errors)}" if errors else "") + (f" · 확인 필요 {warn}" if warn else ""))
     print("[OK]", STATUS["schedule"], report)
@@ -454,6 +460,109 @@ def collect_schedule():
         out["_seed"] = True
     return save("schedule.json", out)
 
+
+
+# ---------------------------------------------------------------- 문자중계 (SV리그 공식 경기 페이지 Live Score 탭)
+def parse_relay(page):
+    """/match/detail/<번호>/?tab=live → {"sets": {"1": {"lineup": {...}, "ev": [...]}, ...}, "latest": n}
+    ev (오래된 순):
+      ["r", 득점팀("h"/"a"), 홈점수, 원정점수, [[쪽, 등번호, 동작(일본어), 이름], ...]]   랠리
+      ["c", 팀, [[등번호, 이름, "IN"/"OUT"], ...]]                                     선수 교체
+      ["t", 팀]                                                                      타임아웃
+      ["v", 팀, "판독 내용"]                                                          비디오 판독(챌린지)"""
+    a = page.find('id="live-score-v2"')
+    if a < 0:
+        return None
+    seg = page[a:]
+    labels = re.findall(r"<li[^>]*>\s*第\s*(\d+)\s*セット\s*</li>", seg[:3000])
+    chunks = re.split(r'<div class="tab-content[^"]*">', seg)[1:]
+    sets = {}
+    for idx, ch in enumerate(chunks):
+        n = labels[idx] if idx < len(labels) else str(idx + 1)
+        ev, lineup = [], {}
+        for cls, body in re.findall(r'<dd(?: class="([^"]*)")?>(.*?)</dd>', ch, re.S):
+            cls = cls or ""
+            side = "h" if "pink" in cls.split() and False else None
+            team_side = "h" if re.search(r"\bhome\b", cls) else "a" if re.search(r"\baway\b", cls) else None
+            if 'class="lineup"' in body:
+                uls = re.findall(r'<ul class="reset list">(.*?)</ul>', body, re.S)
+                for key, ul in zip(("home", "away"), uls[:2]):
+                    lineup[key] = [{"no": int(no), "n": _txt(nm)} for no, nm in re.findall(r'<b class="icon[^"]*">(\d+)</b><span>(.*?)</span>', ul)]
+                for key, ol in zip(("home", "away"), re.findall(r'<ol class="reset">(.*?)</ol>', body, re.S)[:2]):
+                    lib = re.findall(r'<li class="libero-\d+">.*?>(\d+)</em>', ol, re.S)
+                    if lib:
+                        lineup[key + "_libero"] = [int(x) for x in lib]
+                continue
+            items = []
+            for li_cls, no, act, nm in re.findall(r'<li(?: class="(home|away)")?>\s*<b class="icon[^"]*">(\d+)</b>\s*<span>\s*<em>(.*?)</em>(.*?)</span>', body, re.S):
+                items.append([{"home": "h", "away": "a"}.get(li_cls), int(no), _txt(act), _txt(nm)])
+            head = _txt((re.search(r'<div class="team">.*?<p><span>(.*?)</span>', body, re.S) or [None, ""])[1])
+            pink = "pink" in cls  # 홈팀 색(pink) / 원정팀 색 — 교체·타임아웃·판독은 색으로 팀 구분
+            first_li_home = None
+            if re.match(r"(home|away)\b", cls):
+                sc = re.search(r'<div class="score"><div class="field">(.*?)</div></div>', body, re.S)
+                nums = [int(x) for x in re.findall(r">(\d+)<", sc.group(1))] if sc else []
+                if len(nums) == 2:
+                    ev.append(["r", team_side, nums[0], nums[1], items])
+            elif cls.startswith("change"):
+                ev.append(["c", None, [[it[1], it[3], it[2]] for it in items], cls.split()[-1]])
+            elif cls.startswith("timeout"):
+                ev.append(["t", None, cls.split()[-1]])
+            elif cls.startswith("challenge"):
+                txt = " · ".join(_txt(x) for x in re.findall(r"<li>(.*?)</li>", body, re.S))
+                ev.append(["v", None, head + (" — " + txt if txt else ""), cls.split()[-1]])
+        ev.reverse()
+        # 교체·타임아웃·판독의 팀: 랠리에서 홈팀 색을 알아내 같은 색이면 홈
+        home_color = next((it for e in ev if e[0] == "r" for it in []), None)
+        sets[n] = {"lineup": lineup, "ev": ev}
+    if not sets:
+        return None
+    return {"sets": sets, "latest": max(int(k) for k in sets)}
+
+
+def _team_colors(page):
+    """홈·원정 팀 색 이름 (예: pink / yellow) — 교체·타임아웃이 어느 팀인지 가리는 데 씀"""
+    a = page.find('id="live-score-v2"')
+    seg = page[a:] if a >= 0 else ""
+    h = re.search(r'<dd class="home (\w+)"', seg)
+    w = re.search(r'<dd class="away (\w+)"', seg)
+    return (h.group(1) if h else None, w.group(1) if w else None)
+
+
+def fetch_relay(oid):
+    page = get_text(f"{SV_SITE}/match/detail/{oid}/?tab=live", tries=2)
+    r = parse_relay(page)
+    if not r:
+        return None
+    hc, ac = _team_colors(page)
+    for st in r["sets"].values():
+        for e in st["ev"]:
+            if e[0] in ("c", "t", "v"):
+                col = e[-1]
+                e[1] = "h" if col == hc else "a" if col == ac else None
+                e.pop()
+    return r
+
+
+def save_finished_relays(games, budget=10):
+    """끝난 경기 문자중계를 data/games/<gid>.json 에 한 번만 저장 (지난 경기 상세용)."""
+    saved = 0
+    for g in sorted(games, key=lambda x: x["date"], reverse=True):
+        if g["state"] != "final" or budget <= 0 or not g["gid"].startswith("sv"):
+            continue
+        if os.path.exists(os.path.join(DATA, "games", f"{g['gid']}.json")):
+            continue
+        budget -= 1
+        try:
+            r = fetch_relay(g["gid"][2:])
+            time.sleep(0.5)
+        except Exception as e:  # noqa: BLE001
+            print("[WARN] relay", g["gid"], e)
+            continue
+        if r:
+            save(f"games/{g['gid']}.json", {"gid": g["gid"], "final": True, **r})
+            saved += 1
+    return saved
 
 # ---------------------------------------------------------------- 뉴스
 def detect_teams(text):
@@ -766,7 +875,20 @@ def run_live():
         print("CONTINUE" if sched else "STOP")
         return
     games = merge_day(sched, games) if games else []
-    save("live.json", {"date": today, "updated_at": now.strftime("%Y-%m-%d %H:%M:%S"), "games": games})
+    cache = load("live_relay_cache.json", {}) or {}
+    if cache.get("date") != today:
+        cache = {"date": today, "games": {}}
+    for g in games:
+        prev = cache["games"].get(g["gid"])
+        if g["gid"].startswith("sv") and (g["state"] == "live" or (g["state"] == "final" and not (prev or {}).get("final"))):
+            try:
+                r = fetch_relay(g["gid"][2:])
+                if r:
+                    cache["games"][g["gid"]] = {"gid": g["gid"], "final": g["state"] == "final", **r}
+            except Exception as e:  # noqa: BLE001
+                print("[WARN] relay", g["gid"], e)
+    save("live_relay_cache.json", cache)
+    save("live.json", {"date": today, "updated_at": now.strftime("%Y-%m-%d %H:%M:%S"), "games": games, "relay": cache["games"]})
     for g in games:
         print(f"  {g['time']} {g['away']} {g.get('sa', '-')}:{g.get('sh', '-')} {g['home']} [{g['state']}] {g.get('status', '')} sets={g.get('sets')}")
     pending = [g for g in (games or sched) if g["state"] not in ("final", "cancel")]

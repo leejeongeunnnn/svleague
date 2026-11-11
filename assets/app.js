@@ -171,7 +171,7 @@ function gameCard(g, opts = {}) {
   }
   const status = live ? (g.status || "경기 중") : fin ? (g.status || "경기 종료") : g.state === "cancel" ? (g.status || "취소") : (g.time ? `${g.time} 시작` : "시간 미정");
   const canOpen = !!(TEAM[g.home] && TEAM[g.away] && g.gid);
-  const more = canOpen ? ` <b class="more">${live || fin ? "상세 ›" : "미리보기 ›"}</b>` : "";
+  const more = canOpen ? ` <b class="more">${live ? "문자중계 ›" : fin ? "상세 ›" : "미리보기 ›"}</b>` : "";
   const place = [g.venue, g.kind === "regular" && g.round ? `${g.round}절` : ""].filter(Boolean).join(" · ");
   return `<div class="game ${live ? "is-live" : ""} ${mine ? "is-mine" : ""} ${canOpen ? "clickable" : ""}"${canOpen ? ` data-gid="${esc(g.gid)}" role="button" tabindex="0"` : ""}>
     ${(tag || live || mine || opts.showDate) ? `<div class="series">${mine ? '<span class="mine-star">⭐</span> ' : ""}${live ? '<span class="live-pill">LIVE</span> ' : ""}${opts.showDate ? `<span class="g-date">${esc(dateLabel(g.date))}</span> ` : ""}${esc(tag)}</div>` : ""}
@@ -638,12 +638,156 @@ function updateChip() {
 }
 
 /* ---------- 경기 상세 · 미리보기 ---------- */
-const GM = { gid: null };
-function openGame(gid) {
-  GM.gid = gid;
+const GM = { gid: null, set: null, relay: null, loading: false, newestFirst: true, tab: "relay" };
+async function openGame(gid) {
+  GM.gid = gid; GM.set = null; GM.relay = null; GM.tab = "relay";
   document.body.classList.add("gm-lock");
   document.getElementById("game-modal").classList.add("open");
   renderGameModal();
+  const g0 = allGames().find(x => x.gid === gid);
+  if (!g0 || g0.state === "scheduled" || liveRelay(gid)) return;
+  GM.loading = true; renderGameModal();
+  try {
+    const r = await fetch(`data/games/${encodeURIComponent(gid)}.json?t=${Date.now()}`, { cache: "no-store" });
+    GM.relay = r.ok ? await r.json() : null;
+  } catch (e) { GM.relay = null; }
+  GM.loading = false;
+  if (GM.gid === gid) renderGameModal();
+}
+function liveRelay(gid) {
+  const L = DATA.live;
+  return L && L.relay && L.relay[gid] ? L.relay[gid] : null;
+}
+
+/* ---------- 문자중계 ---------- */
+const ACT_KR = { "サーブ": "서브", "サーブミス": "서브 범실", "サービスエース": "서브 에이스", "サーブレシーブ成功(優)": "리시브 정확", "サーブレシーブ成功(良)": "리시브 성공",
+  "サーブレシーブ失敗": "리시브 실패", "トス": "토스", "アタック": "공격", "アタック成功": "공격 성공", "アタック失敗": "공격 실패", "レシーブ": "디그",
+  "ブロック": "블로킹 터치", "ブロック成功": "블로킹 득점", "ブロックミス": "블로킹 범실", "チャンスボール": "찬스볼", "その他ミス": "기타 범실", "反則": "반칙",
+  "IN": "IN", "OUT": "OUT" };
+const actKr = (a) => ACT_KR[a] || a;
+const SCORE_ACT = { "アタック成功": "a", "ブロック成功": "b", "サービスエース": "s" };
+const ERR_ACT = /ミス|失敗|反則/;
+const sideTeam = (g, sd) => sd === "h" ? g.home : sd === "a" ? g.away : "";
+function posOf(team, name) {
+  const key = String(name || "").replace(/\s/g, "");
+  const p = (((DATA.profiles || {}).teams || {})[team] || []).find(x => String(x.name).replace(/\s/g, "") === key);
+  return p ? p.pos : "";
+}
+function topScorers(R, sd) {
+  const cnt = {};
+  Object.values(R.sets || {}).forEach(st => (st.ev || []).forEach(e => {
+    if (e[0] !== "r" || e[1] !== sd) return;
+    const last = [...e[4]].reverse().find(x => x[0] === sd && SCORE_ACT[x[2]]);
+    if (!last) return;
+    const k = last[3]; cnt[k] = cnt[k] || { n: k, t: 0, a: 0, b: 0, s: 0 }; cnt[k].t++; cnt[k][SCORE_ACT[last[2]]]++;
+  }));
+  return Object.values(cnt).sort((x, y) => y.t - x.t).slice(0, 5);
+}
+function lineupBlock(st, side, team) {
+  const lu = (st.lineup || {})[side] || [];
+  if (!lu.length) return `<div class="hint">라인업 정보 없음</div>`;
+  const lib = (st.lineup || {})[side + "_libero"] || [];
+  const libNames = lib.map(no => { const p = (((DATA.profiles || {}).teams || {})[team] || []).find(x => x.no === no); return p ? `${no} ${kn(p.name)}` : `${no}번`; });
+  return `<div class="lu-team">${dot(team)}<b>${esc(team)}</b></div>${lu.map((p, i) => `<div class="lu-row"><span class="lu-no">${p.no}</span><b>${esc(kn(p.n))}</b><span class="lu-pos">${esc(POS_FULL[posOf(team, p.n)] || "")}</span></div>`).join("")}
+    ${libNames.length ? `<div class="lu-sub">리베로 ${libNames.map(esc).join(" · ")}</div>` : ""}`;
+}
+function relayBlock(st, g) {
+  const ev = st.ev || [];
+  if (!ev.length) return `<div class="empty">아직 중계 내용이 없어요.</div>`;
+  const list = GM.newestFirst ? ev.slice().reverse() : ev;
+  return list.map(e => {
+    const team = sideTeam(g, e[1]);
+    if (e[0] === "t") return `<div class="rl-flag">⏱️ ${esc(team)} 타임아웃</div>`;
+    if (e[0] === "v") return `<div class="rl-flag">📹 ${esc(team)} 비디오 판독 · ${esc(String(e[2]).replace("チャレンジ成功", "판독 성공").replace("チャレンジ失敗", "판독 실패").replace("ライン判定", "인·아웃").replace("タッチネット", "네트 터치").replace("ワンタッチ", "터치아웃"))}</div>`;
+    if (e[0] === "c") {
+      const out = e[2].filter(x => x[2] === "OUT").map(x => kn(x[1])).join(", "), inn = e[2].filter(x => x[2] === "IN").map(x => kn(x[1])).join(", ");
+      return `<div class="rl-line chg">🔄 ${esc(team)} 교체 · <b>${esc(inn)}</b> IN / ${esc(out)} OUT</div>`;
+    }
+    const lines = e[4].map(x => {
+      const t = sideTeam(g, x[0]);
+      const pt = SCORE_ACT[x[2]] && x[0] === e[1], err = ERR_ACT.test(x[2]);
+      return `<div class="rl-line ${pt ? "pt" : err ? "team" : ""}"><span class="dot sm" style="background:${colorOf(t)}"></span>${esc(kn(x[3]))} <span style="color:var(--muted)">${esc(actKr(x[2]))}</span></div>`;
+    }).join("");
+    return `<div class="rl-rally" style="border-left-color:${colorOf(team)}">
+      <div class="rl-head">${dot(team)}<b>${esc(team)} 득점</b><span class="rl-score">${esc(g.away)} <b>${e[3]}</b> : <b>${e[2]}</b> ${esc(g.home)}</span></div>${lines}</div>`;
+  }).join("");
+}
+/* 세트 흐름: 랠리마다 (원정 − 홈) 점수 차. 위 = 원정 리드, 아래 = 홈 리드 */
+function flowChart(st, g) {
+  const pts = [[0, 0, 0]];
+  (st.ev || []).forEach(e => { if (e[0] === "r") pts.push([pts.length, e[3], e[2]]); });
+  if (pts.length < 3) return "";
+  const run = { home: 0, away: 0 };
+  let cur = null, len = 0;
+  for (let i = 1; i < pts.length; i++) {
+    const who = pts[i][1] > pts[i - 1][1] ? "away" : "home";
+    len = who === cur ? len + 1 : 1; cur = who; run[who] = Math.max(run[who], len);
+  }
+  const diffs = pts.map(p => p[1] - p[2]);
+  const M = Math.max(3, ...diffs.map(Math.abs));
+  const W = 600, H = 170, padL = 8, padR = 8, padT = 14, padB = 14;
+  const x = (i) => padL + (W - padL - padR) * i / (pts.length - 1);
+  const y = (d) => padT + (H - padT - padB) * (1 - (d + M) / (2 * M));
+  const line = diffs.map((d, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(d).toFixed(1)}`).join("");
+  const area = `${line}L${x(diffs.length - 1).toFixed(1)},${y(0)}L${x(0)},${y(0)}Z`;
+  const ca = colorOf(g.away), ch = colorOf(g.home);
+  const uid = "f" + Math.random().toString(36).slice(2, 8);
+  const grid = [M, Math.round(M / 2), -Math.round(M / 2), -M].filter((v, i, a) => v && a.indexOf(v) === i);
+  return `<div class="card flow-card">
+    <div class="flow-legend"><span><i style="background:${ca}"></i>${esc(g.away)} 리드 ▲</span><span><i style="background:${ch}"></i>${esc(g.home)} 리드 ▼</span></div>
+    <div class="flow-wrap" data-flow='${JSON.stringify(pts)}' data-away="${esc(g.away)}" data-home="${esc(g.home)}">
+    <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" class="flow-svg" role="img" aria-label="세트 점수 차 흐름">
+      <defs><clipPath id="${uid}u"><rect x="0" y="0" width="${W}" height="${y(0)}"/></clipPath><clipPath id="${uid}d"><rect x="0" y="${y(0)}" width="${W}" height="${H - y(0)}"/></clipPath></defs>
+      ${grid.map(v => `<line x1="0" x2="${W}" y1="${y(v)}" y2="${y(v)}" class="flow-grid"/>`).join("")}
+      <path d="${area}" fill="${ca}" fill-opacity=".28" clip-path="url(#${uid}u)"/>
+      <path d="${area}" fill="${ch}" fill-opacity=".28" clip-path="url(#${uid}d)"/>
+      <line x1="0" x2="${W}" y1="${y(0)}" y2="${y(0)}" class="flow-zero"/>
+      <path d="${line}" class="flow-line" vector-effect="non-scaling-stroke"/>
+      <line class="flow-cross" x1="0" x2="0" y1="0" y2="${H}" style="display:none" vector-effect="non-scaling-stroke"/>
+    </svg><div class="flow-tip" style="display:none"></div></div>
+    <div class="flow-foot">점선 = ${Math.round(M / 2)}점·${M}점 차 · 최다 연속 득점 · ${dot(g.away)}${esc(g.away)} <b>${run.away}점</b> &nbsp; ${dot(g.home)}${esc(g.home)} <b>${run.home}점</b> · 최대 점수 차 <b>${Math.max(...diffs.map(Math.abs))}점</b></div>
+  </div>`;
+}
+function bindFlow(root) {
+  root.querySelectorAll(".flow-wrap").forEach(w => {
+    const pts = JSON.parse(w.dataset.flow), svg = w.querySelector("svg"), tip = w.querySelector(".flow-tip"), cross = w.querySelector(".flow-cross");
+    const move = (ev) => {
+      const r = svg.getBoundingClientRect();
+      const cx = (ev.touches ? ev.touches[0].clientX : ev.clientX) - r.left;
+      const i = Math.max(0, Math.min(pts.length - 1, Math.round((cx - r.width * 8 / 600) / (r.width * 584 / 600) * (pts.length - 1))));
+      const px = (8 + 584 * i / (pts.length - 1));
+      cross.setAttribute("x1", px); cross.setAttribute("x2", px); cross.style.display = "";
+      const [n, a, h] = pts[i];
+      tip.innerHTML = `${n ? n + "번째 득점" : "시작"} · ${esc(w.dataset.away)} <b>${a}</b> : <b>${h}</b> ${esc(w.dataset.home)}`;
+      tip.style.display = ""; tip.style.left = Math.min(Math.max(px / 600 * r.width, 70), r.width - 70) + "px";
+    };
+    const hide = () => { tip.style.display = "none"; cross.style.display = "none"; };
+    w.addEventListener("mousemove", move); w.addEventListener("touchmove", move, { passive: true });
+    w.addEventListener("touchstart", move, { passive: true }); w.addEventListener("mouseleave", hide);
+  });
+}
+function relaySection(g) {
+  const R = liveRelay(g.gid) || GM.relay;
+  const live = g.state === "live";
+  if (GM.loading) return `<div class="empty">문자중계 불러오는 중...</div>`;
+  const sets = R && R.sets ? Object.keys(R.sets).map(Number).sort((a, b) => a - b) : [];
+  if (!sets.length) return emptyBox(live ? "문자중계를 기다리는 중이에요. 1~2분 뒤 자동으로 나타나요." : "이 경기의 문자중계 기록이 아직 없어요. (끝난 경기는 자동 수집 때 차례로 저장돼요)");
+  if (GM.set == null || !sets.includes(GM.set)) GM.set = sets[sets.length - 1];
+  const st = R.sets[String(GM.set)];
+  let html = "";
+  const ta = topScorers(R, "a"), th = topScorers(R, "h");
+  if (ta.length || th.length) {
+    const blk = (lst, team) => `<div class="card gm-card"><div class="mt-ph">${dot(team)}${esc(team)} 득점</div>${lst.map(p =>
+      `<div class="mt-pl"><span>${esc(kn(p.n))}</span><span class="num"><b>${p.t}점</b> <small>공격 ${p.a} · 블로킹 ${p.b} · 서브 ${p.s}</small></span></div>`).join("") || '<div class="hint">-</div>'}</div>`;
+    html += `<div class="sched-sub">🏐 득점 TOP 5</div><div class="gm-two">${blk(ta, g.away)}${blk(th, g.home)}</div><p class="hint" style="margin-top:6px">문자중계 기준 집계 (상대 범실 득점 제외)</p>`;
+  }
+  html += `<div class="stage-tabs td-tabs">${sets.map(n => `<button class="stage-chip ${n === GM.set ? "active" : ""}" data-gs="${n}">${n}세트${live && n === sets[sets.length - 1] ? " ●" : ""}</button>`).join("")}</div>`;
+  html += `<div class="sched-sub">📈 ${GM.set}세트 흐름</div>${flowChart(st, g) || '<div class="hint">득점이 쌓이면 그래프가 나와요.</div>'}`;
+  html += `<div class="sched-sub">📋 ${GM.set}세트 선발 라인업</div>
+    <div class="gm-two"><div class="card gm-card">${lineupBlock(st, "away", g.away)}</div><div class="card gm-card">${lineupBlock(st, "home", g.home)}</div></div>`;
+  html += `<div class="sched-sub">🎙️ ${GM.set}세트 문자중계 <button class="stage-chip" data-gord="1" style="margin-left:auto">${GM.newestFirst ? "최신순" : "처음부터"}</button></div>
+    <div class="rl-list">${relayBlock(st, g)}</div><p class="hint" style="margin-top:6px">출처: SV리그 공식 Live Score · 이름은 한글 표기</p>`;
+  return html;
 }
 function closeGame() {
   GM.gid = null;
@@ -690,6 +834,16 @@ function renderGameModal() {
     </tbody></table>`;
   } else if (live) html += emptyBox("세트 점수를 기다리는 중이에요. 1~2분 뒤 자동으로 나타나요.");
 
+  if (!sched) {
+    html += `<div class="stage-tabs" style="margin-top:12px">${[["relay", "🎙️ 문자중계"], ["info", "📊 두 팀 비교"]].map(([k, l]) => `<button class="stage-chip ${GM.tab === k ? "active" : ""}" data-gt="${k}">${l}</button>`).join("")}</div>`;
+    if (GM.tab === "relay") {
+      html += relaySection(g);
+      body.innerHTML = html;
+      bindGameModal(body);
+      return;
+    }
+  }
+
   // 두 팀 성적 비교
   const statBox = (t) => {
     const r = rowOf(t), l = lastOf(t), f = teamForm(t, fin ? g.date : null);
@@ -726,8 +880,16 @@ function renderGameModal() {
   // 외국인 선수
   const fx = (t) => esc((TEAM[t] || {}).foreign || "-").replace(/, /g, "<br>");
   html += `<div class="sched-sub">🌏 외국인 선수</div><div class="gm-two"><div class="card gm-card"><div class="mt-ph">${dot(A)}${esc(A)}</div><div class="pv-fx">${fx(A)}</div></div><div class="card gm-card"><div class="mt-ph">${dot(H)}${esc(H)}</div><div class="pv-fx">${fx(H)}</div></div></div>`;
-  html += `<p class="hint" style="margin-top:10px">선발 라인업·개인 기록 등 자세한 내용은 '공식 ${fin ? "기록" : "경기 페이지"}' 버튼으로 SV리그 사이트에서 볼 수 있어요 (일본어).</p>`;
+  html += `<p class="hint" style="margin-top:10px">${sched ? "경기가 시작되면 이 창에 문자중계·세트별 선발 라인업이 나와요." : "선수별 상세 기록은 '공식 기록' 버튼으로 SV리그 사이트에서 볼 수 있어요 (일본어)."}</p>`;
   body.innerHTML = html;
+  bindGameModal(body);
+}
+function bindGameModal(body) {
+  body.querySelectorAll("[data-gt]").forEach(b => b.onclick = () => { GM.tab = b.dataset.gt; renderGameModal(); });
+  body.querySelectorAll("[data-gs]").forEach(b => b.onclick = () => { GM.set = +b.dataset.gs; renderGameModal(); });
+  const ob = body.querySelector("[data-gord]");
+  if (ob) ob.onclick = () => { GM.newestFirst = !GM.newestFirst; renderGameModal(); };
+  bindFlow(body);
 }
 
 /* ---------- 순위 변동 그래프 ---------- */
