@@ -442,9 +442,13 @@ def collect_schedule():
     merged = sorted((g for gs in by_date.values() for g in gs), key=lambda g: (g["date"], g["time"] or "99", g["home"]))
     final = sum(1 for g in merged if g["state"] == "final")
     warn = sum(1 for g in merged if g.get("warn"))
-    if not got and plan:
-        STATUS["schedule"] = "실패 — 기존 일정 유지: " + (errors[0][:160] if errors else "읽은 경기 없음")
+    if not report and plan:   # 페이지를 하나도 못 받았을 때만 실패 (경기 없는 날은 0건이 정상)
+        STATUS["schedule"] = "실패 — 기존 일정 유지: " + (errors[0][:160] if errors else "페이지를 받지 못함")
         print("[ERROR]", STATUS["schedule"], errors)
+        try:
+            save_finished_relays(merged)
+        except Exception:  # noqa: BLE001
+            pass
         return False
     try:
         n = save_finished_relays(merged)
