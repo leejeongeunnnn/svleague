@@ -494,17 +494,48 @@ def translate_ja_ko(text):
         return None
 
 
+TR_VERSION = 2   # 번역 규칙을 바꾸면 올려서 예전 번역을 버림
+_TERMS = {"ブルテオン": "블루테온", "サンバーズ": "선버즈", "ウルフドッグス": "울프독스", "グレートベアーズ": "그레이트베어스",
+          "サンダーズ": "썬더스", "ブレイザーズ": "블레이저스", "アローズ": "애로우즈", "ヴォレアス": "보레아스", "トライデンツ": "트라이던츠",
+          "イエロースターズ": "옐로스타즈", "フラーゴラッド": "프라골라드", "大同生命": "다이도생명", "SVリーグ": "SV리그", "SV.LEAGUE": "SV리그",
+          "バレーボール": "배구", "バレー": "배구", "鎮西": "진제이", "春高": "봄고(춘계고교대회)"}
+
+
+def pre_ko(t):
+    """번역 전에 팀·선수 이름을 사이트에서 쓰는 한글 이름으로 바꿔 둔다 (번역기가 제멋대로 옮기지 않게)."""
+    t = norm(t)
+    names = (load("names_kr.json", {}) or {}).get("names", {})
+    for jp, kr in sorted(names.items(), key=lambda x: -len(x[0])):
+        if len(jp) >= 3:
+            t = t.replace(jp, kr)
+            if re.search(r"[\u4e00-\u9fff]", jp) and len(jp) >= 3:   # 한자 이름은 성·이름 사이 띄어쓰기도
+                t = t.replace(jp[:2] + " " + jp[2:], kr)
+    for jp in sorted(ALIAS, key=len, reverse=True):
+        t = t.replace(jp, " " + ALIAS[jp] + " ")
+    for jp, kr in _TERMS.items():
+        t = t.replace(jp, kr)
+    return re.sub(r"\s{2,}", " ", t).strip()
+
+
+def post_ko(t):
+    for a, b in (("밸리", "배구"), ("발리", "배구"), ("대동 생명", "다이도생명"), ("다이도 생명", "다이도생명"), ("SV 리그", "SV리그"), (" 절", "절")):
+        t = t.replace(a, b)
+    return re.sub(r"\s{2,}", " ", t).strip()
+
+
 def translate_titles(items):
     """기사 제목에 한국어 번역(title_kr)을 붙인다. 한 번 번역한 제목은 data/translate_cache.json 에 저장해 재사용."""
     cache = load("translate_cache.json", {}) or {}
-    names = (load("names_kr.json", {}) or {}).get("names", {})
+    if cache.get("_v") != TR_VERSION:
+        cache = {"_v": TR_VERSION}
     done = fail = 0
     for it in items:
         if it.get("lang") != "ja":
             continue
         t = it["title"]
         if t not in cache:
-            kr = translate_ja_ko(t)
+            kr = translate_ja_ko(pre_ko(t))
+            kr = post_ko(kr) if kr else None
             if not kr:
                 fail += 1
                 continue
@@ -512,7 +543,7 @@ def translate_titles(items):
             done += 1
             time.sleep(0.3)
         it["title_kr"] = cache[t]
-    keep = {i["title"] for i in items}
+    keep = {i["title"] for i in items} | {"_v"}
     save("translate_cache.json", {k: v for k, v in cache.items() if k in keep})
     if fail:
         STATUS["translate"] = f"번역 실패 {fail}건 (원문으로 표시)"
