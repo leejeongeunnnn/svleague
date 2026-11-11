@@ -1,1050 +1,9339 @@
 {
- "updated_at": "2026-11-11",
- "source": "sports-shirabe.com 구단별 명단 · 각 구단 발표 (직접 정리)",
- "_note": "등번호가 비어 있는 선수는 다른 기사로 소속만 확인한 선수. 직접 수정하는 파일이에요.",
+ "updated_at": "2026-11-11 23:34",
+ "source": "SV리그 공식 사이트 선수 명단",
+ "coaches": {
+  "보레아스": {
+   "name": "エド・クライン",
+   "roman": "Edo Klein"
+  },
+  "홋카이도YS": {
+   "name": "上杉 徹",
+   "roman": "Uesugi Toru"
+  },
+  "도쿄GB": {
+   "name": "マウリシオ・パエス",
+   "roman": "Mauricio Paes"
+  },
+  "마쓰모토": {
+   "name": "トーマス・ラーナー",
+   "roman": "Tohmas Ranner"
+  },
+  "도레이": {
+   "name": "阿部 裕太",
+   "roman": "Abe Yuta"
+  },
+  "스팅스아이치": {
+   "name": "真保 綱一郎",
+   "roman": "Shimbo Koichiro"
+  },
+  "WD나고야": {
+   "name": "ヴァレリオ・バルドヴィン",
+   "roman": "Valerio Baldovin"
+  },
+  "오사카B": {
+   "name": "トーマス・ペッテリ・サムエルボ",
+   "roman": "Tuomas Petteri Sammelvuo"
+  },
+  "산토리": {
+   "name": "オリビエ・キャット",
+   "roman": "Olivier Lecat"
+  },
+  "사카이": {
+   "name": "ジェルソンデ・オリベイラ・アモリン",
+   "roman": "Gersonde Oliveira Amorin"
+  },
+  "히로시마": {
+   "name": "カルロス・ハビエル・ウェベル",
+   "roman": "Carlos Javier Weber"
+  },
+  "가고시마": {
+   "name": "藤田 高教",
+   "roman": "Fujita Takanori"
+  }
+ },
+ "no_korean_name": [
+  "エドアルド・カネスキ",
+  "ガブリエル・ガルシア",
+  "スカイラー・ヴァルガ",
+  "ルーナ・ファステランド",
+  "水町 泰杜"
+ ],
  "teams": {
-  "산토리": [
-   {
-    "no": 1,
-    "name": "小野寺 太志",
-    "pos": "MB"
-   },
-   {
-    "no": 2,
-    "name": "佐藤 謙次",
-    "pos": "MB"
-   },
-   {
-    "no": 5,
-    "name": "下川 諒",
-    "pos": "S"
-   },
-   {
-    "no": 7,
-    "name": "ルチアーノ・パロンスキー",
-    "pos": "OH"
-   },
-   {
-    "no": 8,
-    "name": "関田 誠大",
-    "pos": "S"
-   },
-   {
-    "no": 9,
-    "name": "蔡 沛彰",
-    "pos": "MB"
-   },
-   {
-    "no": 10,
-    "name": "ワシム・ベンタラ",
-    "pos": "OP"
-   },
-   {
-    "no": 14,
-    "name": "鬼木 錬",
-    "pos": "MB"
-   },
-   {
-    "no": 15,
-    "name": "喜入 祥充",
-    "pos": "L"
-   },
-   {
-    "no": 17,
-    "name": "備 一真",
-    "pos": "L"
-   },
-   {
-    "no": 18,
-    "name": "イゴール・クリュカ",
-    "pos": "OH"
-   },
-   {
-    "no": 19,
-    "name": "甲斐 孝太郎",
-    "pos": "OP"
-   },
-   {
-    "no": 20,
-    "name": "染野 輝",
-    "pos": "OH"
-   },
-   {
-    "no": 21,
-    "name": "髙橋 塁",
-    "pos": "OH"
-   },
-   {
-    "no": 22,
-    "name": "鍬田 憲伸",
-    "pos": "OH"
-   },
-   {
-    "no": 23,
-    "name": "柏田 樹",
-    "pos": "MB"
-   },
-   {
-    "no": 61,
-    "name": "中野 倭",
-    "pos": "S"
-   },
-   {
-    "no": 99,
-    "name": "ダニエル・チチゴイ",
-    "pos": "OH"
-   }
-  ],
-  "오사카B": [
-   {
-    "no": 3,
-    "name": "中村 駿介",
-    "pos": "S"
-   },
-   {
-    "no": 5,
-    "name": "富田 将馬",
-    "pos": "OH"
-   },
-   {
-    "no": 6,
-    "name": "アントワーヌ・ブリザール",
-    "pos": "S"
-   },
-   {
-    "no": 8,
-    "name": "仲本 賢優",
-    "pos": "OH"
-   },
-   {
-    "no": 10,
-    "name": "山内 晶大",
-    "pos": "MB"
-   },
-   {
-    "no": 11,
-    "name": "西田 有志",
-    "pos": "OP"
-   },
-   {
-    "no": 13,
-    "name": "山本 智大",
-    "pos": "L"
-   },
-   {
-    "no": 15,
-    "name": "甲斐 優斗",
-    "pos": "OH"
-   },
-   {
-    "no": 16,
-    "name": "伊賀 亮平",
-    "pos": "L"
-   },
-   {
-    "no": 18,
-    "name": "西山 大翔",
-    "pos": "OP"
-   },
-   {
-    "no": 19,
-    "name": "西川 馨太郎",
-    "pos": "MB"
-   },
-   {
-    "no": 22,
-    "name": "ブライアン・バグナス",
-    "pos": "OH"
-   },
-   {
-    "no": 23,
-    "name": "エバデダン ラリー アイケー",
-    "pos": "MB"
-   },
-   {
-    "no": 33,
-    "name": "フィニアン・マッカーシー",
-    "pos": "MB"
-   },
-   {
-    "no": 81,
-    "name": "ミゲル・ロペス",
-    "pos": "OH"
-   }
-  ],
-  "스팅스아이치": [
-   {
-    "no": 1,
-    "name": "藤中 優斗",
-    "pos": "OH"
-   },
-   {
-    "no": 2,
-    "name": "髙橋 健太郎",
-    "pos": "MB"
-   },
-   {
-    "no": 3,
-    "name": "堺 爽人",
-    "pos": "MB"
-   },
-   {
-    "no": 4,
-    "name": "川口 柊人",
-    "pos": "MB"
-   },
-   {
-    "no": 6,
-    "name": "河東 祐大",
-    "pos": "S"
-   },
-   {
-    "no": 7,
-    "name": "荒木 琢真",
-    "pos": "L"
-   },
-   {
-    "no": 9,
-    "name": "ステファン・ボワイエ",
-    "pos": "OP"
-   },
-   {
-    "no": 10,
-    "name": "藤中 謙也",
-    "pos": "OH"
-   },
-   {
-    "no": 11,
-    "name": "ヌネス・ジャドソン",
-    "pos": "MB"
-   },
-   {
-    "no": 12,
-    "name": "藤原 直也",
-    "pos": "OH"
-   },
-   {
-    "no": 16,
-    "name": "出水 充希",
-    "pos": "OP"
-   },
-   {
-    "no": 17,
-    "name": "前田 一誠",
-    "pos": "S"
-   },
-   {
-    "no": 21,
-    "name": "高橋 和幸",
-    "pos": "L"
-   },
-   {
-    "no": 22,
-    "name": "岩本 大吾",
-    "pos": "MB"
-   },
-   {
-    "no": 23,
-    "name": "トリー・デファルコ",
-    "pos": "OH"
-   },
-   {
-    "no": 24,
-    "name": "高橋 慶帆",
-    "pos": "OP"
-   }
-  ],
-  "WD나고야": [
-   {
-    "no": 1,
-    "name": "山田 脩造",
-    "pos": "OH"
-   },
-   {
-    "no": 2,
-    "name": "澤田 晶",
-    "pos": "MB"
-   },
-   {
-    "no": 3,
-    "name": "深津 英臣",
-    "pos": "S"
-   },
-   {
-    "no": 4,
-    "name": "山﨑 真裕",
-    "pos": "MB"
-   },
-   {
-    "no": 6,
-    "name": "アントン・ブレーメ",
-    "pos": "MB"
-   },
-   {
-    "no": 8,
-    "name": "前田 凌吾",
-    "pos": "S"
-   },
-   {
-    "no": 9,
-    "name": "エイメン・ブゲラ",
-    "pos": "OH"
-   },
-   {
-    "no": 10,
-    "name": "ジェニア・グレベニコフ",
-    "pos": "L"
-   },
-   {
-    "no": 11,
-    "name": "傳田 亮太",
-    "pos": "MB"
-   },
-   {
-    "no": 15,
-    "name": "宮浦 健人",
-    "pos": "OP"
-   },
-   {
-    "no": 17,
-    "name": "市川 健太",
-    "pos": "L"
-   },
-   {
-    "no": 22,
-    "name": "豊田 譲",
-    "pos": "OP"
-   },
-   {
-    "no": 26,
-    "name": "山崎 彰都",
-    "pos": "OH"
-   },
-   {
-    "no": 44,
-    "name": "ドノヴァン・ジャヴォロノク",
-    "pos": "OH"
-   },
-   {
-    "no": 99,
-    "name": "ノルベルト・フベル",
-    "pos": "MB"
-   }
-  ],
-  "도쿄GB": [
-   {
-    "no": 2,
-    "name": "伊藤 吏玖",
-    "pos": "MB"
-   },
-   {
-    "no": 3,
-    "name": "深津 旭弘",
-    "pos": "S"
-   },
-   {
-    "no": 4,
-    "name": "ヤン・コザメルニク",
-    "pos": "MB"
-   },
-   {
-    "no": 6,
-    "name": "バルトシュ・クレク",
-    "pos": "OP"
-   },
-   {
-    "no": 8,
-    "name": "柳田 将洋",
-    "pos": "OH"
-   },
-   {
-    "no": 10,
-    "name": "古賀 太一郎",
-    "pos": "L"
-   },
-   {
-    "no": 11,
-    "name": "後藤 陸翔",
-    "pos": "OH"
-   },
-   {
-    "no": 12,
-    "name": "村山 豪",
-    "pos": "MB"
-   },
-   {
-    "no": 13,
-    "name": "大竹 壱青",
-    "pos": "MB"
-   },
-   {
-    "no": 17,
-    "name": "ルチアーノ・ヴィセンティン",
-    "pos": "OH"
-   },
-   {
-    "no": 20,
-    "name": "マーク・ルラ",
-    "pos": "OP"
-   },
-   {
-    "no": 29,
-    "name": "大前 隆貴",
-    "pos": "L"
-   },
-   {
-    "no": 30,
-    "name": "川野 琢磨",
-    "pos": "OH"
-   },
-   {
-    "no": 31,
-    "name": "黒川 竜星",
-    "pos": "S"
-   },
-   {
-    "no": 32,
-    "name": "近藤 蘭丸",
-    "pos": "S"
-   },
-   {
-    "no": 39,
-    "name": "髙島 優作",
-    "pos": "OP"
-   }
-  ],
-  "히로시마": [
-   {
-    "no": 1,
-    "name": "柳北 悠李",
-    "pos": "OH"
-   },
-   {
-    "no": 2,
-    "name": "樋口 裕希",
-    "pos": "MB"
-   },
-   {
-    "no": 3,
-    "name": "西村 信",
-    "pos": "L"
-   },
-   {
-    "no": 4,
-    "name": "三輪 大将",
-    "pos": "MB"
-   },
-   {
-    "no": 7,
-    "name": "新井 雄大",
-    "pos": "OH"
-   },
-   {
-    "no": 9,
-    "name": "髙梨 海輝",
-    "pos": "MB"
-   },
-   {
-    "no": 10,
-    "name": "髙木 啓士郎",
-    "pos": "L"
-   },
-   {
-    "no": 11,
-    "name": "坂下 純也",
-    "pos": "OH"
-   },
-   {
-    "no": 15,
-    "name": "西本 圭吾",
-    "pos": "MB"
-   },
-   {
-    "no": 16,
-    "name": "西 知恕",
-    "pos": "MB"
-   },
-   {
-    "no": 17,
-    "name": "金子 聖輝",
-    "pos": "S"
-   },
-   {
-    "no": 18,
-    "name": "山本 将平",
-    "pos": "OH"
-   },
-   {
-    "no": 20,
-    "name": "阿部 大樹",
-    "pos": "S"
-   },
-   {
-    "no": 21,
-    "name": "永露 元稀",
-    "pos": "S"
-   },
-   {
-    "no": 22,
-    "name": "山元 快太",
-    "pos": "OH"
-   },
-   {
-    "no": 23,
-    "name": "ダニエル・マルティネス・カンポス",
-    "pos": "OP"
-   },
-   {
-    "no": null,
-    "name": "モビン・ナスリ・マスタナバド",
-    "pos": "OH"
-   },
-   {
-    "no": null,
-    "name": "アミン・エスマエイルネザド",
-    "pos": "OP"
-   }
-  ],
-  "사카이": [
-   {
-    "no": 2,
-    "name": "山根 大幸",
-    "pos": "MB"
-   },
-   {
-    "no": 3,
-    "name": "安井 恒介",
-    "pos": "OH"
-   },
-   {
-    "no": 6,
-    "name": "森 愛樹",
-    "pos": "L"
-   },
-   {
-    "no": 7,
-    "name": "高梨 健太",
-    "pos": "OH"
-   },
-   {
-    "no": 8,
-    "name": "秋間 直人",
-    "pos": "MB"
-   },
-   {
-    "no": 9,
-    "name": "大宅 真樹",
-    "pos": "S"
-   },
-   {
-    "no": 10,
-    "name": "渡邉 晃瑠",
-    "pos": "MB"
-   },
-   {
-    "no": 15,
-    "name": "江藤 巧",
-    "pos": "S"
-   },
-   {
-    "no": 17,
-    "name": "上村 琉乃介",
-    "pos": "OP"
-   },
-   {
-    "no": 18,
-    "name": "アレックス・サーレマー",
-    "pos": "MB"
-   },
-   {
-    "no": 20,
-    "name": "中西 健裕",
-    "pos": "S"
-   },
-   {
-    "no": 21,
-    "name": "竹元 裕太郎",
-    "pos": "MB"
-   },
-   {
-    "no": 22,
-    "name": "柿崎 晃",
-    "pos": "OH"
-   },
-   {
-    "no": 23,
-    "name": "南口 辰揮",
-    "pos": "L"
-   },
-   {
-    "no": 77,
-    "name": "チゾバ・ネベス",
-    "pos": "OP"
-   },
-   {
-    "no": 90,
-    "name": "トンマーゾ・リナルディ",
-    "pos": "OH"
-   },
-   {
-    "no": 99,
-    "name": "ジョルディ・ラモン",
-    "pos": "OH"
-   }
-  ],
-  "도레이": [
-   {
-    "no": 1,
-    "name": "難波 尭弘",
-    "pos": "MB"
-   },
-   {
-    "no": 2,
-    "name": "新 貴裕",
-    "pos": "S"
-   },
-   {
-    "no": 6,
-    "name": "楠本 岳",
-    "pos": "OH"
-   },
-   {
-    "no": 7,
-    "name": "デアルマス アライン",
-    "pos": "OH"
-   },
-   {
-    "no": 8,
-    "name": "中島 健斗",
-    "pos": "S"
-   },
-   {
-    "no": 9,
-    "name": "馬渡 拓巳",
-    "pos": "OH"
-   },
-   {
-    "no": 10,
-    "name": "重藤 トビアス赳",
-    "pos": "OH"
-   },
-   {
-    "no": 11,
-    "name": "藤中 颯志",
-    "pos": "L"
-   },
-   {
-    "no": 12,
-    "name": "山田 大貴",
-    "pos": "OH"
-   },
-   {
-    "no": 13,
-    "name": "テイラー・エイブリル",
-    "pos": "MB"
-   },
-   {
-    "no": 15,
-    "name": "李 博",
-    "pos": "MB"
-   },
-   {
-    "no": 16,
-    "name": "上條 レイモンド",
-    "pos": "MB"
-   },
-   {
-    "no": 18,
-    "name": "牧 大晃",
-    "pos": "OH"
-   },
-   {
-    "no": 19,
-    "name": "武田 大周",
-    "pos": "L"
-   },
-   {
-    "no": 20,
-    "name": "小野寺 瑛輝",
-    "pos": "S"
-   }
-  ],
   "보레아스": [
    {
+    "code": "5592",
     "no": 2,
     "name": "中道 優斗",
-    "pos": "OH"
+    "roman": "Nakamichi Manato",
+    "pos": "OH",
+    "img": "data/photos/5592.webp",
+    "birth": null,
+    "age": null,
+    "height": 183,
+    "reach": 330,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 12,
+      "atk": 40.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 0,
+      "rcv": 27.5,
+      "pts": 4
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 74,
+      "atk": 32.5,
+      "blk": 0.19,
+      "ace": 4,
+      "srv": 3.4,
+      "rcv": 43.0,
+      "pts": 93
+     }
+    ]
    },
    {
+    "code": "5704",
     "no": 3,
     "name": "国京 大海",
-    "pos": "S"
+    "roman": "Kunikyo Takumi",
+    "pos": "S",
+    "img": "data/photos/5704.webp",
+    "birth": "2003-07-05",
+    "age": 23,
+    "height": 184,
+    "reach": 322,
+    "nation": "日本",
+    "hometown": "福井県",
+    "school": "日本大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 2,
+      "s": 3,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 21,
+      "s": 8,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 7.1,
+      "rcv": 0,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "5705",
     "no": 4,
     "name": "松下 彪雅",
-    "pos": "MB"
+    "roman": "Matsushita Hyuga",
+    "pos": "MB",
+    "img": "data/photos/5705.webp",
+    "birth": "2003-04-17",
+    "age": 23,
+    "height": 198,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "北海道",
+    "school": "北翔大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 3,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 7,
+      "s": 3,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": -6.2,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "1229",
     "no": 5,
     "name": "井上 仁",
-    "pos": "MB"
+    "roman": "Inoue Jin",
+    "pos": "MB",
+    "img": "data/photos/1229.webp",
+    "birth": "1992-04-02",
+    "age": 34,
+    "height": 195,
+    "reach": 330,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "東京学芸大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 4,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 42,
+      "s": 25,
+      "atk": 42.1,
+      "blk": 0.24,
+      "ace": 3,
+      "srv": 5.3,
+      "rcv": 88.5,
+      "pts": 25
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 43,
+      "s": 33,
+      "atk": 41.9,
+      "blk": 0.15,
+      "ace": 5,
+      "srv": 12.1,
+      "rcv": 63.3,
+      "pts": 36
+     }
+    ]
    },
    {
+    "code": "4384",
     "no": 6,
     "name": "山岸 隼",
-    "pos": "S"
+    "roman": "Yamagishi Jun",
+    "pos": "S",
+    "img": "data/photos/4384.webp",
+    "birth": "1999-08-03",
+    "age": 27,
+    "height": 186,
+    "reach": 330,
+    "nation": "日本",
+    "hometown": "長野県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 24,
+      "atk": 38.5,
+      "blk": 0.29,
+      "ace": 5,
+      "srv": 15.6,
+      "rcv": 0,
+      "pts": 17
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 159,
+      "atk": 33.3,
+      "blk": 0.18,
+      "ace": 22,
+      "srv": 9.6,
+      "rcv": 6.8,
+      "pts": 75
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 160,
+      "atk": 19.1,
+      "blk": 0.12,
+      "ace": 18,
+      "srv": 9.4,
+      "rcv": 10.0,
+      "pts": 47
+     }
+    ]
    },
    {
+    "code": "5332",
     "no": 7,
     "name": "ニキタ・ゾロトゥーヒン",
-    "pos": "OP"
+    "roman": "Nikita Zolotukhin",
+    "pos": "OP",
+    "img": "data/photos/5332.webp",
+    "birth": "2003-04-15",
+    "age": 23,
+    "height": 215,
+    "reach": 359,
+    "nation": "ウクライナ",
+    "hometown": "ウクライナ",
+    "school": "Dnipro I.P.C",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 14,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 14,
+      "s": 14,
+      "atk": null,
+      "blk": 0.07,
+      "ace": 0,
+      "srv": 0,
+      "rcv": 0,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "レーヴィス栃木",
+      "g": 10,
+      "s": 23,
+      "atk": 54.5,
+      "blk": 0.22,
+      "ace": 0,
+      "srv": 10.0,
+      "rcv": null,
+      "pts": 23
+     }
+    ]
    },
    {
+    "code": "4546",
     "no": 8,
     "name": "日車 恭輔",
-    "pos": "OH"
+    "roman": "Higuruma Kyosuke",
+    "pos": "OH",
+    "img": "data/photos/4546.webp",
+    "birth": "2002-09-25",
+    "age": 24,
+    "height": 188,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "熊本県",
+    "school": "福岡大学",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 33,
+      "atk": 43.8,
+      "blk": 0.15,
+      "ace": 3,
+      "srv": 6.5,
+      "rcv": 30.0,
+      "pts": 85
+     }
+    ]
    },
    {
+    "code": "3577",
     "no": 9,
     "name": "池田 幸太",
-    "pos": "OH"
+    "roman": "Ikeda Kota",
+    "pos": "OH",
+    "img": "data/photos/3577.webp",
+    "birth": "1997-02-08",
+    "age": 29,
+    "height": 180,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "鹿児島県",
+    "school": "福岡大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 24,
+      "atk": 48.1,
+      "blk": 0.21,
+      "ace": 6,
+      "srv": 13.0,
+      "rcv": 33.5,
+      "pts": 74
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 39,
+      "s": 64,
+      "atk": 41.8,
+      "blk": 0.23,
+      "ace": 7,
+      "srv": 10.1,
+      "rcv": 36.0,
+      "pts": 141
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 42,
+      "s": 126,
+      "atk": 43.0,
+      "blk": 0.23,
+      "ace": 28,
+      "srv": 10.5,
+      "rcv": 41.0,
+      "pts": 377
+     }
+    ]
    },
    {
+    "code": "5593",
     "no": 10,
     "name": "メルト・タンメアル",
-    "pos": "OH"
+    "roman": "Mart Tammearu",
+    "pos": "OH",
+    "img": "data/photos/5593.webp",
+    "birth": "2001-03-17",
+    "age": 25,
+    "height": 198,
+    "reach": 360,
+    "nation": "エストニア",
+    "hometown": "エストニア",
+    "school": "KristjanJaakPeterson",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 24,
+      "atk": 47.5,
+      "blk": 0.54,
+      "ace": 4,
+      "srv": 11.8,
+      "rcv": 35.2,
+      "pts": 102
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 41,
+      "s": 148,
+      "atk": 44.4,
+      "blk": 0.24,
+      "ace": 40,
+      "srv": 14.6,
+      "rcv": 41.1,
+      "pts": 562
+     }
+    ]
    },
    {
+    "code": "3917",
     "no": 11,
     "name": "外崎 航平",
-    "pos": "L"
+    "roman": "Tonozaki Kohei",
+    "pos": "L",
+    "img": "data/photos/3917.webp",
+    "birth": "1997-06-28",
+    "age": 29,
+    "height": 172,
+    "reach": 295,
+    "nation": "日本",
+    "hometown": "北海道",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 24,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 38.7,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 161,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 53.4,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 161,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 44.8,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "5083",
     "no": 12,
     "name": "荒尾 怜音",
-    "pos": "L"
+    "roman": "Arao Reon",
+    "pos": "L",
+    "img": "data/photos/5083.webp",
+    "birth": "2001-05-01",
+    "age": 25,
+    "height": 175,
+    "reach": 305,
+    "nation": "日本",
+    "hometown": "熊本県",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 1,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 3,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 63,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 46.2,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "5585",
     "no": 14,
     "name": "ウルリック・ダール",
-    "pos": "OP"
+    "roman": "Ulrik Dahl",
+    "pos": "OP",
+    "img": "data/photos/5585.webp",
+    "birth": "2000-11-18",
+    "age": 25,
+    "height": 201,
+    "reach": 363,
+    "nation": "デンマーク",
+    "hometown": "デンマーク",
+    "school": "CV San Roque Batan",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 24,
+      "atk": 46.2,
+      "blk": 0.54,
+      "ace": 8,
+      "srv": 10.8,
+      "rcv": 0,
+      "pts": 119
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 44,
+      "s": 145,
+      "atk": 50.3,
+      "blk": 0.29,
+      "ace": 48,
+      "srv": 12.5,
+      "rcv": 47.5,
+      "pts": 605
+     }
+    ]
    },
    {
+    "code": "4385",
     "no": 17,
     "name": "山田 航旗",
-    "pos": "MB"
+    "roman": "Yamada Koki",
+    "pos": "MB",
+    "img": "data/photos/4385.webp",
+    "birth": "1999-10-07",
+    "age": 27,
+    "height": 190,
+    "reach": 335,
+    "nation": "日本",
+    "hometown": "熊本県",
+    "school": "福岡大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 8,
+      "atk": 54.5,
+      "blk": null,
+      "ace": 2,
+      "srv": 23.1,
+      "rcv": 50.0,
+      "pts": 8
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 41,
+      "s": 132,
+      "atk": 51.2,
+      "blk": 0.24,
+      "ace": 17,
+      "srv": 10.7,
+      "rcv": 37.7,
+      "pts": 202
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 38,
+      "s": 95,
+      "atk": 54.0,
+      "blk": 0.25,
+      "ace": 6,
+      "srv": 7.0,
+      "rcv": 40.1,
+      "pts": 137
+     }
+    ]
    },
    {
+    "code": "6029",
     "no": 18,
     "name": "西 宏志朗",
-    "pos": "L"
+    "roman": "Nishi Koshiro",
+    "pos": "L",
+    "img": "data/photos/6029.webp",
+    "birth": "2003-03-17",
+    "age": 23,
+    "height": 170,
+    "reach": 305,
+    "nation": "日本",
+    "hometown": "鹿児島県",
+    "school": "国士舘大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 2,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "2892",
     "no": 19,
     "name": "浜田 翔太",
-    "pos": "S"
+    "roman": "Hamada Shota",
+    "pos": "S",
+    "img": "data/photos/2892.webp",
+    "birth": "1990-09-21",
+    "age": 36,
+    "height": 182,
+    "reach": 320,
+    "nation": "日本",
+    "hometown": "北海道",
+    "school": "国士舘大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 4,
+      "s": 12,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 26,
+      "s": 26,
+      "atk": 50.0,
+      "blk": 0.08,
+      "ace": 0,
+      "srv": 0,
+      "rcv": null,
+      "pts": 3
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "埼玉アザレア",
+      "g": 10,
+      "s": 4,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": -4.2,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "4193",
     "no": 34,
     "name": "三好 佳介",
-    "pos": "MB"
+    "roman": "Miyoshi Keisuke",
+    "pos": "MB",
+    "img": "data/photos/4193.webp",
+    "birth": "1999-02-16",
+    "age": 27,
+    "height": 190,
+    "reach": 333,
+    "nation": "日本",
+    "hometown": "香川県",
+    "school": "福山平成大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 6,
+      "s": 24,
+      "atk": 50.0,
+      "blk": 0.67,
+      "ace": 7,
+      "srv": 17.2,
+      "rcv": 28.6,
+      "pts": 51
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 37,
+      "s": 129,
+      "atk": 47.1,
+      "blk": 0.47,
+      "ace": 25,
+      "srv": 8.5,
+      "rcv": 43.0,
+      "pts": 225
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 149,
+      "atk": 48.1,
+      "blk": 0.41,
+      "ace": 13,
+      "srv": 3.7,
+      "rcv": 48.6,
+      "pts": 253
+     }
+    ]
    },
    {
+    "code": "5296",
     "no": 44,
     "name": "ティモ・タンメマー",
-    "pos": "MB"
-   }
-  ],
-  "마쓰모토": [
-   {
-    "no": 1,
-    "name": "松本 慶彦",
-    "pos": "MB"
-   },
-   {
-    "no": 2,
-    "name": "ザカリー・ラマ",
-    "pos": "OH"
-   },
-   {
-    "no": 3,
-    "name": "酒井 秀輔",
-    "pos": "OP"
-   },
-   {
-    "no": 4,
-    "name": "千葉 貫世",
-    "pos": "MB"
-   },
-   {
-    "no": 5,
-    "name": "難波 宏治",
-    "pos": "L"
-   },
-   {
-    "no": 6,
-    "name": "赤星 伸城",
-    "pos": "S"
-   },
-   {
-    "no": 8,
-    "name": "フィリップ・ジョン",
-    "pos": "OP"
-   },
-   {
-    "no": 9,
-    "name": "藤原 奨太",
-    "pos": "OH"
-   },
-   {
-    "no": 10,
-    "name": "安原 大",
-    "pos": "MB"
-   },
-   {
-    "no": 11,
-    "name": "工藤 有史",
-    "pos": "OH"
-   },
-   {
-    "no": 12,
-    "name": "星名 勇佑",
-    "pos": "S"
-   },
-   {
-    "no": 14,
-    "name": "松尾 敬介",
-    "pos": "L"
-   },
-   {
-    "no": 15,
-    "name": "デイビッド・スミス",
-    "pos": "MB"
-   },
-   {
-    "no": 17,
-    "name": "伊藤 洸貴",
-    "pos": "S"
-   },
-   {
-    "no": 18,
-    "name": "佐藤 隆哉",
-    "pos": "OH"
-   },
-   {
-    "no": 19,
-    "name": "一条 太嘉丸",
-    "pos": "OH"
-   },
-   {
-    "no": 20,
-    "name": "マックレヴィン ディアリス平",
-    "pos": "MB"
-   },
-   {
-    "no": 21,
-    "name": "岸川 蓮樹",
-    "pos": "OP"
-   },
-   {
-    "no": 24,
-    "name": "安部 翔大",
-    "pos": "MB"
+    "roman": "Timo Tammemaa",
+    "pos": "MB",
+    "img": "data/photos/5296.webp",
+    "birth": null,
+    "age": null,
+    "height": 205,
+    "reach": 365,
+    "nation": "エストニア",
+    "hometown": "エストニア",
+    "school": "Audentes SG/NK",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 5,
+      "s": 20,
+      "atk": 43.8,
+      "blk": 0.6,
+      "ace": 6,
+      "srv": 12.3,
+      "rcv": 36.4,
+      "pts": 39
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 161,
+      "atk": 56.7,
+      "blk": 0.61,
+      "ace": 31,
+      "srv": 8.0,
+      "rcv": 39.6,
+      "pts": 396
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 43,
+      "s": 165,
+      "atk": 60.1,
+      "blk": 0.5,
+      "ace": 33,
+      "srv": 9.5,
+      "rcv": 49.4,
+      "pts": 388
+     }
+    ]
    }
   ],
   "홋카이도YS": [
    {
+    "code": "3832",
     "no": 1,
     "name": "新山 駿",
-    "pos": "L"
+    "roman": "Shinyama Shun",
+    "pos": "L",
+    "img": "data/photos/3832.webp",
+    "birth": null,
+    "age": null,
+    "height": 168,
+    "reach": 310,
+    "nation": "日本",
+    "hometown": "広島県",
+    "school": "日本大学",
+    "career": [
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 22,
+      "s": 77,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 67.3,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 29,
+      "s": 88,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 66.6,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "4991",
     "no": 2,
     "name": "中谷 薫",
-    "pos": "MB"
+    "roman": "Nakaya Kaoru",
+    "pos": "MB",
+    "img": "data/photos/4991.webp",
+    "birth": "2001-08-14",
+    "age": 25,
+    "height": 197,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "千葉県",
+    "school": "順天堂大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 6,
+      "s": 22,
+      "atk": 44.6,
+      "blk": 0.55,
+      "ace": 1,
+      "srv": 3.5,
+      "rcv": 35.3,
+      "pts": 42
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 30,
+      "s": 92,
+      "atk": 60.0,
+      "blk": 0.89,
+      "ace": 1,
+      "srv": 4.7,
+      "rcv": 63.8,
+      "pts": 228
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 27,
+      "s": 77,
+      "atk": 58.7,
+      "blk": 0.88,
+      "ace": 2,
+      "srv": 5.1,
+      "rcv": 80.0,
+      "pts": 192
+     }
+    ]
    },
    {
+    "code": "6030",
     "no": 4,
     "name": "住友 厚介",
-    "pos": "MB"
+    "roman": "Sumitomo Kosuke",
+    "pos": "MB",
+    "img": "data/photos/6030.webp",
+    "birth": "2003-10-31",
+    "age": 23,
+    "height": 195,
+    "reach": 348,
+    "nation": "日本",
+    "hometown": "兵庫県",
+    "school": "北海道大学",
+    "career": []
    },
    {
+    "code": "616",
     "no": 5,
     "name": "渡辺 俊介",
-    "pos": "L"
+    "roman": "Watanabe Shunsuke",
+    "pos": "L",
+    "img": "data/photos/616.webp",
+    "birth": "1988-04-11",
+    "age": 38,
+    "height": 180,
+    "reach": 315,
+    "nation": "日本",
+    "hometown": "北海道",
+    "school": "順天堂大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 6,
+      "s": 22,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 43.8,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 34,
+      "s": 114,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 38.5,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 49,
+      "s": 146,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 43.1,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "6031",
     "no": 6,
-    "name": "ルーネ・ファステランド",
-    "pos": "MB"
+    "name": "ルーナ・ファステランド",
+    "roman": "Rune Fasteland",
+    "pos": "MB",
+    "img": "data/photos/6031.webp",
+    "birth": "1995-12-17",
+    "age": 30,
+    "height": 204,
+    "reach": 360,
+    "nation": "ノルウェー",
+    "hometown": "ノルウェー",
+    "school": "ノルウェー・オイステセ高校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 6,
+      "s": 22,
+      "atk": 53.6,
+      "blk": 0.5,
+      "ace": 3,
+      "srv": 6.5,
+      "rcv": 36.4,
+      "pts": 51
+     }
+    ]
    },
    {
+    "code": "4253",
     "no": 7,
     "name": "久保下 航平",
-    "pos": "S"
+    "roman": "Kuboshita Kohei",
+    "pos": "S",
+    "img": "data/photos/4253.webp",
+    "birth": "1998-07-21",
+    "age": 28,
+    "height": 178,
+    "reach": 320,
+    "nation": "日本",
+    "hometown": "鹿児島県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 6,
+      "s": 22,
+      "atk": 0,
+      "blk": 0.14,
+      "ace": 2,
+      "srv": 2.0,
+      "rcv": null,
+      "pts": 5
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 30,
+      "s": 90,
+      "atk": 100.0,
+      "blk": 0.13,
+      "ace": 9,
+      "srv": 5.4,
+      "rcv": 0,
+      "pts": 27
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 29,
+      "s": 57,
+      "atk": 42.9,
+      "blk": 0.07,
+      "ace": 3,
+      "srv": 3.4,
+      "rcv": 0,
+      "pts": 10
+     }
+    ]
    },
    {
+    "code": "4751",
     "no": 8,
     "name": "出口 大聖",
-    "pos": "MB"
+    "roman": "Deguchi Taisei",
+    "pos": "MB",
+    "img": "data/photos/4751.webp",
+    "birth": "2000-08-13",
+    "age": 26,
+    "height": 193,
+    "reach": 335,
+    "nation": "日本",
+    "hometown": "北海道",
+    "school": "国際武道大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 1,
+      "s": 1,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 43,
+      "s": 28,
+      "atk": 46.2,
+      "blk": 0.07,
+      "ace": 2,
+      "srv": 7.8,
+      "rcv": 56.2,
+      "pts": 28
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 29,
+      "s": 63,
+      "atk": 62.4,
+      "blk": 0.41,
+      "ace": 2,
+      "srv": 4.5,
+      "rcv": 42.9,
+      "pts": 131
+     }
+    ]
    },
    {
+    "code": "5431",
     "no": 9,
     "name": "吉村 颯太",
-    "pos": "L"
+    "roman": "Yoshimura Sota",
+    "pos": "L",
+    "img": "data/photos/5431.webp",
+    "birth": "2003-02-19",
+    "age": 23,
+    "height": 176,
+    "reach": 335,
+    "nation": "日本",
+    "hometown": "広島県",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 3,
+      "s": 11,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 26,
+      "s": 90,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 57.6,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 8,
+      "s": 9,
+      "atk": 48.1,
+      "blk": null,
+      "ace": 0,
+      "srv": 4.2,
+      "rcv": 100.0,
+      "pts": 13
+     }
+    ]
    },
    {
+    "code": "3851",
     "no": 10,
     "name": "山田 滉太",
-    "pos": "OH"
+    "roman": "Yamada Kota",
+    "pos": "OH",
+    "img": "data/photos/3851.webp",
+    "birth": "1997-11-25",
+    "age": 28,
+    "height": 175,
+    "reach": 335,
+    "nation": "日本",
+    "hometown": "福井県",
+    "school": "中京大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 6,
+      "s": 21,
+      "atk": 47.2,
+      "blk": null,
+      "ace": 5,
+      "srv": 8.1,
+      "rcv": 43.0,
+      "pts": 55
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 30,
+      "s": 87,
+      "atk": 52.7,
+      "blk": 0.21,
+      "ace": 26,
+      "srv": 10.6,
+      "rcv": 60.8,
+      "pts": 327
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 29,
+      "s": 97,
+      "atk": 47.9,
+      "blk": 0.18,
+      "ace": 24,
+      "srv": 10.5,
+      "rcv": 68.2,
+      "pts": 352
+     }
+    ]
    },
    {
+    "code": "4151",
     "no": 11,
     "name": "池田 颯太",
-    "pos": "OP"
+    "roman": "Ikeda Sota",
+    "pos": "OP",
+    "img": "data/photos/4151.webp",
+    "birth": "1998-10-08",
+    "age": 28,
+    "height": 190,
+    "reach": 335,
+    "nation": "日本",
+    "hometown": "石川県",
+    "school": "明治大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 5,
+      "s": 9,
+      "atk": 53.3,
+      "blk": null,
+      "ace": 0,
+      "srv": 11.4,
+      "rcv": null,
+      "pts": 8
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 21,
+      "s": 48,
+      "atk": 45.5,
+      "blk": 0.06,
+      "ace": 0,
+      "srv": 8.2,
+      "rcv": null,
+      "pts": 50
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 29,
+      "s": 86,
+      "atk": 47.9,
+      "blk": 0.2,
+      "ace": 4,
+      "srv": 8.4,
+      "rcv": null,
+      "pts": 125
+     }
+    ]
    },
    {
+    "code": "4455",
     "no": 12,
     "name": "重留 日向",
-    "pos": "OH"
+    "roman": "Shigetome Hyuga",
+    "pos": "OH",
+    "img": "data/photos/4455.webp",
+    "birth": "1999-10-25",
+    "age": 27,
+    "height": 191,
+    "reach": 350,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "大阪産業大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 6,
+      "s": 13,
+      "atk": 39.0,
+      "blk": 0.08,
+      "ace": 3,
+      "srv": 15.2,
+      "rcv": 31.1,
+      "pts": 20
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 8,
+      "s": 5,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 4.2,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 30,
+      "s": 81,
+      "atk": 48.2,
+      "blk": 0.32,
+      "ace": 5,
+      "srv": 3.9,
+      "rcv": 54.6,
+      "pts": 304
+     }
+    ]
    },
    {
+    "code": "4118",
     "no": 14,
     "name": "中野 竜",
-    "pos": "OH"
+    "roman": "Nakano Ryu",
+    "pos": "OH",
+    "img": "data/photos/4118.webp",
+    "birth": "1998-08-28",
+    "age": 28,
+    "height": 180,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "埼玉県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 4,
+      "s": 5,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": -3.6,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 29,
+      "s": 45,
+      "atk": 52.2,
+      "blk": 0.44,
+      "ace": 2,
+      "srv": 2.7,
+      "rcv": 48.9,
+      "pts": 211
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 28,
+      "s": 68,
+      "atk": 48.5,
+      "blk": 0.31,
+      "ace": 8,
+      "srv": 6.3,
+      "rcv": 52.4,
+      "pts": 243
+     }
+    ]
    },
    {
+    "code": "4992",
     "no": 16,
     "name": "澤口 将太郎",
-    "pos": "OH"
+    "roman": "Sawaguchi Shotaro",
+    "pos": "OH",
+    "img": "data/photos/4992.webp",
+    "birth": "2002-01-06",
+    "age": 24,
+    "height": 185,
+    "reach": 328,
+    "nation": "日本",
+    "hometown": "北海道",
+    "school": "明治大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 2,
+      "s": 2,
+      "atk": 33.3,
+      "blk": null,
+      "ace": 0,
+      "srv": 0,
+      "rcv": 0,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 3,
+      "s": 4,
+      "atk": 35.3,
+      "blk": 0.25,
+      "ace": 0,
+      "srv": 0,
+      "rcv": 56.7,
+      "pts": 13
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 22,
+      "s": 23,
+      "atk": 39.7,
+      "blk": 0.13,
+      "ace": 0,
+      "srv": -2.2,
+      "rcv": 61.5,
+      "pts": 28
+     }
+    ]
    },
    {
+    "code": "3834",
     "no": 17,
     "name": "本澤 凌斗",
-    "pos": "S"
+    "roman": "Honzawa Ryoto",
+    "pos": "S",
+    "img": "data/photos/3834.webp",
+    "birth": "1998-04-03",
+    "age": 28,
+    "height": 181,
+    "reach": 325,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "駿台学園高校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 2,
+      "s": 3,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 40,
+      "s": 100,
+      "atk": 36.4,
+      "blk": 0.04,
+      "ace": 5,
+      "srv": 9.5,
+      "rcv": 0,
+      "pts": 17
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 30,
+      "s": 34,
+      "atk": 50.0,
+      "blk": 0.15,
+      "ace": 3,
+      "srv": 8.4,
+      "rcv": null,
+      "pts": 12
+     }
+    ]
    },
    {
+    "code": "4743",
     "no": 18,
     "name": "早坂 心之介",
-    "pos": "S"
+    "roman": "Hayasaka Shinnosuke",
+    "pos": "S",
+    "img": "data/photos/4743.webp",
+    "birth": "2000-04-22",
+    "age": 26,
+    "height": 177,
+    "reach": 320,
+    "nation": "日本",
+    "hometown": "宮城県",
+    "school": "大東文化大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 4,
+      "s": 7,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 44,
+      "s": 15,
+      "atk": 100.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 10.4,
+      "rcv": null,
+      "pts": 2
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 44,
+      "s": 116,
+      "atk": 37.5,
+      "blk": 0.07,
+      "ace": 4,
+      "srv": 6.3,
+      "rcv": 18.8,
+      "pts": 21
+     }
+    ]
    },
    {
+    "code": "3826",
     "no": 19,
     "name": "張 育陞",
-    "pos": "OP"
+    "roman": "Chang Yu-Sheng",
+    "pos": "OP",
+    "img": "data/photos/3826.webp",
+    "birth": "2000-03-30",
+    "age": 26,
+    "height": 190,
+    "reach": 340,
+    "nation": "チャイニーズタイペイ",
+    "hometown": "チャイニーズタイペイ",
+    "school": "臺中市立豐原商業高級中等學校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 6,
+      "s": 22,
+      "atk": 52.8,
+      "blk": 0.36,
+      "ace": 9,
+      "srv": 11.4,
+      "rcv": 25.0,
+      "pts": 103
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 144,
+      "atk": 48.1,
+      "blk": 0.41,
+      "ace": 31,
+      "srv": 9.3,
+      "rcv": 44.3,
+      "pts": 624
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 168,
+      "atk": 48.5,
+      "blk": 0.33,
+      "ace": 25,
+      "srv": 6.2,
+      "rcv": 47.2,
+      "pts": 807
+     }
+    ]
    },
    {
+    "code": "4125",
     "no": 20,
     "name": "都築 仁",
-    "pos": "OP"
+    "roman": "Tsuzuki Jin",
+    "pos": "OP",
+    "img": "data/photos/4125.webp",
+    "birth": "1998-12-28",
+    "age": 27,
+    "height": 195,
+    "reach": 343,
+    "nation": "日本",
+    "hometown": "愛知県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 1,
+      "s": 2,
+      "atk": 100.0,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 42,
+      "s": 40,
+      "atk": 39.2,
+      "blk": 0.03,
+      "ace": 0,
+      "srv": 4.4,
+      "rcv": 37.5,
+      "pts": 21
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 29,
+      "s": 91,
+      "atk": 57.8,
+      "blk": 0.32,
+      "ace": 10,
+      "srv": 7.2,
+      "rcv": 100.0,
+      "pts": 356
+     }
+    ]
    },
    {
+    "code": "4718",
     "no": 22,
     "name": "前田 幸久",
-    "pos": "L"
+    "roman": "Maeda Yukihisa",
+    "pos": "L",
+    "img": "data/photos/4718.webp",
+    "birth": "2000-09-13",
+    "age": 26,
+    "height": 166,
+    "reach": 290,
+    "nation": "日本",
+    "hometown": "長野県",
+    "school": "東京学芸大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 3,
+      "s": 11,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 11,
+      "s": 36,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 21,
+      "s": 35,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 66.9,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "5514",
     "no": 23,
     "name": "栁澤 賢",
-    "pos": "MB"
+    "roman": "Yanagisawa Ken",
+    "pos": "MB",
+    "img": "data/photos/5514.webp",
+    "birth": "2002-09-19",
+    "age": 24,
+    "height": 187,
+    "reach": 343,
+    "nation": "日本",
+    "hometown": "栃木県",
+    "school": "日本大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 6,
+      "s": 17,
+      "atk": 0,
+      "blk": null,
+      "ace": 1,
+      "srv": -4.3,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 25,
+      "s": 55,
+      "atk": 62.2,
+      "blk": 0.33,
+      "ace": 7,
+      "srv": 7.9,
+      "rcv": 81.2,
+      "pts": 84
+     }
+    ]
    },
    {
+    "code": "6032",
     "no": 38,
     "name": "堀内 大志",
-    "pos": "OH"
+    "roman": "Horiuchi Taishi",
+    "pos": "OH",
+    "img": "data/photos/6032.webp",
+    "birth": "2003-06-21",
+    "age": 23,
+    "height": 186,
+    "reach": 337,
+    "nation": "日本",
+    "hometown": "宮崎県",
+    "school": "専修大学",
+    "career": []
    },
    {
+    "code": "4167",
     "no": 73,
     "name": "島 波輝",
-    "pos": "MB"
+    "roman": "Shima Namiki",
+    "pos": "MB",
+    "img": "data/photos/4167.webp",
+    "birth": "1999-01-02",
+    "age": 27,
+    "height": 188,
+    "reach": 338,
+    "nation": "日本",
+    "hometown": "三重県",
+    "school": "明治大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 5,
+      "s": 4,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": 0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 30,
+      "s": 73,
+      "atk": 65.8,
+      "blk": 0.55,
+      "ace": 3,
+      "srv": 7.0,
+      "rcv": 46.9,
+      "pts": 175
+     }
+    ]
    },
    {
+    "code": "4332",
     "no": 92,
     "name": "ヨナス・クヴァーレン",
-    "pos": "OH"
+    "roman": "Jonas Kvalen",
+    "pos": "OH",
+    "img": "data/photos/4332.webp",
+    "birth": null,
+    "age": null,
+    "height": 195,
+    "reach": 342,
+    "nation": "ノルウェー",
+    "hometown": "ノルウェー",
+    "school": "Sauda VGS avd Sand",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 6,
+      "s": 22,
+      "atk": 45.1,
+      "blk": 0.36,
+      "ace": 0,
+      "srv": 5.7,
+      "rcv": 37.9,
+      "pts": 49
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "クボタスピアーズ大阪",
+      "g": 29,
+      "s": 114,
+      "atk": 50.0,
+      "blk": 0.46,
+      "ace": 7,
+      "srv": 8.2,
+      "rcv": 53.2,
+      "pts": 552
+     }
+    ]
+   }
+  ],
+  "도쿄GB": [
+   {
+    "code": "4898",
+    "no": 2,
+    "name": "伊藤 吏玖",
+    "roman": "Ito Riku",
+    "pos": "MB",
+    "img": "data/photos/4898.webp",
+    "birth": null,
+    "age": null,
+    "height": 195,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 7,
+      "atk": 55.6,
+      "blk": 0.14,
+      "ace": 1,
+      "srv": 7.5,
+      "rcv": 66.7,
+      "pts": 12
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 146,
+      "atk": 52.7,
+      "blk": 0.23,
+      "ace": 21,
+      "srv": 11.8,
+      "rcv": 59.8,
+      "pts": 163
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 182,
+      "atk": 54.1,
+      "blk": 0.32,
+      "ace": 20,
+      "srv": 9.9,
+      "rcv": 46.7,
+      "pts": 319
+     }
+    ]
+   },
+   {
+    "code": "570",
+    "no": 3,
+    "name": "深津 旭弘",
+    "roman": "Fukatsu Akihiro",
+    "pos": "S",
+    "img": "data/photos/570.webp",
+    "birth": "1987-07-23",
+    "age": 39,
+    "height": 183,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "愛知県",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 17,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 13.8,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 148,
+      "atk": 63.6,
+      "blk": 0.11,
+      "ace": 10,
+      "srv": 10.1,
+      "rcv": 0,
+      "pts": 40
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 160,
+      "atk": 46.2,
+      "blk": 0.05,
+      "ace": 8,
+      "srv": 10.2,
+      "rcv": 0,
+      "pts": 22
+     }
+    ]
+   },
+   {
+    "code": "5594",
+    "no": 4,
+    "name": "ヤン・コザメルニク",
+    "roman": "Jan Kozamernik",
+    "pos": "MB",
+    "img": null,
+    "birth": "1995-12-24",
+    "age": 30,
+    "height": 204,
+    "reach": null,
+    "nation": "スロベニア",
+    "hometown": "スロベニア",
+    "school": "-",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 23,
+      "atk": 55.8,
+      "blk": 0.57,
+      "ace": 4,
+      "srv": 11.0,
+      "rcv": 61.5,
+      "pts": 41
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 44,
+      "s": 109,
+      "atk": 60.0,
+      "blk": 0.36,
+      "ace": 10,
+      "srv": 11.5,
+      "rcv": 43.8,
+      "pts": 136
+     }
+    ]
+   },
+   {
+    "code": "4072",
+    "no": 6,
+    "name": "バルトシュ・クレク",
+    "roman": "Bartosz Kurek",
+    "pos": "OP",
+    "img": null,
+    "birth": "1988-08-29",
+    "age": 38,
+    "height": 205,
+    "reach": null,
+    "nation": "ポーランド",
+    "hometown": "ポーランド",
+    "school": "-",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 23,
+      "atk": 52.4,
+      "blk": 0.43,
+      "ace": 6,
+      "srv": 13.6,
+      "rcv": 21.4,
+      "pts": 105
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 42,
+      "s": 159,
+      "atk": 46.1,
+      "blk": 0.44,
+      "ace": 21,
+      "srv": 6.2,
+      "rcv": 34.8,
+      "pts": 766
+     }
+    ]
+   },
+   {
+    "code": "1220",
+    "no": 8,
+    "name": "柳田 将洋",
+    "roman": "Yanagida Masahiro",
+    "pos": "OH",
+    "img": "data/photos/1220.webp",
+    "birth": "1992-07-06",
+    "age": 34,
+    "height": 186,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "慶應義塾大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 4,
+      "s": 10,
+      "atk": 41.9,
+      "blk": null,
+      "ace": 1,
+      "srv": 9.8,
+      "rcv": 38.5,
+      "pts": 19
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 45,
+      "s": 122,
+      "atk": 45.0,
+      "blk": 0.07,
+      "ace": 17,
+      "srv": 9.7,
+      "rcv": 39.7,
+      "pts": 202
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 103,
+      "atk": 45.9,
+      "blk": 0.17,
+      "ace": 14,
+      "srv": 7.2,
+      "rcv": 40.4,
+      "pts": 257
+     }
+    ]
+   },
+   {
+    "code": "1086",
+    "no": 10,
+    "name": "古賀 太一郎",
+    "roman": "Koga Taichiro",
+    "pos": "L",
+    "img": "data/photos/1086.webp",
+    "birth": "1989-10-04",
+    "age": 37,
+    "height": 170,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "長崎県",
+    "school": "国際武道大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 23,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 48.3,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 179,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 46.4,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 184,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 49.5,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4058",
+    "no": 11,
+    "name": "後藤 陸翔",
+    "roman": "Goto Rikuto",
+    "pos": "OH",
+    "img": "data/photos/4058.webp",
+    "birth": "2001-05-13",
+    "age": 25,
+    "height": 187,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "愛媛県",
+    "school": "近畿大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 17,
+      "atk": 41.1,
+      "blk": 0.24,
+      "ace": 3,
+      "srv": 6.0,
+      "rcv": 40.1,
+      "pts": 46
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 44,
+      "s": 157,
+      "atk": 44.9,
+      "blk": 0.31,
+      "ace": 18,
+      "srv": 9.6,
+      "rcv": 36.8,
+      "pts": 459
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 182,
+      "atk": 46.5,
+      "blk": 0.26,
+      "ace": 22,
+      "srv": 9.9,
+      "rcv": 37.6,
+      "pts": 625
+     }
+    ]
+   },
+   {
+    "code": "4124",
+    "no": 12,
+    "name": "村山 豪",
+    "roman": "Murayama Go",
+    "pos": "MB",
+    "img": "data/photos/4124.webp",
+    "birth": "1998-07-30",
+    "age": 28,
+    "height": 192,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 9,
+      "atk": 81.8,
+      "blk": 0.56,
+      "ace": 0,
+      "srv": -9.6,
+      "rcv": 58.3,
+      "pts": 14
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 129,
+      "atk": 51.8,
+      "blk": 0.43,
+      "ace": 10,
+      "srv": 5.5,
+      "rcv": 30.6,
+      "pts": 180
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 50,
+      "s": 201,
+      "atk": 56.1,
+      "blk": 0.46,
+      "ace": 22,
+      "srv": 5.9,
+      "rcv": 36.2,
+      "pts": 322
+     }
+    ]
+   },
+   {
+    "code": "3519",
+    "no": 13,
+    "name": "大竹 壱青",
+    "roman": "Otake Issei",
+    "pos": "MB",
+    "img": "data/photos/3519.webp",
+    "birth": "1995-12-03",
+    "age": 30,
+    "height": 202,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "神奈川県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 14,
+      "atk": 56.2,
+      "blk": 0.14,
+      "ace": 0,
+      "srv": 0,
+      "rcv": 30.0,
+      "pts": 11
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 141,
+      "atk": 44.5,
+      "blk": 0.35,
+      "ace": 15,
+      "srv": 6.0,
+      "rcv": 53.7,
+      "pts": 175
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 46,
+      "s": 181,
+      "atk": 52.9,
+      "blk": 0.46,
+      "ace": 60,
+      "srv": 11.7,
+      "rcv": 35.4,
+      "pts": 346
+     }
+    ]
+   },
+   {
+    "code": "5595",
+    "no": 17,
+    "name": "ルチアーノ・ヴィセンティン",
+    "roman": "Luciano Vicentin",
+    "pos": "OH",
+    "img": null,
+    "birth": "2000-04-04",
+    "age": 26,
+    "height": 199,
+    "reach": null,
+    "nation": "アルゼンチン",
+    "hometown": "アルゼンチン",
+    "school": "-",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 23,
+      "atk": 50.0,
+      "blk": 0.3,
+      "ace": 8,
+      "srv": 9.1,
+      "rcv": 34.2,
+      "pts": 88
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 41,
+      "s": 148,
+      "atk": 48.6,
+      "blk": 0.34,
+      "ace": 37,
+      "srv": 7.5,
+      "rcv": 37.3,
+      "pts": 628
+     }
+    ]
+   },
+   {
+    "code": "6107",
+    "no": 20,
+    "name": "マーク・ルラ",
+    "roman": "Mark Rura",
+    "pos": "OP",
+    "img": null,
+    "birth": "2006-01-23",
+    "age": 20,
+    "height": 207,
+    "reach": null,
+    "nation": "イスラエル",
+    "hometown": "イスラエル",
+    "school": "-",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 18,
+      "atk": 50.0,
+      "blk": 0.11,
+      "ace": 1,
+      "srv": 10.7,
+      "rcv": 25.0,
+      "pts": 19
+     }
+    ]
+   },
+   {
+    "code": "5427",
+    "no": 29,
+    "name": "大前 隆貴",
+    "roman": "Ohmae Ryuki",
+    "pos": "L",
+    "img": "data/photos/5427.webp",
+    "birth": "2002-11-21",
+    "age": 23,
+    "height": 174,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "愛知県",
+    "school": "愛知学院大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 4,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 33.3,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 28,
+      "s": 35,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 36.7,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 1,
+      "s": 1,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "5673",
+    "no": 30,
+    "name": "川野 琢磨",
+    "roman": "Kawano Takuma",
+    "pos": "OH",
+    "img": "data/photos/5673.webp",
+    "birth": "2006-07-25",
+    "age": 20,
+    "height": 197,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 8,
+      "atk": 0,
+      "blk": null,
+      "ace": 1,
+      "srv": 14.3,
+      "rcv": 62.5,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 21,
+      "s": 28,
+      "atk": 27.8,
+      "blk": 0.07,
+      "ace": 0,
+      "srv": 8.1,
+      "rcv": 50.0,
+      "pts": 7
+     }
+    ]
+   },
+   {
+    "code": "5428",
+    "no": 31,
+    "name": "黒川 竜星",
+    "roman": "Kurokawa Ryusei",
+    "pos": "S",
+    "img": "data/photos/5428.webp",
+    "birth": "2002-05-31",
+    "age": 24,
+    "height": 177,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "広島県",
+    "school": "大阪産業大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 2,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 2,
+      "s": 2,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 24,
+      "s": 90,
+      "atk": 42.3,
+      "blk": 0.19,
+      "ace": 3,
+      "srv": 3.8,
+      "rcv": 0,
+      "pts": 35
+     }
+    ]
+   },
+   {
+    "code": "5658",
+    "no": 32,
+    "name": "近藤 蘭丸",
+    "roman": "Kondo Ranmaru",
+    "pos": "S",
+    "img": "data/photos/5658.webp",
+    "birth": "2003-10-22",
+    "age": 23,
+    "height": 178,
+    "reach": 310,
+    "nation": "日本",
+    "hometown": "福岡県",
+    "school": "明治大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 6,
+      "s": 23,
+      "atk": 50.0,
+      "blk": null,
+      "ace": 1,
+      "srv": 5.1,
+      "rcv": 0,
+      "pts": 2
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 33,
+      "s": 74,
+      "atk": 25.0,
+      "blk": 0.05,
+      "ace": 3,
+      "srv": 7.5,
+      "rcv": 0,
+      "pts": 10
+     }
+    ]
+   },
+   {
+    "code": "5634",
+    "no": 39,
+    "name": "髙島 優作",
+    "roman": "Takashima Yusaku",
+    "pos": "OP",
+    "img": "data/photos/5634.webp",
+    "birth": null,
+    "age": null,
+    "height": 189,
+    "reach": 354,
+    "nation": "日本",
+    "hometown": "静岡県",
+    "school": "日本大学",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 11,
+      "s": 4,
+      "atk": 0,
+      "blk": null,
+      "ace": 2,
+      "srv": 58.3,
+      "rcv": null,
+      "pts": 2
+     }
+    ]
+   }
+  ],
+  "마쓰모토": [
+   {
+    "code": "53",
+    "no": 1,
+    "name": "松本 慶彦",
+    "roman": "Matsumoto Yoshihiko",
+    "pos": "MB",
+    "img": "data/photos/53.webp",
+    "birth": null,
+    "age": null,
+    "height": 193,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "長野県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 1,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 22,
+      "s": 65,
+      "atk": 45.2,
+      "blk": 0.31,
+      "ace": 4,
+      "srv": 8.7,
+      "rcv": 37.0,
+      "pts": 85
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 11,
+      "s": 8,
+      "atk": null,
+      "blk": 0.12,
+      "ace": 0,
+      "srv": 8.3,
+      "rcv": null,
+      "pts": 1
+     }
+    ]
+   },
+   {
+    "code": "6033",
+    "no": 2,
+    "name": "ザカリー・ラマ",
+    "roman": "Zachary Rama",
+    "pos": "OH",
+    "img": "data/photos/6033.webp",
+    "birth": "2004-07-12",
+    "age": 22,
+    "height": 202,
+    "reach": null,
+    "nation": "アメリカ合衆国",
+    "hometown": "アメリカ合衆国",
+    "school": "カリフォルニア大学ロサンゼルス校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 26,
+      "atk": 50.0,
+      "blk": 0.27,
+      "ace": 5,
+      "srv": 6.2,
+      "rcv": 35.4,
+      "pts": 106
+     }
+    ]
+   },
+   {
+    "code": "5574",
+    "no": 3,
+    "name": "酒井 秀輔",
+    "roman": "Sakai Shusuke",
+    "pos": "OP",
+    "img": "data/photos/5574.webp",
+    "birth": "2002-05-20",
+    "age": 24,
+    "height": 180,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "広島県",
+    "school": "天理大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 21,
+      "atk": 52.8,
+      "blk": 0.05,
+      "ace": 0,
+      "srv": 5.7,
+      "rcv": 0,
+      "pts": 39
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 15,
+      "s": 18,
+      "atk": 46.2,
+      "blk": 0.22,
+      "ace": 1,
+      "srv": 0.7,
+      "rcv": null,
+      "pts": 48
+     }
+    ]
+   },
+   {
+    "code": "5701",
+    "no": 4,
+    "name": "千葉 貫世",
+    "roman": "Chiba Kanze",
+    "pos": "MB",
+    "img": "data/photos/5701.webp",
+    "birth": "2003-08-18",
+    "age": 23,
+    "height": 191,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "岩手県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 4,
+      "s": 1,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 8,
+      "s": 4,
+      "atk": 20.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 14.6,
+      "rcv": 100.0,
+      "pts": 1
+     }
+    ]
+   },
+   {
+    "code": "4453",
+    "no": 6,
+    "name": "赤星 伸城",
+    "roman": "Akahoshi Shinjo",
+    "pos": "S",
+    "img": "data/photos/4453.webp",
+    "birth": "2000-01-19",
+    "age": 26,
+    "height": 180,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "熊本県",
+    "school": "愛知学院大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 23,
+      "atk": 0,
+      "blk": 0.22,
+      "ace": 3,
+      "srv": 10.8,
+      "rcv": 0,
+      "pts": 8
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 42,
+      "s": 122,
+      "atk": 40.9,
+      "blk": 0.14,
+      "ace": 5,
+      "srv": 5.7,
+      "rcv": 0,
+      "pts": 31
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "北海道イエロースターズ",
+      "g": 29,
+      "s": 78,
+      "atk": 65.9,
+      "blk": 0.33,
+      "ace": 4,
+      "srv": 8.6,
+      "rcv": 0,
+      "pts": 59
+     }
+    ]
+   },
+   {
+    "code": "6034",
+    "no": 8,
+    "name": "フィリップ・ジョン",
+    "roman": "Filip John",
+    "pos": "OP",
+    "img": "data/photos/6034.webp",
+    "birth": "2001-08-01",
+    "age": 25,
+    "height": 205,
+    "reach": null,
+    "nation": "ドイツ",
+    "hometown": "ドイツ",
+    "school": "ドイツ",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 24,
+      "atk": 56.8,
+      "blk": 0.25,
+      "ace": 5,
+      "srv": 7.2,
+      "rcv": 45.5,
+      "pts": 74
+     }
+    ]
+   },
+   {
+    "code": "4154",
+    "no": 9,
+    "name": "藤原 奨太",
+    "roman": "Fujiwara Shota",
+    "pos": "OH",
+    "img": "data/photos/4154.webp",
+    "birth": "1998-07-14",
+    "age": 28,
+    "height": 190,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "北海道",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 8,
+      "atk": 50.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 8.3,
+      "rcv": 27.8,
+      "pts": 18
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 31,
+      "s": 31,
+      "atk": 40.9,
+      "blk": null,
+      "ace": 1,
+      "srv": 5.8,
+      "rcv": 36.6,
+      "pts": 19
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 42,
+      "s": 67,
+      "atk": 36.4,
+      "blk": null,
+      "ace": 2,
+      "srv": 2.5,
+      "rcv": 37.5,
+      "pts": 10
+     }
+    ]
+   },
+   {
+    "code": "5012",
+    "no": 10,
+    "name": "安原 大",
+    "roman": "Yasuhara Dai",
+    "pos": "MB",
+    "img": "data/photos/5012.webp",
+    "birth": "2001-08-14",
+    "age": 25,
+    "height": 190,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "広島県",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 5,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 32,
+      "s": 41,
+      "atk": 52.4,
+      "blk": 0.22,
+      "ace": 2,
+      "srv": 4.1,
+      "rcv": 32.8,
+      "pts": 55
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 36,
+      "s": 39,
+      "atk": 50.0,
+      "blk": 0.18,
+      "ace": 2,
+      "srv": 9.0,
+      "rcv": 32.0,
+      "pts": 44
+     }
+    ]
+   },
+   {
+    "code": "4687",
+    "no": 11,
+    "name": "工藤 有史",
+    "roman": "Kudo Yuji",
+    "pos": "OH",
+    "img": "data/photos/4687.webp",
+    "birth": "2001-09-24",
+    "age": 25,
+    "height": 190,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "明治大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 26,
+      "atk": 48.1,
+      "blk": 0.23,
+      "ace": 7,
+      "srv": 9.1,
+      "rcv": 37.8,
+      "pts": 78
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 44,
+      "s": 146,
+      "atk": 40.4,
+      "blk": 0.23,
+      "ace": 33,
+      "srv": 9.9,
+      "rcv": 42.0,
+      "pts": 428
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 42,
+      "s": 147,
+      "atk": 47.5,
+      "blk": 0.24,
+      "ace": 36,
+      "srv": 9.8,
+      "rcv": 41.0,
+      "pts": 490
+     }
+    ]
+   },
+   {
+    "code": "4585",
+    "no": 12,
+    "name": "星名 勇佑",
+    "roman": "Hoshina Yusuke",
+    "pos": "S",
+    "img": "data/photos/4585.webp",
+    "birth": "2001-01-04",
+    "age": 25,
+    "height": 180,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "立正大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 24,
+      "atk": 100.0,
+      "blk": null,
+      "ace": 1,
+      "srv": 4.8,
+      "rcv": null,
+      "pts": 2
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 26,
+      "s": 40,
+      "atk": null,
+      "blk": null,
+      "ace": 1,
+      "srv": 1.2,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "千葉ZELVA",
+      "g": 10,
+      "s": 34,
+      "atk": 52.1,
+      "blk": 0.38,
+      "ace": 6,
+      "srv": 9.8,
+      "rcv": 83.3,
+      "pts": 47
+     }
+    ]
+   },
+   {
+    "code": "6035",
+    "no": 14,
+    "name": "松尾 敬介",
+    "roman": "Matsuo Keisuke",
+    "pos": "L",
+    "img": "data/photos/6035.webp",
+    "birth": "1996-07-28",
+    "age": 30,
+    "height": 170,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "佐賀県",
+    "school": "佐賀学園",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 28,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 28.1,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "6036",
+    "no": 15,
+    "name": "デイビッド・スミス",
+    "roman": "David Smith",
+    "pos": "MB",
+    "img": "data/photos/6036.webp",
+    "birth": "1985-05-15",
+    "age": 41,
+    "height": 200,
+    "reach": null,
+    "nation": "アメリカ合衆国",
+    "hometown": "アメリカ合衆国",
+    "school": "カリフォルニア大学アーバイン校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 2,
+      "s": 9,
+      "atk": 73.7,
+      "blk": 0.22,
+      "ace": 0,
+      "srv": 5.7,
+      "rcv": 60.0,
+      "pts": 16
+     }
+    ]
+   },
+   {
+    "code": "4369",
+    "no": 17,
+    "name": "伊藤 洸貴",
+    "roman": "Ito Hiroki",
+    "pos": "S",
+    "img": "data/photos/4369.webp",
+    "birth": "1999-06-26",
+    "age": 27,
+    "height": 190,
+    "reach": 330,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "駿台学園高校→中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 21,
+      "atk": 0,
+      "blk": 0.05,
+      "ace": 0,
+      "srv": 4.8,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "奈良ドリーマーズ",
+      "g": 28,
+      "s": 102,
+      "atk": 53.1,
+      "blk": 0.25,
+      "ace": 6,
+      "srv": 3.2,
+      "rcv": 0,
+      "pts": 60
+     }
+    ]
+   },
+   {
+    "code": "5010",
+    "no": 18,
+    "name": "佐藤 隆哉",
+    "roman": "Sato Ryuya",
+    "pos": "OH",
+    "img": "data/photos/5010.webp",
+    "birth": "2001-08-03",
+    "age": 25,
+    "height": 193,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "宮城県",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 6,
+      "atk": 33.3,
+      "blk": null,
+      "ace": 0,
+      "srv": -2.8,
+      "rcv": 41.7,
+      "pts": 6
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 38,
+      "s": 59,
+      "atk": 38.8,
+      "blk": 0.25,
+      "ace": 3,
+      "srv": 5.1,
+      "rcv": 28.7,
+      "pts": 137
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 29,
+      "s": 42,
+      "atk": 40.0,
+      "blk": 0.02,
+      "ace": 3,
+      "srv": 15.4,
+      "rcv": 21.2,
+      "pts": 24
+     }
+    ]
+   },
+   {
+    "code": "5079",
+    "no": 19,
+    "name": "一条 太嘉丸",
+    "roman": "Ichijo Takamaru",
+    "pos": "OH",
+    "img": null,
+    "birth": "2002-08-24",
+    "age": 24,
+    "height": 188,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 12,
+      "s": 9,
+      "atk": 40.6,
+      "blk": null,
+      "ace": 0,
+      "srv": -7.1,
+      "rcv": 41.2,
+      "pts": 13
+     }
+    ]
+   },
+   {
+    "code": "6037",
+    "no": 20,
+    "name": "マックレヴィン ディアリス平",
+    "roman": "McRaven DiAeris",
+    "pos": "MB",
+    "img": "data/photos/6037.webp",
+    "birth": "2002-05-13",
+    "age": 24,
+    "height": 195,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "アメリカ合衆国",
+    "school": "カリフォルニア州立大学ロングビーチ校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 26,
+      "atk": 73.5,
+      "blk": 0.46,
+      "ace": 4,
+      "srv": 4.7,
+      "rcv": 45.5,
+      "pts": 66
+     }
+    ]
+   },
+   {
+    "code": "5576",
+    "no": 21,
+    "name": "岸川 蓮樹",
+    "roman": "Kishikawa Hazuki",
+    "pos": "OP",
+    "img": "data/photos/5576.webp",
+    "birth": "2002-09-07",
+    "age": 24,
+    "height": 194,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "長崎県",
+    "school": "東亜大学",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 32,
+      "s": 44,
+      "atk": 42.4,
+      "blk": 0.14,
+      "ace": 3,
+      "srv": 8.5,
+      "rcv": 75.0,
+      "pts": 93
+     }
+    ]
+   },
+   {
+    "code": "4368",
+    "no": 24,
+    "name": "安部 翔大",
+    "roman": "Abe Shodai",
+    "pos": "MB",
+    "img": "data/photos/4368.webp",
+    "birth": null,
+    "age": null,
+    "height": 190,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "福岡県",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "信州松本トライデンツ",
+      "g": 6,
+      "s": 22,
+      "atk": 44.0,
+      "blk": 0.41,
+      "ace": 3,
+      "srv": 5.1,
+      "rcv": 42.5,
+      "pts": 34
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 36,
+      "s": 83,
+      "atk": 52.7,
+      "blk": 0.39,
+      "ace": 8,
+      "srv": 8.6,
+      "rcv": 57.1,
+      "pts": 129
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 34,
+      "s": 52,
+      "atk": 55.3,
+      "blk": 0.27,
+      "ace": 2,
+      "srv": 2.6,
+      "rcv": 45.8,
+      "pts": 63
+     }
+    ]
+   }
+  ],
+  "도레이": [
+   {
+    "code": "4137",
+    "no": 1,
+    "name": "難波 尭弘",
+    "roman": "Namba Takahiro",
+    "pos": "MB",
+    "img": "data/photos/4137.webp",
+    "birth": null,
+    "age": null,
+    "height": 198,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "三重県",
+    "school": "天理大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 14,
+      "atk": 40.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 7.5,
+      "rcv": null,
+      "pts": 2
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 30,
+      "s": 30,
+      "atk": 61.4,
+      "blk": 0.2,
+      "ace": 1,
+      "srv": 8.1,
+      "rcv": 0,
+      "pts": 34
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 42,
+      "s": 85,
+      "atk": 47.0,
+      "blk": 0.2,
+      "ace": 6,
+      "srv": 9.1,
+      "rcv": 29.4,
+      "pts": 86
+     }
+    ]
+   },
+   {
+    "code": "2262",
+    "no": 2,
+    "name": "新 貴裕",
+    "roman": "Shin Takahiro",
+    "pos": "S",
+    "img": "data/photos/2262.webp",
+    "birth": "1991-08-10",
+    "age": 35,
+    "height": 182,
+    "reach": 315,
+    "nation": "日本",
+    "hometown": "石川県",
+    "school": "明治大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 14,
+      "atk": 50.0,
+      "blk": 0.07,
+      "ace": 0,
+      "srv": 7.8,
+      "rcv": 0,
+      "pts": 3
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 44,
+      "s": 155,
+      "atk": 46.2,
+      "blk": 0.08,
+      "ace": 19,
+      "srv": 6.3,
+      "rcv": 0,
+      "pts": 69
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 126,
+      "s": 474,
+      "atk": 38.2,
+      "blk": 0.09,
+      "ace": 27,
+      "srv": 6.2,
+      "rcv": 0,
+      "pts": 135
+     }
+    ]
+   },
+   {
+    "code": "6109",
+    "no": 4,
+    "name": "スカイラー・ヴァルガ",
+    "roman": "Skyler Varga",
+    "pos": "OH",
+    "img": "data/photos/6109.webp",
+    "birth": "2003-03-06",
+    "age": 23,
+    "height": 201,
+    "reach": null,
+    "nation": "カナダ",
+    "hometown": "カナダ",
+    "school": "California State University",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 23,
+      "atk": 47.9,
+      "blk": 0.39,
+      "ace": 6,
+      "srv": 10.3,
+      "rcv": 23.8,
+      "pts": 82
+     }
+    ]
+   },
+   {
+    "code": "6110",
+    "no": 5,
+    "name": "ガブリエル・ガルシア",
+    "roman": "Gabriel Garcia",
+    "pos": "OP",
+    "img": "data/photos/6110.webp",
+    "birth": "1999-01-08",
+    "age": 27,
+    "height": 200,
+    "reach": null,
+    "nation": "アメリカ合衆国",
+    "hometown": "アメリカ合衆国",
+    "school": "Bringham Young university",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 23,
+      "atk": 41.7,
+      "blk": 0.39,
+      "ace": 7,
+      "srv": 8.4,
+      "rcv": 28.6,
+      "pts": 86
+     }
+    ]
+   },
+   {
+    "code": "5371",
+    "no": 6,
+    "name": "楠本 岳",
+    "roman": "Kusumoto Gaku",
+    "pos": "OH",
+    "img": "data/photos/5371.webp",
+    "birth": "2002-06-08",
+    "age": 24,
+    "height": 177,
+    "reach": 335,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "天理大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 16,
+      "atk": 41.3,
+      "blk": null,
+      "ace": 1,
+      "srv": 16.7,
+      "rcv": 44.2,
+      "pts": 27
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 29,
+      "s": 52,
+      "atk": 43.8,
+      "blk": 0.12,
+      "ace": 2,
+      "srv": 6.3,
+      "rcv": 39.2,
+      "pts": 68
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 28,
+      "s": 80,
+      "atk": 47.1,
+      "blk": 0.1,
+      "ace": 8,
+      "srv": 3.2,
+      "rcv": 40.7,
+      "pts": 148
+     }
+    ]
+   },
+   {
+    "code": "4323",
+    "no": 7,
+    "name": "デアルマス アライン",
+    "roman": "Dearmas Alain",
+    "pos": "OH",
+    "img": "data/photos/4323.webp",
+    "birth": "2001-03-04",
+    "age": 25,
+    "height": 189,
+    "reach": 355,
+    "nation": "日本",
+    "hometown": "キューバ",
+    "school": "都城東高校",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 40,
+      "s": 68,
+      "atk": 51.7,
+      "blk": 0.16,
+      "ace": 17,
+      "srv": 12.4,
+      "rcv": 38.3,
+      "pts": 150
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 49,
+      "s": 155,
+      "atk": 55.3,
+      "blk": 0.23,
+      "ace": 57,
+      "srv": 15.5,
+      "rcv": 30.2,
+      "pts": 560
+     }
+    ]
+   },
+   {
+    "code": "5011",
+    "no": 8,
+    "name": "中島 健斗",
+    "roman": "Nakashima Kento",
+    "pos": "S",
+    "img": "data/photos/5011.webp",
+    "birth": "2001-10-15",
+    "age": 25,
+    "height": 172,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "天理大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 19,
+      "atk": null,
+      "blk": null,
+      "ace": 2,
+      "srv": 10.8,
+      "rcv": null,
+      "pts": 2
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 42,
+      "s": 123,
+      "atk": 57.1,
+      "blk": 0.02,
+      "ace": 4,
+      "srv": 6.1,
+      "rcv": 8.3,
+      "pts": 11
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 14,
+      "s": 44,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": 5.9,
+      "rcv": 10.0,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4559",
+    "no": 9,
+    "name": "馬渡 拓巳",
+    "roman": "Mawatari Takumi",
+    "pos": "OH",
+    "img": "data/photos/4559.webp",
+    "birth": "2003-06-02",
+    "age": 23,
+    "height": 184,
+    "reach": 333,
+    "nation": "日本",
+    "hometown": "鹿児島県",
+    "school": "福岡大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 20,
+      "atk": 43.3,
+      "blk": 0.1,
+      "ace": 2,
+      "srv": 7.2,
+      "rcv": 33.1,
+      "pts": 30
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 13,
+      "s": 4,
+      "atk": 0,
+      "blk": 0.25,
+      "ace": 0,
+      "srv": -4.2,
+      "rcv": 30.0,
+      "pts": 1
+     }
+    ]
+   },
+   {
+    "code": "4638",
+    "no": 10,
+    "name": "重藤 トビアス赳",
+    "roman": "Shigeto Tobiastakeshi",
+    "pos": "OH",
+    "img": "data/photos/4638.webp",
+    "birth": "2001-02-08",
+    "age": 25,
+    "height": 191,
+    "reach": 341,
+    "nation": "日本",
+    "hometown": "神奈川県",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 13,
+      "atk": 35.3,
+      "blk": 0.15,
+      "ace": 0,
+      "srv": 6.2,
+      "rcv": 16.7,
+      "pts": 8
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 42,
+      "s": 130,
+      "atk": 39.1,
+      "blk": 0.23,
+      "ace": 17,
+      "srv": 5.0,
+      "rcv": 35.8,
+      "pts": 343
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 44,
+      "s": 119,
+      "atk": 43.5,
+      "blk": 0.31,
+      "ace": 22,
+      "srv": 8.8,
+      "rcv": 37.8,
+      "pts": 331
+     }
+    ]
+   },
+   {
+    "code": "4386",
+    "no": 11,
+    "name": "藤中 颯志",
+    "roman": "Fujinaka Soshi",
+    "pos": "L",
+    "img": "data/photos/4386.webp",
+    "birth": "1999-12-02",
+    "age": 26,
+    "height": 177,
+    "reach": 325,
+    "nation": "日本",
+    "hometown": "山口県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 22,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 44.4,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 49,
+      "s": 59,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 37.0,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 49,
+      "s": 180,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 0,
+      "rcv": 42.3,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4995",
+    "no": 12,
+    "name": "山田 大貴",
+    "roman": "Yamada Daiki",
+    "pos": "OH",
+    "img": "data/photos/4995.webp",
+    "birth": "2001-08-07",
+    "age": 25,
+    "height": 191,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "静岡県",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 4,
+      "s": 2,
+      "atk": 16.7,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": 0,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 40,
+      "s": 98,
+      "atk": 49.6,
+      "blk": 0.14,
+      "ace": 15,
+      "srv": 5.3,
+      "rcv": 23.8,
+      "pts": 370
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 32,
+      "s": 91,
+      "atk": 48.4,
+      "blk": 0.2,
+      "ace": 16,
+      "srv": 8.1,
+      "rcv": 32.5,
+      "pts": 353
+     }
+    ]
+   },
+   {
+    "code": "6111",
+    "no": 14,
+    "name": "エドアルド・カネスキ",
+    "roman": "Edoardo Caneschi",
+    "pos": "MB",
+    "img": "data/photos/6111.webp",
+    "birth": "1997-01-26",
+    "age": 29,
+    "height": 205,
+    "reach": null,
+    "nation": "イタリア",
+    "hometown": "イタリア",
+    "school": "ITC Piero Calamandrei,Rome",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 14,
+      "atk": 42.9,
+      "blk": 0.64,
+      "ace": 1,
+      "srv": 7.9,
+      "rcv": 20.0,
+      "pts": 22
+     }
+    ]
+   },
+   {
+    "code": "1121",
+    "no": 15,
+    "name": "李 博",
+    "roman": "Ri Haku",
+    "pos": "MB",
+    "img": "data/photos/1121.webp",
+    "birth": "1990-12-27",
+    "age": 35,
+    "height": 196,
+    "reach": 347,
+    "nation": "日本",
+    "hometown": "宮崎県",
+    "school": "筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 16,
+      "atk": 70.3,
+      "blk": 0.12,
+      "ace": 2,
+      "srv": 11.7,
+      "rcv": 43.3,
+      "pts": 30
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 44,
+      "s": 127,
+      "atk": 54.4,
+      "blk": 0.39,
+      "ace": 11,
+      "srv": 10.4,
+      "rcv": 44.4,
+      "pts": 213
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 31,
+      "s": 61,
+      "atk": 47.0,
+      "blk": 0.16,
+      "ace": 1,
+      "srv": 5.1,
+      "rcv": 45.9,
+      "pts": 73
+     }
+    ]
+   },
+   {
+    "code": "4458",
+    "no": 16,
+    "name": "上條 レイモンド",
+    "roman": "Kamijo Reimondo",
+    "pos": "MB",
+    "img": "data/photos/4458.webp",
+    "birth": "1999-09-16",
+    "age": 27,
+    "height": 195,
+    "reach": 355,
+    "nation": "日本",
+    "hometown": "千葉県",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 18,
+      "atk": 78.3,
+      "blk": 0.33,
+      "ace": 1,
+      "srv": 5.7,
+      "rcv": 25.0,
+      "pts": 43
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 42,
+      "s": 103,
+      "atk": 57.5,
+      "blk": 0.19,
+      "ace": 3,
+      "srv": 5.7,
+      "rcv": 11.8,
+      "pts": 184
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 38,
+      "s": 72,
+      "atk": 59.6,
+      "blk": 0.24,
+      "ace": 1,
+      "srv": 6.1,
+      "rcv": 27.8,
+      "pts": 111
+     }
+    ]
+   },
+   {
+    "code": "4470",
+    "no": 18,
+    "name": "牧 大晃",
+    "roman": "Maki Hiroaki",
+    "pos": "OH",
+    "img": "data/photos/4470.webp",
+    "birth": "2003-11-02",
+    "age": 23,
+    "height": 210,
+    "reach": 350,
+    "nation": "日本",
+    "hometown": "香川県",
+    "school": "高松工芸高校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 2,
+      "s": 6,
+      "atk": 50.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 5.0,
+      "rcv": 33.3,
+      "pts": 5
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 26,
+      "s": 70,
+      "atk": 35.8,
+      "blk": 0.1,
+      "ace": 0,
+      "srv": 3.1,
+      "rcv": 27.0,
+      "pts": 69
+     }
+    ]
+   },
+   {
+    "code": "4996",
+    "no": 19,
+    "name": "武田 大周",
+    "roman": "Takeda Taishu",
+    "pos": "L",
+    "img": "data/photos/4996.webp",
+    "birth": "2001-08-25",
+    "age": 25,
+    "height": 171,
+    "reach": 310,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "明治大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 6,
+      "s": 2,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 14.3,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 44,
+      "s": 167,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 48.4,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 44,
+      "s": 104,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 43.6,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4997",
+    "no": 20,
+    "name": "小野寺 瑛輝",
+    "roman": "Onodera Eiki",
+    "pos": "S",
+    "img": "data/photos/4997.webp",
+    "birth": null,
+    "age": null,
+    "height": 187,
+    "reach": 333,
+    "nation": "日本",
+    "hometown": "宮城県",
+    "school": "国際武道大学",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 11,
+      "s": 30,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": 5.8,
+      "rcv": 0,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 15,
+      "s": 25,
+      "atk": 25.0,
+      "blk": 0.12,
+      "ace": 0,
+      "srv": 10.7,
+      "rcv": null,
+      "pts": 4
+     }
+    ]
+   }
+  ],
+  "스팅스아이치": [
+   {
+    "code": "3581",
+    "no": 1,
+    "name": "藤中 優斗",
+    "roman": "Fujinaka Yuto",
+    "pos": "OH",
+    "img": "data/photos/3581.webp",
+    "birth": null,
+    "age": null,
+    "height": 182,
+    "reach": 325,
+    "nation": "日本",
+    "hometown": "山口県",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 17,
+      "atk": 33.3,
+      "blk": null,
+      "ace": 0,
+      "srv": 12.5,
+      "rcv": 25.9,
+      "pts": 3
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 44,
+      "s": 114,
+      "atk": 42.1,
+      "blk": 0.11,
+      "ace": 12,
+      "srv": 5.5,
+      "rcv": 44.5,
+      "pts": 172
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 30,
+      "s": 67,
+      "atk": 34.4,
+      "blk": 0.16,
+      "ace": 2,
+      "srv": 3.9,
+      "rcv": 41.4,
+      "pts": 65
+     }
+    ]
+   },
+   {
+    "code": "5328",
+    "no": 3,
+    "name": "堺 爽人",
+    "roman": "Sakai Sayato",
+    "pos": "MB",
+    "img": "data/photos/5328.webp",
+    "birth": "2002-11-26",
+    "age": 23,
+    "height": 196,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "佐賀県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 17,
+      "atk": 58.1,
+      "blk": 0.06,
+      "ace": 0,
+      "srv": 5.5,
+      "rcv": 0,
+      "pts": 26
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 19,
+      "s": 30,
+      "atk": 0,
+      "blk": 0.07,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 2
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 2,
+      "atk": 25.0,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 1
+     }
+    ]
+   },
+   {
+    "code": "4705",
+    "no": 4,
+    "name": "川口 柊人",
+    "roman": "Kawaguchi Shuto",
+    "pos": "MB",
+    "img": "data/photos/4705.webp",
+    "birth": "2000-08-09",
+    "age": 26,
+    "height": 200,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "埼玉県",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 7,
+      "atk": 60.0,
+      "blk": 0.57,
+      "ace": 0,
+      "srv": 9.4,
+      "rcv": 50.0,
+      "pts": 10
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 47,
+      "s": 142,
+      "atk": 53.7,
+      "blk": 0.32,
+      "ace": 7,
+      "srv": 6.1,
+      "rcv": 46.7,
+      "pts": 183
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 34,
+      "s": 69,
+      "atk": 50.6,
+      "blk": 0.45,
+      "ace": 1,
+      "srv": 5.0,
+      "rcv": 45.0,
+      "pts": 77
+     }
+    ]
+   },
+   {
+    "code": "3859",
+    "no": 6,
+    "name": "河東 祐大",
+    "roman": "Kawahigashi Yudai",
+    "pos": "S",
+    "img": "data/photos/3859.webp",
+    "birth": "1998-02-07",
+    "age": 28,
+    "height": 175,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "鹿児島県",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 4,
+      "s": 15,
+      "atk": 0,
+      "blk": 0.33,
+      "ace": 3,
+      "srv": 13.4,
+      "rcv": 0,
+      "pts": 8
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 47,
+      "s": 166,
+      "atk": 11.1,
+      "blk": 0.11,
+      "ace": 5,
+      "srv": 7.8,
+      "rcv": 3.6,
+      "pts": 25
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 50,
+      "s": 80,
+      "atk": 0,
+      "blk": 0.04,
+      "ace": 2,
+      "srv": 4.4,
+      "rcv": 12.5,
+      "pts": 5
+     }
+    ]
+   },
+   {
+    "code": "5580",
+    "no": 7,
+    "name": "荒木 琢真",
+    "roman": "Araki Takuma",
+    "pos": "L",
+    "img": "data/photos/5580.webp",
+    "birth": "2002-07-16",
+    "age": 24,
+    "height": 165,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "近畿大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 39,
+      "s": 35,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 32.6,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "5581",
+    "no": 9,
+    "name": "ステファン・ボワイエ",
+    "roman": "Stephen Boyer",
+    "pos": "OP",
+    "img": "data/photos/5581.webp",
+    "birth": "1996-04-10",
+    "age": 30,
+    "height": 196,
+    "reach": 355,
+    "nation": "フランス",
+    "hometown": "フランス",
+    "school": "Lycee Jean Mermoz",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 22,
+      "atk": 53.7,
+      "blk": 0.45,
+      "ace": 12,
+      "srv": 17.5,
+      "rcv": 23.1,
+      "pts": 144
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 48,
+      "s": 179,
+      "atk": 48.4,
+      "blk": 0.53,
+      "ace": 38,
+      "srv": 7.7,
+      "rcv": 26.9,
+      "pts": 936
+     }
+    ]
+   },
+   {
+    "code": "1332",
+    "no": 10,
+    "name": "藤中 謙也",
+    "roman": "Fujinaka Kenya",
+    "pos": "OH",
+    "img": "data/photos/1332.webp",
+    "birth": "1993-07-25",
+    "age": 33,
+    "height": 188,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "山口県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 22,
+      "atk": 44.2,
+      "blk": 0.18,
+      "ace": 3,
+      "srv": 6.7,
+      "rcv": 35.6,
+      "pts": 57
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 48,
+      "s": 179,
+      "atk": 44.1,
+      "blk": 0.28,
+      "ace": 5,
+      "srv": 3.6,
+      "rcv": 39.8,
+      "pts": 434
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 34,
+      "s": 7,
+      "atk": 46.2,
+      "blk": null,
+      "ace": 0,
+      "srv": -2.1,
+      "rcv": 37.0,
+      "pts": 6
+     }
+    ]
+   },
+   {
+    "code": "6038",
+    "no": 11,
+    "name": "ヌネス・ジャドソン",
+    "roman": "Nunes Judson",
+    "pos": "MB",
+    "img": "data/photos/6038.webp",
+    "birth": "1998-12-05",
+    "age": 27,
+    "height": 205,
+    "reach": null,
+    "nation": "ブラジル",
+    "hometown": "ブラジル",
+    "school": "Colegio Positivo",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 22,
+      "atk": 67.7,
+      "blk": 0.73,
+      "ace": 7,
+      "srv": 7.8,
+      "rcv": 55.0,
+      "pts": 67
+     }
+    ]
+   },
+   {
+    "code": "4979",
+    "no": 12,
+    "name": "藤原 直也",
+    "roman": "Fujiwara Naoya",
+    "pos": "OH",
+    "img": "data/photos/4979.webp",
+    "birth": "2001-12-24",
+    "age": 24,
+    "height": 192,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "京都府",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 22,
+      "atk": 41.2,
+      "blk": 0.23,
+      "ace": 8,
+      "srv": 16.9,
+      "rcv": 25.5,
+      "pts": 62
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 42,
+      "s": 127,
+      "atk": 37.4,
+      "blk": null,
+      "ace": 3,
+      "srv": 2.8,
+      "rcv": 37.1,
+      "pts": 37
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 50,
+      "s": 156,
+      "atk": 39.3,
+      "blk": 0.16,
+      "ace": 11,
+      "srv": 6.2,
+      "rcv": 29.7,
+      "pts": 255
+     }
+    ]
+   },
+   {
+    "code": "5601",
+    "no": 16,
+    "name": "出水 充希",
+    "roman": "Demizu Mitsuki",
+    "pos": "OH",
+    "img": "data/photos/5601.webp",
+    "birth": "2003-12-22",
+    "age": 22,
+    "height": 198,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "大阪体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 11,
+      "atk": 60.0,
+      "blk": null,
+      "ace": 3,
+      "srv": 20.8,
+      "rcv": 0,
+      "pts": 6
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 42,
+      "s": 48,
+      "atk": 40.0,
+      "blk": null,
+      "ace": 3,
+      "srv": 4.0,
+      "rcv": null,
+      "pts": 11
+     }
+    ]
+   },
+   {
+    "code": "1183",
+    "no": 17,
+    "name": "前田 一誠",
+    "roman": "Maeda Issei",
+    "pos": "S",
+    "img": "data/photos/1183.webp",
+    "birth": "1991-09-22",
+    "age": 35,
+    "height": 182,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "長崎県",
+    "school": "筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 18,
+      "atk": null,
+      "blk": 0.06,
+      "ace": 2,
+      "srv": 14.7,
+      "rcv": 0,
+      "pts": 3
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 48,
+      "s": 72,
+      "atk": 0,
+      "blk": 0.06,
+      "ace": 2,
+      "srv": 6.7,
+      "rcv": 0,
+      "pts": 6
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 32,
+      "s": 63,
+      "atk": 50.0,
+      "blk": 0.08,
+      "ace": 2,
+      "srv": 9.7,
+      "rcv": 0,
+      "pts": 9
+     }
+    ]
+   },
+   {
+    "code": "4451",
+    "no": 21,
+    "name": "高橋 和幸",
+    "roman": "Takahashi Kazuyuki",
+    "pos": "L",
+    "img": "data/photos/4451.webp",
+    "birth": "2000-01-26",
+    "age": 26,
+    "height": 170,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "順天堂大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 22,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 35.4,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 48,
+      "s": 178,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 44.1,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 50,
+      "s": 121,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 37.2,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4732",
+    "no": 22,
+    "name": "岩本 大吾",
+    "roman": "Iwamoto Daigo",
+    "pos": "MB",
+    "img": "data/photos/4732.webp",
+    "birth": "2001-02-10",
+    "age": 25,
+    "height": 193,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "兵庫県",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 5,
+      "s": 6,
+      "atk": null,
+      "blk": 0.17,
+      "ace": 1,
+      "srv": 17.5,
+      "rcv": null,
+      "pts": 2
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 48,
+      "s": 71,
+      "atk": 52.0,
+      "blk": 0.28,
+      "ace": 4,
+      "srv": 4.9,
+      "rcv": 22.7,
+      "pts": 88
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 49,
+      "s": 84,
+      "atk": 57.5,
+      "blk": 0.29,
+      "ace": 2,
+      "srv": 6.0,
+      "rcv": 26.2,
+      "pts": 95
+     }
+    ]
+   },
+   {
+    "code": "5216",
+    "no": 23,
+    "name": "トリー・デファルコ",
+    "roman": "Torey Defalco",
+    "pos": "OH",
+    "img": "data/photos/5216.webp",
+    "birth": "1997-04-10",
+    "age": 29,
+    "height": 198,
+    "reach": 340,
+    "nation": "アメリカ合衆国",
+    "hometown": "アメリカ合衆国",
+    "school": "カリフォルニア州立大学ロングビーチ校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 3,
+      "s": 1,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 45,
+      "s": 140,
+      "atk": 52.2,
+      "blk": 0.41,
+      "ace": 49,
+      "srv": 12.8,
+      "rcv": 34.1,
+      "pts": 700
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 49,
+      "s": 185,
+      "atk": 49.5,
+      "blk": 0.45,
+      "ace": 55,
+      "srv": 11.2,
+      "rcv": 33.5,
+      "pts": 976
+     }
+    ]
+   },
+   {
+    "code": "6039",
+    "no": 24,
+    "name": "高橋 慶帆",
+    "roman": "Takahashi Keihan",
+    "pos": "OP",
+    "img": "data/photos/6039.webp",
+    "birth": null,
+    "age": null,
+    "height": 194,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "千葉県",
+    "school": "法政大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 6,
+      "s": 18,
+      "atk": 44.4,
+      "blk": null,
+      "ace": 3,
+      "srv": 27.8,
+      "rcv": null,
+      "pts": 11
+     }
+    ]
+   }
+  ],
+  "WD나고야": [
+   {
+    "code": "1235",
+    "no": 1,
+    "name": "山田 脩造",
+    "roman": "Yamada Shuzo",
+    "pos": "OH",
+    "img": "data/photos/1235.webp",
+    "birth": null,
+    "age": null,
+    "height": 193,
+    "reach": 335,
+    "nation": "日本",
+    "hometown": "福岡県",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 5,
+      "atk": 100.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 0,
+      "rcv": 16.7,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 48,
+      "s": 63,
+      "atk": 42.0,
+      "blk": null,
+      "ace": 0,
+      "srv": -2.3,
+      "rcv": 30.1,
+      "pts": 21
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 31,
+      "s": 19,
+      "atk": 100.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 6.2,
+      "rcv": 42.9,
+      "pts": 1
+     }
+    ]
+   },
+   {
+    "code": "5442",
+    "no": 2,
+    "name": "澤田 晶",
+    "roman": "Sawada Akira",
+    "pos": "MB",
+    "img": "data/photos/5442.webp",
+    "birth": "2002-04-24",
+    "age": 24,
+    "height": 200,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "愛知県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 16,
+      "atk": 65.2,
+      "blk": 0.19,
+      "ace": 2,
+      "srv": 9.4,
+      "rcv": 100.0,
+      "pts": 20
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 16,
+      "s": 5,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": 100.0,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 2,
+      "s": 2,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "1118",
+    "no": 3,
+    "name": "深津 英臣",
+    "roman": "Fukatsu Hideomi",
+    "pos": "S",
+    "img": "data/photos/1118.webp",
+    "birth": "1990-06-01",
+    "age": 36,
+    "height": 181,
+    "reach": 325,
+    "nation": "日本",
+    "hometown": "愛知県",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 22,
+      "atk": 25.0,
+      "blk": 0.05,
+      "ace": 6,
+      "srv": 13.7,
+      "rcv": 0,
+      "pts": 8
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 48,
+      "s": 182,
+      "atk": 43.9,
+      "blk": 0.08,
+      "ace": 16,
+      "srv": 11.7,
+      "rcv": 4.2,
+      "pts": 49
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 49,
+      "s": 190,
+      "atk": 39.4,
+      "blk": 0.1,
+      "ace": 23,
+      "srv": 12.0,
+      "rcv": 14.7,
+      "pts": 55
+     }
+    ]
+   },
+   {
+    "code": "5441",
+    "no": 4,
+    "name": "山﨑 真裕",
+    "roman": "Yamazaki Masahiro",
+    "pos": "MB",
+    "img": "data/photos/5441.webp",
+    "birth": "2002-09-17",
+    "age": 24,
+    "height": 195,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "愛知県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 4,
+      "s": 1,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 41,
+      "s": 65,
+      "atk": 55.6,
+      "blk": 0.08,
+      "ace": 1,
+      "srv": 4.7,
+      "rcv": 40.0,
+      "pts": 16
+     }
+    ]
+   },
+   {
+    "code": "6040",
+    "no": 6,
+    "name": "アントン・ブレーメ",
+    "roman": "Anton Brehme",
+    "pos": "MB",
+    "img": "data/photos/6040.webp",
+    "birth": "1999-08-10",
+    "age": 27,
+    "height": 206,
+    "reach": 364,
+    "nation": "ドイツ",
+    "hometown": "ドイツ",
+    "school": "ー",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 22,
+      "atk": 66.2,
+      "blk": 0.64,
+      "ace": 1,
+      "srv": 5.1,
+      "rcv": 0,
+      "pts": 58
+     }
+    ]
+   },
+   {
+    "code": "5703",
+    "no": 8,
+    "name": "前田 凌吾",
+    "roman": "Maeda Ryogo",
+    "pos": "S",
+    "img": "data/photos/5703.webp",
+    "birth": "2003-05-27",
+    "age": 23,
+    "height": 178,
+    "reach": 325,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 11,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 3,
+      "s": 2,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "5597",
+    "no": 9,
+    "name": "エイメン・ブゲラ",
+    "roman": "Aymen Bouguerra",
+    "pos": "OH",
+    "img": "data/photos/5597.webp",
+    "birth": "2001-11-01",
+    "age": 25,
+    "height": 198,
+    "reach": 350,
+    "nation": "チュニジア",
+    "hometown": "チュニジア",
+    "school": "ー",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 22,
+      "atk": 50.6,
+      "blk": 0.5,
+      "ace": 5,
+      "srv": 12.5,
+      "rcv": 12.5,
+      "pts": 104
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 48,
+      "s": 127,
+      "atk": 48.6,
+      "blk": 0.2,
+      "ace": 22,
+      "srv": 9.6,
+      "rcv": 31.2,
+      "pts": 351
+     }
+    ]
+   },
+   {
+    "code": "6041",
+    "no": 10,
+    "name": "ジェニア・グレベニコフ",
+    "roman": "Jenia Grebennikov",
+    "pos": "L",
+    "img": "data/photos/6041.webp",
+    "birth": "1990-08-13",
+    "age": 36,
+    "height": 188,
+    "reach": 345,
+    "nation": "フランス",
+    "hometown": "フランス",
+    "school": "ー",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 22,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 50.7,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "1237",
+    "no": 11,
+    "name": "傳田 亮太",
+    "roman": "Denda Ryota",
+    "pos": "MB",
+    "img": "data/photos/1237.webp",
+    "birth": "1991-07-03",
+    "age": 35,
+    "height": 191,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "長野県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 8,
+      "atk": 37.5,
+      "blk": 0.25,
+      "ace": 0,
+      "srv": 1.4,
+      "rcv": null,
+      "pts": 5
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 48,
+      "s": 103,
+      "atk": 58.6,
+      "blk": 0.24,
+      "ace": 8,
+      "srv": 7.6,
+      "rcv": 33.3,
+      "pts": 101
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 43,
+      "s": 154,
+      "atk": 62.4,
+      "blk": 0.42,
+      "ace": 8,
+      "srv": 7.2,
+      "rcv": 51.8,
+      "pts": 244
+     }
+    ]
+   },
+   {
+    "code": "5008",
+    "no": 12,
+    "name": "水町 泰杜",
+    "roman": "Mizumachi Taito",
+    "pos": "OH",
+    "img": "data/photos/5008.webp",
+    "birth": "2001-09-07",
+    "age": 25,
+    "height": 181,
+    "reach": 339,
+    "nation": "日本",
+    "hometown": "熊本県",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 2,
+      "s": 6,
+      "atk": 20.0,
+      "blk": null,
+      "ace": 0,
+      "srv": -12.5,
+      "rcv": 30.0,
+      "pts": 3
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 46,
+      "s": 165,
+      "atk": 45.4,
+      "blk": 0.17,
+      "ace": 70,
+      "srv": 14.4,
+      "rcv": 38.4,
+      "pts": 566
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 47,
+      "s": 172,
+      "atk": 48.5,
+      "blk": 0.13,
+      "ace": 59,
+      "srv": 12.2,
+      "rcv": 35.1,
+      "pts": 460
+     }
+    ]
+   },
+   {
+    "code": "4123",
+    "no": 15,
+    "name": "宮浦 健人",
+    "roman": "Miyaura Kento",
+    "pos": "OP",
+    "img": "data/photos/4123.webp",
+    "birth": "1999-02-22",
+    "age": 27,
+    "height": 190,
+    "reach": 350,
+    "nation": "日本",
+    "hometown": "熊本県",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 48,
+      "s": 182,
+      "atk": 50.1,
+      "blk": 0.29,
+      "ace": 55,
+      "srv": 11.7,
+      "rcv": 21.1,
+      "pts": 770
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 39,
+      "s": 152,
+      "atk": 53.2,
+      "blk": 0.34,
+      "ace": 72,
+      "srv": 12.4,
+      "rcv": 43.3,
+      "pts": 811
+     }
+    ]
+   },
+   {
+    "code": "4398",
+    "no": 17,
+    "name": "市川 健太",
+    "roman": "Ichikawa Kenta",
+    "pos": "L",
+    "img": "data/photos/4398.webp",
+    "birth": "1999-04-06",
+    "age": 27,
+    "height": 175,
+    "reach": 317,
+    "nation": "日本",
+    "hometown": "長崎県",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 21,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 42.3,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 48,
+      "s": 185,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 46.5,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 49,
+      "s": 154,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 25.0,
+      "rcv": 40.2,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "6042",
+    "no": 22,
+    "name": "豊田 譲",
+    "roman": "Toyoda Jo",
+    "pos": "OP",
+    "img": "data/photos/6042.webp",
+    "birth": "2002-11-22",
+    "age": 23,
+    "height": 190,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "三重県",
+    "school": "岐阜協立大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 10,
+      "atk": 36.4,
+      "blk": 0.1,
+      "ace": 0,
+      "srv": 0,
+      "rcv": null,
+      "pts": 5
+     }
+    ]
+   },
+   {
+    "code": "3964",
+    "no": 26,
+    "name": "山崎 彰都",
+    "roman": "Yamazaki Akito",
+    "pos": "OH",
+    "img": "data/photos/3964.webp",
+    "birth": "1997-10-16",
+    "age": 29,
+    "height": 190,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "宮城県",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 22,
+      "atk": 39.7,
+      "blk": 0.23,
+      "ace": 2,
+      "srv": 5.9,
+      "rcv": 39.5,
+      "pts": 57
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 45,
+      "s": 99,
+      "atk": 45.1,
+      "blk": 0.11,
+      "ace": 3,
+      "srv": 4.1,
+      "rcv": 40.0,
+      "pts": 142
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 47,
+      "s": 149,
+      "atk": 46.5,
+      "blk": 0.26,
+      "ace": 28,
+      "srv": 8.4,
+      "rcv": 36.8,
+      "pts": 320
+     }
+    ]
+   },
+   {
+    "code": "6043",
+    "no": 44,
+    "name": "ドノヴァン・ジャヴォロノク",
+    "roman": "Donovan Dzavoronok",
+    "pos": "OH",
+    "img": "data/photos/6043.webp",
+    "birth": "1997-07-23",
+    "age": 29,
+    "height": 202,
+    "reach": 354,
+    "nation": "チェコ",
+    "hometown": "チェコ",
+    "school": "ー",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 21,
+      "atk": 49.1,
+      "blk": 0.05,
+      "ace": 9,
+      "srv": 16.2,
+      "rcv": 25.5,
+      "pts": 62
+     }
+    ]
+   },
+   {
+    "code": "5598",
+    "no": 99,
+    "name": "ノルベルト・フベル",
+    "roman": "Norbert Huber",
+    "pos": "MB",
+    "img": "data/photos/5598.webp",
+    "birth": null,
+    "age": null,
+    "height": 207,
+    "reach": 352,
+    "nation": "ポーランド",
+    "hometown": "ポーランド",
+    "school": "ー",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 6,
+      "s": 19,
+      "atk": 56.5,
+      "blk": 0.79,
+      "ace": 1,
+      "srv": 7.5,
+      "rcv": 0,
+      "pts": 29
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 42,
+      "s": 157,
+      "atk": 59.1,
+      "blk": 0.68,
+      "ace": 20,
+      "srv": 8.0,
+      "rcv": 42.5,
+      "pts": 380
+     }
+    ]
+   }
+  ],
+  "오사카B": [
+   {
+    "code": "4210",
+    "no": 3,
+    "name": "中村 駿介",
+    "roman": "Nakamura Shunsuke",
+    "pos": "S",
+    "img": "data/photos/4210.webp",
+    "birth": null,
+    "age": null,
+    "height": 186,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 49,
+      "s": 10,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 7.1,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 46,
+      "s": 24,
+      "atk": null,
+      "blk": null,
+      "ace": 1,
+      "srv": 10.4,
+      "rcv": 0,
+      "pts": 1
+     }
+    ]
+   },
+   {
+    "code": "3872",
+    "no": 5,
+    "name": "富田 将馬",
+    "roman": "Tomita Shoma",
+    "pos": "OH",
+    "img": "data/photos/3872.webp",
+    "birth": "1997-06-20",
+    "age": 29,
+    "height": 190,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "静岡県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 20,
+      "atk": 51.2,
+      "blk": 0.15,
+      "ace": 5,
+      "srv": 13.6,
+      "rcv": 50.6,
+      "pts": 52
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 49,
+      "s": 173,
+      "atk": 48.0,
+      "blk": 0.24,
+      "ace": 30,
+      "srv": 7.5,
+      "rcv": 50.5,
+      "pts": 447
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 42,
+      "s": 115,
+      "atk": 45.9,
+      "blk": 0.16,
+      "ace": 11,
+      "srv": 8.3,
+      "rcv": 40.3,
+      "pts": 142
+     }
+    ]
+   },
+   {
+    "code": "5582",
+    "no": 6,
+    "name": "アントワーヌ・ブリザール",
+    "roman": "Antoine Brizard",
+    "pos": "S",
+    "img": "data/photos/5582.webp",
+    "birth": "1994-05-22",
+    "age": 32,
+    "height": 196,
+    "reach": null,
+    "nation": "フランス",
+    "hometown": "フランス",
+    "school": "Lycée Alfred Kestler",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 23,
+      "atk": 56.0,
+      "blk": 0.17,
+      "ace": 5,
+      "srv": 9.1,
+      "rcv": 0,
+      "pts": 23
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 49,
+      "s": 181,
+      "atk": 56.1,
+      "blk": 0.34,
+      "ace": 46,
+      "srv": 9.0,
+      "rcv": 10.5,
+      "pts": 209
+     }
+    ]
+   },
+   {
+    "code": "3903",
+    "no": 8,
+    "name": "仲本 賢優",
+    "roman": "Nakamoto Kenyu",
+    "pos": "OH",
+    "img": "data/photos/3903.webp",
+    "birth": "1997-11-21",
+    "age": 28,
+    "height": 187,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "沖縄県",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 5,
+      "s": 4,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 25.0,
+      "rcv": 66.7,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 48,
+      "s": 38,
+      "atk": 46.2,
+      "blk": 0.03,
+      "ace": 2,
+      "srv": 3.9,
+      "rcv": 35.1,
+      "pts": 15
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 46,
+      "s": 30,
+      "atk": 22.2,
+      "blk": null,
+      "ace": 0,
+      "srv": 1.0,
+      "rcv": 34.8,
+      "pts": 2
+     }
+    ]
+   },
+   {
+    "code": "1328",
+    "no": 10,
+    "name": "山内 晶大",
+    "roman": "Yamauchi Akihiro",
+    "pos": "MB",
+    "img": "data/photos/1328.webp",
+    "birth": "1993-11-30",
+    "age": 32,
+    "height": 204,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "愛知県",
+    "school": "愛知学院大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 2,
+      "atk": 33.3,
+      "blk": null,
+      "ace": 0,
+      "srv": 16.7,
+      "rcv": 50.0,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 49,
+      "s": 101,
+      "atk": 55.4,
+      "blk": 0.38,
+      "ace": 0,
+      "srv": 6.3,
+      "rcv": 26.1,
+      "pts": 161
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 44,
+      "s": 131,
+      "atk": 53.3,
+      "blk": 0.28,
+      "ace": 8,
+      "srv": 8.7,
+      "rcv": 30.8,
+      "pts": 189
+     }
+    ]
+   },
+   {
+    "code": "1449",
+    "no": 11,
+    "name": "西田 有志",
+    "roman": "Nishida Yuji",
+    "pos": "OP",
+    "img": "data/photos/1449.webp",
+    "birth": "2000-01-30",
+    "age": 26,
+    "height": 186,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "三重県",
+    "school": "海星高等学校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 23,
+      "atk": 54.9,
+      "blk": 0.35,
+      "ace": 5,
+      "srv": 6.2,
+      "rcv": 47.2,
+      "pts": 92
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 49,
+      "s": 168,
+      "atk": 50.3,
+      "blk": 0.38,
+      "ace": 71,
+      "srv": 14.3,
+      "rcv": 35.4,
+      "pts": 738
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 46,
+      "s": 170,
+      "atk": 51.2,
+      "blk": 0.42,
+      "ace": 83,
+      "srv": 13.2,
+      "rcv": 43.2,
+      "pts": 794
+     }
+    ]
+   },
+   {
+    "code": "1391",
+    "no": 13,
+    "name": "山本 智大",
+    "roman": "Yamamoto Tomohiro",
+    "pos": "L",
+    "img": "data/photos/1391.webp",
+    "birth": "1994-11-05",
+    "age": 32,
+    "height": 171,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "北海道",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 23,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 41.3,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 49,
+      "s": 181,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 45.0,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 46,
+      "s": 174,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 44.2,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "5426",
+    "no": 15,
+    "name": "甲斐 優斗",
+    "roman": "Kai Masato",
+    "pos": "OH",
+    "img": "data/photos/5426.webp",
+    "birth": "2003-09-25",
+    "age": 23,
+    "height": 200,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "宮崎県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 18,
+      "atk": 56.2,
+      "blk": 0.33,
+      "ace": 5,
+      "srv": 12.3,
+      "rcv": 33.0,
+      "pts": 56
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 34,
+      "s": 122,
+      "atk": 52.8,
+      "blk": 0.07,
+      "ace": 21,
+      "srv": 12.3,
+      "rcv": 29.4,
+      "pts": 220
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 21,
+      "s": 51,
+      "atk": 45.5,
+      "blk": 0.08,
+      "ace": 8,
+      "srv": 9.6,
+      "rcv": 30.4,
+      "pts": 99
+     }
+    ]
+   },
+   {
+    "code": "6044",
+    "no": 16,
+    "name": "伊賀 亮平",
+    "roman": "Iga Ryohei",
+    "pos": "L",
+    "img": "data/photos/6044.webp",
+    "birth": "1994-06-29",
+    "age": 32,
+    "height": 171,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 3,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4625",
+    "no": 18,
+    "name": "西山 大翔",
+    "roman": "Nishiyama Hiroto",
+    "pos": "OP",
+    "img": "data/photos/4625.webp",
+    "birth": "2003-03-04",
+    "age": 23,
+    "height": 193,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "神奈川県",
+    "school": "東海大相模高校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 7,
+      "atk": 28.6,
+      "blk": null,
+      "ace": 0,
+      "srv": 25.0,
+      "rcv": null,
+      "pts": 2
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 49,
+      "s": 74,
+      "atk": 50.5,
+      "blk": 0.12,
+      "ace": 9,
+      "srv": 4.2,
+      "rcv": 0,
+      "pts": 110
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 44,
+      "s": 80,
+      "atk": 34.9,
+      "blk": 0.03,
+      "ace": 2,
+      "srv": -1.9,
+      "rcv": 0,
+      "pts": 26
+     }
+    ]
+   },
+   {
+    "code": "4731",
+    "no": 19,
+    "name": "西川 馨太郎",
+    "roman": "Nishikawa Keitaro",
+    "pos": "MB",
+    "img": "data/photos/4731.webp",
+    "birth": "2000-04-14",
+    "age": 26,
+    "height": 195,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 14,
+      "atk": 50.0,
+      "blk": 0.21,
+      "ace": 3,
+      "srv": 10.2,
+      "rcv": 0,
+      "pts": 20
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 49,
+      "s": 97,
+      "atk": 56.9,
+      "blk": 0.2,
+      "ace": 5,
+      "srv": 9.1,
+      "rcv": 31.6,
+      "pts": 131
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 46,
+      "s": 66,
+      "atk": 50.4,
+      "blk": 0.18,
+      "ace": 6,
+      "srv": 6.9,
+      "rcv": 37.2,
+      "pts": 77
+     }
+    ]
+   },
+   {
+    "code": "5583",
+    "no": 22,
+    "name": "ブライアン・バグナス",
+    "roman": "Bryan Bagunas",
+    "pos": "OH",
+    "img": "data/photos/5583.webp",
+    "birth": "1997-10-10",
+    "age": 29,
+    "height": 194,
+    "reach": null,
+    "nation": "フィリピン",
+    "hometown": "フィリピン",
+    "school": "National University",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 4,
+      "s": 6,
+      "atk": 50.0,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 44,
+      "s": 65,
+      "atk": 47.2,
+      "blk": 0.08,
+      "ace": 3,
+      "srv": 8.7,
+      "rcv": 30.3,
+      "pts": 33
+     }
+    ]
+   },
+   {
+    "code": "4428",
+    "no": 23,
+    "name": "エバデダン ラリー アイケー",
+    "roman": "Evbade-Dan IK Larry",
+    "pos": "MB",
+    "img": "data/photos/4428.webp",
+    "birth": "2000-08-18",
+    "age": 26,
+    "height": 195,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "岐阜県",
+    "school": "筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 23,
+      "atk": 54.5,
+      "blk": 0.43,
+      "ace": 2,
+      "srv": 8.7,
+      "rcv": 25.0,
+      "pts": 42
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 49,
+      "s": 158,
+      "atk": 57.7,
+      "blk": 0.46,
+      "ace": 20,
+      "srv": 10.1,
+      "rcv": 37.3,
+      "pts": 337
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 46,
+      "s": 169,
+      "atk": 60.2,
+      "blk": 0.56,
+      "ace": 13,
+      "srv": 7.8,
+      "rcv": 44.8,
+      "pts": 320
+     }
+    ]
+   },
+   {
+    "code": "6045",
+    "no": 33,
+    "name": "フィニアン・マッカーシー",
+    "roman": "Fynnian McCarthy",
+    "pos": "MB",
+    "img": "data/photos/6045.webp",
+    "birth": "1999-12-04",
+    "age": 26,
+    "height": 200,
+    "reach": null,
+    "nation": "カナダ",
+    "hometown": "カナダ",
+    "school": "British Columbia",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 10,
+      "atk": 70.0,
+      "blk": 0.9,
+      "ace": 2,
+      "srv": 11.2,
+      "rcv": 40.0,
+      "pts": 25
+     }
+    ]
+   },
+   {
+    "code": "5287",
+    "no": 81,
+    "name": "ミゲル・ロペス",
+    "roman": "Miguel Lopez",
+    "pos": "OH",
+    "img": "data/photos/5287.webp",
+    "birth": null,
+    "age": null,
+    "height": 190,
+    "reach": null,
+    "nation": "キューバ",
+    "hometown": "キューバ",
+    "school": "EIDE Provincial",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 6,
+      "s": 19,
+      "atk": 60.5,
+      "blk": 0.21,
+      "ace": 6,
+      "srv": 6.2,
+      "rcv": 28.8,
+      "pts": 79
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 47,
+      "s": 152,
+      "atk": 55.6,
+      "blk": 0.18,
+      "ace": 34,
+      "srv": 7.2,
+      "rcv": 40.3,
+      "pts": 697
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 45,
+      "s": 165,
+      "atk": 56.1,
+      "blk": 0.32,
+      "ace": 50,
+      "srv": 9.8,
+      "rcv": 36.4,
+      "pts": 804
+     }
+    ]
+   }
+  ],
+  "산토리": [
+   {
+    "code": "1458",
+    "no": 1,
+    "name": "小野寺 太志",
+    "roman": "Onodera Taishi",
+    "pos": "MB",
+    "img": "data/photos/1458.webp",
+    "birth": null,
+    "age": null,
+    "height": 202,
+    "reach": 350,
+    "nation": "日本",
+    "hometown": "宮城県",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 47,
+      "s": 162,
+      "atk": 55.5,
+      "blk": 0.47,
+      "ace": 24,
+      "srv": 10.2,
+      "rcv": 45.9,
+      "pts": 321
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 33,
+      "s": 122,
+      "atk": 52.7,
+      "blk": 0.5,
+      "ace": 15,
+      "srv": 8.0,
+      "rcv": 48.7,
+      "pts": 250
+     }
+    ]
+   },
+   {
+    "code": "3541",
+    "no": 2,
+    "name": "佐藤 謙次",
+    "roman": "Sato Kenji",
+    "pos": "MB",
+    "img": "data/photos/3541.webp",
+    "birth": "1997-01-16",
+    "age": 29,
+    "height": 196,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "青森県",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 23,
+      "atk": 46.9,
+      "blk": 0.22,
+      "ace": 4,
+      "srv": 10.5,
+      "rcv": 70.0,
+      "pts": 24
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 40,
+      "s": 71,
+      "atk": 53.7,
+      "blk": 0.1,
+      "ace": 4,
+      "srv": 5.7,
+      "rcv": 37.5,
+      "pts": 55
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 44,
+      "s": 102,
+      "atk": 52.6,
+      "blk": 0.28,
+      "ace": 9,
+      "srv": 7.2,
+      "rcv": 36.0,
+      "pts": 120
+     }
+    ]
+   },
+   {
+    "code": "4406",
+    "no": 5,
+    "name": "下川 諒",
+    "roman": "Shimokawa Ryo",
+    "pos": "S",
+    "img": null,
+    "birth": "2000-01-12",
+    "age": 26,
+    "height": 178,
+    "reach": 320,
+    "nation": "日本",
+    "hometown": "鹿児島県",
+    "school": "亜細亜大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 4,
+      "s": 1,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 49,
+      "s": 9,
+      "atk": null,
+      "blk": 0.11,
+      "ace": 0,
+      "srv": 6.0,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 49,
+      "s": 24,
+      "atk": 33.3,
+      "blk": null,
+      "ace": 0,
+      "srv": 6.2,
+      "rcv": 0,
+      "pts": 1
+     }
+    ]
+   },
+   {
+    "code": "5192",
+    "no": 7,
+    "name": "ルチアーノ・パロンスキー",
+    "roman": "Luciano Palonsky",
+    "pos": "OH",
+    "img": null,
+    "birth": "1999-07-08",
+    "age": 27,
+    "height": 198,
+    "reach": 355,
+    "nation": "アルゼンチン",
+    "hometown": "アルゼンチン",
+    "school": "ORT Argentina",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 13,
+      "atk": 36.7,
+      "blk": 0.08,
+      "ace": 0,
+      "srv": 6.5,
+      "rcv": 30.7,
+      "pts": 19
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 41,
+      "s": 138,
+      "atk": 45.9,
+      "blk": 0.23,
+      "ace": 25,
+      "srv": 7.3,
+      "rcv": 39.5,
+      "pts": 498
+     }
+    ]
+   },
+   {
+    "code": "1331",
+    "no": 8,
+    "name": "関田 誠大",
+    "roman": "Sekita Masahiro",
+    "pos": "S",
+    "img": "data/photos/1331.webp",
+    "birth": "1993-11-20",
+    "age": 32,
+    "height": 175,
+    "reach": 320,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 4,
+      "s": 17,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": 6.8,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 49,
+      "s": 166,
+      "atk": 32.1,
+      "blk": 0.11,
+      "ace": 17,
+      "srv": 8.5,
+      "rcv": 5.0,
+      "pts": 45
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ジェイテクトSTINGS愛知",
+      "g": 45,
+      "s": 168,
+      "atk": 31.0,
+      "blk": 0.1,
+      "ace": 13,
+      "srv": 8.2,
+      "rcv": 3.1,
+      "pts": 39
+     }
+    ]
+   },
+   {
+    "code": "5191",
+    "no": 9,
+    "name": "蔡 沛彰",
+    "roman": "Tsai Pei Chang",
+    "pos": "MB",
+    "img": null,
+    "birth": "2001-01-02",
+    "age": 25,
+    "height": 205,
+    "reach": 347,
+    "nation": "チャイニーズタイペイ",
+    "hometown": "チャイニーズタイペイ",
+    "school": "台中市立豊原商業高校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 25,
+      "atk": 56.9,
+      "blk": 0.56,
+      "ace": 1,
+      "srv": 8.8,
+      "rcv": 41.7,
+      "pts": 48
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 41,
+      "s": 150,
+      "atk": 58.8,
+      "blk": 0.47,
+      "ace": 8,
+      "srv": 7.0,
+      "rcv": 38.1,
+      "pts": 323
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 44,
+      "s": 151,
+      "atk": 54.2,
+      "blk": 0.38,
+      "ace": 14,
+      "srv": 7.4,
+      "rcv": 50.6,
+      "pts": 277
+     }
+    ]
+   },
+   {
+    "code": "6046",
+    "no": 10,
+    "name": "ワシム・ベンタラ",
+    "roman": "Wassim Ben Tara",
+    "pos": "OP",
+    "img": "data/photos/6046.webp",
+    "birth": "1996-08-03",
+    "age": 30,
+    "height": 203,
+    "reach": 369,
+    "nation": "チュニジア",
+    "hometown": "チュニジア",
+    "school": "Lycée El Mourouj 1",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 4,
+      "s": 17,
+      "atk": 54.5,
+      "blk": 0.41,
+      "ace": 2,
+      "srv": 3.2,
+      "rcv": 66.7,
+      "pts": 75
+     }
+    ]
+   },
+   {
+    "code": "4698",
+    "no": 14,
+    "name": "鬼木 錬",
+    "roman": "Oniki Ren",
+    "pos": "MB",
+    "img": "data/photos/4698.webp",
+    "birth": "2000-08-28",
+    "age": 26,
+    "height": 204,
+    "reach": 346,
+    "nation": "日本",
+    "hometown": "福岡県",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 19,
+      "atk": 47.1,
+      "blk": 0.37,
+      "ace": 0,
+      "srv": 6.2,
+      "rcv": 30.0,
+      "pts": 15
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 49,
+      "s": 159,
+      "atk": 49.2,
+      "blk": 0.38,
+      "ace": 13,
+      "srv": 9.2,
+      "rcv": 49.1,
+      "pts": 231
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 48,
+      "s": 153,
+      "atk": 56.7,
+      "blk": 0.22,
+      "ace": 1,
+      "srv": 3.6,
+      "rcv": 33.6,
+      "pts": 166
+     }
+    ]
+   },
+   {
+    "code": "1456",
+    "no": 15,
+    "name": "喜入 祥充",
+    "roman": "Kiire Yoshimitsu",
+    "pos": "L",
+    "img": "data/photos/1456.webp",
+    "birth": "1995-05-13",
+    "age": 31,
+    "height": 175,
+    "reach": 338,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 11,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 31.2,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 26,
+      "s": 1,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 49,
+      "s": 28,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 25.0,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "3879",
+    "no": 17,
+    "name": "備 一真",
+    "roman": "Sonae Kazuma",
+    "pos": "L",
+    "img": "data/photos/3879.webp",
+    "birth": "1998-01-06",
+    "age": 28,
+    "height": 167,
+    "reach": 302,
+    "nation": "日本",
+    "hometown": "鹿児島県",
+    "school": "鹿児島商業高校",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 26,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 52.3,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 44,
+      "s": 160,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 52.6,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "5602",
+    "no": 18,
+    "name": "イゴール・クリュカ",
+    "roman": "Egor Kliuka",
+    "pos": "OH",
+    "img": "data/photos/5602.webp",
+    "birth": "1995-06-15",
+    "age": 31,
+    "height": 207,
+    "reach": 375,
+    "nation": "ロシア連邦",
+    "hometown": "ロシア連邦",
+    "school": "Kuban State University",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 26,
+      "atk": 40.8,
+      "blk": 0.31,
+      "ace": 6,
+      "srv": 11.9,
+      "rcv": 31.8,
+      "pts": 67
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 46,
+      "s": 150,
+      "atk": 51.3,
+      "blk": 0.49,
+      "ace": 36,
+      "srv": 12.0,
+      "rcv": 35.1,
+      "pts": 521
+     }
+    ]
+   },
+   {
+    "code": "5047",
+    "no": 19,
+    "name": "甲斐 孝太郎",
+    "roman": "Kai Kotaro",
+    "pos": "OP",
+    "img": "data/photos/5047.webp",
+    "birth": "2001-11-05",
+    "age": 25,
+    "height": 188,
+    "reach": 335,
+    "nation": "日本",
+    "hometown": "宮崎県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 13,
+      "atk": 43.8,
+      "blk": null,
+      "ace": 1,
+      "srv": 8.3,
+      "rcv": 75.0,
+      "pts": 15
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 44,
+      "s": 56,
+      "atk": 49.5,
+      "blk": 0.02,
+      "ace": 3,
+      "srv": 6.2,
+      "rcv": 16.7,
+      "pts": 49
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 48,
+      "s": 116,
+      "atk": 48.0,
+      "blk": null,
+      "ace": 10,
+      "srv": 10.1,
+      "rcv": 62.5,
+      "pts": 34
+     }
+    ]
+   },
+   {
+    "code": "5035",
+    "no": 20,
+    "name": "染野 輝",
+    "roman": "Someno Hikaru",
+    "pos": "OH",
+    "img": "data/photos/5035.webp",
+    "birth": "2001-07-03",
+    "age": 25,
+    "height": 186,
+    "reach": 337,
+    "nation": "日本",
+    "hometown": "茨城県",
+    "school": "順天堂大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 5,
+      "atk": 64.3,
+      "blk": 0.2,
+      "ace": 0,
+      "srv": 3.6,
+      "rcv": 45.5,
+      "pts": 10
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "ヴォレアス北海道",
+      "g": 44,
+      "s": 104,
+      "atk": 41.7,
+      "blk": 0.16,
+      "ace": 15,
+      "srv": 7.5,
+      "rcv": 44.7,
+      "pts": 254
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 2,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4416",
+    "no": 21,
+    "name": "髙橋 塁",
+    "roman": "Takahashi Rui",
+    "pos": "OH",
+    "img": "data/photos/4416.webp",
+    "birth": "2000-01-14",
+    "age": 26,
+    "height": 185,
+    "reach": 330,
+    "nation": "日本",
+    "hometown": "京都府",
+    "school": "日本大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 4,
+      "s": 12,
+      "atk": null,
+      "blk": null,
+      "ace": 1,
+      "srv": 1.8,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 47,
+      "s": 99,
+      "atk": 100.0,
+      "blk": null,
+      "ace": 11,
+      "srv": 12.6,
+      "rcv": null,
+      "pts": 12
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 42,
+      "s": 83,
+      "atk": null,
+      "blk": null,
+      "ace": 4,
+      "srv": 7.6,
+      "rcv": null,
+      "pts": 4
+     }
+    ]
+   },
+   {
+    "code": "4415",
+    "no": 22,
+    "name": "鍬田 憲伸",
+    "roman": "Kuwada Kenshin",
+    "pos": "OH",
+    "img": "data/photos/4415.webp",
+    "birth": "1999-06-28",
+    "age": 27,
+    "height": 190,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "熊本県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 120,
+      "s": 354,
+      "atk": 40.0,
+      "blk": 0.2,
+      "ace": 66,
+      "srv": 8.4,
+      "rcv": 43.5,
+      "pts": 759
+     }
+    ]
+   },
+   {
+    "code": "3907",
+    "no": 23,
+    "name": "柏田 樹",
+    "roman": "Kashiwada Tatsuki",
+    "pos": "MB",
+    "img": "data/photos/3907.webp",
+    "birth": "1997-11-09",
+    "age": 29,
+    "height": 193,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "宮崎県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 4,
+      "s": 2,
+      "atk": null,
+      "blk": 0.5,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 45,
+      "s": 34,
+      "atk": 40.0,
+      "blk": 0.15,
+      "ace": 4,
+      "srv": 15.6,
+      "rcv": 28.6,
+      "pts": 21
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 34,
+      "s": 89,
+      "atk": 47.5,
+      "blk": 0.29,
+      "ace": 6,
+      "srv": 10.6,
+      "rcv": 33.3,
+      "pts": 109
+     }
+    ]
+   },
+   {
+    "code": "6047",
+    "no": 61,
+    "name": "中野 倭",
+    "roman": "Nakano Yamato",
+    "pos": "S",
+    "img": null,
+    "birth": "1999-10-02",
+    "age": 27,
+    "height": 179,
+    "reach": 320,
+    "nation": "日本",
+    "hometown": "和歌山県",
+    "school": "開智高校→近畿大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 4,
+      "s": 12,
+      "atk": 25.0,
+      "blk": 0.17,
+      "ace": 0,
+      "srv": 5.0,
+      "rcv": 0,
+      "pts": 3
+     }
+    ]
+   },
+   {
+    "code": "6048",
+    "no": 99,
+    "name": "ダニエル・チチゴイ",
+    "roman": "Daniel Chitigoi",
+    "pos": "OH",
+    "img": null,
+    "birth": null,
+    "age": null,
+    "height": 203,
+    "reach": 371,
+    "nation": "ルーマニア",
+    "hometown": "ルーマニア",
+    "school": "Anghel Saligny Technical Col.",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ大阪",
+      "g": 6,
+      "s": 26,
+      "atk": 50.2,
+      "blk": 0.35,
+      "ace": 9,
+      "srv": 11.7,
+      "rcv": 27.4,
+      "pts": 131
+     }
+    ]
+   }
+  ],
+  "사카이": [
+   {
+    "code": "5437",
+    "no": 2,
+    "name": "山根 大幸",
+    "roman": "Yamane Hiroyuki",
+    "pos": "MB",
+    "img": "data/photos/5437.webp",
+    "birth": null,
+    "age": null,
+    "height": 191,
+    "reach": 336,
+    "nation": "日本",
+    "hometown": "群馬県",
+    "school": "前橋商業高校→中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 3,
+      "s": 4,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 8.3,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 6,
+      "s": 20,
+      "atk": null,
+      "blk": null,
+      "ace": 1,
+      "srv": 8.3,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 2,
+      "s": 8,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 0,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4694",
+    "no": 3,
+    "name": "安井 恒介",
+    "roman": "Yasui Kosuke",
+    "pos": "OH",
+    "img": "data/photos/4694.webp",
+    "birth": "2000-12-08",
+    "age": 25,
+    "height": 189,
+    "reach": 346,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "市立尼崎高校→明治大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 4,
+      "s": 9,
+      "atk": 33.3,
+      "blk": null,
+      "ace": 0,
+      "srv": 5.4,
+      "rcv": 11.9,
+      "pts": 5
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 37,
+      "s": 29,
+      "atk": 41.6,
+      "blk": 0.17,
+      "ace": 0,
+      "srv": -1.7,
+      "rcv": 32.1,
+      "pts": 42
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 44,
+      "s": 141,
+      "atk": 43.4,
+      "blk": 0.23,
+      "ace": 30,
+      "srv": 6.2,
+      "rcv": 32.9,
+      "pts": 424
+     }
+    ]
+   },
+   {
+    "code": "2273",
+    "no": 6,
+    "name": "森 愛樹",
+    "roman": "Mori Aiki",
+    "pos": "L",
+    "img": "data/photos/2273.webp",
+    "birth": "1998-04-19",
+    "age": 28,
+    "height": 170,
+    "reach": 300,
+    "nation": "日本",
+    "hometown": "兵庫県",
+    "school": "市立尼崎高校→近畿大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 4,
+      "s": 8,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 53.9,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 44,
+      "s": 167,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 52.8,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 44,
+      "s": 168,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 55.2,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "3585",
+    "no": 7,
+    "name": "高梨 健太",
+    "roman": "Takanashi Kenta",
+    "pos": "OH",
+    "img": "data/photos/3585.webp",
+    "birth": "1997-03-25",
+    "age": 29,
+    "height": 190,
+    "reach": 347,
+    "nation": "日本",
+    "hometown": "山形県",
+    "school": "山形城北高校→日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 6,
+      "s": 17,
+      "atk": 41.2,
+      "blk": 0.12,
+      "ace": 1,
+      "srv": 1.6,
+      "rcv": 33.6,
+      "pts": 31
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 44,
+      "s": 147,
+      "atk": 43.2,
+      "blk": 0.22,
+      "ace": 23,
+      "srv": 8.2,
+      "rcv": 36.9,
+      "pts": 420
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "ウルフドッグス名古屋",
+      "g": 46,
+      "s": 104,
+      "atk": 44.5,
+      "blk": 0.13,
+      "ace": 5,
+      "srv": 8.1,
+      "rcv": 38.7,
+      "pts": 174
+     }
+    ]
+   },
+   {
+    "code": "4695",
+    "no": 8,
+    "name": "秋間 直人",
+    "roman": "Akima Naoto",
+    "pos": "MB",
+    "img": "data/photos/4695.webp",
+    "birth": "2000-09-19",
+    "age": 26,
+    "height": 201,
+    "reach": 342,
+    "nation": "日本",
+    "hometown": "愛知県",
+    "school": "桜台高校→早稲田大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 4,
+      "s": 16,
+      "atk": 51.3,
+      "blk": 0.56,
+      "ace": 0,
+      "srv": 6.0,
+      "rcv": 33.3,
+      "pts": 29
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 37,
+      "s": 88,
+      "atk": 57.7,
+      "blk": 0.06,
+      "ace": 5,
+      "srv": 11.8,
+      "rcv": 33.3,
+      "pts": 40
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 34,
+      "s": 66,
+      "atk": 0,
+      "blk": null,
+      "ace": 4,
+      "srv": 8.2,
+      "rcv": null,
+      "pts": 4
+     }
+    ]
+   },
+   {
+    "code": "1454",
+    "no": 9,
+    "name": "大宅 真樹",
+    "roman": "Oya Masaki",
+    "pos": "S",
+    "img": "data/photos/1454.webp",
+    "birth": "1995-04-23",
+    "age": 31,
+    "height": 177,
+    "reach": 327,
+    "nation": "日本",
+    "hometown": "長崎県",
+    "school": "大村工業高校→東亜大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 6,
+      "s": 24,
+      "atk": 25.0,
+      "blk": 0.25,
+      "ace": 1,
+      "srv": 7.0,
+      "rcv": 10.0,
+      "pts": 8
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 44,
+      "s": 167,
+      "atk": 43.9,
+      "blk": 0.11,
+      "ace": 15,
+      "srv": 5.8,
+      "rcv": 18.2,
+      "pts": 52
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "サントリーサンバーズ",
+      "g": 46,
+      "s": 170,
+      "atk": 39.6,
+      "blk": 0.14,
+      "ace": 6,
+      "srv": 5.6,
+      "rcv": 0,
+      "pts": 49
+     }
+    ]
+   },
+   {
+    "code": "4792",
+    "no": 10,
+    "name": "渡邉 晃瑠",
+    "roman": "Watanabe Cole",
+    "pos": "MB",
+    "img": "data/photos/4792.webp",
+    "birth": "2000-04-06",
+    "age": 26,
+    "height": 193,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "アメリカ合衆国",
+    "school": "University of Hawaii",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 6,
+      "s": 20,
+      "atk": 66.7,
+      "blk": 0.3,
+      "ace": 1,
+      "srv": 12.3,
+      "rcv": 100.0,
+      "pts": 27
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 43,
+      "s": 155,
+      "atk": 56.2,
+      "blk": 0.47,
+      "ace": 13,
+      "srv": 8.6,
+      "rcv": 38.6,
+      "pts": 264
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 41,
+      "s": 114,
+      "atk": 45.5,
+      "blk": 0.3,
+      "ace": 1,
+      "srv": 4.2,
+      "rcv": 34.1,
+      "pts": 115
+     }
+    ]
+   },
+   {
+    "code": "4607",
+    "no": 15,
+    "name": "江藤 巧",
+    "roman": "Eto Takumi",
+    "pos": "S",
+    "img": "data/photos/4607.webp",
+    "birth": "2000-06-28",
+    "age": 26,
+    "height": 180,
+    "reach": 335,
+    "nation": "日本",
+    "hometown": "山口県",
+    "school": "高川学園高校→駒澤大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 4,
+      "s": 6,
+      "atk": 100.0,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 14,
+      "s": 26,
+      "atk": null,
+      "blk": 0.04,
+      "ace": 0,
+      "srv": 0,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 38,
+      "s": 85,
+      "atk": 22.2,
+      "blk": 0.12,
+      "ace": 11,
+      "srv": 5.5,
+      "rcv": 0,
+      "pts": 25
+     }
+    ]
+   },
+   {
+    "code": "5016",
+    "no": 17,
+    "name": "上村 琉乃介",
+    "roman": "Kamimura Ryunosuke",
+    "pos": "OP",
+    "img": "data/photos/5016.webp",
+    "birth": "2001-04-19",
+    "age": 25,
+    "height": 186,
+    "reach": 352,
+    "nation": "日本",
+    "hometown": "長野県",
+    "school": "日本航空高校→東京学芸大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 6,
+      "s": 8,
+      "atk": 71.4,
+      "blk": 0.25,
+      "ace": 0,
+      "srv": 10.4,
+      "rcv": null,
+      "pts": 17
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 25,
+      "s": 15,
+      "atk": 51.6,
+      "blk": null,
+      "ace": 0,
+      "srv": -12.5,
+      "rcv": null,
+      "pts": 16
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 44,
+      "s": 142,
+      "atk": 48.2,
+      "blk": 0.06,
+      "ace": 16,
+      "srv": 5.3,
+      "rcv": 33.3,
+      "pts": 118
+     }
+    ]
+   },
+   {
+    "code": "6049",
+    "no": 18,
+    "name": "アレックス・サーレマー",
+    "roman": "Alex Saaremaa",
+    "pos": "MB",
+    "img": "data/photos/6049.webp",
+    "birth": "2000-12-18",
+    "age": 25,
+    "height": 210,
+    "reach": null,
+    "nation": "エストニア",
+    "hometown": "エストニア",
+    "school": "Tartu Täiskasvanute Gümnaasium",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 4,
+      "s": 14,
+      "atk": 50.0,
+      "blk": 0.93,
+      "ace": 1,
+      "srv": 15.7,
+      "rcv": 50.0,
+      "pts": 27
+     }
+    ]
+   },
+   {
+    "code": "5473",
+    "no": 20,
+    "name": "中西 健裕",
+    "roman": "Nakanishi Takehiro",
+    "pos": "S",
+    "img": "data/photos/5473.webp",
+    "birth": "2002-09-09",
+    "age": 24,
+    "height": 181,
+    "reach": 320,
+    "nation": "日本",
+    "hometown": "茨城県",
+    "school": "土浦日本大学高校→筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 4,
+      "s": 3,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 30,
+      "s": 33,
+      "atk": 100.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 3.6,
+      "rcv": null,
+      "pts": 1
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 12,
+      "s": 10,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": 6.2,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "1410",
+    "no": 21,
+    "name": "竹元 裕太郎",
+    "roman": "Takemoto Yutaro",
+    "pos": "MB",
+    "img": "data/photos/1410.webp",
+    "birth": "1995-02-21",
+    "age": 31,
+    "height": 199,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "島根県",
+    "school": "浜田高校→東京学芸大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 6,
+      "s": 14,
+      "atk": 53.8,
+      "blk": 0.14,
+      "ace": 0,
+      "srv": 3.1,
+      "rcv": 37.5,
+      "pts": 9
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 42,
+      "s": 65,
+      "atk": 51.3,
+      "blk": 0.12,
+      "ace": 0,
+      "srv": 7.0,
+      "rcv": 38.9,
+      "pts": 28
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 43,
+      "s": 135,
+      "atk": 52.0,
+      "blk": 0.36,
+      "ace": 2,
+      "srv": 5.8,
+      "rcv": 37.0,
+      "pts": 129
+     }
+    ]
+   },
+   {
+    "code": "5438",
+    "no": 22,
+    "name": "柿崎 晃",
+    "roman": "Kakizaki Akira",
+    "pos": "OH",
+    "img": "data/photos/5438.webp",
+    "birth": "2002-04-16",
+    "age": 24,
+    "height": 186,
+    "reach": 330,
+    "nation": "日本",
+    "hometown": "北海道",
+    "school": "北海道科学大学高校→中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 4,
+      "s": 16,
+      "atk": 54.3,
+      "blk": 0.06,
+      "ace": 1,
+      "srv": 2.8,
+      "rcv": 33.3,
+      "pts": 27
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 16,
+      "s": 11,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": -5.4,
+      "rcv": 25.0,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "5674",
+    "no": 23,
+    "name": "南口 辰揮",
+    "roman": "Minamiguchi Tatsuki",
+    "pos": "L",
+    "img": "data/photos/5674.webp",
+    "birth": "2003-04-18",
+    "age": 23,
+    "height": 170,
+    "reach": 305,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 4,
+      "s": 16,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 41.8,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 24,
+      "s": 69,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "6050",
+    "no": 77,
+    "name": "チゾバ・ネベス",
+    "roman": "Chizoba Neves",
+    "pos": "OP",
+    "img": "data/photos/6050.webp",
+    "birth": "1997-07-25",
+    "age": 29,
+    "height": 200,
+    "reach": 355,
+    "nation": "ブラジル",
+    "hometown": "ブラジル",
+    "school": "不明",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 6,
+      "s": 24,
+      "atk": 52.8,
+      "blk": 0.21,
+      "ace": 7,
+      "srv": 13.3,
+      "rcv": 37.5,
+      "pts": 127
+     }
+    ]
+   },
+   {
+    "code": "5586",
+    "no": 90,
+    "name": "トンマーゾ・リナルディ",
+    "roman": "Tommaso Rinaldi",
+    "pos": "OH",
+    "img": "data/photos/5586.webp",
+    "birth": "2001-11-09",
+    "age": 25,
+    "height": 200,
+    "reach": 360,
+    "nation": "イタリア",
+    "hometown": "イタリア",
+    "school": "Pegaso University",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 6,
+      "s": 20,
+      "atk": 50.6,
+      "blk": 0.35,
+      "ace": 4,
+      "srv": 10.0,
+      "rcv": 38.0,
+      "pts": 89
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 44,
+      "s": 147,
+      "atk": 51.6,
+      "blk": 0.3,
+      "ace": 38,
+      "srv": 10.5,
+      "rcv": 32.2,
+      "pts": 652
+     }
+    ]
+   },
+   {
+    "code": "6051",
+    "no": 99,
+    "name": "ジョルディ・ラモン",
+    "roman": "Jordi Ramon",
+    "pos": "OH",
+    "img": "data/photos/6051.webp",
+    "birth": null,
+    "age": null,
+    "height": 194,
+    "reach": 345,
+    "nation": "スペイン",
+    "hometown": "スペイン",
+    "school": "IES JORGE MANRIQUE",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "日本製鉄堺ブレイザーズ",
+      "g": 4,
+      "s": 9,
+      "atk": 43.2,
+      "blk": 0.22,
+      "ace": 3,
+      "srv": 7.6,
+      "rcv": 28.2,
+      "pts": 21
+     }
+    ]
+   }
+  ],
+  "히로시마": [
+   {
+    "code": "5366",
+    "no": 1,
+    "name": "柳北 悠李",
+    "roman": "Yanakita Yuri",
+    "pos": "OH",
+    "img": "data/photos/5366.webp",
+    "birth": null,
+    "age": null,
+    "height": 192,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "福岡県",
+    "school": "東福岡高校→東亜大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 11,
+      "atk": 32.0,
+      "blk": 0.27,
+      "ace": 0,
+      "srv": 3.9,
+      "rcv": 26.2,
+      "pts": 11
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 46,
+      "s": 35,
+      "atk": 39.5,
+      "blk": 0.06,
+      "ace": 1,
+      "srv": 4.3,
+      "rcv": 33.7,
+      "pts": 37
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 22,
+      "s": 50,
+      "atk": 31.6,
+      "blk": 0.06,
+      "ace": 1,
+      "srv": 4.5,
+      "rcv": 0,
+      "pts": 10
+     }
+    ]
+   },
+   {
+    "code": "3542",
+    "no": 2,
+    "name": "樋口 裕希",
+    "roman": "Higuchi Yuki",
+    "pos": "MB",
+    "img": "data/photos/3542.webp",
+    "birth": "1996-04-27",
+    "age": 30,
+    "height": 191,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "群馬県",
+    "school": "高崎高校→筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 3,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 33,
+      "s": 24,
+      "atk": 35.7,
+      "blk": 0.21,
+      "ace": 1,
+      "srv": 4.5,
+      "rcv": 50.0,
+      "pts": 11
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 38,
+      "s": 106,
+      "atk": 46.1,
+      "blk": 0.26,
+      "ace": 7,
+      "srv": 6.0,
+      "rcv": 34.4,
+      "pts": 229
+     }
+    ]
+   },
+   {
+    "code": "4179",
+    "no": 3,
+    "name": "西村 信",
+    "roman": "Nishimura Makoto",
+    "pos": "L",
+    "img": "data/photos/4179.webp",
+    "birth": "1998-10-07",
+    "age": 28,
+    "height": 177,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "山口県",
+    "school": "高川学園高校→日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 3,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 45,
+      "s": 12,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 34.6,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 31,
+      "s": 27,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 37.8,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4387",
+    "no": 4,
+    "name": "三輪 大将",
+    "roman": "Miwa Hiromasa",
+    "pos": "MB",
+    "img": "data/photos/4387.webp",
+    "birth": "1999-12-17",
+    "age": 26,
+    "height": 192,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "山口県",
+    "school": "高川学園高校→明治大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 27,
+      "atk": 62.7,
+      "blk": 0.67,
+      "ace": 0,
+      "srv": 8.0,
+      "rcv": 81.8,
+      "pts": 70
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 46,
+      "s": 164,
+      "atk": 60.8,
+      "blk": 0.51,
+      "ace": 19,
+      "srv": 8.7,
+      "rcv": 48.0,
+      "pts": 359
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 46,
+      "s": 177,
+      "atk": 59.9,
+      "blk": 0.42,
+      "ace": 20,
+      "srv": 9.9,
+      "rcv": 46.8,
+      "pts": 367
+     }
+    ]
+   },
+   {
+    "code": "6112",
+    "no": 5,
+    "name": "モビン・ナスリ・マスタナバド",
+    "roman": "Mobin Nasri Mastanabad",
+    "pos": "OH",
+    "img": "data/photos/6112.webp",
+    "birth": "2003-01-07",
+    "age": 23,
+    "height": 202,
+    "reach": null,
+    "nation": "イラン",
+    "hometown": "イラン",
+    "school": "ティーチャー・ボケーショナル大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 24,
+      "atk": 54.2,
+      "blk": 0.29,
+      "ace": 10,
+      "srv": 14.9,
+      "rcv": 32.4,
+      "pts": 101
+     }
+    ]
+   },
+   {
+    "code": "4177",
+    "no": 7,
+    "name": "新井 雄大",
+    "roman": "Arai Yudai",
+    "pos": "OH",
+    "img": "data/photos/4177.webp",
+    "birth": "1998-06-27",
+    "age": 28,
+    "height": 188,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "新潟県",
+    "school": "上越総合技術高校→東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 26,
+      "atk": 46.0,
+      "blk": 0.27,
+      "ace": 2,
+      "srv": 6.6,
+      "rcv": 40.0,
+      "pts": 72
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 46,
+      "s": 152,
+      "atk": 48.4,
+      "blk": 0.2,
+      "ace": 26,
+      "srv": 8.9,
+      "rcv": 32.5,
+      "pts": 477
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 46,
+      "s": 172,
+      "atk": 47.5,
+      "blk": 0.26,
+      "ace": 32,
+      "srv": 8.5,
+      "rcv": 37.8,
+      "pts": 615
+     }
+    ]
+   },
+   {
+    "code": "5367",
+    "no": 9,
+    "name": "髙梨 海輝",
+    "roman": "Takanashi Kaiki",
+    "pos": "MB",
+    "img": "data/photos/5367.webp",
+    "birth": "2002-10-11",
+    "age": 24,
+    "height": 192,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "大阪府",
+    "school": "清風高校→東亜大学",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 1,
+      "s": 1,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "5043",
+    "no": 10,
+    "name": "髙木 啓士郎",
+    "roman": "Takaki Keishiro",
+    "pos": "L",
+    "img": "data/photos/5043.webp",
+    "birth": "2001-09-03",
+    "age": 25,
+    "height": 171,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "広島県",
+    "school": "崇徳高校→東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 27,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 50.7,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 46,
+      "s": 163,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 46.5,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 40,
+      "s": 151,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 44.2,
+      "pts": 0
+     }
+    ]
+   },
+   {
+    "code": "4178",
+    "no": 11,
+    "name": "坂下 純也",
+    "roman": "Sakashita Junya",
+    "pos": "OH",
+    "img": "data/photos/4178.webp",
+    "birth": "1998-06-14",
+    "age": 28,
+    "height": 181,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "神奈川県",
+    "school": "駿台学園高校→筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 22,
+      "atk": 25.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 20.8,
+      "rcv": 38.1,
+      "pts": 1
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 45,
+      "s": 132,
+      "atk": 37.1,
+      "blk": 0.05,
+      "ace": 3,
+      "srv": 4.6,
+      "rcv": 34.0,
+      "pts": 61
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 44,
+      "s": 126,
+      "atk": 37.6,
+      "blk": 0.08,
+      "ace": 11,
+      "srv": 5.8,
+      "rcv": 40.9,
+      "pts": 145
+     }
+    ]
+   },
+   {
+    "code": "4139",
+    "no": 15,
+    "name": "西本 圭吾",
+    "roman": "Nishimoto Keigo",
+    "pos": "MB",
+    "img": "data/photos/4139.webp",
+    "birth": "1998-10-27",
+    "age": 28,
+    "height": 189,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "広島県",
+    "school": "尾道高校→福山平成大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 27,
+      "atk": 59.6,
+      "blk": 0.56,
+      "ace": 2,
+      "srv": 6.7,
+      "rcv": 21.4,
+      "pts": 45
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 45,
+      "s": 157,
+      "atk": 58.0,
+      "blk": 0.51,
+      "ace": 18,
+      "srv": 5.5,
+      "rcv": 33.1,
+      "pts": 312
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 42,
+      "s": 165,
+      "atk": 56.5,
+      "blk": 0.62,
+      "ace": 14,
+      "srv": 6.5,
+      "rcv": 42.2,
+      "pts": 352
+     }
+    ]
+   },
+   {
+    "code": "3924",
+    "no": 16,
+    "name": "西 知恕",
+    "roman": "Nishi Chihiro",
+    "pos": "MB",
+    "img": "data/photos/3924.webp",
+    "birth": "1997-11-08",
+    "age": 29,
+    "height": 192,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "大分県",
+    "school": "別府鶴見丘高校→日本体育大学",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 14,
+      "s": 3,
+      "atk": 0,
+      "blk": null,
+      "ace": 0,
+      "srv": 18.8,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 27,
+      "s": 38,
+      "atk": 38.8,
+      "blk": 0.21,
+      "ace": 1,
+      "srv": 4.7,
+      "rcv": 61.1,
+      "pts": 28
+     }
+    ]
+   },
+   {
+    "code": "1337",
+    "no": 17,
+    "name": "金子 聖輝",
+    "roman": "Kaneko Masaki",
+    "pos": "S",
+    "img": "data/photos/1337.webp",
+    "birth": "1997-10-23",
+    "age": 29,
+    "height": 190,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "福岡県",
+    "school": "東福岡高校",
+    "career": [
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 43,
+      "s": 109,
+      "atk": 100.0,
+      "blk": 0.03,
+      "ace": 0,
+      "srv": 0,
+      "rcv": 0,
+      "pts": 4
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 46,
+      "s": 163,
+      "atk": 41.0,
+      "blk": 0.19,
+      "ace": 7,
+      "srv": 5.4,
+      "rcv": 5.6,
+      "pts": 70
+     }
+    ]
+   },
+   {
+    "code": "1129",
+    "no": 18,
+    "name": "山本 将平",
+    "roman": "Yamamoto Shohei",
+    "pos": "OH",
+    "img": "data/photos/1129.webp",
+    "birth": "1991-03-21",
+    "age": 35,
+    "height": 187,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "安田学園高校→日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 3,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 12.5,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 28,
+      "s": 7,
+      "atk": 100.0,
+      "blk": null,
+      "ace": 1,
+      "srv": 31.2,
+      "rcv": 14.3,
+      "pts": 2
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 23,
+      "s": 73,
+      "atk": 57.9,
+      "blk": 0.01,
+      "ace": 8,
+      "srv": 11.1,
+      "rcv": 39.3,
+      "pts": 31
+     }
+    ]
+   },
+   {
+    "code": "4417",
+    "no": 20,
+    "name": "阿部 大樹",
+    "roman": "Abe Daiki",
+    "pos": "S",
+    "img": "data/photos/4417.webp",
+    "birth": "2000-02-16",
+    "age": 26,
+    "height": 181,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "埼玉県",
+    "school": "埼玉栄高校→筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 17,
+      "atk": 0,
+      "blk": 0.12,
+      "ace": 1,
+      "srv": 6.7,
+      "rcv": 0,
+      "pts": 3
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 4,
+      "s": 9,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": -25.0,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 24,
+      "s": 50,
+      "atk": null,
+      "blk": null,
+      "ace": 1,
+      "srv": 8.5,
+      "rcv": null,
+      "pts": 1
+     }
+    ]
+   },
+   {
+    "code": "3578",
+    "no": 21,
+    "name": "永露 元稀",
+    "roman": "Eiro Motoki",
+    "pos": "S",
+    "img": "data/photos/3578.webp",
+    "birth": "1996-06-08",
+    "age": 30,
+    "height": 192,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "福岡県",
+    "school": "東福岡高校→東海大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 24,
+      "atk": 25.0,
+      "blk": 0.12,
+      "ace": 3,
+      "srv": 11.4,
+      "rcv": 0,
+      "pts": 7
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 46,
+      "s": 164,
+      "atk": 36.0,
+      "blk": 0.08,
+      "ace": 8,
+      "srv": 9.3,
+      "rcv": 0,
+      "pts": 39
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "大阪ブルテオン",
+      "g": 46,
+      "s": 174,
+      "atk": 55.7,
+      "blk": 0.13,
+      "ace": 21,
+      "srv": 10.4,
+      "rcv": 3.1,
+      "pts": 78
+     }
+    ]
+   },
+   {
+    "code": "6052",
+    "no": 22,
+    "name": "山元 快太",
+    "roman": "Yamamoto Hayato",
+    "pos": "OH",
+    "img": "data/photos/6052.webp",
+    "birth": "2003-09-29",
+    "age": 23,
+    "height": 190,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "宮城県",
+    "school": "仙台商業高校→日本体育大学",
+    "career": []
+   },
+   {
+    "code": "5600",
+    "no": 23,
+    "name": "ダニエル・マルティネス・カンポス",
+    "roman": "Daniel Martinez Campos",
+    "pos": "OP",
+    "img": "data/photos/5600.webp",
+    "birth": "2005-09-10",
+    "age": 21,
+    "height": 220,
+    "reach": null,
+    "nation": "キューバ",
+    "hometown": "キューバ",
+    "school": "EPEF",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 25,
+      "atk": 50.5,
+      "blk": 0.24,
+      "ace": 5,
+      "srv": 21.7,
+      "rcv": 0,
+      "pts": 58
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 46,
+      "s": 128,
+      "atk": 48.8,
+      "blk": 0.12,
+      "ace": 10,
+      "srv": 9.5,
+      "rcv": 0,
+      "pts": 124
+     }
+    ]
+   },
+   {
+    "code": "6113",
+    "no": 80,
+    "name": "アミン・エスマエイルネザド",
+    "roman": "Amin Esmaeilnezhad",
+    "pos": "OP",
+    "img": "data/photos/6113.webp",
+    "birth": null,
+    "age": null,
+    "height": 203,
+    "reach": null,
+    "nation": "イラン",
+    "hometown": "イラン",
+    "school": "サマ大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "広島サンダーズ",
+      "g": 6,
+      "s": 20,
+      "atk": 46.1,
+      "blk": 0.2,
+      "ace": 3,
+      "srv": 9.0,
+      "rcv": 14.3,
+      "pts": 84
+     }
+    ]
    }
   ],
   "가고시마": [
    {
+    "code": "5679",
+    "no": 2,
+    "name": "野添 凌",
+    "roman": "Nozoe Ryo",
+    "pos": "S",
+    "img": "data/photos/5679.webp",
+    "birth": null,
+    "age": null,
+    "height": 184,
+    "reach": 345,
+    "nation": "日本",
+    "hometown": "千葉県",
+    "school": "大東文化大学",
+    "career": []
+   },
+   {
+    "code": "6114",
+    "no": 3,
+    "name": "ジェシー・エルサー",
+    "roman": "Jesse Elser",
+    "pos": "OH",
+    "img": "data/photos/6114.webp",
+    "birth": "1999-05-27",
+    "age": 27,
+    "height": 203,
+    "reach": null,
+    "nation": "カナダ",
+    "hometown": "カナダ",
+    "school": "Trinity Western University",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 22,
+      "atk": 37.8,
+      "blk": 0.14,
+      "ace": 4,
+      "srv": 11.3,
+      "rcv": 37.2,
+      "pts": 52
+     }
+    ]
+   },
+   {
+    "code": "1224",
     "no": 4,
     "name": "長友 優磨",
-    "pos": "OP"
+    "roman": "Nagatomo Yuma",
+    "pos": "OP",
+    "img": "data/photos/1224.webp",
+    "birth": "1991-12-22",
+    "age": 34,
+    "height": 180,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "宮崎県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 16,
+      "atk": 28.6,
+      "blk": null,
+      "ace": 1,
+      "srv": 7.1,
+      "rcv": null,
+      "pts": 3
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 28,
+      "s": 101,
+      "atk": 49.7,
+      "blk": 0.21,
+      "ace": 21,
+      "srv": 10.1,
+      "rcv": 61.1,
+      "pts": 512
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 29,
+      "s": 98,
+      "atk": 54.4,
+      "blk": 0.32,
+      "ace": 25,
+      "srv": 11.8,
+      "rcv": 33.3,
+      "pts": 488
+     }
+    ]
    },
    {
+    "code": "4881",
     "no": 5,
     "name": "古井 俊範",
-    "pos": "MB"
+    "roman": "Furui Toshinori",
+    "pos": "MB",
+    "img": "data/photos/4881.webp",
+    "birth": "2001-10-02",
+    "age": 25,
+    "height": 195,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "兵庫県",
+    "school": "関西福祉大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 14,
+      "atk": 20.0,
+      "blk": null,
+      "ace": 0,
+      "srv": 0,
+      "rcv": 0,
+      "pts": 2
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 18,
+      "s": 49,
+      "atk": 58.3,
+      "blk": 0.2,
+      "ace": 3,
+      "srv": 7.0,
+      "rcv": 61.5,
+      "pts": 50
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 25,
+      "s": 82,
+      "atk": 47.2,
+      "blk": 0.57,
+      "ace": 9,
+      "srv": 8.8,
+      "rcv": 55.3,
+      "pts": 117
+     }
+    ]
    },
    {
+    "code": "3576",
     "no": 6,
     "name": "笠利 真吾",
-    "pos": "OH"
+    "roman": "Kasari Shingo",
+    "pos": "OH",
+    "img": "data/photos/3576.webp",
+    "birth": "1997-01-29",
+    "age": 29,
+    "height": 187,
+    "reach": 342,
+    "nation": "日本",
+    "hometown": "東京都",
+    "school": "国士舘大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 19,
+      "atk": 42.7,
+      "blk": 0.05,
+      "ace": 2,
+      "srv": 8.8,
+      "rcv": 41.2,
+      "pts": 35
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "レーヴィス栃木",
+      "g": 27,
+      "s": 87,
+      "atk": 43.7,
+      "blk": 0.32,
+      "ace": 7,
+      "srv": 5.5,
+      "rcv": 61.8,
+      "pts": 331
+     },
+     {
+      "season": "2024-25 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 30,
+      "s": 107,
+      "atk": 52.3,
+      "blk": 0.32,
+      "ace": 14,
+      "srv": 8.8,
+      "rcv": 59.4,
+      "pts": 529
+     }
+    ]
    },
    {
+    "code": "1413",
     "no": 7,
     "name": "峯村 雄大",
-    "pos": "OH"
+    "roman": "Minemura Yudai",
+    "pos": "OH",
+    "img": "data/photos/1413.webp",
+    "birth": "1994-05-19",
+    "age": 32,
+    "height": 185,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "長野県",
+    "school": "日本体育大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 0,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": null,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 28,
+      "s": 72,
+      "atk": 36.9,
+      "blk": 0.14,
+      "ace": 5,
+      "srv": 3.0,
+      "rcv": 64.5,
+      "pts": 163
+     }
+    ]
    },
    {
+    "code": "5548",
     "no": 8,
     "name": "原 亜久里",
-    "pos": "S"
+    "roman": "Hara Aguri",
+    "pos": "S",
+    "img": "data/photos/5548.webp",
+    "birth": "2006-03-14",
+    "age": 20,
+    "height": 177,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "愛知県",
+    "school": "星城高校",
+    "career": [
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 13,
+      "s": 24,
+      "atk": 75.0,
+      "blk": 0.21,
+      "ace": 0,
+      "srv": 6.8,
+      "rcv": null,
+      "pts": 12
+     }
+    ]
    },
    {
+    "code": "5549",
     "no": 9,
     "name": "小森 郁己",
-    "pos": "L"
+    "roman": "Komori Ikumi",
+    "pos": "L",
+    "img": "data/photos/5549.webp",
+    "birth": "1995-10-03",
+    "age": 31,
+    "height": 186,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "佐賀県",
+    "school": "専修大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 13,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 25.0,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 26,
+      "s": 76,
+      "atk": 28.6,
+      "blk": 0.12,
+      "ace": 1,
+      "srv": 0.2,
+      "rcv": 60.3,
+      "pts": 64
+     }
+    ]
    },
    {
+    "code": "3648",
     "no": 10,
     "name": "谷口 渉",
-    "pos": "L"
+    "roman": "Taniguchi Wataru",
+    "pos": "L",
+    "img": "data/photos/3648.webp",
+    "birth": "1996-11-05",
+    "age": 30,
+    "height": 175,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "福岡県",
+    "school": "中央大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 22,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 43.1,
+      "pts": 0
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東京グレートベアーズ",
+      "g": 20,
+      "s": 17,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": null,
+      "rcv": 13.6,
+      "pts": 0
+     }
+    ]
    },
    {
+    "code": "3646",
+    "no": 11,
+    "name": "迫田 郭志",
+    "roman": "Sakoda Hiroshi",
+    "pos": "OH",
+    "img": "data/photos/3646.webp",
+    "birth": "1996-05-01",
+    "age": 30,
+    "height": 183,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "鹿児島県",
+    "school": "福山平成大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 15,
+      "atk": 32.7,
+      "blk": 0.07,
+      "ace": 1,
+      "srv": 6.8,
+      "rcv": 41.5,
+      "pts": 20
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "VC長野トライデンツ",
+      "g": 44,
+      "s": 126,
+      "atk": 44.0,
+      "blk": 0.21,
+      "ace": 20,
+      "srv": 6.3,
+      "rcv": 46.7,
+      "pts": 279
+     },
+     {
+      "season": "2025-26 V.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 28,
+      "s": 108,
+      "atk": 48.8,
+      "blk": 0.35,
+      "ace": 11,
+      "srv": 6.0,
+      "rcv": 62.8,
+      "pts": 531
+     }
+    ]
+   },
+   {
+    "code": "6053",
     "no": 12,
     "name": "山田 大悟",
-    "pos": "MB"
+    "roman": "Yamada Daigo",
+    "pos": "MB",
+    "img": "data/photos/6053.webp",
+    "birth": "1998-04-11",
+    "age": 28,
+    "height": 191,
+    "reach": null,
+    "nation": "日本",
+    "hometown": "静岡県",
+    "school": "駒澤大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 22,
+      "atk": 39.5,
+      "blk": 0.5,
+      "ace": 4,
+      "srv": 4.5,
+      "rcv": 62.5,
+      "pts": 32
+     }
+    ]
    },
    {
+    "code": "3631",
     "no": 14,
     "name": "酒井 啓輔",
-    "pos": "S"
+    "roman": "Sakai Keisuke",
+    "pos": "S",
+    "img": "data/photos/3631.webp",
+    "birth": "1996-08-25",
+    "age": 30,
+    "height": 187,
+    "reach": 325,
+    "nation": "日本",
+    "hometown": "静岡県",
+    "school": "筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 22,
+      "atk": 33.3,
+      "blk": 0.14,
+      "ace": 1,
+      "srv": 6.0,
+      "rcv": 25.0,
+      "pts": 6
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 42,
+      "s": 86,
+      "atk": 41.7,
+      "blk": 0.02,
+      "ace": 2,
+      "srv": 8.0,
+      "rcv": 0,
+      "pts": 9
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 42,
+      "s": 92,
+      "atk": 0,
+      "blk": 0.09,
+      "ace": 1,
+      "srv": 5.0,
+      "rcv": 0,
+      "pts": 9
+     }
+    ]
    },
    {
+    "code": "6115",
+    "no": 15,
+    "name": "ペッテリ・ティーニスマー",
+    "roman": "Petteri Tyynismaa",
+    "pos": "MB",
+    "img": null,
+    "birth": "2003-08-05",
+    "age": 23,
+    "height": 204,
+    "reach": null,
+    "nation": "フィンランド",
+    "hometown": "フィンランド",
+    "school": "Kortesjärven Järvi-Veikot",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 22,
+      "atk": 63.0,
+      "blk": 0.59,
+      "ace": 4,
+      "srv": 12.5,
+      "rcv": 50.0,
+      "pts": 68
+     }
+    ]
+   },
+   {
+    "code": "3874",
     "no": 17,
     "name": "小澤 宙輝",
-    "pos": "OH"
+    "roman": "Ozawa Hiroki",
+    "pos": "OH",
+    "img": "data/photos/3874.webp",
+    "birth": "1997-09-21",
+    "age": 29,
+    "height": 186,
+    "reach": 340,
+    "nation": "日本",
+    "hometown": "山梨県",
+    "school": "筑波大学",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 12,
+      "atk": 35.6,
+      "blk": null,
+      "ace": 2,
+      "srv": 4.2,
+      "rcv": 39.7,
+      "pts": 18
+     },
+     {
+      "season": "2025-26 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 30,
+      "s": 60,
+      "atk": 43.5,
+      "blk": 0.08,
+      "ace": 5,
+      "srv": 6.4,
+      "rcv": 32.4,
+      "pts": 91
+     },
+     {
+      "season": "2024-25 大同生命SV.LEAGUE MEN",
+      "team": "東レアローズ静岡",
+      "g": 43,
+      "s": 110,
+      "atk": 41.2,
+      "blk": 0.03,
+      "ace": 9,
+      "srv": 6.3,
+      "rcv": 34.6,
+      "pts": 96
+     }
+    ]
    },
    {
-    "no": null,
-    "name": "クリストファー・バイアム",
-    "pos": "OP"
-   },
-   {
-    "no": null,
-    "name": "ジェシー・エルサー",
-    "pos": "OH"
-   },
-   {
-    "no": null,
-    "name": "ペッテリ・ティーニスマー",
-    "pos": "MB"
-   },
-   {
-    "no": null,
+    "code": "6116",
+    "no": 23,
     "name": "ジョセフ・ブライアン・カストロ",
-    "pos": "MB"
+    "roman": "Joseph Brian Castro",
+    "pos": "MB",
+    "img": "data/photos/6116.webp",
+    "birth": "2001-10-24",
+    "age": 25,
+    "height": 196,
+    "reach": null,
+    "nation": "フィリピン",
+    "hometown": "フィリピン",
+    "school": "Hope International University",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 6,
+      "atk": null,
+      "blk": null,
+      "ace": 0,
+      "srv": -4.2,
+      "rcv": null,
+      "pts": 0
+     }
+    ]
    },
    {
-    "no": null,
-    "name": "迫田 郭志",
-    "pos": "OH"
-   },
-   {
-    "no": null,
-    "name": "野添 凌",
-    "pos": "S"
+    "code": "6117",
+    "no": 44,
+    "name": "クリストファー・バイアム",
+    "roman": "Christopher Byam",
+    "pos": "OP",
+    "img": "data/photos/6117.webp",
+    "birth": null,
+    "age": null,
+    "height": 199,
+    "reach": null,
+    "nation": "カナダ",
+    "hometown": "カナダ",
+    "school": "Mount Royal University",
+    "career": [
+     {
+      "season": "2026-27 大同生命SV.LEAGUE MEN",
+      "team": "フラーゴラッド鹿児島",
+      "g": 6,
+      "s": 22,
+      "atk": 40.8,
+      "blk": 0.14,
+      "ace": 3,
+      "srv": 7.2,
+      "rcv": 12.5,
+      "pts": 103
+     }
+    ]
    }
   ]
  }
