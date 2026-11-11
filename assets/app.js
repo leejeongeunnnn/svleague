@@ -1,7 +1,7 @@
 /* 일본 SV리그 남자부 정적 대시보드 — data/*.json 을 읽어 9개 탭을 렌더링 */
 
 const DATA = {};
-const FILES = ["meta", "teams", "schedule", "standings", "players", "news", "events", "last_season", "profiles", "tickets"];
+const FILES = ["meta", "teams", "schedule", "standings", "players", "news", "events", "last_season", "profiles", "tickets", "names_kr"];
 const VBTV_URL = "https://tv.volleyballworld.com/";          // 일본 밖 중계 (유료)
 const JSPORTS_URL = "https://jod.jsports.co.jp/volleyball";    // 일본 안 중계 (유료)
 const OFFICIAL_URL = "https://www.svleague.jp/match/sv/men/";
@@ -91,6 +91,8 @@ function dateLabel(d) {
   return `${v.month}월 ${v.day}일 (${WD[["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(v.weekday)]})`;
 }
 function daysBetween(a, b) { return Math.round((new Date(b + "T00:00:00+09:00") - new Date(a + "T00:00:00+09:00")) / 86400000); }
+/* 선수 이름: 일본어 등록명 → 한글 (data/names_kr.json) */
+const kn = (n) => (((DATA.names_kr || {}).names || {})[String(n || "").replace(/\s/g, "")]) || n;
 const fmt3 = (v) => (v == null || v === "" || !isFinite(v)) ? "-" : Number(v).toFixed(3);
 const fmtRate = (v) => (v == null || !isFinite(v)) ? "-" : Number(v).toFixed(3).replace(/^0\./, ".");
 
@@ -367,9 +369,9 @@ function renderPlayers() {
       <div class="stage-tabs">${keys.map(k => `<button class="stage-chip ${k === PL_CAT ? "active" : ""}" data-pc="${esc(k)}">${esc(k)}</button>`).join("")}</div>
       <div class="card table-scroll"><table class="stats"><thead><tr><th>#</th><th style="text-align:left">선수</th><th style="text-align:left">팀</th>
       ${cols.map(col => `<th data-ps="${esc(col)}">${esc(col)}${PL_SORT === col ? " ▼" : ""}</th>`).join("")}</tr></thead><tbody>
-      ${rows.map((r, i) => `<tr class="${isMine(r.team) ? "mine-row" : ""}"><td class="num">${esc(PL_SORT ? i + 1 : (r.rank || i + 1))}</td><td class="pname"><a class="plink" data-pteam="${esc(r.team)}" data-pname="${esc(r.name)}">${esc(r.name)}</a></td><td class="pteam">${dot(r.team)}${esc(r.team)}</td>
+      ${rows.map((r, i) => `<tr class="${isMine(r.team) ? "mine-row" : ""}"><td class="num">${esc(PL_SORT ? i + 1 : (r.rank || i + 1))}</td><td class="pname"><a class="plink" data-pteam="${esc(r.team)}" data-pname="${esc(r.name)}">${esc(kn(r.name))}</a><div class="gm-pos">${esc(r.name)}</div></td><td class="pteam">${dot(r.team)}${esc(r.team)}</td>
         ${cols.map(col => `<td class="num">${esc(r[col] == null ? "-" : r[col])}</td>`).join("")}</tr>`).join("")}
-      </tbody></table></div><p class="hint">${c.note ? esc(c.note) + "<br>" : ""}출처: ${esc(pl.source || "-")} · 열 제목을 누르면 정렬 · 이름을 누르면 선수단 탭으로 · 선수 이름은 일본어 등록명</p>`;
+      </tbody></table></div><p class="hint">${c.note ? esc(c.note) + "<br>" : ""}출처: ${esc(pl.source || "-")} · 열 제목을 누르면 정렬 · 이름을 누르면 선수단 탭으로 · 작은 글씨는 일본어 등록명</p>`;
   } else {
     html += emptyBox("개인 기록이 아직 없어요.");
   }
@@ -405,7 +407,7 @@ function profileCard(team, p) {
   return `<div class="card pf-card" data-open="${open ? 1 : 0}" style="cursor:default;${open ? `border-color:${colorOf(team)}` : ""}">
     <div class="pf-head">
       <div class="pf-no" style="color:${colorOf(team)}">${p.no ?? "–"}</div>
-      <div class="pf-names"><div class="pf-name">${esc(p.name)}</div><div class="pf-jp">${esc(POS_FULL[p.pos] || p.pos || "")}</div></div>
+      <div class="pf-names"><div class="pf-name">${esc(kn(p.name))}</div><div class="pf-jp">${esc(POS_FULL[p.pos] || p.pos || "")} · ${esc(p.name)}</div></div>
     </div>
     ${st.length ? `<div class="pf-stat">${st.map(esc).join(" · ")}</div>` : ""}
   </div>`;
@@ -433,7 +435,7 @@ function renderSquad() {
       html += `<div class="sched-sub">${esc(POS_FULL[pos] || "기타")} <span class="hint" style="margin:0">${grp.length}명</span></div>
         <div class="pf-grid">${grp.map(x => profileCard(SQ_TEAM, x)).join("")}</div>`;
     });
-    html += `<p class="hint" style="margin-top:12px">출처: ${esc((DATA.profiles || {}).source || "")} · ${esc((DATA.profiles || {}).updated_at || "")} 기준 · 이름은 일본어 등록명 · 등번호가 '–'인 선수는 번호를 확인하지 못한 선수 · 시즌 중 등록이 바뀔 수 있어요</p>`;
+    html += `<p class="hint" style="margin-top:12px">출처: ${esc((DATA.profiles || {}).source || "")} · ${esc((DATA.profiles || {}).updated_at || "")} 기준 · 이름은 한글 표기, 작은 글씨는 일본어 등록명 · 등번호가 '–'인 선수는 번호를 확인하지 못한 선수 · 시즌 중 등록이 바뀔 수 있어요</p>`;
   }
   p.innerHTML = html;
   p.querySelectorAll("[data-sq]").forEach(b => b.onclick = () => { SQ_TEAM = b.dataset.sq; SQ_OPEN = null; renderSquad(); });
