@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "title": "バレーＳＶリーグ男子 愛知ダービー６６００人が歓声…稲沢で２日間 ＷＤ名古屋連勝 ：地域ニュース",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rQlB5WDhKZXhsN2x1ZEY4ZWktOUVXZlJYenFQZWVvT1pQQXdHcE1RSkdMOFEyUWl6cXJMeHE0eFhMQTI5U0k2RDQwY1ZOdWZ3cEwyT2VoSHhlVURyVXdPaHdOMEp4b3RNVXlhLS1RMXc?oc=5",
+   "source": "読売新聞",
+   "lang": "ja",
+   "time": "11/14 10:25",
+   "ts": 1794619500.0,
+   "teams": [
+    "WD나고야"
+   ],
+   "title_kr": "배구 SV리그 남자 아이치 더비 6600명이 환성...이나자와에서 2일간 WD나고야 연승 : 지역 뉴스"
+  },
+  {
    "title": "松本TD・伊藤洸貴「チャンスをもらって、その試合で勝てなかったのは悔しい思いが大きい」 SV男子会見",
    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBKUmdBcEcwUXhTQnFkQzBzRVJ5b2VDeEkwWmhELThKX01YOTk2ZzdaT25RZ3IzNDVreHYzRWpsSl96NGFhUGVnVkJMZzBtUQ?oc=5",
    "source": "バレーボールマガジン",
@@ -24,6 +36,18 @@
     "사카이"
    ],
    "title_kr": "WD나고야 vs. 사카이 (11/15) 남자 제4절【다이도생명SV리그 2026-27】"
+  },
+  {
+   "title": "【バレー】松本TD・伊藤洸貴「チャンスをもらって、その試合で勝てなかったのは悔しい思いが大きい」 SV男子会見",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FNlB1OUZseVhTNWFHSjEtZkZCZEsyWkNhelFsbFFQTExxdVRidVVKT1VXS0NOTEpVU1NTNDFEVVhVZGw1N25KajJpWjZBOG5TM20tWDRoZUNJZ19OQ3dLcEFEUE4yUjBtSlhTU19CS3REZ1hDVVhfWU1FOXJPWnM?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "time": "11/14 02:54",
+   "ts": 1794592461.0,
+   "teams": [
+    "마쓰모토"
+   ],
+   "title_kr": "【배구】 마츠모토 ・이토 히로키 「찬스를 받고, 그 경기에서 이길 수 없었던 것은 분한 생각이 크다」 SV 남자 회견"
   },
   {
    "title": "【バレー】サントリー・関田誠大「劣勢の時にどう動かしていくかはもっと考えていかないといけない」 SV男子会見",
@@ -224,18 +248,6 @@
    "title_kr": "오사카B , 「수화 응원이나 파라 스포츠 체험으로 퍼지는 인클루시브인 고리」"
   },
   {
-   "title": "【バレー】松本TD・伊藤洸貴「チャンスをもらって、その試合で勝てなかったのは悔しい思いが大きい」 SV男子会見",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FNlB1OUZseVhTNWFHSjEtZkZCZEsyWkNhelFsbFFQTExxdVRidVVKT1VXS0NOTEpVU1NTNDFEVVhVZGw1N25KajJpWjZBOG5TM20tWDRoZUNJZ19OQ3dLcEFEUE4yUjBtSlhTU19CS3REZ1hDVVhfWU1FOXJPWnM?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "time": "11/13 03:20",
-   "ts": 1794507649.0,
-   "teams": [
-    "마쓰모토"
-   ],
-   "title_kr": "【배구】 마츠모토 ・이토 히로키 「찬스를 받고, 그 경기에서 이길 수 없었던 것은 분한 생각이 크다」 SV 남자 회견"
-  },
-  {
    "title": "【バレー】STINGS愛知・藤原直也「強力なサーブに対してなかなか対応しきれなかった」 SV男子会見（バレーボールマガジン）",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxcFRueURfZzNVT21PdDdrVUlkT0lvMEhwZWVob09JcDlyMmx3Rnd4Q21fekJkUERhS3F4UEQ5dXF3OTNVell3Tm42UU1kMVJwd1FwdVZCMDRjVnVON0w5SHZzMkNEUGQyQnRJQVQteTE5cmhNTkJiSzRaLVNHNzA?oc=5",
    "source": "Yahoo!ニュース",
@@ -295,18 +307,6 @@
    "title_kr": "전승팀이 사라져 혼전 모양. 승률 50%로 되돌린 산토리는 스팅스 아이치와 대전. SV리그 남자 제4절의 볼거리"
   },
   {
-   "title": "北海道YSがファイターズコラボを開催！ スタジアムMCのエバンズ・マラカイさんやファイターズガールが来場",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiS0h3bUdLTkVOQzUzSEV0cFFUVTZSdjlVSjBUVlVyM3JHWktfSllDUGNaRG9CUk9zVUNYQ2tCTS1zZW5NS0ZLQXR1cGNGRTNtX21GQkFUbUJ6RU9HZVp0ZlY5LXExdnhJQV9iSlBuZnF2RVVxMUt5bFIzWUt4OEE?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "time": "11/12 14:04",
-   "ts": 1794459857.0,
-   "teams": [
-    "홋카이도YS"
-   ],
-   "title_kr": "홋카이도YS, 파이터즈 콜라보레이션 개최! 스타디움 MC의 에반스 마라카이와 파이터스 걸"
-  },
-  {
    "title": "パナソニックスポーツが「エキスポ文化祭」に出展！ 大阪Ｂのオリジナル応援グッズ制作を体験",
    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpSTdycjRscHl4N2VwU2xXa2R3RTN1NGlNcEgyWjZsQThkQTNCX3JCT0drRy1PSjk0SVA4M1JEdWd6aHNXMzZNRElzZmVFQlNuTlE?oc=5",
    "source": "バレーボールキング",
@@ -341,16 +341,6 @@
     "도레이"
    ],
    "title_kr": "도레이의 난바 다카히로가 「BIKKURI LUNCH 2026」에 참가! 아스티 시즈오카에서 개최"
-  },
-  {
-   "title": "SVリーグの配信はU-NEXTで見られる？料金は月額＋バレーボールパック2,580円【11月12日掲載】",
-   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1jTU8tb0FoQmpBeGxQSFA5djVVODJqWHZLOEQwS2d1d2JJSFBNSUJ1Yzc0enRHSDMxMEdlSzY3VGRaR1dLTXE3RllR?oc=5",
-   "source": "BANGER!!!（バンガー!!!）映画評論・情報サイト",
-   "lang": "ja",
-   "time": "11/12 07:04",
-   "ts": 1794434646.0,
-   "teams": [],
-   "title_kr": "SV리그의 전달은 U-NEXT에서 볼 수 있다?요금은 월액+배구 팩 2,580엔【11월 12일 게재】"
   }
  ]
 }
