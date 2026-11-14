@@ -1230,11 +1230,22 @@
    "home": "WD나고야",
    "away": "사카이",
    "venue": "해피니스 아레나",
-   "state": "scheduled",
-   "status": "",
+   "state": "live",
+   "status": "2세트 진행 중",
    "round": 4,
    "url": "https://www.svleague.jp/match/detail/38010/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38010"
+   "sets": [
+    [
+     25,
+     22
+    ],
+    [
+     25,
+     17
+    ]
+   ],
+   "sh": 2,
+   "sa": 0
   },
   {
    "gid": "sv38014",
@@ -1245,11 +1256,22 @@
    "home": "산토리",
    "away": "스팅스아이치",
    "venue": "오키니 아레나 마이시마",
-   "state": "scheduled",
-   "status": "",
+   "state": "live",
+   "status": "2세트 진행 중",
    "round": 4,
    "url": "https://www.svleague.jp/match/detail/38014/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38014"
+   "sets": [
+    [
+     25,
+     22
+    ],
+    [
+     25,
+     16
+    ]
+   ],
+   "sh": 2,
+   "sa": 0
   },
   {
    "gid": "sv38008",
