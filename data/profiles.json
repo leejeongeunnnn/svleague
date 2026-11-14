@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13 10:16",
+ "updated_at": "2026-11-14 09:58",
  "source": "SV리그 공식 사이트 선수 명단",
  "coaches": {
   "보레아스": {
@@ -3229,7 +3229,7 @@
     "name": "一条 太嘉丸",
     "roman": "Ichijo Takamaru",
     "pos": "OH",
-    "img": null,
+    "img": "data/photos/5079.webp",
     "birth": "2002-08-24",
     "age": 24,
     "height": 188,
@@ -9195,7 +9195,7 @@
     "name": "ペッテリ・ティーニスマー",
     "roman": "Petteri Tyynismaa",
     "pos": "MB",
-    "img": null,
+    "img": "data/photos/6115.webp",
     "birth": "2003-08-05",
     "age": 23,
     "height": 204,
