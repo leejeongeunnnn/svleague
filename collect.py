@@ -328,7 +328,10 @@ def parse_day(page):
                 done = [p for k, p in enumerate(pairs) if k < len(pairs) - 1 or set_done(p, k)]
                 sh = sum(1 for p in done if p[0] > p[1])
                 sa = sum(1 for p in done if p[1] > p[0])
-            status = f"{len(pairs)}세트 진행 중" if pairs else "경기 중"
+            if pairs and set_done(pairs[-1], len(pairs) - 1):
+                status = f"{len(pairs)}세트 종료 · {len(pairs) + 1}세트 준비"   # 세트 사이 쉬는 시간
+            else:
+                status = f"{len(pairs)}세트 진행 중" if pairs else "경기 중"
         oid = next((x.group(1) for h in hrefs for x in [re.search(r"svleague\.jp/match/detail/(\d+)", h)] if x), "")
         g = make_game(dstr, tm, rm.group(1) if rm else None, venue, home[2], away[2], state=state,
                       sets=pairs or None, oid=oid, stage=head, sh=sh, sa=sa, status=status)
@@ -902,7 +905,7 @@ def run_live():
     if any(g["state"] == "live" for g in pending):
         print("CONTINUE")
         return
-    soon = False  # 아직 시작 전: 40분 안에 시작하는 경기가 있으면 계속, 아니면 다음 예약 실행에 맡김
+    soon = False  # 아직 시작 전: 40분 안에 시작하면 CONTINUE, 더 나중이면 WAIT (천천히 기다림)
     for g in pending:
         if not g["time"]:
             soon = True
@@ -910,7 +913,7 @@ def run_live():
         start = datetime.fromisoformat(f"{g['date']}T{g['time']}:00").replace(tzinfo=KST)
         if timedelta(minutes=-240) <= start - now <= timedelta(minutes=40):
             soon = True
-    print("CONTINUE" if soon else "STOP")
+    print("CONTINUE" if soon else "WAIT")
 
 
 # ---------------------------------------------------------------- 자체 점검

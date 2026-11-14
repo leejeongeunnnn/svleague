@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write     # 경기 날 실시간 수집을 깨우기 위해
 
 concurrency:
   group: svleague-update
@@ -39,3 +40,17 @@ jobs:
             echo "푸시 충돌, 재시도 $i"; sleep 5
           done
           exit 1
+      - name: 경기 날이면 실시간 수집 깨우기
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pending=$(python -c "
+          import json, datetime
+          t = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date().isoformat()
+          g = json.load(open('data/schedule.json', encoding='utf-8'))['games']
+          print(sum(1 for x in g if x['date'] == t and x['state'] not in ('final', 'cancel')))")
+          running=$(gh run list -R "${{ github.repository }}" -w live.yml --json status -q '[.[] | select(.status != "completed")] | length')
+          echo "오늘 남은 경기 $pending · 실행 중인 실시간 수집 $running"
+          if [ "$pending" -gt 0 ] && [ "$running" = "0" ]; then
+            gh workflow run live.yml -R "${{ github.repository }}" --ref main && echo "실시간 수집을 켰습니다"
+          fi
