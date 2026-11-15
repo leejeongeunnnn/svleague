@@ -1434,8 +1434,8 @@
    "home": "WD나고야",
    "away": "사카이",
    "venue": "해피니스 아레나",
-   "state": "live",
-   "status": "4세트 진행 중",
+   "state": "final",
+   "status": "경기 종료",
    "round": 4,
    "url": "https://www.svleague.jp/match/detail/38011/",
    "sets": [
@@ -1452,11 +1452,11 @@
      20
     ],
     [
-     23,
-     19
+     25,
+     21
     ]
    ],
-   "sh": 2,
+   "sh": 3,
    "sa": 1
   },
   {
@@ -1528,8 +1528,8 @@
    "home": "도레이",
    "away": "보레아스",
    "venue": "고노하나 아레나",
-   "state": "live",
-   "status": "2세트 종료 · 3세트 준비",
+   "state": "final",
+   "status": "경기 종료",
    "round": 4,
    "url": "https://www.svleague.jp/match/detail/38009/",
    "sets": [
@@ -1540,10 +1540,14 @@
     [
      23,
      25
+    ],
+    [
+     19,
+     25
     ]
    ],
    "sh": 0,
-   "sa": 2
+   "sa": 3
   },
   {
    "gid": "sv38007",
@@ -1554,8 +1558,8 @@
    "home": "도쿄GB",
    "away": "마쓰모토",
    "venue": "요요기 제2체육관",
-   "state": "live",
-   "status": "2세트 종료 · 3세트 준비",
+   "state": "final",
+   "status": "경기 종료",
    "round": 4,
    "url": "https://www.svleague.jp/match/detail/38007/",
    "sets": [
@@ -1566,10 +1570,18 @@
     [
      25,
      19
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     25,
+     18
     ]
    ],
-   "sh": 2,
-   "sa": 0
+   "sh": 3,
+   "sa": 1
   },
   {
    "gid": "sv38013",
@@ -1580,8 +1592,8 @@
    "home": "오사카B",
    "away": "가고시마",
    "venue": "파나소닉 아레나",
-   "state": "live",
-   "status": "3세트 진행 중",
+   "state": "final",
+   "status": "경기 종료",
    "round": 4,
    "url": "https://www.svleague.jp/match/detail/38013/",
    "sets": [
@@ -1594,11 +1606,11 @@
      16
     ],
     [
-     10,
-     5
+     25,
+     20
     ]
    ],
-   "sh": 2,
+   "sh": 3,
    "sa": 0
   },
   {
