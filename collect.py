@@ -14,6 +14,7 @@
 원칙: 수집에 실패하면 기존 파일을 지우지 않고 그대로 둔다.
 """
 import argparse
+import collections
 import html as html_mod
 import json
 import os
@@ -950,6 +951,124 @@ def selftest():
     print("selftest OK —", len(gs), "경기")
 
 
+# ---------------------------------------------------------------- 선수 개인 기록 (문자중계 집계)
+# data/games/*.json 의 문자중계로 SV리그 공식 개인기록과 같은 방식으로 계산한다.
+# 2026-11-01 공식 기록(sports-shirabe 정리본)과 5개 부문 상위 10명·수치가 모두 일치함을 확인.
+#   공격 성공률 = 성공/시도, 실점 = アタック失敗
+#   서브 효과율 = (에이스×100 + 효과×25 − 범실×25) / 시도, 효과 = 상대 리시브 失敗로 이어진 서브
+#   리시브 성공률 = (우수 + 양호×0.5) / 시도
+#   규정: 팀 세트의 2/3 이상 출전 + 출전 세트당 시도(공격 3, 서브 2, 리시브 2) 이상
+PL_TOP = 20
+PL_QUAL = 2 / 3
+
+
+def build_players(games):
+    by_id = {g["gid"]: g for g in games if g.get("state") == "final"}
+    P = collections.defaultdict(collections.Counter)
+    sets_of = collections.defaultdict(set)
+    games_of = collections.defaultdict(set)
+    team_sets = collections.Counter()
+    used, last = 0, ""
+    for gid, g in by_id.items():
+        R = load(f"games/{gid}.json", None)
+        if not R or not R.get("sets"):
+            continue
+        used += 1
+        last = max(last, g["date"])
+        team = {"h": g["home"], "a": g["away"]}
+        team_sets[g["home"]] += len(R["sets"])
+        team_sets[g["away"]] += len(R["sets"])
+        for sn, st in R["sets"].items():
+            def seen(side, name):
+                k = (team[side], name)
+                sets_of[k].add((gid, sn))
+                games_of[k].add(gid)
+            lu = st.get("lineup") or {}
+            for side, key in (("h", "home"), ("a", "away")):
+                for x in lu.get(key) or []:
+                    seen(side, x["n"])
+            for e in st.get("ev") or []:
+                if e[0] == "c":
+                    for _, n, io in e[2]:
+                        if io == "IN":
+                            seen(e[1], n)
+                if e[0] != "r":
+                    continue
+                acts = e[4]
+                for i, (side, _, a, n) in enumerate(acts):
+                    seen(side, n)
+                    p = P[(team[side], n)]
+                    nxt = acts[i + 1][2] if i + 1 < len(acts) else ""
+                    if a.startswith("アタック"):
+                        p["atk"] += 1
+                        p["atk_ok"] += a == "アタック成功"
+                        p["atk_err"] += a == "アタック失敗"
+                    elif a == "ブロック成功":
+                        p["blk"] += 1
+                    elif a in ("サーブ", "サーブミス", "サービスエース"):
+                        p["srv"] += 1
+                        p["ace"] += a == "サービスエース"
+                        p["srv_err"] += a == "サーブミス"
+                        p["srv_eff"] += a == "サーブ" and nxt == "サーブレシーブ失敗"
+                    elif a.startswith("サーブレシーブ"):
+                        p["rcv"] += 1
+                        p["rcv_a"] += "優" in a
+                        p["rcv_b"] += "良" in a
+                        p["rcv_c"] += "失敗" in a
+    if not used:
+        return False
+
+    def qual(k, att, per):
+        ns = len(sets_of[k])
+        return ns >= PL_QUAL * team_sets[k[0]] and P[k][att] > 0 and P[k][att] >= per * ns
+
+    def table(keys, score, cells, fmt):
+        rows = sorted(((round(score(k), 4), k) for k in keys), key=lambda r: (-r[0], r[1][1]))
+        out, prev, rank = [], None, 0
+        for i, (v, k) in enumerate(rows[:PL_TOP]):
+            if v != prev:   # 공동 순위는 반올림 전 값이 같을 때만 (공식 기록과 같음)
+                rank, prev = i + 1, v
+            out.append({"rank": str(rank), "name": k[1], "team": k[0], **cells(k)})
+        return out
+
+    pct = lambda v: f"{v:.1f}"
+    allk = [k for k in sets_of if games_of[k]]
+    cats = {
+        "득점": {"columns": ["출전", "총득점", "공격", "블로킹", "서브"], "note": "총득점 = 공격 + 블로킹 + 서브 득점",
+               "rows": table([k for k in allk if P[k]["atk_ok"] + P[k]["blk"] + P[k]["ace"]],
+                             lambda k: P[k]["atk_ok"] + P[k]["blk"] + P[k]["ace"],
+                             lambda k: {"출전": f"{len(games_of[k])}경기 {len(sets_of[k])}세트",
+                                        "총득점": str(P[k]["atk_ok"] + P[k]["blk"] + P[k]["ace"]),
+                                        "공격": str(P[k]["atk_ok"]), "블로킹": str(P[k]["blk"]), "서브": str(P[k]["ace"])},
+                             lambda v: str(int(v)))},
+        "공격 성공률": {"columns": ["성공률", "시도", "득점", "실점"], "note": "アタック決定率 (백어택 포함) · 규정: 팀 세트 2/3 이상 출전, 세트당 3회 이상 시도",
+                   "rows": table([k for k in allk if qual(k, "atk", 3)], lambda k: 100 * P[k]["atk_ok"] / P[k]["atk"],
+                                 lambda k: {"성공률": pct(100 * P[k]["atk_ok"] / P[k]["atk"]), "시도": str(P[k]["atk"]),
+                                            "득점": str(P[k]["atk_ok"]), "실점": str(P[k]["atk_err"])}, pct)},
+        "블로킹": {"columns": ["세트당", "득점"], "note": "세트당 블로킹 득점 · 규정: 팀 세트 2/3 이상 출전",
+                "rows": table([k for k in allk if P[k]["blk"] and len(sets_of[k]) >= PL_QUAL * team_sets[k[0]]],
+                              lambda k: P[k]["blk"] / len(sets_of[k]),
+                              lambda k: {"세트당": f"{P[k]['blk'] / len(sets_of[k]):.2f}", "득점": str(P[k]["blk"])},
+                              lambda v: f"{v:.2f}")},
+        "서브": {"columns": ["효과율", "시도", "에이스", "효과", "범실"], "note": "サーブ効果率 = (에이스×100 + 효과×25 − 범실×25) ÷ 시도 · 규정: 팀 세트 2/3 이상 출전, 세트당 2회 이상",
+               "rows": table([k for k in allk if qual(k, "srv", 2)],
+                             lambda k: (P[k]["ace"] * 100 + P[k]["srv_eff"] * 25 - P[k]["srv_err"] * 25) / P[k]["srv"],
+                             lambda k: {"효과율": pct((P[k]["ace"] * 100 + P[k]["srv_eff"] * 25 - P[k]["srv_err"] * 25) / P[k]["srv"]),
+                                        "시도": str(P[k]["srv"]), "에이스": str(P[k]["ace"]), "효과": str(P[k]["srv_eff"]),
+                                        "범실": str(P[k]["srv_err"])}, pct)},
+        "리시브": {"columns": ["성공률", "시도", "우수", "양호", "실패"], "note": "サーブレシーブ成功率 = (우수 + 양호×0.5) ÷ 시도 · 규정: 팀 세트 2/3 이상 출전, 세트당 2회 이상",
+                "rows": table([k for k in allk if qual(k, "rcv", 2)],
+                              lambda k: 100 * (P[k]["rcv_a"] + P[k]["rcv_b"] * 0.5) / P[k]["rcv"],
+                              lambda k: {"성공률": pct(100 * (P[k]["rcv_a"] + P[k]["rcv_b"] * 0.5) / P[k]["rcv"]),
+                                         "시도": str(P[k]["rcv"]), "우수": str(P[k]["rcv_a"]), "양호": str(P[k]["rcv_b"]),
+                                         "실패": str(P[k]["rcv_c"])}, pct)},
+    }
+    STATUS["players"] = f"성공 · {used}경기 문자중계 집계 ({last} 까지)"
+    print("[OK] 선수 기록", STATUS["players"])
+    return save("players.json", {"season": SEASON, "scope": "정규리그", "as_of": last,
+                                 "source": f"SV리그 문자중계 {used}경기 자동 집계 (공식 기록 방식)", "categories": cats})
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--live", action="store_true", help="오늘 경기 실시간 점수만 수집 (live.json)")
@@ -978,6 +1097,11 @@ def main():
         return
 
     changed = bool(collect_schedule())
+    try:
+        changed |= bool(build_players((load("schedule.json", {}) or {}).get("games", [])))
+    except Exception as e:  # noqa: BLE001
+        STATUS["players"] = f"실패 — 기존 기록 유지: {str(e)[:120]}"
+        print("[WARN]", STATUS["players"])
     if not args.skip_news:
         changed |= bool(collect_news())
     meta = load("meta.json", {}) or {}

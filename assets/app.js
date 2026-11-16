@@ -365,7 +365,7 @@ function renderPlayers() {
     const cols = c.columns || [];
     let rows = c.rows.slice();
     if (PL_SORT) rows.sort((a, b) => (parseFloat(b[PL_SORT]) || 0) - (parseFloat(a[PL_SORT]) || 0));
-    html += `<p class="hint">ℹ️ 개인 기록은 자동으로 갱신되지 않는 스냅샷이에요. 최신 기록은 <a href="https://www.svleague.jp/record/" target="_blank" rel="noopener">SV리그 공식 기록 페이지</a>에서 볼 수 있어요.</p>
+    html += `<p class="hint">ℹ️ 개인 기록은 경기 문자중계로 자동 집계해서 데이터가 갱신될 때마다 바뀌어요 (공식 기록과 같은 계산 방식). 공식 기록은 <a href="https://www.svleague.jp/record/" target="_blank" rel="noopener">SV리그 공식 기록 페이지</a>에서 볼 수 있어요.</p>
       <div class="stage-tabs">${keys.map(k => `<button class="stage-chip ${k === PL_CAT ? "active" : ""}" data-pc="${esc(k)}">${esc(k)}</button>`).join("")}</div>
       <div class="card table-scroll"><table class="stats"><thead><tr><th>#</th><th style="text-align:left">선수</th><th style="text-align:left">팀</th>
       ${cols.map(col => `<th data-ps="${esc(col)}">${esc(col)}${PL_SORT === col ? " ▼" : ""}</th>`).join("")}</tr></thead><tbody>
