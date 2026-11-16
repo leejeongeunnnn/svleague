@@ -1,14 +1,30 @@
 {
  "items": [
   {
-   "title": "長崎のハピネスアリーナでSVリーグ！ 名古屋競り勝つ…5030人が最高峰のプレー堪能",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9VNUxIOU9pT1JqenlKZkNuLTF1aFNwb3NKSExpVEtmZzA2X19RLVZNRjFqaFloMWNxc3NSVzFldXdyTWt2MmlRZ0luOTZHUQ?oc=5",
-   "source": "NEWSjp",
+   "title": "バレーボール：ＳＶリーグ男子のフラーゴラッド鹿児島、大阪に０―３で敗れる…通算成績は１勝７敗で最下位",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEekxuV1JMUnBMdWdJd2I2VGZwaHJmVWdQbHNzSHlQRjVBZnVjZzlkcGhla2g0cHI5VW5kZ29yMkpTSUQwR25Jc0wxRWx3RkpVZ0JNSE8wMkZKQnF2Unk4dU5VdnRsUWEteDNtV082RTd0Zw?oc=5",
+   "source": "読売新聞",
    "lang": "ja",
-   "time": "11/16 12:20",
-   "ts": 1794799200.0,
-   "teams": [],
-   "title_kr": "나가사키의 행복 경기장에서 SV리그! 나고야 경쟁 우승 ... 5030명이 최고봉의 플레이"
+   "time": "11/16 15:14",
+   "ts": 1794809640.0,
+   "teams": [
+    "가고시마"
+   ],
+   "title_kr": "배구:SV리그 남자의 가고시마, 오사카에 0-3로 패한다… 통산 성적은 1승 7패로 최하위"
+  },
+  {
+   "title": "【SV男子結果】2連勝のサントリーが3位に浮上！ 東京GBvs松本TDは引き分けに【第4節】（バレーボールキング）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xZHpHcllvMzdZVjQ3TnBJZUFrZ2t4MFdLcVRaWFNGQXE3MllsQWQzNlh1UmlwVExTMFBvbnVRNXNlZEE1WnhybVdkV2s0ODA1SXkwajJXamNvTm5uUUNmU01OVDhfdWUyanNyRk9jU2dIMm8xTWRXaE1FUGdqUlE?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "time": "11/16 13:24",
+   "ts": 1794803046.0,
+   "teams": [
+    "산토리",
+    "도쿄GB",
+    "마쓰모토"
+   ],
+   "title_kr": "【SV 남자 결과】 2연승의 산토리가 3위로 부상!"
   },
   {
    "title": "【SVリーグ男子】 サントリーが連勝で上位浮上 東京GBと松本TDは1勝ずつを分け合う（月刊バレーボール）",
@@ -87,19 +103,6 @@
    "title_kr": "WD나고야 vs. 사카이 (11/15) 남자 제4절【다이도생명SV리그 2026-27】"
   },
   {
-   "title": "ＳＶリーグ・フラーゴラッド鹿児島、大阪Bに敗れ6連敗 多彩な攻撃に翻弄される",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IbmxLY2pvYi1tSUh3QzdDNzNZbDdfa2x2ZGZQbHpuWXRKZm1YVjN0U3pWdndJOWlUTWZVM1R6ZXdRYW9fWmZSTEQ1a2JNdkhvX1JCWUhITW1tSUJ2ZUtnbVJB?oc=5",
-   "source": "南日本新聞",
-   "lang": "ja",
-   "time": "11/15 23:11",
-   "ts": 1794751860.0,
-   "teams": [
-    "가고시마",
-    "오사카B"
-   ],
-   "title_kr": "SV리그·가고시마, 오사카B에 패해 6연패 다채로운 공격에 농락당함"
-  },
-  {
    "title": "大阪Ｂが12/5のホーム戦で「ALCOマッチDAY」を開催！来場者にタンブラーをプレゼント",
    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ldzZYYUo0Sjg1Q1VRMlU4NHRBZVpoZXdETkRaUVV1cTdZS3JWN2RudmlJSVFCakY2am42dEhoYUdZYXRSN0N2ZnJoZmZRdE1VekE?oc=5",
    "source": "バレーボールキング",
@@ -136,19 +139,6 @@
    "title_kr": "도쿄GB의 오리지널 테마 송 「호쿠토 칠성」이 DAM에서 선수 입장 무비로 전달 개시!"
   },
   {
-   "title": "バレーボール2026-2027 大同生命 SVリーグ・男子ウルフドッグス名古屋×日本製鉄堺ブレイザーズ",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80dUVKOU9LYWREczBKc0dNTlhLTTlsOVQzMXlOZjFkT2s3cmdneU5lWkhfTEV1dnlUMjNqdTN3NnBTWmhETGVJN2JpSjJxZU9fYV85ajFR?oc=5",
-   "source": "KTNテレビ長崎",
-   "lang": "ja",
-   "time": "11/15 19:37",
-   "ts": 1794739059.0,
-   "teams": [
-    "WD나고야",
-    "사카이"
-   ],
-   "title_kr": "배구 2026-2027 다이도생명 SV리그·남자 WD나고야 × 사카이"
-  },
-  {
    "title": "ヴォレアス北海道にストレート負け 今節を1勝1敗で終える／東レアローズ静岡",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01RHNBbmJtYVFYOFdBNlBKM201RlFPNkxnVHVDU0NQT2R5UkNzTENQV2RFLUNMN1J3TjQwVFp1NWtOX0otM1JaNVBtZjBKdE4taXlScVBmZ3hCYlZXVmZrMEphbG10VjdzbUFCblFfSnhnbEk?oc=5",
    "source": "スポーツナビ",
@@ -174,18 +164,6 @@
    "title_kr": "전 프로 선수가 직접 지도 「SV리그」 WD나고야의 시게무라 켄타씨(사세보시 출신)가 배구 교실"
   },
   {
-   "title": "大阪B、名古屋とも7勝目 バレーボールSVリーグ、女子はSAGA久光が8勝目",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMUXhJcUh1dXVlTWd4cDh2VWZhbGRMQXdySUpJTURETUhxMTJiNThOUmI2Rmc3TU5xQlZWcWZDX0NIcGhvTVFYdllnNmZ6T1JERmxtRDg5MWZnRmswenJ6ekJLVm9HMk10YzZYTHFXS0dvYldTS2c?oc=5",
-   "source": "産経ニュース",
-   "lang": "ja",
-   "time": "11/15 18:21",
-   "ts": 1794734494.0,
-   "teams": [
-    "오사카B"
-   ],
-   "title_kr": "오사카B, 나고야 모두 7승째 배구 SV리그, 여자는 SAGA 히사미츠가 8승째"
-  },
-  {
    "title": "元プロ選手が直接指導 「SVリーグ」WD名古屋の重村健太さん（佐世保市出身）がバレー教室（KTNテレビ長崎）",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zVGE4OEhXbWliWDF5RGxzeG5TWVNIOTFiTnhVRWtPaHpycGxkeTM4TWR5cVpVbWQzc1Y3UjVxOTlJdTQ3bDY2YlNCZlNqLVhZVGhoaVBTdlpVMWI1Q2ZXdUEwdXFEZXJoTDJUVWdzTWU0X0o5WmpmazV1Y2JBcWc?oc=5",
    "source": "Yahoo!ニュース",
@@ -196,6 +174,18 @@
     "WD나고야"
    ],
    "title_kr": "전 프로 선수가 직접 지도 「SV리그」 WD나고야의 시게무라 켄타씨(사세보시 출신)가 배구 교실(KTNTV 나가사키)"
+  },
+  {
+   "title": "東レアローズ静岡、ホーム連勝ならず V北海道にストレート負け バレーSVリーグ男子",
+   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9kLS1mNzZ4blJaREZnTzRMYlZJa2FLSTFMWldKYkpKRGs4NFhVVDNFTzQybDg1anpLWGktcVJfc19KQkpyeS1zejlfcHhuUQ?oc=5",
+   "source": "静岡新聞DIGITAL",
+   "lang": "ja",
+   "time": "11/15 18:19",
+   "ts": 1794734340.0,
+   "teams": [
+    "도레이"
+   ],
+   "title_kr": "도레이, 홈 연승하지 않고 V 홋카이도에 스트레이트 패배구 SV리그 남자"
   },
   {
    "title": "熱戦！15日も【SVリーグ公式戦】名古屋VS堺 長崎市で開催（KTNテレビ長崎）",
@@ -266,7 +256,7 @@
   },
   {
    "title": "【速報】ＳＶリーグ男子フラーゴラッド鹿児島、6連敗 大阪Ｂに０―３（南日本新聞）",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4TUlRdVBzS0hlSmxUSm9Lam1scHY0NDlvaXhGcHFZaVZqUHl1am53ZUE1dFI3TFJKSVlFZkR0NGRNNV90V2ZWTE9lVDhKTThjM2RtMDRVTzVhdEQtQTBRN242RFlxS0VvZTZMald0cm9neXNKX3hhbGY5b3ZCLU0?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTUw5RjlBeThkaXJRM3VIMV9pVHB4WDNGNnJiNXpCdzFmbGRUQzBZdTJsZ3Y2d3N3Ml9xUXBhbzNPektJTzU4WDhNOWZlcTRTejRDRlFaZHNURTNwM3NQVHlIOUJrNUt3NGF1ZE5rSUZJWS1GYTFDbjJsMnBYb3dScXhlT1UyMk1iY2x0RkF3?oc=5",
    "source": "Yahoo!ニュース",
    "lang": "ja",
    "time": "11/15 15:45",
@@ -379,56 +369,6 @@
    "title_kr": "【배구】 오사카B가 가고시마를 스트레이트로 내리고, 선두를 유지. 홋카이도YS가 SV 승격 후 첫 홈전 승리 SV 남자"
   },
   {
-   "title": "【2026/11/14 ハイライト】2026-27 大同生命SV.LEAGUE MEN 第4節 GAME1 大阪Ｂ vs F鹿児島",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1BRmJraVA5RVhRVHJJS1UtX0JBZk1IRVJId01OcFpRc3gxVURPcU15c0pxTjQwZ09QZTlNZHkydlBJSzE4bmNrblVHVE41QWNtZVBSZVFoRUxjZWNa?oc=5",
-   "source": "YouTube",
-   "lang": "ja",
-   "time": "11/14 22:25",
-   "ts": 1794662746.0,
-   "teams": [
-    "오사카B",
-    "가고시마"
-   ],
-   "title_kr": "【2026/11/14 하이라이트】2026-27 다이도생명SV리그 MEN 제4절 GAME1 오사카B vs 가고시마"
-  },
-  {
-   "title": "ＳＶリーグ・東レ静岡と大同生命が地域活性化イベント開催 地域共創への思い、トークセッションで意見交換",
-   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBfX3ZLLTFVNndMTHp3R08wZG91Wlh0NzkyQ0V5djZPeHVnY2JDbWJ6d0MxZmxlaFlCcEJmYW5RcUI1ak96ZElz?oc=5",
-   "source": "スポーツブル",
-   "lang": "ja",
-   "time": "11/14 21:42",
-   "ts": 1794660120.0,
-   "teams": [
-    "도레이"
-   ],
-   "title_kr": "SV리그·도레이 토다이도생명이 지역 활성화 이벤트 개최 지역 공동 창작에의 생각, 토크 세션으로 의견 교환"
-  },
-  {
-   "title": "F鹿児島・迫田郭志「副主将として昨季からいる選手と新加入選手をうまくまとめていきたい」 SV男子第3節会見コメント",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4wajd4WmloZUVlY1lxQlBJd2pXVnVkdndISTEtemwyOE54bmtubVNJekdWTVVaTW1kQ1NYTGpZSDNTQnIyYVVEV0wzMzNUdw?oc=5",
-   "source": "バレーボールマガジン",
-   "lang": "ja",
-   "time": "11/14 19:26",
-   "ts": 1794651981.0,
-   "teams": [
-    "가고시마"
-   ],
-   "title_kr": "가고시마 ・사코다 히로시 “부주장으로서 지난 시즌부터 있는 선수와 신가입 선수를 잘 정리해 나가고 싶다” SV남자 제3절 회견 코멘트"
-  },
-  {
-   "title": "ヴォレアス・池田幸太「高校の同級生・迫田郭志をはじめ、F鹿児島には同学年が多いので、負けてられないなと思う」 SV男子会見",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tTmYtb2hNVi1IVmdQaUc2dWt1eDBZSjlrcmN3YkI3S0s5LWVlaUNzb1lDSHhSYnZXd09PVl9KWVF5TUFaZndqYjB6SllfZw?oc=5",
-   "source": "バレーボールマガジン",
-   "lang": "ja",
-   "time": "11/14 19:09",
-   "ts": 1794650959.0,
-   "teams": [
-    "보레아스",
-    "가고시마"
-   ],
-   "title_kr": "보레아스 ・이케다 고타 「고등학교의 동급생・사코다 히로시를 비롯해, 가고시마에는 동 학년이 많기 때문에, 질 수 없다고 생각한다」 SV 남자 회견"
-  },
-  {
    "title": "SAGA久光が2敗目　男子は大阪B、名古屋が6勝目／SVリーグ",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1RYUlVMTlDeWdhcV9IOWdjSFlObWJwM2xwZHZqeXJ4WlVDLXVIeHBHUk5aR1UxMWlKazVZeVVjb21rSmtQbVBlT3U4Vnp3OGVMOUtBcTN0WS1YRlNBck1scW1rdm5WTDJwTHpfcHVhdjZXS25NR1HSAYoBQVVfeXFMTS1lY2JPY09XOUdVbWwwWlJteEdtWVJjaFk3bWVDMmJqdGYtOUhJdDNyRUR4QkpfMnEzYUU1LWxCajRPT3BhNzk5d1h5aXFmVF83di14STRTNWhBZmRaU2NrUm1TQ1BncFRidjVKRWJna2hZT2dOYnY5YmxiNkZhTzRRcVlPVEg0QW1B?oc=5",
    "source": "サンスポ",
@@ -484,6 +424,59 @@
     "사카이"
    ],
    "title_kr": "SV리그·WD나고야 가 나가사키시에서 공식전 사카이와 격돌《나가사키》(나가사키 국제 TV)"
+  },
+  {
+   "title": "東レアローズ静岡 vs. ヴォレアス北海道(11/14) 男子 第4節 【限定】大同生命SVリーグ 2026-27｜視聴画面",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42U3d2Z2JyS0ROeTBXRGtJMjZUcV9uSmljZ1VLSzR5OE1kQmMzWTFXdTI4MTN5SDNfekNzd2xTQjd6WTFkSXVLckxOQ09ITk1INldUQWFKMHpkVkpkVnFJcUZwU3FZZUEySWZzRg?oc=5",
+   "source": "J Sports オンデマンド",
+   "lang": "ja",
+   "time": "11/14 17:46",
+   "ts": 1794646012.0,
+   "teams": [
+    "도레이",
+    "보레아스"
+   ],
+   "title_kr": "도레이 vs. 보레아스 (11/14) 남자 제4절 【한정】다이도생명SV리그 2026-27 | 시청 화면"
+  },
+  {
+   "title": "ジェシー・エルサー | 選手名鑑 | 大同生命SVリーグ男子 | バレーボール",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE91NWxhZmtSaU1TQnJNd1dCOVJ4ZWg1M1ZxaFRwc253cmpqMVlMczFCamNmU2N4ekl4RW9jQ3ZOT2IyWVZXRktqSE0yMEdWa0hpRGdiUDJMeklleVlraGlRVlE4WkJiVG5GUG5aYjczWQ?oc=5",
+   "source": "J SPORTS",
+   "lang": "ja",
+   "time": "11/14 17:10",
+   "ts": 1794643813.0,
+   "teams": [],
+   "title_kr": "제시 엘서 | 선수명감 | 다이도생명SV리그 남자 | 배구"
+  },
+  {
+   "title": "ペッテリ・ティーニスマー | 選手名鑑 | 大同生命SVリーグ男子 | バレーボール",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sSDB4ZmxQSlBLTDUxNlFya3JpT3RUM1VjT2tSQ0RyaGJCbDBZRVloZ1ZZYXF3eFNOa2V4UjNKaFI4ekFjbVNSc2dIMUpoWkVlajVsOW03cWhITUJmRm9lZFY4b2lXZU5mYWoxVExjaw?oc=5",
+   "source": "J SPORTS",
+   "lang": "ja",
+   "time": "11/14 17:06",
+   "ts": 1794643579.0,
+   "teams": [],
+   "title_kr": "페테리 튀니스마 | 선수 명감 | 다이도생명 SV리그 남자 | 배구"
+  },
+  {
+   "title": "ジョセフ・ブライアン・カストロ | 選手名鑑 | 大同生命SVリーグ男子 | バレーボール",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJQlJUOUdIeFJMNjBWclF5bzBsbWNPN1RIemZ1LVFlbTRKeDNWenAyd2d1TEhsbms2cS1iaVRRZ0x1dGxiSmRrZG5IcFdkM3AwMjg3cnE3U0ROR3hHUUN2QndtaWhuSElNTnZQeTM2UQ?oc=5",
+   "source": "J SPORTS",
+   "lang": "ja",
+   "time": "11/14 17:02",
+   "ts": 1794643331.0,
+   "teams": [],
+   "title_kr": "조지프 브라이언 카스트로 | 선수 명감 | 다이도생명 SV리그 남자 | 배구"
+  },
+  {
+   "title": "クリストファー・バイアム | 選手名鑑 | 大同生命SVリーグ男子 | バレーボール",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41NFFzTXV0elRwLTVkMlM1MktXMXBRQkJ2YXZmZXBFaVhRdklkdGFUZHdSSDNGZ3pkX3pZRmtsTVNhcUZVcDhHMVZlcE5jNnhPbTBrR05vR3pnTExHeFhoTENyTS1yUGt6SndlczJpbw?oc=5",
+   "source": "J SPORTS",
+   "lang": "ja",
+   "time": "11/14 17:02",
+   "ts": 1794643330.0,
+   "teams": [],
+   "title_kr": "크리스토퍼 바이엄 | 선수 명감 | 다이도생명 SV리그 남자 | 배구"
   }
  ]
 }
