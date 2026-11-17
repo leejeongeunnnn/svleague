@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-16 09:04",
+ "updated_at": "2026-11-17 12:02",
  "source": "SV리그 공식 사이트 선수 명단",
  "coaches": {
   "보레아스": {
@@ -2007,7 +2007,7 @@
     "name": "ヤン・コザメルニク",
     "roman": "Jan Kozamernik",
     "pos": "MB",
-    "img": null,
+    "img": "data/photos/5594.webp",
     "birth": "1995-12-24",
     "age": 30,
     "height": 204,
@@ -2048,7 +2048,7 @@
     "name": "バルトシュ・クレク",
     "roman": "Bartosz Kurek",
     "pos": "OP",
-    "img": null,
+    "img": "data/photos/4072.webp",
     "birth": "1988-08-29",
     "age": 38,
     "height": 205,
@@ -2354,7 +2354,7 @@
     "name": "ルチアーノ・ヴィセンティン",
     "roman": "Luciano Vicentin",
     "pos": "OH",
-    "img": null,
+    "img": "data/photos/5595.webp",
     "birth": "2000-04-04",
     "age": 26,
     "height": 199,
@@ -2395,7 +2395,7 @@
     "name": "マーク・ルラ",
     "roman": "Mark Rura",
     "pos": "OP",
-    "img": null,
+    "img": "data/photos/6107.webp",
     "birth": "2006-01-23",
     "age": 20,
     "height": 207,
