@@ -4524,6 +4524,21 @@
    "ticket": "https://ticket-v.jp/ticket/?id=38208"
   },
   {
+   "gid": "sv38212",
+   "date": "2027-04-10",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "사카이",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 21,
+   "url": "https://www.svleague.jp/match/detail/38212/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38212"
+  },
+  {
    "gid": "sv38214",
    "date": "2027-04-10",
    "time": "14:05",
@@ -4569,21 +4584,6 @@
    "ticket": "https://ticket-v.jp/ticket/?id=38210"
   },
   {
-   "gid": "sv38212",
-   "date": "2027-04-10",
-   "time": "",
-   "kind": "regular",
-   "series": "",
-   "home": "스팅스아이치",
-   "away": "사카이",
-   "venue": "",
-   "state": "scheduled",
-   "status": "",
-   "round": 21,
-   "url": "https://www.svleague.jp/match/detail/38212/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38212"
-  },
-  {
    "gid": "sv38219",
    "date": "2027-04-11",
    "time": "13:05",
@@ -4612,6 +4612,21 @@
    "round": 21,
    "url": "https://www.svleague.jp/match/detail/38209/",
    "ticket": "https://ticket-v.jp/ticket/?id=38209"
+  },
+  {
+   "gid": "sv38213",
+   "date": "2027-04-11",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "사카이",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 21,
+   "url": "https://www.svleague.jp/match/detail/38213/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38213"
   },
   {
    "gid": "sv38217",
@@ -4659,21 +4674,6 @@
    "ticket": "https://ticket-v.jp/ticket/?id=38211"
   },
   {
-   "gid": "sv38213",
-   "date": "2027-04-11",
-   "time": "",
-   "kind": "regular",
-   "series": "",
-   "home": "스팅스아이치",
-   "away": "사카이",
-   "venue": "",
-   "state": "scheduled",
-   "status": "",
-   "round": 21,
-   "url": "https://www.svleague.jp/match/detail/38213/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38213"
-  },
-  {
    "gid": "sv38220",
    "date": "2027-04-16",
    "time": "18:35",
@@ -4719,6 +4719,21 @@
    "ticket": "https://ticket-v.jp/ticket/?id=38226"
   },
   {
+   "gid": "sv38228",
+   "date": "2027-04-17",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "히로시마",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 22,
+   "url": "https://www.svleague.jp/match/detail/38228/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38228"
+  },
+  {
    "gid": "sv38224",
    "date": "2027-04-17",
    "time": "14:05",
@@ -4762,21 +4777,6 @@
    "round": 22,
    "url": "https://www.svleague.jp/match/detail/38221/",
    "ticket": "https://ticket-v.jp/ticket/?id=38221"
-  },
-  {
-   "gid": "sv38228",
-   "date": "2027-04-17",
-   "time": "",
-   "kind": "regular",
-   "series": "",
-   "home": "스팅스아이치",
-   "away": "히로시마",
-   "venue": "",
-   "state": "scheduled",
-   "status": "",
-   "round": 22,
-   "url": "https://www.svleague.jp/match/detail/38228/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38228"
   },
   {
    "gid": "sv38227",
@@ -4841,12 +4841,12 @@
   {
    "gid": "sv38229",
    "date": "2027-04-18",
-   "time": "",
+   "time": "14:05",
    "kind": "regular",
    "series": "",
    "home": "스팅스아이치",
    "away": "히로시마",
-   "venue": "",
+   "venue": "오카자키 중앙공원 체육관",
    "state": "scheduled",
    "status": "",
    "round": 22,
