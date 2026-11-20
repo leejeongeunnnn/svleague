@@ -4539,6 +4539,21 @@
    "ticket": "https://ticket-v.jp/ticket/?id=38208"
   },
   {
+   "gid": "sv38210",
+   "date": "2027-04-10",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "도쿄GB",
+   "venue": "기타사토 아레나 후지",
+   "state": "scheduled",
+   "status": "",
+   "round": 21,
+   "url": "https://www.svleague.jp/match/detail/38210/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38210"
+  },
+  {
    "gid": "sv38212",
    "date": "2027-04-10",
    "time": "14:05",
@@ -4584,21 +4599,6 @@
    "ticket": "https://ticket-v.jp/ticket/?id=38216"
   },
   {
-   "gid": "sv38210",
-   "date": "2027-04-10",
-   "time": "",
-   "kind": "regular",
-   "series": "",
-   "home": "도레이",
-   "away": "도쿄GB",
-   "venue": "",
-   "state": "scheduled",
-   "status": "",
-   "round": 21,
-   "url": "https://www.svleague.jp/match/detail/38210/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38210"
-  },
-  {
    "gid": "sv38219",
    "date": "2027-04-11",
    "time": "13:05",
@@ -4627,6 +4627,21 @@
    "round": 21,
    "url": "https://www.svleague.jp/match/detail/38209/",
    "ticket": "https://ticket-v.jp/ticket/?id=38209"
+  },
+  {
+   "gid": "sv38211",
+   "date": "2027-04-11",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "도쿄GB",
+   "venue": "기타사토 아레나 후지",
+   "state": "scheduled",
+   "status": "",
+   "round": 21,
+   "url": "https://www.svleague.jp/match/detail/38211/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38211"
   },
   {
    "gid": "sv38213",
@@ -4672,21 +4687,6 @@
    "round": 21,
    "url": "https://www.svleague.jp/match/detail/38215/",
    "ticket": "https://ticket-v.jp/ticket/?id=38215"
-  },
-  {
-   "gid": "sv38211",
-   "date": "2027-04-11",
-   "time": "",
-   "kind": "regular",
-   "series": "",
-   "home": "도레이",
-   "away": "도쿄GB",
-   "venue": "",
-   "state": "scheduled",
-   "status": "",
-   "round": 21,
-   "url": "https://www.svleague.jp/match/detail/38211/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38211"
   },
   {
    "gid": "sv38220",
