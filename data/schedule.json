@@ -1622,8 +1622,8 @@
    "home": "가고시마",
    "away": "WD나고야",
    "venue": "F아레나 이치키쿠시키노",
-   "state": "live",
-   "status": "3세트 진행 중",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38016/",
    "sets": [
@@ -1636,12 +1636,12 @@
      25
     ],
     [
-     20,
-     17
+     21,
+     25
     ]
    ],
    "sh": 0,
-   "sa": 2
+   "sa": 3
   },
   {
    "gid": "sv38020",
