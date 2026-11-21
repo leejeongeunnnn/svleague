@@ -1818,8 +1818,8 @@
    "home": "사카이",
    "away": "도레이",
    "venue": "닛폰제철 사카이 체육관",
-   "state": "live",
-   "status": "4세트 진행 중",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38024/",
    "sets": [
@@ -1836,12 +1836,16 @@
      25
     ],
     [
-     17,
-     22
+     18,
+     25
+    ],
+    [
+     15,
+     11
     ]
    ],
-   "sh": 2,
-   "sa": 1
+   "sh": 3,
+   "sa": 2
   },
   {
    "gid": "sv38021",
