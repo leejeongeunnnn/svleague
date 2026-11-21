@@ -1652,11 +1652,34 @@
    "home": "스팅스아이치",
    "away": "도쿄GB",
    "venue": "CNA 아레나 아키타",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38020/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38020"
+   "sets": [
+    [
+     21,
+     25
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     15,
+     13
+    ]
+   ],
+   "sh": 3,
+   "sa": 2
   },
   {
    "gid": "sv38022",
@@ -1667,11 +1690,26 @@
    "home": "오사카B",
    "away": "마쓰모토",
    "venue": "파나소닉 아레나",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38022/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38022"
+   "sets": [
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     17
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
   },
   {
    "gid": "sv38018",
@@ -1682,11 +1720,26 @@
    "home": "홋카이도YS",
    "away": "산토리",
    "venue": "홋카이 키타에루",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38018/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38018"
+   "sets": [
+    [
+     22,
+     25
+    ],
+    [
+     27,
+     29
+    ],
+    [
+     21,
+     25
+    ]
+   ],
+   "sh": 0,
+   "sa": 3
   },
   {
    "gid": "sv38026",
@@ -1697,11 +1750,30 @@
    "home": "히로시마",
    "away": "보레아스",
    "venue": "히로시마 선플라자 홀",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38026/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38026"
+   "sets": [
+    [
+     25,
+     21
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     17,
+     25
+    ],
+    [
+     21,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
   },
   {
    "gid": "sv38017",
@@ -1712,11 +1784,30 @@
    "home": "가고시마",
    "away": "WD나고야",
    "venue": "F아레나 이치키쿠시키노",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38017/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38017"
+   "sets": [
+    [
+     28,
+     30
+    ],
+    [
+     15,
+     25
+    ],
+    [
+     28,
+     26
+    ],
+    [
+     18,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
   },
   {
    "gid": "sv38024",
@@ -1727,11 +1818,30 @@
    "home": "사카이",
    "away": "도레이",
    "venue": "닛폰제철 사카이 체육관",
-   "state": "scheduled",
-   "status": "",
+   "state": "live",
+   "status": "4세트 진행 중",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38024/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38024"
+   "sets": [
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     17,
+     22
+    ]
+   ],
+   "sh": 2,
+   "sa": 1
   },
   {
    "gid": "sv38021",
