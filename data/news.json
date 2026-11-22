@@ -1,16 +1,53 @@
 {
  "items": [
   {
+   "title": "2026 SV.LEAGUE U15 CHAMPIONSHIP supported by OPEN HOUSE GROUP WOMENは信州松本トライデンツU15が連覇、MENはウルフドッグス名古屋U15が2年ぶりの優勝",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lYWFUYjlncVlPSWhIQ2ttLUJZYS1rTVMtaVhWRnE5N0hKOWpIZm9UNzdDendIS0lnMEhxdlJpSWJXVlNvMGFRTE40NUE5dXRWQ05vLW04c3NueHhkeTRN?oc=5",
+   "source": "www.svleague.jp",
+   "lang": "ja",
+   "time": "11/22 23:03",
+   "ts": 1795356196.0,
+   "teams": [
+    "마쓰모토",
+    "WD나고야"
+   ],
+   "title_kr": "2026 SV리그 U15 CHAMPIONSHIP supported by OPEN HOUSE GROUP WOMEN은 마츠모토 U15가 연패, MEN은 WD 나고야 U15가 2년 만의 우승"
+  },
+  {
+   "title": "イエスタ3連敗 ヴォレアスは連勝2で止まる SVリーグ",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RdkRCUkY1S044TVdVNEozT2sxZ19zZmZuMUZIVGlMaThUQ09VNk5mSW9Gdk4yNGE0cnhXLVRLZk5uNEdSbUlaRHJoTVVyUzVtcHByc1F2SmdfUQ?oc=5",
+   "source": "北海道新聞デジタル",
+   "lang": "ja",
+   "time": "11/22 22:34",
+   "ts": 1795354487.0,
+   "teams": [
+    "보레아스"
+   ],
+   "title_kr": "예스타 3연패 보레아스는 연승 2로 멈추는 SV리그"
+  },
+  {
    "title": "「相手を倒す覚悟」を胸に巻き返しへ／東レアローズ静岡",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YVFVWZUthOXFQU1ZmWURxMHB3R2ZIcGVGeVFDOUlhbUlic0FjZ2U2R3FXWnFRa3RUX1h6c2VnSTFsckV1ckJKZWxTQTJBU3laUTFDdWdteHd3SWhUTkF0ZkZ4VVZpME5sbGpWTWx1Q3pJUmc?oc=5",
    "source": "スポーツナビ",
    "lang": "ja",
-   "time": "11/22 19:30",
-   "ts": 1795343442.0,
+   "time": "11/22 19:31",
+   "ts": 1795343500.0,
    "teams": [
     "도레이"
    ],
    "title_kr": "「상대를 쓰러뜨리는 각오」를 가슴에 되감아에/도레이"
+  },
+  {
+   "title": "異例の挑戦、確かな期待 サントリー入団の鎮西高・一ノ瀬漣、高卒でバレーSVリーグへ",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oMFAtWUtiVnB5dHp3VHlmQWxGc196cmRJS2ttc1ducWVKV1dIX3p4TTJWeFFnTGtENVhhOWYzTXRULVlicjRBVkxxajRwRzRaM0hLLTRiSlFidFBIcTdNcG1mUllmQ1pXUDZZQUVxNlFtY2tfS1E?oc=5",
+   "source": "産経ニュース",
+   "lang": "ja",
+   "time": "11/22 19:00",
+   "ts": 1795341600.0,
+   "teams": [
+    "산토리"
+   ],
+   "title_kr": "이례적인 도전, 확실한 기대 산토리"
   },
   {
    "title": "男子は大阪Bが9勝目、女子はSAGA久光が10勝目 バレーボールSVリーグ",
@@ -59,40 +96,28 @@
    "title_kr": "【SV리그】2연승"
   },
   {
+   "title": "大阪Bが9勝目／SVリーグ",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94ckgwSHlrMFRXUk5hRkg4MTFPdENuOEZwSFFNSWM5alFkNVM4T0RjNEVTNXEyVk81RjBHMURxTFMzUVJsOTB2QTlqMFhoblJ5UkVLZUZ1WThrLTJpc1VtaW5JUmFZX0R0ZG5ZaDlGa21TdlRUVHfSAYoBQVVfeXFMTi11M0FhSWluX2dTaC00bFZmYklMeHhYQmlrN1JFbkpWLTNZU1ltTWNTYUM2cjdxN3VMQWVYMW5MY0FzdHR2QmgwS2VfaDE0TVdISjdieldyWlBtRWZWdG4xR29OWkx6dEN4Qk14M2FhekxWMkNmMXk0cEd2aUdTaXU4dFl1dzRZRkFn?oc=5",
+   "source": "サンスポ",
+   "lang": "ja",
+   "time": "11/22 17:08",
+   "ts": 1795334911.0,
+   "teams": [
+    "오사카B"
+   ],
+   "title_kr": "오사카B 9승/SV리그"
+  },
+  {
    "title": "大阪Bが9勝目 バレーボールSVリーグ",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MT09JU0VianV3SFRsZ1pvNWJYWjJ3eVE4cm95TXFBd1dQQkcyTTBOZktBblUyUmgxRU5SWHBna1ozWE1EQzZ2NS0yVWx3eXlnTnhKV0FlMmJDdw?oc=5",
-   "source": "北海道新聞デジタル",
-   "lang": "ja",
-   "time": "11/22 17:09",
-   "ts": 1795334985.0,
-   "teams": [
-    "오사카B"
-   ],
-   "title_kr": "오사카B, 9승째 배구 SV리그"
-  },
-  {
-   "title": "大阪Bが9勝目 バレーボールSVリーグ（共同通信）",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BdFRmN2NlRC1DM295NjJ0eURBZGotR2V1M2lVdjUxNkkwM1o5X0h0ZzVDQmU5SU1nLThWZmhobFgxNXBUNjg4RlRkNFM3bVhlek9Zcl9jR2c5blNUMF90dXVib3poblpJQ1F6SVBMaGR1WlZhWTNMQmRvUTJndEk?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "time": "11/22 17:03",
-   "ts": 1795334616.0,
-   "teams": [
-    "오사카B"
-   ],
-   "title_kr": "오사카B가 9승째 배구 SV리그(공동통신)"
-  },
-  {
-   "title": "大阪Ｂが９勝目",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jZVlsMGtLMGptckZ2MG5DOU1jUDBaQTFfcFlNZ0txaHVEcktlTGhLUXVPUWpaLWNOQVNwa1BQRDUxY0J0aUNOc3hIdUxXcmJFT3JvOGVpRQ?oc=5",
-   "source": "埼玉新聞",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52dkg5RFlkNjZER0s2Rk1OWU9QZGVsN1N0TjIwRVZ2a2g1VEo4TlJYb3dHLXNxM2Z0cC1CdGdFb0pqaWRyNGVoSkRGYmJhMXBOc0VyYk1nM1d3bVBGREhyWmxBaTY4UWVCSTJNMzR3S0Q?oc=5",
+   "source": "Excite エキサイト",
    "lang": "ja",
    "time": "11/22 17:03",
    "ts": 1795334580.0,
    "teams": [
     "오사카B"
    ],
-   "title_kr": "오사카B 9승"
+   "title_kr": "오사카B, 9승째 배구 SV리그"
   },
   {
    "title": "バレーボールのフラーゴラッド鹿児島が名古屋に２連敗…ＳＶリーグ男子で通算１勝９敗、最下位（読売新聞オンライン）",
@@ -165,19 +190,28 @@
    "title_kr": "【SV리그 남자】신천지에서 출전 기회는 늘어난다? 2026-27 시즌에 이적한 주목의 선수 5명"
   },
   {
-   "title": "STINGS愛知が東京GBに逆転で勝利し、連敗を止める。ヴォレアスが広島THに3-1で勝利し、4位に浮上 SV男子",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UM0x3MUdhV2Z6bEY4VWlOSUZKd0tfOExJMzg2RmhxYV9jaDZsdkI5WnNWWm5FWUN5ckNLR29JcVlPMUd2OVZBVUZ4S0dKZw?oc=5",
-   "source": "バレーボールマガジン",
+   "title": "大阪Ｂがブラックフライデー企画を実施！ 11/27から限定商品グッズ販売 (2026年11月21日掲載)",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYMnkwLVA3UDNXcmRqeW5CNlNoODRmMjcwc0lxeFB0WWVsdkpPaVRsX1VEb3dVZnAwUENmbmJsc0xsRzQwRzlwaWFZYW5kN1dpaE90X2FBeDFMXzJUWHc?oc=5",
+   "source": "ライブドアニュース",
    "lang": "ja",
-   "time": "11/22 01:53",
-   "ts": 1795280017.0,
+   "time": "11/22 01:35",
+   "ts": 1795278931.0,
    "teams": [
-    "스팅스아이치",
-    "도쿄GB",
-    "보레아스",
-    "히로시마"
+    "오사카B"
    ],
-   "title_kr": "스팅스 아이치가 도쿄GB에 역전으로 승리하여 연패를 멈춘다. 보레아스가 히로시마에 3-1로 승리, 4위로 부상 SV남자"
+   "title_kr": "오사카B가 블랙 프라이데이 기획을 실시! 11/27부터 한정 상품 상품 판매 (2026년 11월 21일 게재)"
+  },
+  {
+   "title": "声優の石川界人が東京グレートベアーズの信州松本戦に出演へ 11月15日開催",
+   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1UYzFFWTIyVlZfbl93Y3RyalM3Y0VobUJBdHVmay13S3VsWWtLNWVLTnB5THhJaXVwQVFURHZNSkEzZlVJckE?oc=5",
+   "source": "Dellows News",
+   "lang": "ja",
+   "time": "11/22 01:23",
+   "ts": 1795278191.0,
+   "teams": [
+    "도쿄GB"
+   ],
+   "title_kr": "성우의 이시카와 카이토가 도쿄GB의 신슈 마츠모토전에 출연에 11월 15일 개최"
   },
   {
    "title": "ＳＶリーグ男子・フラーゴラッド鹿児島、名古屋に敗れ8連敗 新加入小澤が奮闘",
@@ -190,6 +224,33 @@
     "가고시마"
    ],
    "title_kr": "SV리그 남자·가고시마, 나고야에 패해 8연패 신가입 오자와가 분투"
+  },
+  {
+   "title": "JAF会員850名を先着で招待・優待、ジェイテクトSTINGS愛知の試合",
+   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5HTG5YY0UyUVc3a1pTSF9wVUkyY0JPYzhsU0NMamNIWFV0d2VmbXF0MExKcy1iVjhNYTc2SEFJUVlKWXJDX1Fj?oc=5",
+   "source": "Dellows News",
+   "lang": "ja",
+   "time": "11/21 23:44",
+   "ts": 1795272295.0,
+   "teams": [
+    "스팅스아이치"
+   ],
+   "title_kr": "JAF 회원 850명을 선착으로 초대·우대, 스팅스 아이치 경기"
+  },
+  {
+   "title": "【バレー】STINGS愛知が東京GBに逆転で勝利し、連敗を止める。ヴォレアスが広島THに3-1で勝利し、4位に浮上 SV男子",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NNnRaUjY4REVVdjVuNzRvR0MxR1BOdTJtM0FfNmhqbE5aT2pYUTBmUWdMYXVqNktTQV82Y09vbllDaldwaFdlSU1aMlNDUUprajhDY1dHelVFajEtY2FjMnVxMTBxNmNsR2ktVXdpV3E2cVJkX0FGQnpHNnIxLUU?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "time": "11/21 22:59",
+   "ts": 1795269560.0,
+   "teams": [
+    "스팅스아이치",
+    "도쿄GB",
+    "보레아스",
+    "히로시마"
+   ],
+   "title_kr": "【배구】스팅스아이치가 도쿄GB에 역전으로 승리해, 연패를 멈춘다. 보레아스가 히로시마에 3-1로 승리, 4위로 부상 SV남자"
   },
   {
    "title": "2セットダウンから反撃見せるも惜敗／東レアローズ静岡",
@@ -239,19 +300,6 @@
    "title_kr": "【SV리그】SAGA 아레나에서 스트레이트 승리. 잠정 선두에."
   },
   {
-   "title": "北海道イエロースターズ vs. サントリーサンバーズ大阪(11/21) 男子 第5節 【限定】大同生命SVリーグ 2026-27｜視聴画面",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03LTVvSkk1S0Y0V2p2a1dJeDNZcTRjb1ZHVC1LM0dWXzNrYlpTU0QzTmtKYUhaRlZBUGZrWnRfRU9qVmpJNHA4MnZFMVE1d0ktbDRFZHVJNDNKSkd1UFpTMzNZVXJldHVZdjlvMg?oc=5",
-   "source": "J Sports オンデマンド",
-   "lang": "ja",
-   "time": "11/21 17:35",
-   "ts": 1795250135.0,
-   "teams": [
-    "홋카이도YS",
-    "산토리"
-   ],
-   "title_kr": "홋카이도YS vs. 산토리 (11/21) 남자 제5절 【한정】다이도생명 SV리그 2026-27 | 시청 화면"
-  },
-  {
    "title": "【速報】SVリーグ男子・フラーゴラッド鹿児島、8連敗 名古屋に１－3 (南日本新聞)",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOFZIcUtiOUNSWUt1UWVRcVpKQnlPVC1MdEVna0tHdGxIWDI0OXdvOXRrOEc4SDdYTUt0UGU2Y0daSDloT0REaHNuZDg3N3hHUGNILTM0bThVOFZFMmNINmJHVnhiOS05VkRTdERlOGUxV2NlcFloUUtWTmg1NWF3SlFWQUJkbzhHR01PajdB?oc=5",
    "source": "Yahoo!ニュース",
@@ -262,18 +310,6 @@
     "가고시마"
    ],
    "title_kr": "【속보】SV리그 남자·가고시마, 8연패 나고야에 1-3 (남일본 신문)"
-  },
-  {
-   "title": "SVリーグ男子・フラーゴラッド鹿児島、8連敗 名古屋に１－3",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96SEc5ZzFydzh3cHE4TE5HVWVvdXVaQVlYQTRZZEhOM2ZKQW43eDhaV2ZrdUQ3NmY0VkpadFFTbXpKVTllQkNjMXdqYw?oc=5",
-   "source": "47NEWS",
-   "lang": "ja",
-   "time": "11/21 17:12",
-   "ts": 1795248720.0,
-   "teams": [
-    "가고시마"
-   ],
-   "title_kr": "SV리그 남자·가고시마, 8연패 나고야에 1-3"
   },
   {
    "title": "【速報】SVリーグ男子・フラーゴラッド鹿児島、8連敗 名古屋に１－3",
@@ -288,6 +324,18 @@
    "title_kr": "【속보】SV리그 남자·가고시마, 8연패 나고야에 1-3"
   },
   {
+   "title": "SVリーグ男子・フラーゴラッド鹿児島、8連敗 名古屋に１－3",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96SEc5ZzFydzh3cHE4TE5HVWVvdXVaQVlYQTRZZEhOM2ZKQW43eDhaV2ZrdUQ3NmY0VkpadFFTbXpKVTllQkNjMXdqYw?oc=5",
+   "source": "47NEWS",
+   "lang": "ja",
+   "time": "11/21 17:12",
+   "ts": 1795248720.0,
+   "teams": [
+    "가고시마"
+   ],
+   "title_kr": "SV리그 남자·가고시마, 8연패 나고야에 1-3"
+  },
+  {
    "title": "日鉄堺BZの第6節ホーム戦にNMB48中川朋香さんと吉本新喜劇の重谷ほたるさんが来場決定！",
    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ySVJRRWI3Rm5rUTRzd1Z6ZXRKbXh2ak1FX1lCb1BseGh1TUthdzNqNXB1MFlsUEZOMFZmR3FPWGpMTENPUnhIWkFqYUhtRjJ4Q3c?oc=5",
    "source": "バレーボールキング",
@@ -300,16 +348,16 @@
    "title_kr": "사카이의 제6절 홈전에 NMB48 나카가와 토모카씨와 요시모토 신키극의 시게타니 호타루씨가 입장 결정!"
   },
   {
-   "title": "【速報】SVリーグ・岡山シーガルズ 東レアローズ滋賀にストレート勝ち 21日",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1icDBsTHlRMEZWd2wxekdxMDJOTUhKaGJ4V3pJWXlUQkJwakdPWjM2QmhrWUtkcnQwUFRORnM2RWhWUDdUNmNqVGFtb0RUbm1y?oc=5",
-   "source": "KSBニュース",
+   "title": "【速報】SVリーグ・岡山シーガルズ　東レアローズ滋賀にストレート勝ち　21日",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aTlJCS1dURElla0VVakdXbUowa3RSRnpLVzdNNGlnWFZtVU5NRnJRbHZwZVp3R1h1RjgxdU52ZTZzTWFrRmdKRmhRUUd6VjhxcHhhb09WWTRjaDhuckHSAWNBVV95cUxPTkZqZS1YVmpMeXFLTzBIOVcxSHZCc3JoZjFrN3Ftc3FubjJiekRYT2pEODN1R0pyQThRbDAzTEp1ZG1jdWdfV0hxT3ZQVmdNNVcwMnk3YjFzbF9jZ1A0NUVpZEk?oc=5",
+   "source": "Infoseek",
    "lang": "ja",
    "time": "11/21 14:52",
    "ts": 1795240320.0,
    "teams": [
     "도레이"
    ],
-   "title_kr": "【속보】SV리그・오카야마 시걸즈 도레이 시가에 스트레이트 승리 21일"
+   "title_kr": "【속보】SV리그・오카야마 시걸즈 도레이 시가에 스트레이트 승 21일"
   },
   {
    "title": "【2026/11/15 ハイライト】2026-27 大同生命SV.LEAGUE MEN 第4節 GAME2 大阪Ｂ vs F鹿児島",
@@ -350,6 +398,18 @@
    "title_kr": "오사카B가 블랙 프라이데이 기획을 실시! 11/27부터 한정 상품 상품 판매"
   },
   {
+   "title": "大阪Bがブラックフライデー企画を実施！ 11/27から限定商品グッズ販売（バレーボールキング）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yamV6ZU9zcmlvZ3Z1WEUxV2JNN3FUVGNma05NV3lXcUZIcVJaQzFtMlBhWHVMcXdUektqbUVIOXlrbmV2aWpkMDJaZ1BITjBuVmZnNTZwYUhWUUZycHB6WWtEdUN4RE1kejFuOXVFZTdCZVc4Z3AwLVBvcTZjWE0?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "time": "11/21 12:05",
+   "ts": 1795230300.0,
+   "teams": [
+    "오사카B"
+   ],
+   "title_kr": "오사카B가 블랙 프라이데이 기획을 실시! 11/27부터 한정 상품 상품 판매(배구 킹)"
+  },
+  {
    "title": "2027/1/30(土) 《エムット presents SV.LEAGUE ALL STAR GAMES 2026-27 HOKKAIDO》チケット・駐車券追加販売情報！",
    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsZHBZOHk1UGMyRlhqZmF3bHFTYWFOckowLU8zQlJNdlgxb1BNVDM3OWJfcmpZcTRBUUZ0QUN5cm16VzJMcnlBQVhmVFpEbFE?oc=5",
    "source": "北海道ボールパークFビレッジ",
@@ -370,88 +430,6 @@
     "가고시마"
    ],
    "title_kr": "「가고시마」로부터 사코다 히로시 선수가, 「에무트 presents SV리그 ALL STAR"
-  },
-  {
-   "title": "【バレー】WD名古屋がF鹿児島をストレートで下し、8勝目 SV男子（バレーボールマガジン）",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oSlEtSHdRX2VTQzVwYjlnSHk2c0ZsV3prT08yaEctMDZ2TWpPZ3I3LS1BUmw0c1BPTmZucVRSN2ExLXBUMGFwR2IyVkFMNk1Dbm14VkFockN4X0lBSThDdUVleUY0VUdqVW0ySFpCUWNuNExaSVowc1hGa2RNS3c?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "time": "11/20 22:28",
-   "ts": 1795181336.0,
-   "teams": [
-    "WD나고야",
-    "가고시마"
-   ],
-   "title_kr": "【배구】 WD나고야가 가고시마를 스트레이트로 내려, 8승째 SV남자(배구 매거진)"
-  },
-  {
-   "title": "イエスタは21日から強豪サントリーとホーム戦 ヴォレアスはアウェイで広島と SVリーグ",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wMGxsV0s1SW9BSk5QczBGU09jS3hXY1BsM0pTTUxSS19pXzNmektlME1tWVB5bHJTekZWS2J5S3dQZ25uaDhFbWw2SHAxNnByYUltVVN2dVdBUQ?oc=5",
-   "source": "北海道新聞デジタル",
-   "lang": "ja",
-   "time": "11/20 21:40",
-   "ts": 1795178416.0,
-   "teams": [
-    "산토리",
-    "보레아스"
-   ],
-   "title_kr": "예스타는 21일부터 강호 산토리와 홈전 보레아스는 어웨이에서 히로시마와 SV리그"
-  },
-  {
-   "title": "サンダーズの西本圭吾、オールスター出場 バレーボールSVリーグ",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OTlA4SlMyRll5WGlUZXNyZW95aVdwS3V1UlV5V1VlRG05OUhwX2tuMHRuVzNJVjhOWXlFbkp2VnBHcVgxMmd0UllRbnZ1Q3lRbFRPQW82djczQQ?oc=5",
-   "source": "中国新聞デジタル",
-   "lang": "ja",
-   "time": "11/20 20:56",
-   "ts": 1795175772.0,
-   "teams": [],
-   "title_kr": "썬더스의 니시모토 게이고, 올스타 출전 배구 SV리그"
-  },
-  {
-   "title": "名古屋が8勝目 バレーボールSVリーグ",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Ya040WkVOUU12NVJZZHkxVmRLWXNEUGx6bDVVVUdUVmo1YTg3ajhUS2k4MVJNVElrcmlVQWRTd1NFLV82SmRPR2x2aw?oc=5",
-   "source": "47NEWS",
-   "lang": "ja",
-   "time": "11/20 20:43",
-   "ts": 1795175033.0,
-   "teams": [],
-   "title_kr": "나고야가 8승째 배구 SV리그"
-  },
-  {
-   "title": "2026-27 大同生命SV.LEAGUE MEN レギュラーシーズン 第5節 vs.信州松本トライデンツ戦｜マッチデープログラム",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXYVpLbjNHcjlNay1rYi10OUZHNHBJSHhlUXhvZm1QZjVjdy1BWUlwTkdtOWhMV05SLW5jcVlUdWl5cHFHWktwV2ZEVUx6cHJOUTJlZ0F2YnVHRXFzRURDalFiZ2h0dw?oc=5",
-   "source": "大阪ブルテオン",
-   "lang": "ja",
-   "time": "11/20 20:30",
-   "ts": 1795174229.0,
-   "teams": [
-    "마쓰모토"
-   ],
-   "title_kr": "2026-27 다이도생명SV리그 MEN 레귤러 시즌 제5절 vs. 마츠모토 전 | 매치데이 프로그램"
-  },
-  {
-   "title": "【速報】SVリーグ男子・フラーゴラッド鹿児島、７連敗 名古屋に０―３（南日本新聞）",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nOWxqQUxwR3JDUGcyZjZlMEpSNVpzaUJ4ek51QUxGVkFuM3VjVmNudC1DQUt5eVhxTkpTclB6RUxVel9HTmVUTU5LZWNiOUVQRmN0VFJobHlJakZJX09nSS13QlcwMkVWWkQyWHRTMG5sVmd6RVE5SXRPeWN2QXM?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "time": "11/20 20:25",
-   "ts": 1795173922.0,
-   "teams": [
-    "가고시마"
-   ],
-   "title_kr": "【속보】SV리그 남자·가고시마, 7연패 나고야에 0-3(남일본 신문)"
-  },
-  {
-   "title": "【速報】SVリーグ男子・フラーゴラッド鹿児島、７連敗 名古屋に０―３",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5aG42U2p2ZjRjV0FzY3Q2WEotTHhma0EzVWR0enMyeHJYSTlGSGJza3NOc2lXblY5M251MUNKWlZSbjY1VnMtcHdITG5fdE9iSWMtXzVVSQ?oc=5",
-   "source": "南日本新聞",
-   "lang": "ja",
-   "time": "11/20 20:15",
-   "ts": 1795173300.0,
-   "teams": [
-    "가고시마"
-   ],
-   "title_kr": "【속보】SV리그 남자·가고시마, 7연패 나고야에 0-3"
   }
  ]
 }
