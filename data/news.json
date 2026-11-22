@@ -1,6 +1,64 @@
 {
  "items": [
   {
+   "title": "「相手を倒す覚悟」を胸に巻き返しへ／東レアローズ静岡",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YVFVWZUthOXFQU1ZmWURxMHB3R2ZIcGVGeVFDOUlhbUlic0FjZ2U2R3FXWnFRa3RUX1h6c2VnSTFsckV1ckJKZWxTQTJBU3laUTFDdWdteHd3SWhUTkF0ZkZ4VVZpME5sbGpWTWx1Q3pJUmc?oc=5",
+   "source": "スポーツナビ",
+   "lang": "ja",
+   "time": "11/22 19:30",
+   "ts": 1795343442.0,
+   "teams": [
+    "도레이"
+   ],
+   "title_kr": "「상대를 쓰러뜨리는 각오」를 가슴에 되감아에/도레이"
+  },
+  {
+   "title": "男子は大阪Bが9勝目、女子はSAGA久光が10勝目 バレーボールSVリーグ",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwOUY1TWFvMnFxUGtkVTE5QTVDRWszek4tVXpsQ0w4WlJfbGtHRTVYeVlKNE0ycGxBeTRxekZrcEhZVjRMeTZFWW9oRFhpN3E0NlA3Y1lXdDVZeHlrVDVtLTQtZy04V2E1SFh2RlMySGE1bzRJYVE?oc=5",
+   "source": "産経ニュース",
+   "lang": "ja",
+   "time": "11/22 18:57",
+   "ts": 1795341454.0,
+   "teams": [
+    "오사카B"
+   ],
+   "title_kr": "남자는 오사카B가 9승째, 여자는 SAGA 히사미츠가 10승째 배구 SV리그"
+  },
+  {
+   "title": "【速報】SVリーグ・岡山シーガルズ 東レアローズ滋賀に勝利 22日（KSB瀬戸内海放送）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RUG1RYmhwMmE1eDRvckNfX1FwaDl2aU1HUjlBaVgzZ1ZTSHdVcHJaYU5YQmtXVTZlSWQzbFllcV9VZ2F1MFI0Vll4MDFxb3FyNlhJZ0MzM09VNFVIbWY5cGR5RWVkUDhoYWdJSVBEMDA5ZE50b0ZDX2VxREU3amc?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "time": "11/22 18:25",
+   "ts": 1795339507.0,
+   "teams": [
+    "도레이"
+   ],
+   "title_kr": "【속보】SV리그・오카야마 시걸즈 도레이 시가에 승리 22일(KSB 세토 내해 방송)"
+  },
+  {
+   "title": "【速報】SVリーグ・岡山シーガルズ　東レアローズ滋賀に勝利　22日",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56bHVYeUdDNHY4S19zSzJTRVNpMkxPNW1xUjRZV1BSVWdLR3JZc0pMZldhckdUdF9XRzAwdGZwNDBtLVZaMjhGZmhRal93NUVLbHJPOGJ3bWVXLThrYXfSAWNBVV95cUxOVTlDT0RoM3hXeWhwNllzMW5GNVdGdGlwcnE5T0VXNExvODlJWUpYd1RaS2ZIRXpQTGxzWFIzQUxxcHRzVW1rcl96S0h6WlFGdndINWczM0RadDlvUnpNdmNmMEU?oc=5",
+   "source": "Infoseek",
+   "lang": "ja",
+   "time": "11/22 18:25",
+   "ts": 1795339500.0,
+   "teams": [
+    "도레이"
+   ],
+   "title_kr": "【속보】SV리그・오카야마 시걸즈 도레이 시가에 승리 22일"
+  },
+  {
+   "title": "【SVリーグ】２連勝",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1MaFBxcGdEakJNcHpUX1BBVXN6eGFpVmd2Q1dISGtLdDRla3NsNzNMVzRqVFZqZmdYejA5bXdkMXkwU3dxZ3k1RkZQa3dVM2N1RmVNUWw4ZlpWT1FVQ05wV3lpZlFTX25iSnBmcWJMQnpOSzg?oc=5",
+   "source": "スポーツナビ",
+   "lang": "ja",
+   "time": "11/22 18:20",
+   "ts": 1795339200.0,
+   "teams": [],
+   "title_kr": "【SV리그】2연승"
+  },
+  {
    "title": "大阪Bが9勝目 バレーボールSVリーグ",
    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MT09JU0VianV3SFRsZ1pvNWJYWjJ3eVE4cm95TXFBd1dQQkcyTTBOZktBblUyUmgxRU5SWHBna1ozWE1EQzZ2NS0yVWx3eXlnTnhKV0FlMmJDdw?oc=5",
    "source": "北海道新聞デジタル",
@@ -107,6 +165,21 @@
    "title_kr": "【SV리그 남자】신천지에서 출전 기회는 늘어난다? 2026-27 시즌에 이적한 주목의 선수 5명"
   },
   {
+   "title": "STINGS愛知が東京GBに逆転で勝利し、連敗を止める。ヴォレアスが広島THに3-1で勝利し、4位に浮上 SV男子",
+   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UM0x3MUdhV2Z6bEY4VWlOSUZKd0tfOExJMzg2RmhxYV9jaDZsdkI5WnNWWm5FWUN5ckNLR29JcVlPMUd2OVZBVUZ4S0dKZw?oc=5",
+   "source": "バレーボールマガジン",
+   "lang": "ja",
+   "time": "11/22 01:53",
+   "ts": 1795280017.0,
+   "teams": [
+    "스팅스아이치",
+    "도쿄GB",
+    "보레아스",
+    "히로시마"
+   ],
+   "title_kr": "스팅스 아이치가 도쿄GB에 역전으로 승리하여 연패를 멈춘다. 보레아스가 히로시마에 3-1로 승리, 4위로 부상 SV남자"
+  },
+  {
    "title": "ＳＶリーグ男子・フラーゴラッド鹿児島、名古屋に敗れ8連敗 新加入小澤が奮闘",
    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9pMlpnYUtfTzRqUTRmLWhSZF83MERQLWw5M3JIeWNxTFJCRWlCeGR4NGJyQXVRaXpnaS16WUhMQ0JFMkxRRmh5RkdvRWxBMFVsTlg2TmN5NA?oc=5",
    "source": "南日本新聞",
@@ -117,6 +190,18 @@
     "가고시마"
    ],
    "title_kr": "SV리그 남자·가고시마, 나고야에 패해 8연패 신가입 오자와가 분투"
+  },
+  {
+   "title": "2セットダウンから反撃見せるも惜敗／東レアローズ静岡",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4ydWQ4a0FVUzJqdktqeGk0b0ppeDFNanhnSlVoTzlnRkRtTElWVDhLeW9lNUdJTTA0Rl8xaHJMOUduRERvUi1Pc3k2WEFrZmItMXFUcWVLSXZWQ2FWWEZ0ZWxyQWxHOHZHbGppSk84RXlUZFk?oc=5",
+   "source": "スポーツナビ",
+   "lang": "ja",
+   "time": "11/21 21:10",
+   "ts": 1795263000.0,
+   "teams": [
+    "도레이"
+   ],
+   "title_kr": "2세트다운에서 반격 보여도 아쉬운/도레이"
   },
   {
    "title": "いちき串木野市でホーム戦 SVリーグ第5節 フラーゴラッドvsウルフドッグス名古屋",
@@ -215,21 +300,9 @@
    "title_kr": "사카이의 제6절 홈전에 NMB48 나카가와 토모카씨와 요시모토 신키극의 시게타니 호타루씨가 입장 결정!"
   },
   {
-   "title": "【速報】SVリーグ・岡山シーガルズ 東レアローズ滋賀にストレート勝ち 21日（KSB瀬戸内海放送）",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QRzJnbFVYRzViTE5ST0F2bDBnOW45WmRnRlNCcmhkWnNQYjQydTlkekZ4bk5DOWJEeE54dDN6d3RpVHFIUXlta25EYzA0Mk4tUVc3WjY2d2psUUNTZjU5OW40TFZfam1uUkZvMzluSU9UWjVFNFNIVzhTcUdKUTg?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "time": "11/21 14:52",
-   "ts": 1795240333.0,
-   "teams": [
-    "도레이"
-   ],
-   "title_kr": "【속보】SV리그・오카야마 시걸즈 도레이 시가에 스트레이트 승리 21일(KSB 세토 내해 방송)"
-  },
-  {
-   "title": "【速報】SVリーグ・岡山シーガルズ　東レアローズ滋賀にストレート勝ち　21日",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aTlJCS1dURElla0VVakdXbUowa3RSRnpLVzdNNGlnWFZtVU5NRnJRbHZwZVp3R1h1RjgxdU52ZTZzTWFrRmdKRmhRUUd6VjhxcHhhb09WWTRjaDhuckHSAWNBVV95cUxPTkZqZS1YVmpMeXFLTzBIOVcxSHZCc3JoZjFrN3Ftc3FubjJiekRYT2pEODN1R0pyQThRbDAzTEp1ZG1jdWdfV0hxT3ZQVmdNNVcwMnk3YjFzbF9jZ1A0NUVpZEk?oc=5",
-   "source": "Infoseek",
+   "title": "【速報】SVリーグ・岡山シーガルズ 東レアローズ滋賀にストレート勝ち 21日",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1icDBsTHlRMEZWd2wxekdxMDJOTUhKaGJ4V3pJWXlUQkJwakdPWjM2QmhrWUtkcnQwUFRORnM2RWhWUDdUNmNqVGFtb0RUbm1y?oc=5",
+   "source": "KSBニュース",
    "lang": "ja",
    "time": "11/21 14:52",
    "ts": 1795240320.0,
@@ -275,6 +348,28 @@
     "오사카B"
    ],
    "title_kr": "오사카B가 블랙 프라이데이 기획을 실시! 11/27부터 한정 상품 상품 판매"
+  },
+  {
+   "title": "2027/1/30(土) 《エムット presents SV.LEAGUE ALL STAR GAMES 2026-27 HOKKAIDO》チケット・駐車券追加販売情報！",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsZHBZOHk1UGMyRlhqZmF3bHFTYWFOckowLU8zQlJNdlgxb1BNVDM3OWJfcmpZcTRBUUZ0QUN5cm16VzJMcnlBQVhmVFpEbFE?oc=5",
+   "source": "北海道ボールパークFビレッジ",
+   "lang": "ja",
+   "time": "11/21 12:00",
+   "ts": 1795230000.0,
+   "teams": [],
+   "title_kr": "2027/1/30(토) 《엠트 presents SV리그 ALL STAR GAMES 2026-27 HOKKAIDO》 티켓・주차권 추가 판매 정보!"
+  },
+  {
+   "title": "「フラーゴラッド鹿児島」から迫田郭志選手が、「エムット presents SV.LEAGUE ALL STAR",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLd09MQ3Y0Tm9rWkVtS3RaRXFTQk5iNzBvZnhoY29ZQ0RQdDk4NVR6Z3BxNDQ5d3JTU21GMnAzTHA2a0dlelJpNVg1R3U5UE9yWGsxTFZ6VTBiLTctVWFyNG9naV9HTmxJTDZ3VHdtUmptZU1uUjZySQ?oc=5",
+   "source": "ニコニコニュース",
+   "lang": "ja",
+   "time": "11/21 08:45",
+   "ts": 1795218336.0,
+   "teams": [
+    "가고시마"
+   ],
+   "title_kr": "「가고시마」로부터 사코다 히로시 선수가, 「에무트 presents SV리그 ALL STAR"
   },
   {
    "title": "【バレー】WD名古屋がF鹿児島をストレートで下し、8勝目 SV男子（バレーボールマガジン）",
@@ -357,84 +452,6 @@
     "가고시마"
    ],
    "title_kr": "【속보】SV리그 남자·가고시마, 7연패 나고야에 0-3"
-  },
-  {
-   "title": "「フラーゴラッド鹿児島」から迫田郭志選手が、「エムット presents SV.LEAGUE ALL STAR GAMES 2026-27 HOKKAIDO」に選出！ | 株式会社チェンジホールディングスのプレスリリース",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XQWZWSV9SaHBOMUg3clNuYllKQUJXQlR2NWFxOGF3eDloX1pLdkc1NmNJaGprWi1CbXNBRFpwcDJydk1LZkpPRnpfN1VRUUtOd2ZSX0FwQ1ZSQ0YteGpydUlOTlhNSzFXUHc?oc=5",
-   "source": "PR TIMES",
-   "lang": "ja",
-   "time": "11/20 18:42",
-   "ts": 1795167722.0,
-   "teams": [
-    "가고시마"
-   ],
-   "title_kr": "「가고시마」에서 사코다 히로시 선수가, 「에무트 presents SV리그 ALL STAR GAMES 2026-27 HOKKAIDO」에 선출! |"
-  },
-  {
-   "title": "SVリーグオールスターの出場56選手が決定…キャプテンは北窓絢音、荒木彩花、水町泰杜、宮浦健人",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWTFQZTJFeDdIVkN3VkFzSmUzbDJLNk1IZFlMT3cxQmlDdm9mdVZnclcySFA2RzdCcjAxZHkwTmFlSlJvS3pWdE41b1hLaTdudUNoblJ0YXFVQnJIeG9QMV85LVFkaUUzSzVicmFKcTNhVDJBaGt3NzNZdG1HYzhzSWdB0gGHAUFVX3lxTE4tWEVYcHZlTWNReUM1VEhtS2VCanZrVnBDV1hNMUtIdmd1T3J3UnduMWVwVFZrUWdYVHJyTW5Pb2t2R1NMT0ItMWpicC0ybzRMaUdKYm1PNjQ3QVZpaWd3NTVHRWJhQ1BldTM4a1YybXU3aDRUVW5fZnNtalhILV9FdEo3Z0pkYw?oc=5",
-   "source": "ｄメニューニュース",
-   "lang": "ja",
-   "time": "11/20 18:35",
-   "ts": 1795167300.0,
-   "teams": [],
-   "title_kr": "SV리그 올스타 출전 56선수 결정… 캡틴은 북창 아야네, 아라키 아야카, 미즈마치 다이토, 미야우라 겐토"
-  },
-  {
-   "title": "SVリーグ男子のオールスター出場選手が決定！ 全ポジションでWD名古屋選手が最多得票",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lT1VQQ2UtS0V1VGE5R0dPbXhZeGxJYk0wS3VzNzdqMlMyMVRBdmZSU1RFSHczVlpsajZDN0NUWGNRUFVkbG5lUWhZcjNpbFFobEE?oc=5",
-   "source": "バレーボールキング",
-   "lang": "ja",
-   "time": "11/20 18:10",
-   "ts": 1795165803.0,
-   "teams": [
-    "WD나고야"
-   ],
-   "title_kr": "SV리그 남자의 올스타 출전 선수가 결정! 전 포지션에서 WD나고야 선수가 최다득표"
-  },
-  {
-   "title": "【SVオールスター】出場選手決定のお知らせーエムット presents SV.LEAGUE ALL STAR GAMES 2026-27 HOKKAIDOー",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40dVJzX0U5UENvY2YxQmlZVGpNRmQ3WmlKT19BUFR5SjJ0bkExemw2cTZTLWRZNkNudHZOVXA1djV3cEJBaDdNY2dhSFlQNGZSc3Rv?oc=5",
-   "source": "ジャパンバレーボールリーグ",
-   "lang": "ja",
-   "time": "11/20 18:00",
-   "ts": 1795165220.0,
-   "teams": [],
-   "title_kr": "【SV 올스타】출전 선수 결정의 소식-에무트 presents SV리그 ALL STAR GAMES 2026-27 HOKKAIDO-"
-  },
-  {
-   "title": "1/30(土)《エムットpresents SV.LEAGUE ALL STAR GAMES 2026-27 HOKKAIDO》大会概要およびタイムスケジュールのお知らせ | お知らせ | HOKKAIDO BALLPARK F VILLAGE | 北海道ボールパークFビレッジ",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xM01IdDlXd3JnaWdtaG01anBkVW15RzAxcHJIVENVVVVfdTJmeVFSVU5rY0M0czVsQmFCNDROUmM2Zm5sRGRsUkpTSkg3YTg?oc=5",
-   "source": "北海道ボールパークFビレッジ",
-   "lang": "ja",
-   "time": "11/20 18:00",
-   "ts": 1795165200.0,
-   "teams": [],
-   "title_kr": "1/30(토)《에무트 presents SV리그 ALL STAR GAMES 2026-27 HOKKAIDO》대회 개요 및 타임 스케줄의 소식 | 소식 | HOKKAIDO BALLPARK F VILLAGE | 홋카이도 볼 파크 F빌리지"
-  },
-  {
-   "title": "東京GBホーム会場近くのGiGOで応援コラボキャンペーンが開催中！",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wQ0MtMHVOQ2VrV2lxWk1zVU9MaUFJTDlYR01HU05fYzkwMXNJQk5Zd2U0MkpqYTFCT0xzNjZYdmZMR2o4emcwQTQ4NnFEQ1J1SUE?oc=5",
-   "source": "バレーボールキング",
-   "lang": "ja",
-   "time": "11/20 17:56",
-   "ts": 1795165002.0,
-   "teams": [
-    "도쿄GB"
-   ],
-   "title_kr": "도쿄GB 홈 회장 근처의 GiGO에서 응원 콜라보 캠페인 개최 중!"
-  },
-  {
-   "title": "【バレー】身長180㎝の大型リベロ、ここにあり。WD名古屋U15の馬場慶が今週末にSVリーグU15選手権の決勝大会へ",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QZkl6NTFMOEdDSVhXdTRYRG5PMjVsejZfU21SQ3BOcUF1b003aXdUa1ZwUzQwZUhSTklEZkFiYmMtTU1OWXcxX29QT1lCWjRLWU1FNmU0SEpobGdqaVdoM3ZtUnFRYno0UE1PaHAzSW0tNXl1b3Jqb3BQSHhRRE0?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "time": "11/20 17:54",
-   "ts": 1795164884.0,
-   "teams": [
-    "WD나고야"
-   ],
-   "title_kr": "【배구】신장 180 cm의 대형 리베로, 여기에 있다. WD나고야 U15의 바바 경이 이번 주말에 SV리그 U15 챔피언십 결승 대회에"
   }
  ]
 }
