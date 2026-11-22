@@ -1856,11 +1856,26 @@
    "home": "스팅스아이치",
    "away": "도쿄GB",
    "venue": "CNA 아레나 아키타",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38021/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38021"
+   "sets": [
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     14
+    ],
+    [
+     25,
+     16
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
   },
   {
    "gid": "sv38025",
@@ -1871,11 +1886,26 @@
    "home": "사카이",
    "away": "도레이",
    "venue": "닛폰제철 사카이 체육관",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38025/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38025"
+   "sets": [
+    [
+     25,
+     20
+    ],
+    [
+     26,
+     24
+    ],
+    [
+     25,
+     22
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
   },
   {
    "gid": "sv38019",
@@ -1886,11 +1916,26 @@
    "home": "홋카이도YS",
    "away": "산토리",
    "venue": "홋카이 키타에루",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38019/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38019"
+   "sets": [
+    [
+     21,
+     25
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     24,
+     26
+    ]
+   ],
+   "sh": 0,
+   "sa": 3
   },
   {
    "gid": "sv38023",
@@ -1901,11 +1946,26 @@
    "home": "오사카B",
    "away": "마쓰모토",
    "venue": "파나소닉 아레나",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38023/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38023"
+   "sets": [
+    [
+     25,
+     20
+    ],
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     16
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
   },
   {
    "gid": "sv38027",
@@ -1916,11 +1976,26 @@
    "home": "히로시마",
    "away": "보레아스",
    "venue": "히로시마 선플라자 홀",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 5,
    "url": "https://www.svleague.jp/match/detail/38027/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38027"
+   "sets": [
+    [
+     25,
+     15
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     29,
+     27
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
   },
   {
    "gid": "sv38028",
