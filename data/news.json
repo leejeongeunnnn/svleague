@@ -1,14 +1,14 @@
 {
  "items": [
   {
-   "title": "(2026/12/29) ～大同生命SVリーグ情報番組～【まるっとバレーボール】",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE95QVFPOXEzTzZ3cWhqay1sTFByWFJrLU9aZ3MtWlZRdzJKaDZWS3NGQ1AtbWNkUVFEdWVVU2plbFhWNEozNThaeGFnVllQM0FhVWFlX0FhcF9xOVNael9iUFY4MWI1eGFBbnktYkRJSkxOdw?oc=5",
+   "title": "(2026/12/01) ～大同生命SVリーグ情報番組～【まるっとバレーボール】",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCcW5aYlpFa1NSQ0dmSzQ5NFFXcnUyWHNhY2pzbjBwM2ZGOUhlblBmZ2VSSk44VGZtOEw2eXp0NkFxaTZtb2l0dkJ5R3NqcDU1NERqZTRtcVZCNFZQRVZxaVdscFRWbW5sU202ZjlqVU1BQQ?oc=5",
    "source": "ABEMA",
    "lang": "ja",
    "time": "11/24 19:19",
    "ts": 1795515576.0,
    "teams": [],
-   "title_kr": "(2026/12/29) ~다이도생명 SV리그 정보 프로그램~【마루토 배구】"
+   "title_kr": "(2026/12/01) ~다이도생명 SV리그 정보 프로그램~【마루토 배구】"
   },
   {
    "title": "「フラーゴラッド鹿児島」から迫田郭志選手が、「エムット presents SV.LEAGUE ALL STAR GAMES 2026-27 HOKKAIDO」に選出！",
@@ -92,6 +92,19 @@
    "ts": 1795431300.0,
    "teams": [],
    "title_kr": "아쿠아, 지난 시즌 준우승 오사카에 3세트 연취"
+  },
+  {
+   "title": "【画像】いちき串木野市に約2500人が詰めかける SVリーグ第5節 フラーゴラッド鹿児島vsウルフドッグス名古屋",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yRm5zWkpVRnZqUDRveHdpMXZlY3FiRE1HeFBSbDJoSVhLRHFWZlItR2tLOEU3TDA5cHJZQ1BBOXdvOTRXZ1drU0JxTzJIYzg2NjV0NXotLXlURnZGZHREMzZscEN4VWg5ZU9COEduaXlMRk9ja0pxT1BHczQ?oc=5",
+   "source": "ライブドアニュース",
+   "lang": "ja",
+   "time": "11/23 19:11",
+   "ts": 1795428694.0,
+   "teams": [
+    "가고시마",
+    "WD나고야"
+   ],
+   "title_kr": "【이미지】이치키 꼬치노시에 약 2500명이 채워진다 SV리그 제5절 가고시마 vs WD나고야"
   },
   {
    "title": "いちき串木野市に約2500人が詰めかける　SVリーグ第5節　フラーゴラッド鹿児島vsウルフドッグス名古屋",
@@ -195,23 +208,6 @@
    "ts": 1795393440.0,
    "teams": [],
    "title_kr": "【SV리그 남자】 제5절(11월 20-22일) 결과·순위표"
-  },
-  {
-   "title": "【バレー】大阪B、STINGS愛知、日鉄堺BZがホームで、サントリーがアウェイで2連勝。広島THとヴォレアスは1勝1敗に SV男子",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83WE90UllyemdMZjdoMjZsRjZ3Yzk0WWpQSWtZbm9PWG5vdGFKRERfWmxJWnZPYU9hMU9xM0hYY1puR1J5eWNFTFJzWjhHVjduLUl5STg3bDlXbXZnenZvb2ZFckR6a0hUZGR0ZUM2ZWFLSXE4LUtrTk5GbVBVcDA?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "time": "11/23 07:56",
-   "ts": 1795388192.0,
-   "teams": [
-    "오사카B",
-    "스팅스아이치",
-    "사카이",
-    "산토리",
-    "히로시마",
-    "보레아스"
-   ],
-   "title_kr": "【배구】 오사카B , 스팅스 아이치 , 사카이 가 홈에서, 산토리 가 어웨이에서 2연승. 히로시마와 보레아스는 1승 1패에 SV남자"
   }
  ]
 }
