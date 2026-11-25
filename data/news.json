@@ -1,26 +1,126 @@
 {
  "items": [
   {
-   "title": "【写真・1枚目】SVリーグは次のステージへ！ 大河チェアマンが語る「REBORN Ⅲ」の5つの挑戦と未来像【チェアマン通信「SVリーグのリアルをお届け」 #8】",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOak12cEUtcjdVcXBaakpfbXBnSU5yRkR1aEdub2dfWXNwVGJCV2UwNF9YcEpma0hMZlBsUHV4U1ZqN1RaOG02djF5WmNscU1IZWZONFhCSW1ObGxTZUhfOFRNSEtWT3RDOERqSmRlV01kbHZIX0IxMGFyMnBwcnQxMnFoNDdBdjNhSW84?oc=5",
-   "source": "バレーボールキング",
+   "title": "【東京グレートベアーズ】ホームゲームにTOBE TRAINEEの出演決定！有明コロシアムにて開催。",
+   "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE53SVh0LTFCSVlwOWl2ems0NjJqczctVWhjOTRSUmJwQTN0Q05hTnVCbEgzY3VzS1l1Q0E2TUozMHVwVkJH?oc=5",
+   "source": "Emo!miu",
    "lang": "ja",
-   "time": "11/25 12:10",
-   "ts": 1795576239.0,
-   "teams": [],
-   "title_kr": "【사진・1장째】SV리그는 다음의 스테이지에! 대하체어맨이 말하는 「REBORN III」의 5개의 도전과 미래상"
-  },
-  {
-   "title": "【東京グレートベアーズ】ホームゲームにTOBE TRAINEE の出演決定！",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56RFI5TTlFUE1FU2tuc3o3Nm5EMU1pUFNTaUozdndabXZ0Q1JPWEUwbEMxbFAxLTZRaXgzd2oyenpkdmw1Qi1tZEdiNGw2ZWM3eEpWd095SFV0N2dOYVNtMjkxeldEQ1dZX2c?oc=5",
-   "source": "PR TIMES",
-   "lang": "ja",
-   "time": "11/25 12:00",
-   "ts": 1795575602.0,
+   "time": "11/25 19:01",
+   "ts": 1795600916.0,
    "teams": [
     "도쿄GB"
    ],
-   "title_kr": "【도쿄GB】 홈 게임에 TOBE TRAINEE의 출연 결정!"
+   "title_kr": "【도쿄GB】 홈 게임에 TOBE TRAINEE의 출연 결정! 아리아케 콜로세움에서 개최."
+  },
+  {
+   "title": "東京グレートベアーズの大阪ブルテオン戦にTOBE TRAINEEが出演！ 歌唱パフォーマンスも実施",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EZlc0Qk5Db2wtelpOOXhDalotZGtBbmRLY1ZHMHM1VlpXX3VXMXhqcHpfSHQtS2pud0p2Snh2cHYwWWxubktmOUpoVDRIWFBkNEE?oc=5",
+   "source": "バレーボールキング",
+   "lang": "ja",
+   "time": "11/25 18:52",
+   "ts": 1795600334.0,
+   "teams": [
+    "도쿄GB",
+    "오사카B"
+   ],
+   "title_kr": "도쿄GB의 오사카B전에 TOBE TRAINEE가 출연! 가창 퍼포먼스도 실시"
+  },
+  {
+   "title": "【AWAY】11/28（土）・11/29（日）ヴォレアス北海道戦 試合・グッズ情報",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGY1prdlZKTWZDalV4ZTdRa2E3bXQ4V2pxUG5EOWNkTDNWUW42ME1KVUNua0VCbWpJNjZseDFvTy1zUmlmYUI2YWptZWljeGw0SUo4U1RvUDR1TlFoTkV1NEZNRl9uMVk?oc=5",
+   "source": "大阪ブルテオン",
+   "lang": "ja",
+   "time": "11/25 16:31",
+   "ts": 1795591875.0,
+   "teams": [
+    "보레아스"
+   ],
+   "title_kr": "【AWAY】11/28(토)・11/29(일) 보레아스 전 경기・상품 정보"
+  },
+  {
+   "title": "【SV男子 第6節見どころ】6連勝中のサントリーとWD名古屋が激突！ 日鉄堺BZ対東京GBは平日ナイターで開催",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CMXczSnVRbjQ0aFowWjYwOWlhMktEc25Zd2JGYUtmNE5IM1hZb0tqeEExV0V5Q3dQQklBZnBQcjQyRTRvUUhXenpwLTAxTlpfXzdsX2F1cEZiMDRQQl9LWEZ5dzc3OEpnUHpZTEdESE9BTjg?oc=5",
+   "source": "スポーツナビ",
+   "lang": "ja",
+   "time": "11/25 16:00",
+   "ts": 1795590000.0,
+   "teams": [
+    "산토리",
+    "WD나고야",
+    "사카이",
+    "도쿄GB"
+   ],
+   "title_kr": "【SV 남자 제6절 볼 만한 곳】6연승중의 산토리와 WD나고야가 격돌! 사카이 대 도쿄GB는 평일 나이터에서 개최"
+  },
+  {
+   "title": "SVリーグ男子オールスター出場選手が決定　キャプテンはいずれもWD名古屋の水町泰杜と宮浦健人",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hbVNsM2hlaEtENjNTMWtzdDRGaEhPN05XUzMxYlVQM29EeVpnUGloTkZLejBpUENWWDVaYWpON3AwSS00NXFSNTNFdTJKRkY2TjcyUXJZejBYQ19JeEFGbW11bFRtNUHSAW9BVV95cUxOOGtNTWt5TnZ6NXRzQTBVVDNRdHlLNUtNUEZBNThaaE9HZGZkMXdNakgxR2xWZDRCOHhFYldmWEJMOEtTTVdoR2h4QWlia0pyWWdoWGVyUm1vaGs1NHF0TEVuM2NOVEE3RGc5MEdlLUU?oc=5",
+   "source": "月バレ.com",
+   "lang": "ja",
+   "time": "11/25 15:28",
+   "ts": 1795588103.0,
+   "teams": [
+    "WD나고야"
+   ],
+   "title_kr": "SV리그 남자 올스타 출전 선수가 결정 캡틴은 모두 WD나고야의 미즈마치 다이토와 미야우라 겐토"
+  },
+  {
+   "title": "【バレー】SVリーグ男子オールスター出場選手が決定 キャプテンはいずれもWD名古屋の水町泰杜と宮浦健人",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00SEhQcXZfUmNrR2hUaVBnYnFxNXhJUjN4MjNpbW0wbm1qYXhadVhuZzljRTZHamJLNWpyUzdORDUweW5EWi0tbHpiemJnQ0huNnZ6T29ueVZYT1FZYUoyMWxuQzlHR3ZQcHotSmF1ZEc5b090dG5IQWdzc21nd1U?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "time": "11/25 15:28",
+   "ts": 1795588084.0,
+   "teams": [
+    "WD나고야"
+   ],
+   "title_kr": "【배구】SV리그 남자 올스타 출전 선수가 결정 캡틴은 모두 WD나고야의 미즈마치 다이토와 미야우라 겐토"
+  },
+  {
+   "title": "(2026/11/24) ～大同生命SVリーグ情報番組～【まるっとバレーボール】",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sLXo2c2RMQnc0TzNMc3d5cUVRdGE1SHlUbnFJZ2RSNUhaSGFUU2xLU1k2LVZvWmVmeEx0S1oxaDd2bmRYbG12Z1YwWXJPekQwdkNIRkZXRFEybjhuQnlud1RGS01tUXRYelFXaEhOVG1Idw?oc=5",
+   "source": "ABEMA",
+   "lang": "ja",
+   "time": "11/25 15:12",
+   "ts": 1795587179.0,
+   "teams": [],
+   "title_kr": "(2026/11/24) ~다이도생명 SV리그 정보 프로그램~[마루토 배구]"
+  },
+  {
+   "title": "SVリーグ男子 STINGS愛知と日鉄堺BZが連敗を止めて連勝",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtbXlyNWxPc0czeVdCM05iZnIweW8yMzRkSUhtVDUtTlVmNzU0Q0NUUzB2a1dmdk1NZHRFSDFibTZSaUZHR0kxSU5KTzgtQm1SaGlfUWo5cll5aHd0YTNR?oc=5",
+   "source": "千葉テレビ放送株式会社",
+   "lang": "ja",
+   "time": "11/25 15:00",
+   "ts": 1795586412.0,
+   "teams": [
+    "스팅스아이치",
+    "사카이"
+   ],
+   "title_kr": "SV리그 남자 스팅스 아이치와 사카이가 연패를 멈추고 연승"
+  },
+  {
+   "title": "ともに6連勝中の3位・サントリーと2位・WD名古屋が激突。SVリーグ 男子第6節のみどころ",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02YV96d2oyaHhhWUJRbVN4T1JnTk1iaEF2czk0SVBlbGFHWHRHRzV3akV3YkIwUktDU2l6UmQ5RnlfZHlYb285Y0V0QUpaVjM5Qkhlb2lhR0hhS2ljY1VNdHZ2OFpQSDdRdVlwcW1B?oc=5",
+   "source": "J SPORTSコラム＆ニュース",
+   "lang": "ja",
+   "time": "11/25 14:29",
+   "ts": 1795584552.0,
+   "teams": [
+    "산토리",
+    "WD나고야"
+   ],
+   "title_kr": "함께 6연승 중인 3위·산토리와 2위·WD나고야가 격돌. SV리그 남자 제6절의 볼거리"
+  },
+  {
+   "title": "【写真・2枚目】SVリーグは次のステージへ！ 大河チェアマンが語る「REBORN Ⅲ」の5つの挑戦と未来像【チェアマン通信「SVリーグのリアルをお届け」 #8】",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Bd1M3UTA0STFtRUQxaGh0dWg0dU0tc2pBVjB0TWNoc1NUZUpKNjV3WkU5eGNSeHljU0ZrYklzVDRyNGpYZ0tVMkN0SVJSaXJmVjNkc1FBUDRGQ043Sjk1RGNjdllIUU43RlJKaEotZ3o?oc=5",
+   "source": "バレーボールキング",
+   "lang": "ja",
+   "time": "11/25 12:10",
+   "ts": 1795576240.0,
+   "teams": [],
+   "title_kr": "【사진・2장째】SV리그는 다음의 스테이지에! 대하체어맨이 말하는 「REBORN III」의 5개의 도전과 미래상"
   },
   {
    "title": "SVリーグは次のステージへ！ 大河チェアマンが語る「REBORN Ⅲ」の5つの挑戦と未来像【チェアマン通信「SVリーグのリアルをお届け」 #8】",
@@ -46,29 +146,43 @@
    "title_kr": "산토리 vs. 가고시마 (12/27) 남자 제9절【다이도생명SV리그 2026-27】"
   },
   {
-   "title": "東京グレートベアーズ vs. 大阪ブルテオン(12/27) 男子 第9節【大同生命SVリーグ 2026-27】",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ISjJvclpUSDBIMndHNElDVXRJSGVfYUxicTdYMVlYVkNsQTZScWh1R0d2OEdTblFmbDVWU1RkX0QtYkhXREU1NWRRTHczMFpjX1dwSEE0aTh2ZVJnM1lsZHFoT2ZlTl82NjJ1OEwxTU1TQQ?oc=5",
+   "title": "ウルフドッグス名古屋 vs. 広島サンダーズ(12/27) 男子 第9節【大同生命SVリーグ 2026-27】",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKU3lMWnNHbWI0VUd2S25EakcyN3hxekFfN1IwV3hES05nc1FGSnh2bGd6cFFHY21nM2ZwcWVOdC1Oall1WjFJVU10WFItVTdXY044dDNRMldud0NLYy0xamVIRXBCUUF2THlJcW4tTDc2Zw?oc=5",
    "source": "ABEMA",
    "lang": "ja",
    "time": "11/25 10:35",
    "ts": 1795570509.0,
    "teams": [
-    "도쿄GB",
-    "오사카B"
+    "WD나고야",
+    "히로시마"
    ],
-   "title_kr": "도쿄GB vs. 오사카B (12/27) 남자 제9절【다이도생명 SV리그 2026-27】"
+   "title_kr": "WD나고야 vs. 히로시마 (12/27) 남자 제9절【다이도생명SV리그 2026-27】"
   },
   {
-   "title": "アリーザ愛知 vs. 東レアローズ滋賀(12/06) 女子 西地区 第8節【大同生命SVリーグ 2026-27】",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Cc3RaeWt3NVUxUk1NOEE4QWlnVmdNUmFuNDdzSjZaUUpveDU3SUhIUGI2LVEtcXE4MWNTVkk2RHU4ZnFROUNMcV9rY3lpcTVsRVVmdzMteF9uZ0FTV2NzZk5xRGxISkFEZUJkV2JUcUZfZw?oc=5",
+   "title": "大阪ブルテオン vs. ジェイテクトSTINGS愛知(12/05) 男子 第7節【大同生命SVリーグ 2026-27】",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DZFI4ZnBIcXFmLUVhOGFmaXlIbERKbnhwZVpOeXBXM1d5V0QyMlRlem5XZUZJUWd0MVhFOThRenkxYTNuZ0xfSGp4VEF3S1hHWVZfdzVHNFN0WV81eThXR3JPaVlPVHNlQWZNODY0ay1OZw?oc=5",
    "source": "ABEMA",
    "lang": "ja",
    "time": "11/24 20:28",
    "ts": 1795519690.0,
    "teams": [
-    "도레이"
+    "오사카B",
+    "스팅스아이치"
    ],
-   "title_kr": "아리자 아이치 vs. 도레이 시가(12/06) 여자 니시 지구 제8절【다이도생명 SV리그 2026-27】"
+   "title_kr": "오사카B vs. 스팅스아이치 (12/05) 남자 제7절【다이도생명SV리그 2026-27】"
+  },
+  {
+   "title": "東京グレートベアーズ vs. サントリーサンバーズ大阪(12/19) 男子 第8節【【GOLDEN LIVE】大同生命SVリーグ 2026-",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtSXAwMzVMblBaUmF0cXBTRktpWXZKX0EwTFA3bjJnaFg3YVFfZ2w0Z2ttVHpIQ2NudVBkRk1RSTgyM1ktV2l0Q3AyeE5HWDN1TWRLWFpvM2hvaHhpWkNXcXF0Nmg4Ti0wWTN0RnRtY25kZw?oc=5",
+   "source": "ABEMA",
+   "lang": "ja",
+   "time": "11/24 20:28",
+   "ts": 1795519690.0,
+   "teams": [
+    "도쿄GB",
+    "산토리"
+   ],
+   "title_kr": "도쿄GB vs. 산토리 (12/19) 남자 제8절【【GOLDEN LIVE】다이도생명SV리그 2026-"
   },
   {
    "title": "(2026/12/01) ～大同生命SVリーグ情報番組～【まるっとバレーボール】",
@@ -79,6 +193,16 @@
    "ts": 1795515576.0,
    "teams": [],
    "title_kr": "(2026/12/01) ~다이도생명 SV리그 정보 프로그램~【마루토 배구】"
+  },
+  {
+   "title": "(2026/12/29) ～大同生命SVリーグ情報番組～【まるっとバレーボール】",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE95QVFPOXEzTzZ3cWhqay1sTFByWFJrLU9aZ3MtWlZRdzJKaDZWS3NGQ1AtbWNkUVFEdWVVU2plbFhWNEozNThaeGFnVllQM0FhVWFlX0FhcF9xOVNael9iUFY4MWI1eGFBbnktYkRJSkxOdw?oc=5",
+   "source": "ABEMA",
+   "lang": "ja",
+   "time": "11/24 19:19",
+   "ts": 1795515576.0,
+   "teams": [],
+   "title_kr": "(2026/12/29) ~다이도생명 SV리그 정보 프로그램~【마루토 배구】"
   },
   {
    "title": "「フラーゴラッド鹿児島」から迫田郭志選手が、「エムット presents SV.LEAGUE ALL STAR GAMES 2026-27 HOKKAIDO」に選出！",
@@ -94,11 +218,11 @@
   },
   {
    "title": "ＳＶリーグ「堺ブレイザーズ」和歌山ホームゲーム２６・２７日開催／和歌山",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qOGxlVzJfblZMWFRRSmJrN3RIallOMlZObU4zM0xaZXRnQXJwZWdUMTVJNlFLZnItWlVwdlRsOFNpNGhuWlpiRlNJYzl6MmZWMS1manVMRUUtSmN4M21SZE9Rd0p6NUxRRVhQTmRn?oc=5",
-   "source": "au Webポータル",
+   "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE16ZHMyWnlWem52SlZvTFk5VFBnM241dElBeTNhbldvSm1jc1ItMEJocTEtYWJXcEh6LU5ob2VQdzhtams?oc=5",
+   "source": "WBS和歌山放送ニュース",
    "lang": "ja",
    "time": "11/24 18:16",
-   "ts": 1795511819.0,
+   "ts": 1795511760.0,
    "teams": [
     "사카이"
    ],
@@ -154,77 +278,14 @@
    "title_kr": "이치키 꼬치기노시에서 홈전 SV리그 제5절 가고시마 vs WD나고야 (MBC남일본 방송)"
   },
   {
-   "title": "アクア、昨季準優勝の大阪に3セット連取 SVリーグ初の対大阪戦白星で東地区首位キープ",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5sSVgyNUdTbmpBbWJNQjRqbGJydnF5M0xxanF6aHlyRGhzdXBHWlQwdG41a19IMTF1RDRZYzJTaFpYRDBvRmVsYUJ5NkozQQ?oc=5",
-   "source": "FNNプライムオンライン",
-   "lang": "ja",
-   "time": "11/23 19:55",
-   "ts": 1795431300.0,
-   "teams": [],
-   "title_kr": "아쿠아, 지난 시즌 준우승 오사카에 3세트 연취"
-  },
-  {
-   "title": "いちき串木野市に約2500人が詰めかける　SVリーグ第5節　フラーゴラッド鹿児島vsウルフドッグス名古屋",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aZi05WV91U2pDTy1XNjFXdTFZUWJCbThCS0p3UUJhNGxyeUpRSE80WC1oS2NNeGNxYjZuQXFTbThZVDVuTjhoUjM4dHF3dFVRWS1iczZQMG5SQXFlUmcyREZqU0FsMGNXZ1VWTnhOd9IBdEFVX3lxTE9UeFpYY3lJa1lSdVdfemdIUzR3bVkzX0o0RnRIcno3eVI5TE56bGszTGJQQzJZR0M4ZTBTV3d1ZVZfUVJzMFB0QnVVSHdTVTlYXzNKbHY2eUpWUGFscDY0MzJYTWlrS3hnM0VLSjZHNkNlM2Nm?oc=5",
-   "source": "ｄメニューニュース",
-   "lang": "ja",
-   "time": "11/23 19:03",
-   "ts": 1795428180.0,
-   "teams": [
-    "가고시마",
-    "WD나고야"
-   ],
-   "title_kr": "이치키 꼬치기노시에 약 2500명이 막힌다 SV리그 제5절 가고시마 vs WD 나고야"
-  },
-  {
-   "title": "大阪ＢとWD名古屋がともに9勝1敗で首位争い、サントリーは6連勝で追走。SVリーグ男子第5節の結果",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96X2swUVd2aE8xamdXV3BVcC03elpuVmNBYjR4cVh5MGwzVlRGRkxqcXFVZWdxSnNlbXdCUUQ3ZGpJcDJpM3lJSnY4Um9YSnhXVlk2eENyMzhKVkFWS0NCaThpLWQ0alljRXhvRXBB?oc=5",
-   "source": "J SPORTSコラム＆ニュース",
-   "lang": "ja",
-   "time": "11/23 17:48",
-   "ts": 1795423703.0,
-   "teams": [
-    "오사카B",
-    "WD나고야",
-    "산토리"
-   ],
-   "title_kr": "오사카B와 WD 나고야가 함께 9승 1패로 선두 싸움, 산토리는 6연승으로 추주. SV리그 남자 제5절 결과"
-  },
-  {
-   "title": "ヴォレアスが11/29に二次会イベントを開催！ 選手も参加予定",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41bWswWEhHNWp5RlhzUlRLQmVJR3JwbkxLTTI2bXM3WmducEI1bkM0WFg0clVza3NYOUh5d3dETTcwUmZmWl9OektrNzBLYmtOaHc?oc=5",
-   "source": "バレーボールキング",
-   "lang": "ja",
-   "time": "11/23 16:53",
-   "ts": 1795420400.0,
-   "teams": [
-    "보레아스"
-   ],
-   "title_kr": "보레아스가 11/29에 2차회 이벤트를 개최! 선수도 참가 예정"
-  },
-  {
    "title": "SVリーグU15チャンピオンシップの最終順位が決定！ 個人表彰も発表",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQQm9HOHl1X0czcTJ4X0NCWmxVVF9fcm9YSVZvamsxbG9HR05aVDhaYmpiemk0Tzhucl9ITGVlU2dEbHgyZTdjWDNfM0Nhc19hY3c?oc=5",
-   "source": "バレーボールキング",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpa00zY2h5ZklJX0FLZk42YXBQclJvZjRzMm1YRWR0Q3k5T2RSaEo2ZElhQ3NON1pWWG9YbkRRVkg5Y1FGUFBkYjVYcWpqd2NqcFRpVWoyWGQwQXUzOWZv?oc=5",
+   "source": "ライブドアニュース",
    "lang": "ja",
-   "time": "11/23 16:16",
-   "ts": 1795418219.0,
+   "time": "11/24 01:05",
+   "ts": 1795449939.0,
    "teams": [],
    "title_kr": "SV리그 U15 챔피언십 최종 순위 결정! 개인 표창 발표"
-  },
-  {
-   "title": "【SV男子結果】広島THとヴォレアスが白星を分け合う！ 日鉄堺BZが連敗脱出で5位に浮上【第5節】（バレーボールキング）",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2eEJvOWw3OEtTZ0tFalh1dUF1Unc4NmswT21CZHlqSTNDbDZLNXhDdGd3dUtuQzVJdnc4U25WMnctQ3hfTHJuZnJQMmZOZVotZTBzTk1WZHVFeW02OGFjdmZLVXN3Ny0xTnFOSUNNdW5PVHlSdWZoR2hFV2NvdE0?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "time": "11/23 14:10",
-   "ts": 1795410600.0,
-   "teams": [
-    "히로시마",
-    "보레아스",
-    "사카이"
-   ],
-   "title_kr": "【SV 남자 결과】 히로시마와 보레아스가 백성을 나눕니다! 사카이가 연패 탈출로 5위로 부상 【제5절】"
   }
  ]
 }
