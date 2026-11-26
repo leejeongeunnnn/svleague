@@ -2006,11 +2006,30 @@
    "home": "사카이",
    "away": "도쿄GB",
    "venue": "와카야마 빅웨일",
-   "state": "scheduled",
-   "status": "",
+   "state": "live",
+   "status": "4세트 종료 · 5세트 준비",
    "round": 6,
    "url": "https://www.svleague.jp/match/detail/38028/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38028"
+   "sets": [
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     22,
+     25
+    ]
+   ],
+   "sh": 2,
+   "sa": 2
   },
   {
    "gid": "sv38029",
