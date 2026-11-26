@@ -1,12 +1,24 @@
 {
  "items": [
   {
+   "title": "東京GBが5勝目／SVリーグ",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wVXRmQ0QxQlUyN2E3Snk2MmJFNnNNNjFTcG5HZ21RWTF2YndxQTZ3TWxBT0JNLWFFcnBrTVY1eU5WdXcyTEpEak5NSXBPTWZTRktBaW5lMTdZR2h6VmkzOTRJeTU5TGQxYUF6d2MtR1BrNWloR1HSAYoBQVVfeXFMT0VxUXM2cGpfOXc2bkhXN0lDMk95T0pCMjFmUDNOMFM2WDhYMEJZLWlkNldERjNzb1JUQ2YwdU1mY0dXVmE2MnFLcUhpSkI0dldTUEhmRmEzZ2l5V01DSi1oVXRDZElWeFlac1lxM3FTNXJxLVAxS2pKUGtGVll0RG1STEprelVFT1pn?oc=5",
+   "source": "サンスポ",
+   "lang": "ja",
+   "time": "11/26 22:39",
+   "ts": 1795700380.0,
+   "teams": [
+    "도쿄GB"
+   ],
+   "title_kr": "도쿄GB 5승/SV리그"
+  },
+  {
    "title": "日本製鉄堺ブレイザーズ vs. 東京グレートベアーズ(11/26) 男子 第6節【大同生命SVリーグ 2026-27】",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDT3JCWVhQU2ZnQUxicVpRTEVBZXdnUzMtOXB2dzNQSENScDdxRzVuQzV6NGtZcGZyMWUzT0hVeTgtQUU4aFp3UDJxN0Nyd1BqSkFQdVAxdS1TTTBuU0NCSDJVMHY4RUpBYXA0REw1TEhOQQ?oc=5",
    "source": "ABEMA",
    "lang": "ja",
-   "time": "11/26 17:55",
-   "ts": 1795683334.0,
+   "time": "11/26 22:02",
+   "ts": 1795698140.0,
    "teams": [
     "사카이",
     "도쿄GB"
@@ -63,18 +75,6 @@
    "title_kr": "【배구】도레이 U15에서 중학생이 내딛은 애널리스트에게의 길 “가능하면 톱 팀으로 하고 싶습니다!!”라고 카와구치 주쇼"
   },
   {
-   "title": "東レアローズ静岡U15で中学生が踏み出したアナリストへの道 「できればトップチームでやりたいです!!」と川口奏翔",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LX3l5NDg2Y0N6X3ZpV29vWmxocVg5QjdiYmxvWGFYQmhOck5ndm9GRzB5ZThrSnNmdldTN0Vyb0NyZENrVUkwUnEwV3ZIaVBqblNNTE9GMW55bS1TVlHSAV5BVV95cUxPS195eTQ4NmNDel92aVdvb1psaHFYOUI3YmJsb1hhWEJoTnJOZ3ZvRkcweWU4a0pzZnZXUzdFcm9DcmRDa1VJMFJxMFd2SGlQam5TTUxPRjFueW0tU1ZR?oc=5",
-   "source": "月バレ.com",
-   "lang": "ja",
-   "time": "11/26 17:26",
-   "ts": 1795681583.0,
-   "teams": [
-    "도레이"
-   ],
-   "title_kr": "도레이 U15에서 중학생이 내딛은 애널리스트에게의 길 「가능하면 톱 팀으로 하고 싶습니다!!」라고 가와구치 주쇼"
-  },
-  {
    "title": "大阪Ｂがうめきたでアウェイ戦ライブビューイングを開催！福澤達哉さんら出演",
    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KSDgwQWl0TWllNTdOeG5QWnBoZ3JKS1JBRVYwQlIwN0dWLTlnVHh6MzI2M0VoZUczQ2wyNTNqLXJjSWs3WXdadFlXSWlJLTRYWlE?oc=5",
    "source": "バレーボールキング",
@@ -85,18 +85,6 @@
     "오사카B"
    ],
    "title_kr": "오사카B가 우메 키타에서 어웨이 전 라이브 뷰잉을 개최! 후쿠자와 타츠야 씨 등 출연"
-  },
-  {
-   "title": "サンダーズ柳北、劣勢の盛り返し役 11月28日から敵地で東レ静岡戦",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90NkVyZU83NUJ1UG9JM0kxUnF1cHZvbE1MMnJOR2ZHQ09ZYzdBMTViTklMZkpnaDVLdnliMzk4ZlZFQng2blBQb0J4Rk0yeWFSZG5MNVVqMS1BUQ?oc=5",
-   "source": "中国新聞デジタル",
-   "lang": "ja",
-   "time": "11/26 17:05",
-   "ts": 1795680300.0,
-   "teams": [
-    "도레이"
-   ],
-   "title_kr": "썬더스 야나기키타, 열세의 되풀이 역 11월 28일부터 적지에서 도레이 전"
   },
   {
    "title": "東京GBの12/19サントリー戦に声優・阿部敦さんが出演 始球式などに登場",
@@ -110,6 +98,19 @@
     "산토리"
    ],
    "title_kr": "도쿄GB의 12/19 산토리 전투에 성우 아베 아츠시 씨가 출연 시구식 등에 등장"
+  },
+  {
+   "title": "東京GBの12/19サントリー戦に声優・阿部敦さんが出演 始球式などに登場（バレーボールキング）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsYjEtYUgxZkJCVW5NbEluQXQyUmtMYUR2SkJ4Mmx4QzQ5dHFCa2tUQWFPSXFYNGthSk43SWVYRDBHQW1Ia2FqNC1oMmlycndGQk93THdBak82Z0YzdWhhMXJLZzN4Y0VLSHY4UHFZa0ZBM0VCUVpyRXlwU2JfdTQ?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "time": "11/26 16:55",
+   "ts": 1795679700.0,
+   "teams": [
+    "도쿄GB",
+    "산토리"
+   ],
+   "title_kr": "도쿄GB의 12/19 산토리 전투에 성우 아베 아츠시 씨가 출연 시구식 등에 등장 (배구 킹)"
   },
   {
    "title": "【東京グレートベアーズ】ホームゲームに声優の代永翼さん 出演決定！",
@@ -251,31 +252,6 @@
    "title_kr": "【배구】SV리그 남자 올스타 출전 선수가 결정 캡틴은 모두 WD나고야의 미즈마치 다이토와 미야우라 겐토"
   },
   {
-   "title": "SVリーグ男子オールスター出場選手が決定　キャプテンはいずれもWD名古屋の水町泰杜と宮浦健人",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44a01Na3lOdno1dHNBMFVUM1F0eUs1S01QRkE1OFpoT0dkZmQxd01qSDFHbFZkNEI4eEViV2ZYQkw4S1NNV2hHaHhBaWJrSnJZZ2hYZXJSbW9oazU0cXRMRW4zY05UQTdEZzkwR2UtRdIBb0FVX3lxTE44a01Na3lOdno1dHNBMFVUM1F0eUs1S01QRkE1OFpoT0dkZmQxd01qSDFHbFZkNEI4eEViV2ZYQkw4S1NNV2hHaHhBaWJrSnJZZ2hYZXJSbW9oazU0cXRMRW4zY05UQTdEZzkwR2UtRQ?oc=5",
-   "source": "月バレ.com",
-   "lang": "ja",
-   "time": "11/25 15:27",
-   "ts": 1795588040.0,
-   "teams": [
-    "WD나고야"
-   ],
-   "title_kr": "SV리그 남자 올스타 출전 선수가 결정 캡틴은 모두 WD나고야의 미즈마치 다이토와 미야우라 겐토"
-  },
-  {
-   "title": "SVリーグ男子 STINGS愛知と日鉄堺BZが連敗を止めて連勝",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50aFZNU3NIdTNzRHpFUW0xb3I0MkFQbVIyZGE3Vk04SEtxLU5iV3pRS0l4TFRMcVo1bENOdExmaXhaRU9OS3pMeDJYeVo1eVVGOXhxSFBNcldpTjFXOE5Qd3dOQVY?oc=5",
-   "source": "千葉テレビ放送株式会社",
-   "lang": "ja",
-   "time": "11/25 15:00",
-   "ts": 1795586412.0,
-   "teams": [
-    "스팅스아이치",
-    "사카이"
-   ],
-   "title_kr": "SV리그 남자 스팅스 아이치와 사카이가 연패를 멈추고 연승"
-  },
-  {
    "title": "ともに6連勝中の3位・サントリーと2位・WD名古屋が激突。SVリーグ 男子第6節のみどころ",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02YV96d2oyaHhhWUJRbVN4T1JnTk1iaEF2czk0SVBlbGFHWHRHRzV3akV3YkIwUktDU2l6UmQ5RnlfZHlYb285Y0V0QUpaVjM5Qkhlb2lhR0hhS2ljY1VNdHZ2OFpQSDdRdVlwcW1B?oc=5",
    "source": "J SPORTSコラム＆ニュース",
@@ -335,17 +311,17 @@
    "title_kr": "산토리 vs. 가고시마 (12/27) 남자 제9절【다이도생명SV리그 2026-27】"
   },
   {
-   "title": "東京グレートベアーズ vs. 大阪ブルテオン(12/27) 男子 第9節【大同生命SVリーグ 2026-27】",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ISjJvclpUSDBIMndHNElDVXRJSGVfYUxicTdYMVlYVkNsQTZScWh1R0d2OEdTblFmbDVWU1RkX0QtYkhXREU1NWRRTHczMFpjX1dwSEE0aTh2ZVJnM1lsZHFoT2ZlTl82NjJ1OEwxTU1TQQ?oc=5",
+   "title": "ウルフドッグス名古屋 vs. 広島サンダーズ(12/27) 男子 第9節【大同生命SVリーグ 2026-27】",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKU3lMWnNHbWI0VUd2S25EakcyN3hxekFfN1IwV3hES05nc1FGSnh2bGd6cFFHY21nM2ZwcWVOdC1Oall1WjFJVU10WFItVTdXY044dDNRMldud0NLYy0xamVIRXBCUUF2THlJcW4tTDc2Zw?oc=5",
    "source": "ABEMA",
    "lang": "ja",
    "time": "11/25 10:35",
    "ts": 1795570509.0,
    "teams": [
-    "도쿄GB",
-    "오사카B"
+    "WD나고야",
+    "히로시마"
    ],
-   "title_kr": "도쿄GB vs. 오사카B (12/27) 남자 제9절【다이도생명 SV리그 2026-27】"
+   "title_kr": "WD나고야 vs. 히로시마 (12/27) 남자 제9절【다이도생명SV리그 2026-27】"
   }
  ]
 }

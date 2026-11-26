@@ -2006,8 +2006,8 @@
    "home": "사카이",
    "away": "도쿄GB",
    "venue": "와카야마 빅웨일",
-   "state": "live",
-   "status": "4세트 종료 · 5세트 준비",
+   "state": "final",
+   "status": "경기 종료",
    "round": 6,
    "url": "https://www.svleague.jp/match/detail/38028/",
    "sets": [
@@ -2026,10 +2026,14 @@
     [
      22,
      25
+    ],
+    [
+     13,
+     15
     ]
    ],
    "sh": 2,
-   "sa": 2
+   "sa": 3
   },
   {
    "gid": "sv38029",
