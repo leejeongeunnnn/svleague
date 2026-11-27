@@ -2044,11 +2044,30 @@
    "home": "사카이",
    "away": "도쿄GB",
    "venue": "와카야마 빅웨일",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 6,
    "url": "https://www.svleague.jp/match/detail/38029/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38029"
+   "sets": [
+    [
+     25,
+     20
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     21,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
   },
   {
    "gid": "sv38030",
