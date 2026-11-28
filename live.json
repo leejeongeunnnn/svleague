@@ -1,0 +1,82 @@
+{
+ "date": "2026-11-29",
+ "updated_at": "2026-11-29 05:40:53",
+ "games": [
+  {
+   "gid": "sv38033",
+   "date": "2026-11-29",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "마쓰모토",
+   "away": "가고시마",
+   "venue": "ANC 아레나",
+   "state": "scheduled",
+   "status": "",
+   "round": 6,
+   "url": "https://www.svleague.jp/match/detail/38033/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38033"
+  },
+  {
+   "gid": "sv38031",
+   "date": "2026-11-29",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "보레아스",
+   "away": "오사카B",
+   "venue": "릭&수 아사히카와 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 6,
+   "url": "https://www.svleague.jp/match/detail/38031/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38031"
+  },
+  {
+   "gid": "sv38039",
+   "date": "2026-11-29",
+   "time": "13:05",
+   "kind": "regular",
+   "series": "",
+   "home": "산토리",
+   "away": "WD나고야",
+   "venue": "오키니 아레나 마이시마",
+   "state": "scheduled",
+   "status": "",
+   "round": 6,
+   "url": "https://www.svleague.jp/match/detail/38039/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38039"
+  },
+  {
+   "gid": "sv38035",
+   "date": "2026-11-29",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "도레이",
+   "away": "히로시마",
+   "venue": "기타사토 아레나 후지",
+   "state": "scheduled",
+   "status": "",
+   "round": 6,
+   "url": "https://www.svleague.jp/match/detail/38035/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38035"
+  },
+  {
+   "gid": "sv38037",
+   "date": "2026-11-29",
+   "time": "14:05",
+   "kind": "regular",
+   "series": "",
+   "home": "스팅스아이치",
+   "away": "홋카이도YS",
+   "venue": "오카자키 중앙공원 체육관",
+   "state": "scheduled",
+   "status": "",
+   "round": 6,
+   "url": "https://www.svleague.jp/match/detail/38037/",
+   "ticket": "https://ticket-v.jp/ticket/?id=38037"
+  }
+ ],
+ "relay": {}
+}
