@@ -2078,11 +2078,26 @@
    "home": "보레아스",
    "away": "오사카B",
    "venue": "릭&수 아사히카와 체육관",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 6,
    "url": "https://www.svleague.jp/match/detail/38030/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38030"
+   "sets": [
+    [
+     25,
+     21
+    ],
+    [
+     27,
+     25
+    ],
+    [
+     29,
+     27
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
   },
   {
    "gid": "sv38038",
@@ -2093,11 +2108,30 @@
    "home": "산토리",
    "away": "WD나고야",
    "venue": "오키니 아레나 마이시마",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 6,
    "url": "https://www.svleague.jp/match/detail/38038/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38038"
+   "sets": [
+    [
+     20,
+     25
+    ],
+    [
+     22,
+     25
+    ],
+    [
+     25,
+     22
+    ],
+    [
+     19,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
   },
   {
    "gid": "sv38034",
@@ -2108,11 +2142,26 @@
    "home": "도레이",
    "away": "히로시마",
    "venue": "기타사토 아레나 후지",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 6,
    "url": "https://www.svleague.jp/match/detail/38034/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38034"
+   "sets": [
+    [
+     25,
+     19
+    ],
+    [
+     30,
+     28
+    ],
+    [
+     25,
+     23
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
   },
   {
    "gid": "sv38032",
@@ -2123,11 +2172,30 @@
    "home": "마쓰모토",
    "away": "가고시마",
    "venue": "ANC 아레나",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 6,
    "url": "https://www.svleague.jp/match/detail/38032/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38032"
+   "sets": [
+    [
+     25,
+     21
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     20,
+     25
+    ]
+   ],
+   "sh": 1,
+   "sa": 3
   },
   {
    "gid": "sv38036",
@@ -2138,11 +2206,26 @@
    "home": "스팅스아이치",
    "away": "홋카이도YS",
    "venue": "오카자키 중앙공원 체육관",
-   "state": "scheduled",
-   "status": "",
+   "state": "final",
+   "status": "경기 종료",
    "round": 6,
    "url": "https://www.svleague.jp/match/detail/38036/",
-   "ticket": "https://ticket-v.jp/ticket/?id=38036"
+   "sets": [
+    [
+     25,
+     22
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     21
+    ]
+   ],
+   "sh": 3,
+   "sa": 0
   },
   {
    "gid": "sv38033",
