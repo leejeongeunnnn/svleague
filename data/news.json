@@ -1,24 +1,49 @@
 {
  "items": [
   {
-   "title": "名古屋が10勝目 バレーボールSVリーグ",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MY280Q195OGliX3RJRWJ1WWJ4TG9ucGtMaW5tZHZETFVYa3o2RVAyUWFqSjhqb0wyRlluZEFNM0RlV1lkMVNMc2dkakdtbDNud3hsaWdMcHlua2x1bHpyaWd1bVZHWWpMVWZYZEg3Zk4?oc=5",
-   "source": "Excite エキサイト",
+   "title": "東レアローズ静岡 vs. 広島サンダーズ(11/28) 男子 第6節【大同生命SVリーグ 2026-27】",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45MV8zMVNyeEM2eUgydFNkeElZa0tPVzc2Umt3NWF1ZHhpTlIyVWUyOThmX3ljUThxYXlmYUFjWGhTOWNwclk1TDNYVTRUQkdoS0Qyc21XUTBhQnlGc3dHMFp2V2lSSWNJRWFqRGFTOUtiUQ?oc=5",
+   "source": "ABEMA",
    "lang": "ja",
-   "time": "11/28 17:51",
-   "ts": 1795855860.0,
-   "teams": [],
-   "title_kr": "나고야가 10승째 배구 SV리그"
+   "time": "11/28 19:04",
+   "ts": 1795860260.0,
+   "teams": [
+    "도레이",
+    "히로시마"
+   ],
+   "title_kr": "도레이 vs. 히로시마 (11/28) 남자 제6절【다이도생명SV리그 2026-27】"
   },
   {
-   "title": "名古屋が10勝目 バレーボールSVリーグ（共同通信）",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DSFlnWkFKSWtyeDh1X2V5OGFDaUU1WjZubFlPWnhER2VkZmNNRXEwbHZCZEtzLWkxaVZKUXh5OU01bVFjNHdKMDJjQjVQLXhNSXg2bkZWZjcyVjU4V0Z2cmQ0X3pJLU43RU9hY0o4Y3I1SGgzNkNiMU9BMVF5WjQ?oc=5",
-   "source": "Yahoo!ニュース",
+   "title": "和田由紀子の13番を“継承”のサウスポー・髙橋美鈴が語る現在地 向き合う課題と自身への責任「流れを変えてしまう立場」【SVリーグ】",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBWRGJFWmRWRDcwMWpjZnRjaXNkOUlkcmZ4VzNwUEtqZVdrX3lUZFo5UHlRTTNCZWpoVEZBcEd3Y0hFT21qVnlLb0ZYekNaNnpDQ1E?oc=5",
+   "source": "SPREAD",
+   "lang": "ja",
+   "time": "11/28 18:29",
+   "ts": 1795858149.0,
+   "teams": [],
+   "title_kr": "와다 유키코의 13번을 “계승”의 사우스포·다카하시 미스즈가 말하는 현재 지 마주하는 과제와 자신에게의 책임 「흐름을 바꾸어 버리는 입장」【SV리그】"
+  },
+  {
+   "title": "名古屋が10勝目 バレーボールSVリーグ",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00Q1g3T1hPdU9zZTJ5VUhHSDM5R3lFalpFWklfZFlINGVyVTlKSzJTQWpJVTR0S3BmT0Z2ODBkQ0E4SDU5TDZPUElFRQ?oc=5",
+   "source": "47NEWS",
    "lang": "ja",
    "time": "11/28 17:50",
    "ts": 1795855845.0,
    "teams": [],
-   "title_kr": "나고야가 10승째 배구 SV리그(공동통신)"
+   "title_kr": "나고야가 10승째 배구 SV리그"
+  },
+  {
+   "title": "名古屋がサントリー下し10勝目／SVリーグ",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EZUtuUGx0cEstOXU0LUpnNWFSZFRPcjRjY1g3eEwtZFdnWmE4V2k0cmpQOTF1a3VzMlo1UkdrRW4tZGc0eThvOGhTeG1ZS1RyT2w3d3lNSUo2NkZndTU2SlJ3cTFTOXFUZnZNVXc0RXRYWlRkY1HSAYoBQVVfeXFMTXZENU5sVUFvSGt3S0VLSEpLOWxsazJuNHRIcldUTjBLdnJoSXQxNEluRDljNElzam5NbWxQN1JwSXp6bmNvVVR4ZzVxWE5HTTV0NFB4N2ljeEdTalJ6anpma1gzeFZMV21IOXdkeUZOcHdSZUUyZXlkVVhudlVvNURBRTMzMWpsZVZB?oc=5",
+   "source": "サンスポ",
+   "lang": "ja",
+   "time": "11/28 17:49",
+   "ts": 1795855779.0,
+   "teams": [
+    "산토리"
+   ],
+   "title_kr": "나고야가 산토리 내려 10승째/SV리그"
   },
   {
    "title": "【SVリーグ】2セット目から入った北窓も躍動。3-1で勝利。",
@@ -68,7 +93,7 @@
   },
   {
    "title": "【速報】SVリーグ男子フラーゴラッド鹿児島２勝目 信州松本に３―１",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Xa1NqZXdqem5OYzJBMHh2bVh5MUNORDkxbnAyZ3Mwb3YtcG4xbUh1WWU0Q25PVGJsdnh3bUE4aFc2ZWo4a1dXR3NseFR1eS1Ta0pXUHRPZw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wMmI0OWstMWZHMm50RlNDTkphOVJoamhGUi04Q3FqZXlFWm93TTJ4ODl6aTRWcnlZaGRYWDBQcnJyQkZiUDdaXzZwUFJWY3QyYThaV0RnN25uVzg5bTVveDNn?oc=5",
    "source": "南日本新聞",
    "lang": "ja",
    "time": "11/28 16:25",
@@ -77,19 +102,6 @@
     "가고시마"
    ],
    "title_kr": "【속보】SV리그 남자 가고시마 2승째 신슈 마츠모토에 3-1"
-  },
-  {
-   "title": "ヴォレアス北海道 vs. 大阪ブルテオン(11/28) 男子 第6節【大同生命SVリーグ 2026-27】",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkTERIOFpVcWZ2MHROUnc5MzBPWUMxbXZBZ2dxRmNQYTZIb29yRHNkZjZ1YTdBX3AwS1lmdXA3a0p1dHN4ZnFoWlZxc3hfLXpPMkpHRUxRdEF0Y1AxdkxkSFdReDdOaU81NkNMNGx2ZlpPZw?oc=5",
-   "source": "ABEMA",
-   "lang": "ja",
-   "time": "11/28 15:03",
-   "ts": 1795845826.0,
-   "teams": [
-    "보레아스",
-    "오사카B"
-   ],
-   "title_kr": "보레아스 vs. 오사카B (11/28) 남자 제6절【다이도생명SV리그 2026-27】"
   },
   {
    "title": "2026-27 大同生命SV.LEAGUE MEN レギュラーシーズン 第4節 vs.フラーゴラッド鹿児島戦｜マッチデープログラム",
@@ -128,18 +140,6 @@
     "사카이"
    ],
    "title_kr": "【배구】도쿄GB가 사카이에 2연승해, 5위에 부상 SV남자(배구 매거진)"
-  },
-  {
-   "title": "東京GBが6勝目／SVリーグ",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbjJDMVBQZlN4MGhLbGlWU3VnSEVWNUlVR2F3dDF2WmVKMlVuU1BpejRILVhQcFd5N2YtTFFPdXFNSlVMQlJoNVNCSjJJTEFmaV9yeDBzMmxMZHZkOHpvampIcl9qZHozcWNmMEZPdDQtQ21MaTg2ZktZSzZxaUlfdjMtSXk0ZnpKcGfSAYoBQVVfeXFMUG4yQzFQUGZTeDBoS2xpVlN1Z0hFVjVJVUdhd3QxdlplSjJVblNQaXo0SC1YUHBXeTdmLUxRT3VxTUpVTEJSaDVTQkoySUxBZmlfcngwczJsTGR2ZDh6b2pqSHJfamR6M3FjZjBGT3Q0LUNtTGk4NmZLWUs2cWlJX3YzLUl5NGZ6SnBn?oc=5",
-   "source": "サンスポ",
-   "lang": "ja",
-   "time": "11/27 21:43",
-   "ts": 1795783439.0,
-   "teams": [
-    "도쿄GB"
-   ],
-   "title_kr": "도쿄GB가 6승째/SV리그"
   },
   {
    "title": "WD名古屋のウルドくんが「GAKUSEI RUNWAY」に参加！ 初のランウェイ挑戦へ",
@@ -212,18 +212,6 @@
    "title_kr": "【배구】 히로시마 當麻理人과 舛本颯真의 내정을 발표(월간배구)"
   },
   {
-   "title": "【東京グレートベアーズ】ホームゲームに『逃走中』のハンター襲来あり！？",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5McXlNQ3ZaQWRncmN2eVJ4T2VyQ21Gc1dOZ253NnkycW5GWVkyUXE5dU5vV0xpNDFzc2RJM0k2alE2RnZyaGprR2R6bkgtdUMzeW4yc1Q0cEptQjVSWlZrNXdfWmdIcDFKZlV3VjRLSExRRldJSUE?oc=5",
-   "source": "Excite エキサイト",
-   "lang": "ja",
-   "time": "11/27 12:15",
-   "ts": 1795749300.0,
-   "teams": [
-    "도쿄GB"
-   ],
-   "title_kr": "【도쿄GB】 홈 게임에 「도주 중」의 헌터 습격이있다!?"
-  },
-  {
    "title": "​＜バレーボールSVリーグ＞東レ静岡に新加入のアラインが戦線復帰 サントリーでの優勝経験生かし、勝利に必要な「自信と熱量」もたらす",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1nbExfS0d6YVFnMVM2ZVpaRHNqd1NjbDlJNHlUbUMxdjltZjJJckM0cUwyWWFIMUc5N0V3TVk1TXJSR240bGh2QktzTXdIcERNV3hsd1hHVmpLMWQ0eWVB?oc=5",
    "source": "アットエス",
@@ -237,21 +225,8 @@
    "title_kr": "〈배구SV리그〉 도레이에 신가입의 얼라인이 전선 복귀 산토리에서의 우승 경험을 살려, 승리에 필요한 「자신과 열량」 가져온다"
   },
   {
-   "title": "2連敗中だった東京GB、2セットを先取された日鉄堺BZに逆転勝ち…クレクが25得点！",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT0F2bDhTV1ZVbnBkOVFHV2o3VnEza3MwakIxSXVTS09SbnFQaHV2ZkxNR2dqbDRiRE5ZeV9GT2EyZEJPaXh2NGlRZW5wb2xCRWlhWDduRWpWU0N2LTc1VmJFNDBjd3ZBZUZ3UjRyYnFLN09GUVlPQzlhZXFPcUNINzd30gGHAUFVX3lxTE53NFBKTkpmOGtZdTdtdmFBRjhCdGU0RUZmakh6OHFqTHdvcVlKLXBONHc3X2lHTldUTGRsdTJWS1RTNExUQWNBaTRVZ0ZyRmZTUDczeUFWNXFWZ2U2cTFjYkVWbUZDdzB0eWRsVVhnYjBkaXVZR1RNUHZockV4NnV4dVc5TVMzbw?oc=5",
-   "source": "ｄメニューニュース",
-   "lang": "ja",
-   "time": "11/27 10:32",
-   "ts": 1795743120.0,
-   "teams": [
-    "도쿄GB",
-    "사카이"
-   ],
-   "title_kr": "2연패중이었던 도쿄GB, 2세트를 선취된 사카이에 역전 승리… 크렉이 25득점!"
-  },
-  {
    "title": "エースグレベア：東京GB柳田将洋がコート復帰「勝負の世界で3、4度と…」堺戦",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSOExiTjBVZmcyZGNneG1tYTFDd2xkVlhYVUNOQ0ZGMXJRcWEzQ0g4MkVjMlFybElIZGdVQTAxeWRNaVRBVzVfZWVnZHRnb0RKMjd5ODgxWW1NU3ZJUUh0RTZ4QWNtb0E?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TQnhiMlM3Zm9LR0oxVDJLSnpLYXVYbm0tMUZwakxLQndaMldoZ3BVRDM0OTF3cDhUVTNNY1BWMjdpWVBHVEVoS2pEbEpTaGUxZTMtc05hYWFkeXlnSWk1SmVCTHhmYjNq?oc=5",
    "source": "毎日新聞",
    "lang": "ja",
    "time": "11/27 09:44",
@@ -260,55 +235,6 @@
     "도쿄GB"
    ],
    "title_kr": "에이스 그레베어 : 도쿄GB 야나기다 마사히로가 코트 복귀 「승부의 세계에서 3, 4도와...」사카이전"
-  },
-  {
-   "title": "東京GB 5勝目 バレーSVリーグ",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82bVUwMnVIOExSWkZOa3Fva3VyTDFOeTI4SWZ1RXllUEhtaUF1WHRIYnUzVXc5OUE1RE80MmpJSnIyRjZaZkoxdHc1YmlkVUF5UGlaYmlKT1NjcVU0U3c?oc=5",
-   "source": "沖縄タイムス社",
-   "lang": "ja",
-   "time": "11/27 03:57",
-   "ts": 1795719420.0,
-   "teams": [
-    "도쿄GB"
-   ],
-   "title_kr": "도쿄GB 5승차 배구 SV리그"
-  },
-  {
-   "title": "【東京グレートベアーズ】ホームゲームに声優の代永翼さん 出演決定！",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5MXJvUXJ3Y3VHZno1dk1GRW84LXBvOWZHUmdRNFZPdzlUVTBSWld0QUxteW9PS0F5bE5QUlo5N3pHUW1ZQUIxTGZBRHB0OF9NWGxRWQ?oc=5",
-   "source": "ニコニコニュース",
-   "lang": "ja",
-   "time": "11/27 03:15",
-   "ts": 1795716923.0,
-   "teams": [
-    "도쿄GB"
-   ],
-   "title_kr": "【도쿄GB】 홈 게임에 성우 대영익 출연 결정!"
-  },
-  {
-   "title": "【東京グレートベアーズ】ホームゲームに声優の阿部敦さん 出演決定！",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16UUg4WkptczdkVGxFakF3YzBmQUNWbG1mb01oakNIcDJleFJvaTgxZDNpUkJxVmhtdFJ2c0hiajJWc0dpZERJeFR6RzVGcnpOWFVoYw?oc=5",
-   "source": "ニコニコニュース",
-   "lang": "ja",
-   "time": "11/27 01:21",
-   "ts": 1795710072.0,
-   "teams": [
-    "도쿄GB"
-   ],
-   "title_kr": "【도쿄GB】 홈 게임에 성우 아베 아츠시 출연 결정!"
-  },
-  {
-   "title": "東京GBの12/20サントリー戦に声優・代永翼さんが出演 選手呼び込みや始球式など実施",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uTHVpYmtoWXh1bllqT0xjN2NJbDBZU1pvaDFRNGdLOTBFcDRWd0lXWENQMnl4VWlnN1ozOXk1NTMydVRsLVJsazRGeWpkVmcwX2lvd2t1S25pZG01aTFB?oc=5",
-   "source": "ライブドアニュース",
-   "lang": "ja",
-   "time": "11/27 01:05",
-   "ts": 1795709131.0,
-   "teams": [
-    "도쿄GB",
-    "산토리"
-   ],
-   "title_kr": "도쿄GB의 12/20 산토리 전투에 성우 대영익 씨가 출연 선수 불러와 시구식 등 실시"
   },
   {
    "title": "【バレー】アウェイの東京GBがフルセットを制し、日鉄堺BZに逆転勝利。クレクが25得点 SV男子（バレーボールマガジン）",
@@ -346,16 +272,6 @@
     "도쿄GB"
    ],
    "title_kr": "도쿄GB 5승/SV리그"
-  },
-  {
-   "title": "SVリーグは次のステージへ！ 大河チェアマンが語る「REBORN Ⅲ」の5つの挑戦と未来像【チェアマン通信「SVリーグのリアルをお届け」 #8】 (2026年11月25日掲載)",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xa1NraF9UMW53ZXFac3JhQ2ZxVFB5Z0xnT09sUGVLU294VFlMdEN1azRBUnN1TzFXRG9xWm1qbXJ4bXlJVW1WVWVsb2JvbUc4blV4N1FybHVTV0g4ZWc?oc=5",
-   "source": "ライブドアニュース",
-   "lang": "ja",
-   "time": "11/26 19:05",
-   "ts": 1795687536.0,
-   "teams": [],
-   "title_kr": "SV리그는 다음 스테이지에! 대하체어맨이 말하는 「REBORN III」의 5개의 도전과 미래상"
   }
  ]
 }
